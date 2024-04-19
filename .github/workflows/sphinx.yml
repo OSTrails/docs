@@ -1,0 +1,43 @@
+name: Sphinx
+
+on:
+  push:
+
+jobs:
+  sphinx-build:
+    name: Sphinx Build
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        format:
+          - html
+          - latex
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.12
+          cache: pip
+          cache-dependency-path: |
+            **/requirements*.txt
+
+      - name: Install fonts
+        run: |
+          sudo apt-get update --fix-missing
+          sudo apt-get install ghostscript fonts-freefont-otf
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip setuptools
+          pip install -r requirements.txt
+
+      - name: Run Sphinx
+        run: |
+          cd docs
+          make SPHINXOPTS="-W --keep-going -n" ${{ matrix.format }}

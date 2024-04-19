@@ -1,0 +1,29 @@
+.sidebar-brand-text {
+    display: none;
+}
+
+/* Authors */
+.authors {
+    border-top: 1px solid var(--color-brand-content);
+    border-bottom: 1px solid var(--color-brand-content);
+    margin: 1em 0;
+    padding: 0.5em 0;
+}
+.authors .authors-title {
+    color: var(--color-brand-primary);
+    font-size: 85%;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+}
+.authors ul {
+    font-size: 85%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.footer-badge img {
+  max-height: 3em;
+}
+

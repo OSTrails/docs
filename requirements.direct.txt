@@ -1,0 +1,6 @@
+Sphinx
+sphinx-copybutton
+sphinxcontrib-bibtex
+sphinxcontrib-openapi
+
+furo
