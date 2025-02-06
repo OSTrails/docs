@@ -15,6 +15,25 @@ Documentation Structure
 
 .. toctree::
     :maxdepth: 2
+    :caption: Architecture
+
+    Introduction <architecture/intro>
+    DMP IF <architecture/dmp_if>
+    SKG IF <architecture/skg_if>
+    FAIR IF <architecture/fair_if>
+
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Commons
+
+    Introduction <commons/intro>
+    Governance <commons/governance>
+    Resources <commons/resources>
+
+
+.. toctree::
+    :maxdepth: 2
     :caption: Other
 
     other/vocabulary
