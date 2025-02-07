@@ -1,10 +1,10 @@
 # OSTrails Read-the-Docs Documentation
 
-[![Documentation Status](https://readthedocs.org/projects/ostrails/badge/?version=latest)](https://ostrails.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/ostrails/badge/?version=latest)](https://docs.ostrails.eu/en/latest/?badge=latest)
 
 ## Usage
 
-This repository contains the source files for the OSTrails documentation. The documentation is hosted on Read-the-Docs and can be accessed [here](https://ostrails.readthedocs.io/en/latest/).
+This repository contains the source files for the OSTrails documentation. The documentation is hosted on Read-the-Docs and can be accessed [here](https://docs.ostrails.eu/en/latest/).
 
 ## Contributing
 
