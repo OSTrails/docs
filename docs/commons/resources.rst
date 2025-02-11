@@ -5,9 +5,9 @@ Commons: Resources
 
 The following resources are part of the FAIR-IF commons: 
 
-FAIR Test Results specification and SHACL shapes (FTR):  
+FAIR Assessment specifications and SHACL shapes (FTR):  
 -------------------------------------------------------
-FTR is the first OWL implementation of the FAIR Reference model described in Deliverables D1.2 and D.1.4. The reference model extends W3C standards such as DCAT (https://www.w3.org/TR/vocab-dcat-3/), DQV (https://www.w3.org/TR/vocab-dqv/) and PROV (https://www.w3.org/TR/prov-o/) to describe test results, test definitions, metrics, benchmarks and their interpretation to generate a FAIR assessment score. 
+FTR is the first OWL implementation of the FAIR Reference model described in Deliverables D1.2 and D.1.4. The reference model extends W3C standards such as DCAT (https://www.w3.org/TR/vocab-dcat-3/), DQV (https://www.w3.org/TR/vocab-dqv/) and PROV (https://www.w3.org/TR/prov-o/) to describe test results, test definitions, metrics, benchmarks, algorithms, dimensions/principles and their interpretation to generate a FAIR assessment score. 
 
 The code release includes the vocabularies, definitions, specifications in machine-readable format and a set of SHACL validation rules to ensure tests and metrics are defined according to the specification. 
 
@@ -24,7 +24,6 @@ FAIR Champion is a general-purpose FAIR assessment tool intended to be used by a
 - Persistent identifier: https://tools.ostrails.eu/champion/sets/  
 - Code repository: https://github.com/OSTrails/FAIR-Champion 
 - Version: Release v1 
-- License: MIT
 - Release: https://github.com/OSTrails/FAIR-Champion/releases/tag/1.0.0 
 
 
@@ -35,7 +34,6 @@ A set of 22 tests for FAIRness.  These are generic tests for all four FAIR facet
 - Persistent identifier: https://tests.ostrails.eu/tests 
 - Code repository:  https://github.com/OSTrails/FAIR-Core-Tests 
 - Version: Release v1 
-- License: MIT
 - Release:  https://github.com/OSTrails/FAIR-Core-Tests/releases/tag/1.0.0 
  
 
@@ -57,7 +55,6 @@ The FAIR Data Point software is maintained by a third party (the “FAIRDataTeam
 - Identifier: https://tools.ostrails.eu/fdp-index/ 
 - Code repository: https://github.com/FAIRDataTeam 
 - Version: Docker Image version 16.x 
-- License: MIT
 - Release: N/A 
      
 
@@ -69,5 +66,13 @@ An early prototype of a “proxy” service that allows native DCAT records to b
 - Zenodo link (latest release) 
 - Code repository: https://github.com/OSTrails/FDP-Index-Proxy 
 - Version:  Release v1.0.0 
-- License: MIT
 - Release:  https://github.com/OSTrails/FDP-Index-Proxy/releases/tag/v1.0.0 
+
+
+FAIRsharing Registry:
+---------------------------- 
+FAIRsharing is a registry of standards, databases, policies and FAIR assistance conceptual components. Registration of FAIR principles/dimensions, metrics, and benchmarks within FAIRsharing allows human- and machine-readable integration of the FAIR assessment components within the wider research landscape, and is key to discovery of these resources as well as for the implementation of the tests themselves via the rich metadata contained within the registry. Rather than being a specific tool release, it is the extension to FAIRsharing with the new FAIRassist registry which is relevant to the other Commons resources described in this section.
+
+- Identifier: https://fairsharing.org/ 
+- Code repository: https://github.com/FAIRsharing/fairsharing.github.io 
+- Version:  Continuous release
