@@ -24,6 +24,7 @@ FAIR Champion is a general-purpose FAIR assessment tool intended to be used by a
 - Persistent identifier: https://tools.ostrails.eu/champion/sets/  
 - Code repository: https://github.com/OSTrails/FAIR-Champion 
 - Version: Release v1 
+- License: MIT
 - Release: https://github.com/OSTrails/FAIR-Champion/releases/tag/1.0.0 
 
 
@@ -34,6 +35,7 @@ A set of 22 tests for FAIRness.  These are generic tests for all four FAIR facet
 - Persistent identifier: https://tests.ostrails.eu/tests 
 - Code repository:  https://github.com/OSTrails/FAIR-Core-Tests 
 - Version: Release v1 
+- License: MIT
 - Release:  https://github.com/OSTrails/FAIR-Core-Tests/releases/tag/1.0.0 
  
 
@@ -55,6 +57,7 @@ The FAIR Data Point software is maintained by a third party (the “FAIRDataTeam
 - Identifier: https://tools.ostrails.eu/fdp-index/ 
 - Code repository: https://github.com/FAIRDataTeam 
 - Version: Docker Image version 16.x 
+- License: MIT
 - Release: N/A 
      
 
@@ -66,4 +69,5 @@ An early prototype of a “proxy” service that allows native DCAT records to b
 - Zenodo link (latest release) 
 - Code repository: https://github.com/OSTrails/FDP-Index-Proxy 
 - Version:  Release v1.0.0 
+- License: MIT
 - Release:  https://github.com/OSTrails/FDP-Index-Proxy/releases/tag/v1.0.0 
