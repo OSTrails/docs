@@ -25,6 +25,7 @@ FAIR Champion is a general-purpose FAIR assessment tool intended to be used by a
 - Code repository: https://github.com/OSTrails/FAIR-Champion 
 - Version: Release v1 
 - Release: https://github.com/OSTrails/FAIR-Champion/releases/tag/1.0.0 
+- License: MIT
 
 
 FAIR Champion Tests:
@@ -35,7 +36,8 @@ A set of 22 tests for FAIRness.  These are generic tests for all four FAIR facet
 - Code repository:  https://github.com/OSTrails/FAIR-Core-Tests 
 - Version: Release v1 
 - Release:  https://github.com/OSTrails/FAIR-Core-Tests/releases/tag/1.0.0 
- 
+- License: MIT
+
 
 FOOPS! Test and metric catalogue:
 --------------------------------- 
@@ -56,7 +58,8 @@ The FAIR Data Point software is maintained by a third party (the “FAIRDataTeam
 - Code repository: https://github.com/FAIRDataTeam 
 - Version: Docker Image version 16.x 
 - Release: N/A 
-     
+- License: MIT
+
 
 FAIR Data Point Index Proxy:
 ---------------------------- 
@@ -67,6 +70,7 @@ An early prototype of a “proxy” service that allows native DCAT records to b
 - Code repository: https://github.com/OSTrails/FDP-Index-Proxy 
 - Version:  Release v1.0.0 
 - Release:  https://github.com/OSTrails/FDP-Index-Proxy/releases/tag/v1.0.0 
+- License: MIT
 
 
 FAIRsharing Registry:
