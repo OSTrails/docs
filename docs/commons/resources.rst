@@ -15,6 +15,7 @@ The code release includes the vocabularies, definitions, specifications in machi
 - Code Repository: https://github.com/OSTrails/FAIR_assessment_output_specification/ 
 - Version: 1.0.0 
 - Release (in GitHub): https://github.com/OSTrails/FAIR_assessment_output_specification/releases/tag/v1.0.0 
+- License: CC-BY 4.0
 
 
 FAIR Champion: 
@@ -48,6 +49,7 @@ The Ontology Pitfall Scanner for FAIR is a FAIR assessment tool for vocabularies
 - Code repository: https://github.com/oeg-upm/fair_ontologies 
 - Version: 0.2.0 
 - Release: https://github.com/oeg-upm/fair_ontologies/releases/tag/v0.2.0  
+- License: Apache-2.0
 
 
 FAIR Data Point:
