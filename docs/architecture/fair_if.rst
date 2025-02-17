@@ -12,7 +12,6 @@ Guided by the Compliance Assessment Toolkit [1], we have identified the set of d
 Detailed definitions of these components are work in progress as we examine use-cases emerging from the participating Pilots, to ensure that the identified FAIRness Reference Model components are a) complete, and b) match the requirements of the FAIR-IF, and the overall expectations of the OSTrails IF. Briefly, here are the current definitions of the components. 
 
 The three Conceptual-level components involved in the FAIR Reference Model are: 
-
     * Dimensions (using W3C Data Quality Vocabulary dqv:Dimension) - a high-level objective that should be met by digital objects corresponding to one of the FAIR Principles (e.g. R1.1. all digital objects should have a licence). 
     * Metrics: Narrative description that a Test must wholly implement 
     * Benchmarks: a narrative definition of how to interpret the Test Result Set resulting from the application of one or more Metrics to a digital object. 
