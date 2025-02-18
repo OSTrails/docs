@@ -1,10 +1,10 @@
-Marek Suchánek:
+Marek Suchanek:
   first_name: Marek
   last_name: Suchánek
   github: MarekSuchanek
   orcid: 0000-0001-7525-9218
   affiliation: CTU in Prague
-  
+
 Daniel Garijo:
   first_name: Daniel
   last_name: Garijo
@@ -25,3 +25,10 @@ Tomasz Miksa:
   github: TomMiksa
   orcid: 0000-0002-4929-7875
   affiliation: TU Wien
+
+John Shepherdson:
+  first_name: John
+  last_name: Shepherdson
+  github: john-shepherdson
+  orcid: 0000-0002-4402-9644
+  affiliation: CESSDA ERIC
