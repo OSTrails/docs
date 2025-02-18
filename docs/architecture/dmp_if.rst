@@ -1,3 +1,5 @@
+.. page-authors:: Tomasz Miksa
+
 Architecture: DMP IF
 ====================
 
