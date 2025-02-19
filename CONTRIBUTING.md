@@ -78,16 +78,16 @@ fix: correct typos
 When contributing to the documentation, please follow these steps:
 
 1. Fork the repository (if not in the OSTrails organization).
-2. Create a new branch for your changes (base = `develop`).
+2. Create a new branch for your changes (base = `next`).
 3. Make your changes and commit them.
 4. Push your changes.
-5. Open a pull request to the `develop` branch of the main repository.
+5. Open a pull request to the `next` branch of the main repository.
 
 ### Crediting Contributors
 
 We will credit all contributors in the documentation. If you would like to be credited, please add your name and related information to the [`CONTRIBUTORS.yml`](./CONTRIBUTORS.yml) file.
 
-Then, you can add your name to the list of contributors for a specific page:
+Then, you can add your name to the list of contributors for a specific page (under the first heading) using the `page-authors` directive:
 
 ```rst
 Page Title
@@ -95,4 +95,5 @@ Page Title
 
 ..  page-authors::
     John Doe
+
 ```
