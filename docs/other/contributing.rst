@@ -105,7 +105,7 @@ Crediting Contributors
 
 We will credit all contributors in the documentation. If you would like to be credited, please add your name and related information to the ``CONTRIBUTORS.yml`` file.
 
-Then, you can add your name to the list of contributors for a specific page:
+Then, you can add your name to the list of contributors for a specific page under the first heading of the page. For example:
 
 .. code-block:: rst
 
