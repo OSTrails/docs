@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: OSTrails Deliverables
+    url: https://ostrails.eu/deliverables
+    about: Please check deliverables of OSTrails for reference.
+  - name: OSTrails Glossary
+    url: https://ostrails.eu/glossary
+    about: Please check glossary if any terminology is unclear.

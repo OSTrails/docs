@@ -1,0 +1,26 @@
+name: "Rendering or Formatting Issue"
+description: "Report issues related to documentation layout, broken formatting, or incorrect rendering when browsing docs.ostrails.eu."
+labels: ["bug", "formatting"]
+body:
+  - type: textarea
+    attributes:
+      label: "Describe the rendering issue"
+      description: "What part of the documentation is not displaying correctly?"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Screenshots (if applicable)"
+      description: "Attach screenshots to show the issue."
+  - type: input
+    attributes:
+      label: "Issue location"
+      description: "Provide the exact URL or file path."
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: "Used browser/s and versions"
+      description: "Specify the browser/s and their versions."
+    validations:
+      required: true
