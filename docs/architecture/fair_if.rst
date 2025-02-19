@@ -1,6 +1,9 @@
 Architecture: FAIR-IF
 =====================
 
+.. page-authors::
+    Daniel Garijo
+
 The FAIR Testing Interoperability Framework (FAIR-IF) uses, almost exclusively, existing standards or extensions of standards, such as W3C Data Quality Vocabulary (https://www.w3.org/TR/vocab-dqv/), the W3C Data Catalog vocabulary (https://www.w3.org/TR/vocab-dcat-3/) and the W3C Provenance Ontology (https://www.w3.org/TR/prov-o/). These are employed to build the descriptors for the components that make up the FAIR Testing Reference Model and are described here. While most of these components contribute only indirectly to the Interoperability behaviour of the FAIR-IF, a brief discussion of all of them will simplify understanding how Interoperability is achieved.
 
 FAIR Reference Model Conceptual Components
@@ -8,7 +11,10 @@ FAIR Reference Model Conceptual Components
 
 Guided by the Compliance Assessment Toolkit [1], we have identified the set of distinct components that make up a FAIR testing environment.  These, and the relationships between them, are diagrammed in Figure 1. These are categorised as Conceptual (shown in green), Software (blue), and Data (orange) levels. In addition, there is a higher level of Conceptual object we call a Dimension (red), which represents an established principle (e.g. FAIR Principle F1) that motivates the need for the creation of a FAIR test (or set of tests).
 
-.. image:: fair-if.png
+.. figure:: fair-if.png
+
+    FAIR Reference Model
+
 
 Detailed definitions of these components are work in progress as we examine use-cases emerging from the participating Pilots, to ensure that the identified FAIRness Reference Model components are a) complete, and b) match the requirements of the FAIR-IF, and the overall expectations of the OSTrails IF. Briefly, here are the current definitions of the components.
 

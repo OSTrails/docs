@@ -2,7 +2,7 @@ Contributing Guidelines
 =======================
 
 .. page-authors::
-    Marek Suchanek
+    Marek Suchánek
     John Shepherdson
 
 

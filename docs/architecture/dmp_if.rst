@@ -1,8 +1,8 @@
-.. page-authors::
-    Tomasz Miksa
-
 Architecture: DMP IF
 ====================
+
+.. page-authors::
+    Tomasz Miksa
 
 An **interoperability framework** refers to a set of guidelines, standards, and protocols that ensure the ability of different systems, applications, or organizations to work together effectively, exchanging data and functions seamlessly despite differences in their underlying technologies. The framework typically addresses the technical, semantic, and organizational aspects needed to facilitate collaboration and integration between disparate systems.
 

@@ -1,7 +1,9 @@
-.. page-authors:: Tomasz Miksa
-
 Architecture
 ============
+
+.. page-authors::
+    Tomasz Miksa
+
 
 The OSTrails reference architecture provides guidance on realising interactions between key components identified in the OSTrails pathways: Data Management Plans (DMPs), Scientific Knowledge Graphs (SKGs), and FAIR Assessment. It clarifies which interactions are standardised within the Interoperability Frameworks and which are relevant to the project without prescribing specific implementation methods. For example, while the reference architecture specifies when the DMP API (part of the DMP Interoperability Framework) must be used, it leaves the method of accessing information from data repositories flexible.
 
@@ -9,7 +11,10 @@ A key objective of this architecture is to prevent vendor lock-in, ensuring tool
 
 The architecture also supports both current well-known and potential future patterns of interactions between components, fostering innovative use cases that enhance automation and machine-actionability of digital object information exchange. For example, while it is yet uncommon for data repositories to update DMPs, the architecture anticipates and accommodates such potential pathways.
 
-.. image:: OSTrails-architecture.png
+.. figure:: OSTrails-architecture.png
+
+    OSTrails Architecture
+
 
 We use colour coding in the diagram:
     * Orange represents the components and communications that are subject to standardisation within the DMP-IF.
@@ -42,3 +47,4 @@ Check our deliverables for more information:
     * Reichmann, S., Rey Mazón, M., Hasani-Mavriqi, I., Thaci, L., & Eckhard, D. (2024). **D1.1: Plan-Track-Assess Pathways**. Zenodo. https://doi.org/10.5281/zenodo.13145788
     * Miksa, T., Wilkinson, M., Manghi, P., & Suchánek, M. (2025). **D1.4 OSTrails Interoperability Reference Architecture V1**. Zenodo. https://doi.org/10.5281/zenodo.14795000
     * Suchánek, M., Martínková, J., Shepherdson, J., Miksa, T., Jirka, J., Knaisl, V., Moilanen, K., Sansone, S.-A., & Stavropoulos, T. (2025). **D2.5 OSTrails Commons Specifications**. Zenodo. https://doi.org/10.5281/zenodo.14795060
+
