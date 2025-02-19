@@ -83,6 +83,8 @@ When contributing to the documentation, please follow these steps:
 4. Push your changes.
 5. Open a pull request to the `next` branch of the main repository.
 
+Both `next` and `main` branches are protected and require a review before merging. The `next` branch is used for the next release, while the `main` branch is used for the current release (and only release/hotfix PRs will be merged according to [Gitflow workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)).
+
 ### Crediting Contributors
 
 We will credit all contributors in the documentation. If you would like to be credited, please add your name and related information to the [`CONTRIBUTORS.yml`](./CONTRIBUTORS.yml) file.

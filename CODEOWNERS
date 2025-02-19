@@ -1,3 +1,15 @@
-*       @MarekSuchanek
+# This file is used to define the owners of the different parts of the repository.
 
-*.rst   @TomMiksa @MarekSuchanek
+# ===================================================
+# All the management stuff
+# ---------------------------------------------------
+*                            @MarekSuchanek
+
+# ===================================================
+# Specific parts of the documentation
+# ---------------------------------------------------
+docs/architecture/*          @TomMiksa
+docs/architecture/fair*      @dgarijo @markwilkinson
+docs/architecture/skg*       @paolomanghi
+docs/commons/*               @TomMiksa @MarekSuchanek
+docs/other/*                 @MarekSuchanek
