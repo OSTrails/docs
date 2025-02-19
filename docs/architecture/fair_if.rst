@@ -9,7 +9,7 @@ The FAIR Testing Interoperability Framework (FAIR-IF) uses, almost exclusively, 
 FAIR Reference Model Conceptual Components
 ******************************************
 
-Guided by the Compliance Assessment Toolkit [1], we have identified the set of distinct components that make up a FAIR testing environment.  These, and the relationships between them, are diagrammed in Figure 1. These are categorised as Conceptual (shown in green), Software (blue), and Data (orange) levels. In addition, there is a higher level of Conceptual object we call a Dimension (red), which represents an established principle (e.g. FAIR Principle F1) that motivates the need for the creation of a FAIR test (or set of tests).
+Guided by the Compliance Assessment Toolkit :cite:`faircore4eosc_d2.2`, we have identified the set of distinct components that make up a FAIR testing environment.  These, and the relationships between them, are diagrammed in Figure 1. These are categorised as Conceptual (shown in green), Software (blue), and Data (orange) levels. In addition, there is a higher level of Conceptual object we call a Dimension (red), which represents an established principle (e.g. FAIR Principle F1) that motivates the need for the creation of a FAIR test (or set of tests).
 
 .. figure:: fair-if.png
 
@@ -43,4 +43,11 @@ Additional information
 **********************
 
 Check our deliverables for more information:
-    * [1] van Lieshout, N., Buys, M., Zamani, T., Rijsselberg, F., & Märkälä, A. (2024). Compliance Assessment Toolkit: Deliverable 2.2 (W. Hugo & W. Steinhoff, Eds.). Zenodo. https://doi.org/10.5281/zenodo.12683218
+
+.. bibliography::
+    :list: bullet
+    :filter: False
+    :keyprefix: fair-if-
+    :labelprefix: fair-if-
+
+    faircore4eosc_d2.2

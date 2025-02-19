@@ -5,7 +5,7 @@ Architecture
     Tomasz Miksa
 
 
-The OSTrails reference architecture provides guidance on realising interactions between key components identified in the OSTrails pathways: Data Management Plans (DMPs), Scientific Knowledge Graphs (SKGs), and FAIR Assessment. It clarifies which interactions are standardised within the Interoperability Frameworks and which are relevant to the project without prescribing specific implementation methods. For example, while the reference architecture specifies when the DMP API (part of the DMP Interoperability Framework) must be used, it leaves the method of accessing information from data repositories flexible.
+The OSTrails reference architecture :cite:`ostrails_d1.4` :cite:`ostrails_d2.5` provides guidance on realising interactions between key components identified in the OSTrails pathways :cite:`ostrails_d1.1`: Data Management Plans (DMPs), Scientific Knowledge Graphs (SKGs), and FAIR Assessment. It clarifies which interactions are standardised within the Interoperability Frameworks and which are relevant to the project without prescribing specific implementation methods. For example, while the reference architecture specifies when the DMP API (part of the DMP Interoperability Framework) must be used, it leaves the method of accessing information from data repositories flexible.
 
 A key objective of this architecture is to prevent vendor lock-in, ensuring tools and services can be used interchangeably in typical scenarios outlined by the pathways. For instance, any SKG conforming to the SKG-IF can seamlessly integrate with DMP tools to provide additional insights into reused datasets. This architecture emphasises harmonising the modelling and exchange of information across research data management services while allowing diverse implementation choices tailored to specific use cases.
 
@@ -44,7 +44,13 @@ Additional information
 **********************
 
 Check our deliverables for more information:
-    * Reichmann, S., Rey Mazón, M., Hasani-Mavriqi, I., Thaci, L., & Eckhard, D. (2024). **D1.1: Plan-Track-Assess Pathways**. Zenodo. https://doi.org/10.5281/zenodo.13145788
-    * Miksa, T., Wilkinson, M., Manghi, P., & Suchánek, M. (2025). **D1.4 OSTrails Interoperability Reference Architecture V1**. Zenodo. https://doi.org/10.5281/zenodo.14795000
-    * Suchánek, M., Martínková, J., Shepherdson, J., Miksa, T., Jirka, J., Knaisl, V., Moilanen, K., Sansone, S.-A., & Stavropoulos, T. (2025). **D2.5 OSTrails Commons Specifications**. Zenodo. https://doi.org/10.5281/zenodo.14795060
 
+.. bibliography::
+    :list: bullet
+    :filter: False
+    :keyprefix: architecture-intro-
+    :labelprefix: architecture-intro-
+
+    ostrails_d1.4
+    ostrails_d2.5
+    ostrails_d1.1

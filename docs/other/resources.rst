@@ -3,4 +3,4 @@ Resources
 
 .. bibliography::
     :all:
-    :list: enumerated
+    :style: plain
