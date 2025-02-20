@@ -1,0 +1,24 @@
+name: "Repository Issue"
+description: "Report issues related to Sphinx builds, dependencies, or other technical errors within the repository."
+labels: ["bug", "technical"]
+body:
+  - type: textarea
+    attributes:
+      label: "Describe the issue"
+      description: "What technical issue are you experiencing?"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: "Error message (if any)"
+      description: "Paste any error logs or messages."
+  - type: textarea
+    attributes:
+      label: "Steps to reproduce"
+      description: "How can we reproduce this issue?"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Additional context"
+      description: "Any other relevant information?"

@@ -12,7 +12,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent / '_ext'))
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'OSTrails'
-release = '0.1'
+release = '0.1.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -62,7 +62,7 @@ html_theme_options = {
         'sidebar-item-spacing-horizontal': '.75rem',
     },
     'sidebar_hide_name': True,
-    'top_of_page_button': None,
+    'top_of_page_buttons': [],
 }
 html_css_files = ['custom.css']
 html_js_files = ['custom.js']

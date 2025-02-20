@@ -4,3 +4,38 @@ Marek Suchánek:
   github: MarekSuchanek
   orcid: 0000-0001-7525-9218
   affiliation: CTU in Prague
+
+Daniel Garijo:
+  first_name: Daniel
+  last_name: Garijo
+  github: dgarijo
+  orcid: 0000-0003-0454-7145
+  affiliation: Universidad Politécnica de Madrid
+
+Mark Wilkinson:
+  first_name: Mark
+  last_name: Wilkinson
+  github: markwilkinson
+  orcid: 0000-0001-6960-357X
+  affiliation: Universidad Politécnica de Madrid
+
+Tomasz Miksa:
+  first_name: Tomasz
+  last_name: Miksa
+  github: TomMiksa
+  orcid: 0000-0002-4929-7875
+  affiliation: TU Wien
+
+John Shepherdson:
+  first_name: John
+  last_name: Shepherdson
+  github: john-shepherdson
+  orcid: 0000-0002-4402-9644
+  affiliation: CESSDA ERIC
+
+Allyson Lister:
+  first_name: Allyson
+  last_name: Lister
+  github: allysonlister
+  orcid: 0000-0002-7702-4495
+  affiliation: University of Oxford

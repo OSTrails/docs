@@ -1,0 +1,24 @@
+name: "Missing, Incomplete, or Legacy Information"
+description: "Report sections that lack sufficient explanation or needs update."
+labels: ["enhancement"]
+body:
+  - type: textarea
+    attributes:
+      label: "Describe the missing information"
+      description: "What information is missing, and what should be included? Is it related to DMP, SKG, FAIR, and/or other sections?"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: "Page or file location"
+      description: "Provide as exact location in the text as possible (file/section)."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Suggested enhancement"
+      description: "Do you have a suggestion on how to improve it?"
+  - type: textarea
+    attributes:
+      label: "Additional references and context"
+      description: "Any other notes? Please provide links or additional context."

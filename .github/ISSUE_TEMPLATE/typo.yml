@@ -1,0 +1,20 @@
+name: "Typo or Text Improvement"
+description: "Report a typo, grammatical error, or wording improvement."
+labels: ["typo"]
+body:
+  - type: textarea
+    attributes:
+      label: "Describe the typo or text issue"
+      description: "Specify the incorrect text and suggest a correction if possible."
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: "Page or file location"
+      description: "Provide as exact location in the text as possible (file/section)."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Additional context"
+      description: "Any other notes?"
