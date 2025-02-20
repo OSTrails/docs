@@ -2,6 +2,7 @@
 
 [![Documentation Status](https://readthedocs.org/projects/ostrails-docs/badge/?version=latest)](https://docs.ostrails.eu)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](./CODE_OF_CONDUCT.md)
+![GitHub Release](https://img.shields.io/github/v/release/OSTrails/docs)
 
 ## Usage
 
