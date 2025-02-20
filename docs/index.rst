@@ -10,8 +10,7 @@ Welcome to the technical documentation for OSTrails, the Open Science Plan-Track
 Documentation Structure
 -----------------------
 
-*This documentation is currently under development...*
-
+The documentation is structured as follows:
 
 .. toctree::
     :maxdepth: 2
