@@ -3,6 +3,7 @@ Architecture: SKG IF
 
 .. page-authors::
     Tomasz Miksa
+    Paolo Manghi
 
 
 This page introduces the Scientific/Scholarly Knowledge Graph Interoperability Framework (SKG-IF). It outlines its motivation, relation to key elements, and applications in OSTrails.
