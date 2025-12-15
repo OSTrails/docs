@@ -1,13 +1,13 @@
 Assessment Recommended API
 ----------------------------
 
-The FAIR-IF follows, as closely as possible, the REST standard; 
-however, unlike many REST architectures, not all identifiers in 
-the IF are “local”, and thus it is often necessary to pass the 
-full GUID of an identifier from one component to another, or from 
-client to server.  For example, the GUID of a Benchmark is the 
-DOI of that Benchmark as recorded in the FAIRsharing registry, 
-and as such, it cannot become part of the URL of the REST interface. 
+The FAIR-IF follows, as closely as possible, the REST standard;
+however, unlike many REST architectures, not all identifiers in
+the IF are “local”, and thus it is often necessary to pass the
+full GUID of an identifier from one component to another, or from
+client to server.  For example, the GUID of a Benchmark is the
+DOI of that Benchmark as recorded in the FAIRsharing registry,
+and as such, it cannot become part of the URL of the REST interface.
 
 Nevertheless, there are two “types” of calls in the FAIR-IF.  
 Calls that are intended to retrieve information and calls that are 

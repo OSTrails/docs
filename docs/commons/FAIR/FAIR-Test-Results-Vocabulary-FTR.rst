@@ -17,25 +17,24 @@ acting as a reference model that extends W3C standards such as
 and others to describe the different assessment components, such as:
 
 - **Test**: Service, formed by an API and associated piece of code
-  that implements a Metric, and is executed (by a FAIR assessment tool),
-  retrieving a particular and standardised result.
+    that implements a Metric, and is executed (by a FAIR assessment tool),
+    retrieving a particular and standardised result.
 
 - **TestResult**: Output of running a test over a resource. A test
-  result should also contain provenance metadata about the process
-  followed to create it. ``TestResult`` is represented as an extension
-  of ``prov:Entity``. A test result points to the corresponding test
-  through the ``ftr:outputFromTest`` property.
+    result should also contain provenance metadata about the process
+    followed to create it. ``TestResult`` is represented as an extension
+    of ``prov:Entity``. A test result points to the corresponding test
+    through the ``ftr:outputFromTest`` property.
 
 - **TestResultSet**: A set of FAIR test results, together with
-  their respective metadata. Common metadata may describe the set. For
-  example, if all results were run by a request to the same API.
+    their respective metadata. Common metadata may describe the set. For
+    example, if all results were run by a request to the same API.
 
 - **TestExecutionActivity**: The action carried out by an agent
-  calling an API in which a test (or set of tests) was run. The result
-  of this activity is either a ``TestResult`` or a ``TestResultSet``.
+    calling an API in which a test (or set of tests) was run. The result
+    of this activity is either a ``TestResult`` or a ``TestResultSet``.
 
-- **Metric**: Narrative domain-agnostic description that a Test
-  must wholly implement.
+- **Metric**: Narrative domain-agnostic description that a Test must wholly implement.
 
 - **Benchmark**: Community-specific groupings of a set of Metrics
   that provide a narrative describing how that community defines FAIR
