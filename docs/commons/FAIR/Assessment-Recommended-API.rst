@@ -62,7 +62,7 @@ All post requests must submit a body with the resource to assess as follows:
 
 .. list-table:: POST endpoints
    :header-rows: 1
-   :widths: 30 40 30
+   :widths: 20 20 60
 
    * - Method
      - Parameter
