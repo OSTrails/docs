@@ -9,10 +9,10 @@ client to server.  For example, the GUID of a Benchmark is the
 DOI of that Benchmark as recorded in the FAIRsharing registry,
 and as such, it cannot become part of the URL of the REST interface.
 
-Nevertheless, there are two “types” of calls in the FAIR-IF.  
-Calls that are intended to retrieve information and calls that are 
-intended to trigger an activity (such as a test or assessment).  
-The latter kinds of calls are prefixed with /assess/. 
+Nevertheless, there are two “types” of calls in the FAIR-IF.
+Calls that are intended to retrieve information and calls that are
+intended to trigger an activity (such as a test or assessment).
+The latter kinds of calls are prefixed with /assess/.
 
 Please refer to the paragraphs below for API calls or implementation. 
 An OpenAPI yaml specification for FTR is available in the following [link](https://github.com/OSTrails/FAIR_testing_resource_vocabulary/blob/main/development/api/open_api_description.yaml) including examples and 
