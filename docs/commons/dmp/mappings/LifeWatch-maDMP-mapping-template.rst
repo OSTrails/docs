@@ -1,3 +1,0 @@
-LifeWatch maDMP mapping/template 
-=======================================
-

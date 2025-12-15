@@ -8,7 +8,7 @@ The **FAIR Guidance Vocabulary (FGV)** provides a machine-readable ontology that
 The code release provides the ontology, including vocabularies, definitions, and specifications in machine-readable form.
 
     - **Persistent identifier**: `https://w3id.org/fgv# <https://w3id.org/fgv#>`__
-    - **Code Repository**: https://github.com/OSTrails/FAIR-Guidance-Vocabulary/  
-    - **Latest Release**: https://github.com/OSTrails/FAIR-Guidance-Vocabulary/releases/latest  
-    - **Documentation**: https://ostrails.github.io/FAIR-Guidance-Vocabulary/  
+    - **Code Repository**: https://github.com/OSTrails/FAIR-Guidance-Vocabulary/
+    - **Latest Release**: https://github.com/OSTrails/FAIR-Guidance-Vocabulary/releases/latest
+    - **Documentation**: https://ostrails.github.io/FAIR-Guidance-Vocabulary/
     - **License**: Creative Commons Attribution 4.0 International `CC-BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`__

@@ -7,3 +7,4 @@ The following resources in this section are part of the FAIR Commons component.
     :caption: Catalogs and Registries
     :maxdepth: 1
     :titlesonly:
+

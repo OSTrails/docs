@@ -14,17 +14,17 @@ Calls that are intended to retrieve information and calls that are
 intended to trigger an activity (such as a test or assessment).
 The latter kinds of calls are prefixed with /assess/.
 
-Please refer to the paragraphs below for API calls or implementation. 
-An OpenAPI yaml specification for FTR is available in the following [link](https://github.com/OSTrails/FAIR_testing_resource_vocabulary/blob/main/development/api/open_api_description.yaml) including examples and 
+Please refer to the paragraphs below for API calls or implementation.
+An OpenAPI yaml specification for FTR is available in the following [link](https://github.com/OSTrails/FAIR_testing_resource_vocabulary/blob/main/development/api/open_api_description.yaml) including examples and
 method calls.
 
 
 GET calls
 ----------------------------
-Each of following methods will return metadata of the artifact in JSON-LD, 
-following the FAIR-IF Application Profile. The method MUST accept a GET 
-string with key/value as in the table below.  The same method MAY accept a JSON 
-Body as in Table 1, via HTTP POST. 
+Each of following methods will return metadata of the artifact in JSON-LD,
+following the FAIR-IF Application Profile. The method MUST accept a GET
+string with key/value as in the table below.  The same method MAY accept a JSON
+Body as in Table 1, via HTTP POST.
 
 | Method        | Parameter   |   Returns                 |
 |-------------  |------------ |-------------------------- |
