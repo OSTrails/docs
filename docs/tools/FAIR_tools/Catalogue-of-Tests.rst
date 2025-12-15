@@ -1,11 +1,11 @@
-Catalogue-of-Benchmark-Scoring-Algorithms
+Catalogue of Tests
 ==================
 
 FAIR Data Point
 ---------------
 
 OSTrails has generated a federated metadata registry for publishing and
-indexing FAIR Scoring Algorithm descriptions. Every Algorithm intended to be discoverable
+indexing FAIR Test descriptions. Every test intended to be discoverable
 and to support FAIR assessment activities should be registered in this
 repository.
 
@@ -19,14 +19,14 @@ assessment tools, such as
 and
 `FOOPS </docs/docs/tools/FAIR_tools/FOOPS.rst>`_.
 
-Registering a Scoring Algorithm in the Catalogue
+Registering a Test in the Catalogue
 -----------------------------------
 
-To register a Scoring Algorithm, you may use one of the following standardised
+To register a test, you may use one of the following standardised
 procedures:
 
 Submitting an Existing Metadata Record via FAIR Champion
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Visit the FAIR Champion registration page: https://tests.ostrails.eu/tests/new
 

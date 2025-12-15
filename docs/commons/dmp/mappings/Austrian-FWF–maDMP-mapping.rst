@@ -284,4 +284,4 @@ Section:  V Legal and Ethical Aspects
    * - 
      - Refers to relevant ethical guidelines and/or codes of conduct or alternatively provides a clear statement that explains why ethical issues have not been considered.
      - 
-     -dmp/related_policy
+     - dmp/related_policy

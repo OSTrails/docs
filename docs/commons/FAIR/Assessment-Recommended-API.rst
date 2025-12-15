@@ -26,12 +26,12 @@ following the FAIR-IF Application Profile. The method MUST accept a GET
 string with key/value as in the table below.  The same method MAY accept a JSON 
 Body as in Table 1, via HTTP POST. 
 
-| Method      | Parameter    |   Returns                |
-|-------------|--------------|--------------------------|
-| `/tests/`     | `testid`   | A list with all the test identifiers suported by the tool. When an id is sent, a DCAT record in JSON-LD is returned     |
-| `/benchmarks/`| `bmid`     | A list with all the benchmark identifiers suported by the tool. When an id is sent, a DCAT record in JSON-LD is returned     |
-| `/metrics/`   | `mid`      | A list with all the metrics identifiers suported by the tool. When an id is sent, a DCAT record in JSON-LD is returned     |
-| `/algorithms/`| `aid`      | A list with all the algorithms identifiers suported by the tool. When an id is sent, a DCAT record in JSON-LD is returned     |
+| Method        | Parameter   |   Returns                 |
+|-------------  |------------ |-------------------------- |
+| `/tests/`     | `testid`    | A list with all the test identifiers suported by the tool. When an id is sent, a DCAT record in JSON-LD is returned     |
+| `/benchmarks/`| `bmid`      | A list with all the benchmark identifiers suported by the tool. When an id is sent, a DCAT record in JSON-LD is returned     |
+| `/metrics/`   | `mid`       | A list with all the metrics identifiers suported by the tool. When an id is sent, a DCAT record in JSON-LD is returned     |
+| `/algorithms/`| `aid`       | A list with all the algorithms identifiers suported by the tool. When an id is sent, a DCAT record in JSON-LD is returned     |
 
 
 POST calls
