@@ -39,7 +39,7 @@ of this activity is either a ``TestResult`` or a ``TestResultSet``.
 ----
 
 .. image:: https://github.com/OSTrails/FAIR_testing_resource_vocabulary/blob/main/development/img/FAIRTestResult_diagram_v12.drawio.png?raw=true
-   :align: center
+    :align: center
 
 
 Specification

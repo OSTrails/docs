@@ -38,9 +38,7 @@ POST calls
 ----------------------------
 All post requests must submit a body with the resource to assess as follows:
 ```
-{
- "resource_identifier": "https://w3id.org/example#"
-}
+{"resource_identifier": "https://w3id.org/example#"}
 ```
 
 | Method      | Parameter    |   Returns                |
