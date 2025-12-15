@@ -9,8 +9,12 @@ The following resources in this section are part of the FAIR Tools component.
    :maxdepth: 1
    :titlesonly:
 
-   
    FAIR Champion <FAIR_tools/FAIR-Champion>
    FOOPS <FAIR_tools/FOOPS>
+   FAIROS <FAIR_tools/FAIROS>
    FAIRsharing <FAIR_tools/FAIRsharing>
    FAIR Assessment Authoring Tool <FAIR_tools/FAIR-Assessment-Authoring-Tool>
+   Catalogue of Benchmark Scoring Algorithms <FAIR_tools/Catalogue-of-Benchmark-Scoring-Algorithms>
+   Catalogue of Metrics <FAIR_tools/Catalogue-of-Metrics>
+   Catalogue of Benchmarks <FAIR_tools/Catalogue-of-Benchmarks>
+   Catalogue of Tests <FAIR_tools/Catalogue-of-Tests>

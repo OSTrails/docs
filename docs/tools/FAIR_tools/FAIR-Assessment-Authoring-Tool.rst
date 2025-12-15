@@ -1,5 +1,5 @@
 FAIR Assessment Authoring Tool
-==============================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A complete framework for **generating, registering, and authoring your FAIR assessment components** across different metadata repositories.
 
