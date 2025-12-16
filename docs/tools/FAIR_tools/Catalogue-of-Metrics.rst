@@ -1,2 +1,0 @@
-Catalogue of Metrics
-----------------------
