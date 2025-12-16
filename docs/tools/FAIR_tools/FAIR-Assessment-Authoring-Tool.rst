@@ -17,16 +17,16 @@ The FAIR Assessment Authoring Tool integrates **three main steps**:
 
 1. **FAIR Wizard Knowledge Model**
 
-   A questionnaire-based knowledge model for capturing your metadata fields using machine-actionable questions.  
-   It connects via APIs to various registries, such as `ORCID <https://orcid.org>`_, `ROR <https://ror.org>`_, and `FAIRsharing <https://fairsharing.org>`_.
+    A questionnaire-based knowledge model for capturing your metadata fields using machine-actionable questions.
+    It connects via APIs to various registries, such as `ORCID <https://orcid.org>`_, `ROR <https://ror.org>`_, and `FAIRsharing <https://fairsharing.org>`_.
 
 2. **DSW-TDK-based Template Transformation**
 
-   DSW-TDK templates transform your questionnaire data into different serializations, such as JSON and RDF (Turtle).
+    DSW-TDK templates transform your questionnaire data into different serializations, such as JSON and RDF (Turtle).
 
 3. **Proxy Submission Service**
 
-   Registers your generated metadata into the appropriate repository or registry, authoring your FAIR metadata automatically.
+    Registers your generated metadata into the appropriate repository or registry, authoring your FAIR metadata automatically.
 
 Submissions
 ~~~~~~~~~~~
@@ -51,10 +51,10 @@ Step-by-Step Guide
 1. Fill in the Questionnaire
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Go to the dedicated environment for this questionnaire:  
+1. Go to the dedicated environment for this questionnaire:
    https://ostrails-fair.fair-wizard.com/wizard/
 2. Register yourself or log in if you already have access.
-3. Navigate to **Projects** and click **Create** to start a new project.  
+3. Navigate to **Projects** and click **Create** to start a new project.
    Each project corresponds to one FAIR assessment component.
 4. Give your project a **name** and select the **filter** corresponding to the specific type of assessment component you want to create.
 
@@ -66,7 +66,7 @@ Step-by-Step Guide
 3. Create an instance of your completed questionnaire by selecting the latest version of the **FAIR Assessment Authoring Tool Template**.
 4. Choose your preferred **serialization format**:
 
-   * **JSON** – for registration in FAIRsharing  
+   * **JSON** – for registration in FAIRsharing
    * **Turtle (RDF)** – for generating a DCAT-compliant record
 
 3. Submit Your Information
@@ -83,13 +83,13 @@ Depending on your document format:
 
   .. note::
 
-     *Why Use This Tool?*  
-     FAIR assessment components are a specific subtype of records within the FAIRsharing registry.  
+     *Why Use This Tool?*
+     FAIR assessment components are a specific subtype of records within the FAIRsharing registry.
      Using this tool significantly reduces manual curation and accelerates the registration process.
 
 * If your record is formatted in **Turtle**, the submission will be sent via the GitHub API to be registered in an OSTrails GitHub repository for collecting metadata about these assessment components.
 
-If your assessment component is a **FAIR Test**, this submission will also register the test in the  
+If your assessment component is a **FAIR Test**, this submission will also register the test in the
 `OSTrails FAIR Data Point test index <https://tools.ostrails.eu/fdp-index/>`_.
 
 References
@@ -105,5 +105,5 @@ References
 Contact us
 ----------
 
-Any question or issue related to this workflow, please contact:  
+Any question or issue related to this workflow, please contact:
 ``pablo.alarcon@upm.es``

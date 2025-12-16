@@ -14,17 +14,12 @@ This page embodies the OSTrails Commons, a collection of reusable resource accor
 The following resources in this section are part of the DMP Commons component.
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Commons Resources
+    :maxdepth: 1
+    :caption: Commons Resources
 
-   DMP Commons <dmp/dmp-commons.rst>
-   SKG Commons <skg/skg-commons.rst>
-   FAIR Commons <FAIR/FAIR-commons.rst>
-
-
-
-
-
+    DMP Commons <dmp/dmp-commons.rst>
+    SKG Commons <skg/skg-commons.rst>
+    FAIR Commons <FAIR/FAIR-commons.rst>
 
 Cross-Cutting and Supporting Resources
 --------------------------------------

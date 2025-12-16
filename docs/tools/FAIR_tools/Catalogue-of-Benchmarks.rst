@@ -1,5 +1,5 @@
 Catalogue of Metrics and Benchmarks
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The FAIRassist registry (`https://fairassist.org/registry <https://fairassist.org/registry>`_), powered by FAIRsharing
 (`https://fairsharing.org/ <https://fairsharing.org/>`_), is the catalogue of metrics and benchmarks for OSTrails and the
@@ -22,17 +22,14 @@ Via content negotiation and various FAIRsharing APIs, this registry makes a rich
 FAIR assessments in a machine-actionable format using DCAT and JSON.
 
 Searching and Filtering Metrics and Benchmarks
------------------------------------------------
+----------------------------------------------
 
 Metrics and benchmarks can be filtered and searched via
 `https://fairassist.org/registry <https://fairassist.org/registry>`_ in two ways:
 
-1. Through graphical navigation beginning with the FAIR Principles of interest to the user and traversing to,
-   ultimately, any benchmarks linked to those principles (Figure 1).
+1. Through graphical navigation beginning with the FAIR Principles of interest to the user and traversing to, ultimately, any benchmarks linked to those principles (Figure 1).
 
-2. By selecting as many filters and/or search strings as required. The search results generated are separated into
-   sections according to record type and include not only the metrics and/or benchmarks of interest, but also related
-   standards, databases, policies, and collections from the broader FAIRsharing registry (Figures 2 and 3).
+2. By selecting as many filters and/or search strings as required. The search results generated are separated into sections according to record type and include not only the metrics and/or benchmarks of interest, but also related standards, databases, policies, and collections from the broader FAIRsharing registry (Figures 2 and 3).
 
 Guided Discovery and Re-use
 ---------------------------

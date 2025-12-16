@@ -39,12 +39,14 @@ The code style is captured using [EditorConfig](https://editorconfig.org/), see 
 ### Building the Documentation
 
 First, install the required dependencies (preferably in a virtual environment):
-To activate the env in windows use the cmd and venv\Scripts\activate.bat
+
 ```bash
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+
+**Note**: To activate the env on Windows, run in cmd: `venv\Scripts\activate.bat`.
 
 Then, you can build the documentation using the following command:
 

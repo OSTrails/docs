@@ -1,5 +1,5 @@
-OSTrails SKG-IF API Specification 
---------------------------------------
+OSTrails SKG-IF API Specification
+---------------------------------
 
 OSTrails coordinated the definition of the SKG-IF API specification, which provides dedicated endpoints for each SKG-IF core entity and supports querying and filtering.
 

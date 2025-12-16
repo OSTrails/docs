@@ -1,5 +1,5 @@
 OSTrails Metadata Model for SKGs
----------------------------------------------------
+--------------------------------
 
 OSTrails contributed to the consolidation and complies to the JSON format defined by the SKG-IF.
 

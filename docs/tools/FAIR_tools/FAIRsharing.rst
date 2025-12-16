@@ -1,5 +1,7 @@
+.. _fairsharing-registry:
+
 FAIRsharing Registry
-===================
+====================
 
 Across all disciplines, there are thousands of repositories (databases and knowledge bases), as well as
 community-developed standards for the identification, citation, and reporting of digital objects (DOs),
@@ -40,8 +42,7 @@ brings together domain and discipline experts who:
 
 - Act as advocates for standards, databases, and policies for digital objects,
 - Create educational material to support discovery, use, and adoption of these resources, and
-- Enrich FAIRsharing content by improving the description and discoverability of standards, repositories,
-  and policies.
+- Enrich FAIRsharing content by improving the description and discoverability of standards, repositories, and policies.
 
 OSTrails Cluster representatives participate as Champions and collaborators, working with the programme to
 advance open and FAIR data management within the project.
@@ -52,22 +53,16 @@ FAIRsharing and the Assess-IF
 The Assess-IF requires high-quality information on standards and digital object types. OSTrails Cluster
 representatives therefore engage with FAIRsharing to:
 
-- **Curate FAIRsharing content**, ensuring that domain-agnostic and discipline-specific standards and data
-  resources are represented according to Cluster usage, recommendations, and community best practices.
-  This curation enables these resources to be used within FAIR assistance and evaluation workflows.
-
-- **Curate FAIRassist content**, by registering and maintaining FAIR assistance benchmarks and associated
-  components. These records are essential for the development of FAIR test workflows for OSTrails Clusters,
-  as well as thematic and national pilots.
-
-- **Create collections of resources**, which group standards and data resources to facilitate discovery and
-  use by humans and machines. Collections are based on community best practices and are required to support
-  each Cluster’s assessment process.
+- **Curate FAIRsharing content**, ensuring that domain-agnostic and discipline-specific standards and data resources are represented according to Cluster usage, recommendations, and community best practices. This curation enables these resources to be used within FAIR assistance and evaluation workflows.
+- **Curate FAIRassist content**, by registering and maintaining FAIR assistance benchmarks and associated components. These records are essential for the development of FAIR test workflows for OSTrails Clusters, as well as thematic and national pilots.
+- **Create collections of resources**, which group standards and data resources to facilitate discovery and use by humans and machines. Collections are based on community best practices and are required to support each Cluster’s assessment process.
 
 Collections also provide graphical representations of Cluster requirements, illustrating relationships
 among standards and repositories (for example, which terminologies are required by specific formats, or which
 identifier schemes are used by a given repository). This approach fosters reuse of common standards and
 repositories across Clusters, disciplines, and communities where appropriate.
+
+.. _fairassist-registry:
 
 FAIRassist Registry
 -------------------
@@ -79,8 +74,7 @@ assistance and evaluation**.
 FAIRassist and the FDP Index are complementary exemplar services that showcase:
 
 - Registration and sharing of the components of the Assess-IF,
-- Assistance with their discoverability (based on digital object types, discipline specificity, or generic
-  scope), and
+- Assistance with their discoverability (based on digital object types, discipline specificity, or generic scope), and
 - Delivery of information and documentation to guide and support the FAIR assessment process.
 
 In particular, FAIRassist complements the FDP registry of **software components** from the Assess-IF (tests and
