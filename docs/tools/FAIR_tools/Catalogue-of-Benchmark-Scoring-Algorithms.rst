@@ -26,7 +26,7 @@ To register a Scoring Algorithm, you may use one of the following standardised
 procedures:
 
 Submitting an Existing Metadata Record via FAIR Champion
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------------------------------------
 
 Visit the FAIR Champion registration page: https://tests.ostrails.eu/tests/new
 
@@ -43,7 +43,7 @@ may be displayed as **invalid**.
     tool or repository. The record **must** comply with the FTR model.
 
 Registering Metadata via the FAIR Assessment Authoring Tool
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------------------------------------------
 
 The FAIR Assessment Authoring Tool, developed by the OSTrails team,
 supports the creation of FAIR assessment components such as Tests,
