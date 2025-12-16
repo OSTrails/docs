@@ -46,6 +46,3 @@ The documentation is structured as follows:
     other/contributing
     other/resources
     other/contributors
-
-
-  

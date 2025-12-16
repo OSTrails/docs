@@ -1,5 +1,5 @@
-FOOPS! 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FOOPS!
+^^^^^^
 
 The Ontology Pitfall Scanner for FAIR (FOOPS!) is a FAIR assessment tool for vocabularies and ontologies. In this release, FOOPS! has been adapted to comply with the [FTR specification](https://w3id.org/ftr/). A catalog of test descriptions and metrics has been made available in https://w3id.org/foops/catalogue. The release contains the source code of the tools, as well as the machine-readable and human-readable documentation of all tests, metrics and benchmarks associated with the tool.
 
