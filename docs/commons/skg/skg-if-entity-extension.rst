@@ -2,7 +2,8 @@ OSTrails SKG-IF Extensions
 -----------------------------------------
 
 Within the OSTrails context, a number of extensions have been submitted to the attention of the SKG-IF Working Group.
-The status of such ext-submissions is summarised in the table below:
+
+The status of such extension proposed is summarised in the table below:
 
 .. list-table::
    :header-rows: 1
