@@ -54,21 +54,21 @@ Research Product
      - |
        The mapping considers *{FOS, SDG, keyword}* subject schemes. Each subfield is mapped as follows:
 
-       - term -> otf identifier depending on the creation date of the dataset, and the value for the topic
+       - term → otf identifier depending on the creation date of the dataset, and the value for the topic
        - **provenance**
-         - trust -> subject.provenance.trust
-         - provenance -> subject.provenance.provenance
+         - trust → subject.provenance.trust
+         - provenance → subject.provenance.provenance
 
    * - https://skg-if.github.io/interoperability-framework/docs/research-product.html#contributions
      - https://graph.openaire.eu/docs/data-model/entities/research-product#authors
      - |
        Each subfield is mapped as follows:
 
-       - by -> otf identifier depending on the creation date of the dataset and the ORCID if found in the metadata. If no ORCID is found, the identifier depends on the creation date and a concatenation of result ID and author position in the list of authors.
-       - declared_affiliations -> not mapped so far
-       - rank -> author[*].rank
-       - contribution_types -> not mapped so far
-       - role -> author
+       - by → otf identifier depending on the creation date of the dataset and the ORCID if found in the metadata. If no ORCID is found, the identifier depends on the creation date and a concatenation of result ID and author position in the list of authors.
+       - declared_affiliations → not mapped so far
+       - rank → author[*].rank
+       - contribution_types → not mapped so far
+       - role → author
 
    * - https://skg-if.github.io/interoperability-framework/docs/research-product.html#manifestations
      - https://graph.openaire.eu/docs/data-model/entities/research-product#instances, https://graph.openaire.eu/docs/data-model/entities/research-product#container, and https://graph.openaire.eu/docs/data-model/relationships/relationship-object
@@ -76,26 +76,26 @@ Research Product
        Each subfield is mapped as follows:
 
        - **type**
-         - class -> the COAR classification for instance[*].type
-         - labels -> instances[*].type (language keyword always *en*)
-         - defined_in -> https://vocabularies.coar-repositories.org/resource_types/ (Fixed)
-       - dates -> instance.publicationDate (date type always *publication*)
-       - identifiers -> instances[*].pids
+         - class → the COAR classification for instance[*].type
+         - labels → instances[*].type (language keyword always *en*)
+         - defined_in → https://vocabularies.coar-repositories.org/resource_types/ (Fixed)
+       - dates → instance.publicationDate (date type always *publication*)
+       - identifiers → instances[*].pids
        - **peer_review**
-         - status -> set to *peer reviewed* if instances[*].refereed is *peer reviewed*
-         - description -> not mapped so far
+         - status → set to *peer reviewed* if instances[*].refereed is *peer reviewed*
+         - description → not mapped so far
        - **access_right**
-         - status -> instances[*].accessright.label
-         - description -> fixed text depending on status value
-       - licence -> instances[*].licence
-       - version -> not mapped
+         - status → instances[*].accessright.label
+         - description → fixed text depending on status value
+       - licence → instances[*].licence
+       - version → not mapped
        - **biblio**
-         - issue -> container.iss (only for publications)
-         - edition -> container.edition (only for publications)
-         - volume -> container.volume (only for publications)
-         - pages -> container.sp and container.ep (only for publications)
-         - in -> otf identifier depending on the creation date and container.issnPrinted. If not present, container.issnOnline is used
-         - hosting_datasource -> "https://explore.openaire.eu/search/dataprovider?datasourceId=" + target in the relation isHostedBy
+         - issue → container.iss (only for publications)
+         - edition → container.edition (only for publications)
+         - volume → container.volume (only for publications)
+         - pages → container.sp and container.ep (only for publications)
+         - in → otf identifier depending on the creation date and container.issnPrinted. If not present, container.issnOnline is used
+         - hosting_datasource → "https://explore.openaire.eu/search/dataprovider?datasourceId=" + target in the relation isHostedBy
 
    * - https://skg-if.github.io/interoperability-framework/docs/research-product.html#relevant_organisations
      - https://graph.openaire.eu/docs/data-model/relationships/relationship-object
