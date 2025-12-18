@@ -76,6 +76,7 @@ Research Product
        Each subfield is mapped as follows:
 
        - **type**
+       |
          - class → the COAR classification for instance[*].type
          - labels → instances[*].type (language keyword always *en*)
          - defined_in → https://vocabularies.coar-repositories.org/resource_types/ (Fixed)
