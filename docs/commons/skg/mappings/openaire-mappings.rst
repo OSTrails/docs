@@ -5,7 +5,7 @@ OpenAIRE SKG-IF Mapping
 
 
 
-This page documents the conceptual mapping between the ` OpenAIRE Graph model <https://graph.openaire.eu/doc/data-model>`_  towards the `SKG-IF <https://skg-if.github.io/interoperability-framework/>`_, `version 1.1.0 <https://github.com/skg-if/context/tree/main/ver/1.1.0>`_.
+This page documents the conceptual mapping between the `OpenAIRE Graph model <https://graph.openaire.eu/doc/data-model>`_  towards the `SKG-IF <https://skg-if.github.io/interoperability-framework/>`_ (`version 1.1.0 <https://github.com/skg-if/context/tree/main/ver/1.1.0>`_).
 
 The OpenAIRE APIs implementation draws from this mapping. The mapped entities reported are only those returned by the APIs. So far only research products.
 
