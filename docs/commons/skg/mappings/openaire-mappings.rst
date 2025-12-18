@@ -55,7 +55,9 @@ Research Product
        The mapping considers *{FOS, SDG, keyword}* subject schemes. Each subfield is mapped as follows:
 
        - term → otf identifier depending on the creation date of the dataset, and the value for the topic
-       - **provenance**
+       - |
+          **provenance**
+
          - trust → subject.provenance.trust
          - provenance → subject.provenance.provenance
 
@@ -83,15 +85,21 @@ Research Product
          - defined_in → https://vocabularies.coar-repositories.org/resource_types/ (Fixed)
        - dates → instance.publicationDate (date type always *publication*)
        - identifiers → instances[*].pids
-       - **peer_review**
+       - |
+          **peer_review**
+
          - status → set to *peer reviewed* if instances[*].refereed is *peer reviewed*
          - description → not mapped so far
-       - **access_right**
+       - |
+          **access_right**
+
          - status → instances[*].accessright.label
          - description → fixed text depending on status value
        - licence → instances[*].licence
        - version → not mapped
-       - **biblio**
+       - |
+          **biblio**
+          
          - issue → container.iss (only for publications)
          - edition → container.edition (only for publications)
          - volume → container.volume (only for publications)
