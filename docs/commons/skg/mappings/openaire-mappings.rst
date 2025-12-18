@@ -15,8 +15,8 @@ Research Product
 .. list-table::
    :header-rows: 1
 
-   * - SKG-IF Json-LD property
-     - OpenAIRE property
+   * - SKG-IF JSON-LD property
+     - OpenAIRE Graph property
      - Notes
 
    * - https://skg-if.github.io/interoperability-framework/docs/research-product.html#local_identifier
