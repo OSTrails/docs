@@ -77,7 +77,7 @@ All post requests must submit a body with the resource to assess as follows:
      - ``algoid`` and ``resource_identifier``
      - Test result in JSON-LD
 
-In some cases, FAIR assessments may require inspecting multiple large resources. This is, for example, the case when assessing Research Objects using the **FAIROs** tool. In such situations, the API may not immediately return the test results in JSON-LD format. Instead, it returns a JSON response with the following information:
+In some cases, FAIR assessments may require inspecting multiple large resources. This is, for example, the case when assessing Research Objects. In such situations, the API may not immediately return the test results in JSON-LD format. Instead, it returns a JSON response with the following information:
 
 .. code-block:: json
 
