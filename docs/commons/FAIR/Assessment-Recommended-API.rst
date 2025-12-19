@@ -76,3 +76,22 @@ All post requests must submit a body with the resource to assess as follows:
    * - ``/assess/algorithm/``
      - ``algoid`` and ``resource_identifier``
      - Test result in JSON-LD
+
+In some cases, FAIR assessments may require inspecting multiple large resources. This is, for example, the case when assessing Research Objects using the **FAIROs** tool. In such situations, the API may not immediately return the test results in JSON-LD format. Instead, it returns a JSON response with the following information:
+
+.. code-block:: json
+
+   {
+     "ticket_id": "<ID of the response>"
+   }
+
+In this case, the API returns an HTTP status code **202 (Accepted)**, indicating that the assessment request has been successfully created. Additionally, the response header **Location** contains a link where the results will be available once generated.
+
+The link follows this format::
+
+   /assess/algorithm/{ticket_id}
+
+When accessing this link, you may receive one of the following HTTP status codes:
+
+- **404 (Not Found)** if the results have not yet been generated
+- **200 (OK)** if the results are available, returned in the same JSON-LD format as a standard test result
