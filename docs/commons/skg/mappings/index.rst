@@ -1,5 +1,4 @@
 SKG-IF mappings
-==================
 
 - *Planned resource to be developed*
 
@@ -11,3 +10,11 @@ SKG-IF mappings
    RO-Crate SKG-IF mapping <Mapping-SKGIF-RO-Crate>
 
    
+
+
+.. toctree::
+    :maxdepth: 1
+    :titlesonly:
+
+    DDI SKG-IF mapping <Mapping-SKGIF-DDI>
+    OpenAIRE Graph SKG-IF mappings <openaire-mappings.rst>

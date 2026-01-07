@@ -13,7 +13,7 @@ Documentation Structure
 The documentation is structured as follows:
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 4
     :caption: Architecture
 
     Introduction <architecture/intro>
@@ -23,16 +23,23 @@ The documentation is structured as follows:
 
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 4
     :caption: Commons
 
     Introduction <commons/intro>
     Governance <commons/governance>
     Resources <commons/resources>
 
+.. toctree::
+    :maxdepth: 4
+    :caption: Tools
+
+    FAIR Tools <tools/FAIR>
+    DMP Tools <tools/DMP>
+    SKG Tools <tools/SKG>
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 4
     :caption: Other
 
     other/vocabulary

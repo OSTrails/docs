@@ -1,5 +1,5 @@
 OSTrails SKG-IF Extensions
------------------------------------------
+--------------------------
 
 Within the OSTrails context, a number of extensions have been submitted to the attention of the SKG-IF Working Group.
 
