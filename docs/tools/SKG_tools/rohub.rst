@@ -17,19 +17,19 @@ The user interfaces, include a reference Web Portal and a Python library.
 The ROHub portal provides a comprehensive user interface for the management and preservation of research objects, while the Python library works on top of the ROHub backend REST API, wrapping and abstracting the REST methods in user-friendly API methods that can be used, for instance, via Jupyter Notebooks. 
 Additionally, various external services are integrated or leverated in ROHub, including RO added value services as well as various EOSC services.  
 These include:
-•	Semantic enrichment and recommendation plus a set of extended analytic services.  The former generate structured machine-readable metadata about the content of a research object including the main concepts and phrases, the entities and their type, and topical information from domains according to the Expert.ai linguistic knowledge graph, and generate recommendations based on the discovered metadata. The latter include the challenge and solution extraction, the Question Generation service, the claim analysis service, and the novelty scoring service
-•	Checklist service: provides access to the minim-based checklist evaluation of research objects, used to assess their quality for different purposes, e.g., completeness, accessibility or ready to release, and according to the needs of a particular community or application.
-•	Quality monitoring service: enables the evaluation of the RO through time by capturing discrete values provided by the checklist service in different moments of its evolution. 
-•	FAIROs service: measures the FAIRness of Research Objects, by calculating the FAIRness of individual aggregated resources, including the Research Object itself, and then aggregating those results to calculate the over FAIR score.
-•	EGI check-in, the EOSC Identity and Access Management (IAM) service that connects federated Identity Providers (IdPs) with EOSC service providers. 
-•	Zenodo. ROHub allows to release and share ro-crates via Zenodo.
-•	B2share. ROHub allows to release and share ro-crates via B2Share.
-•	B2drop. ROHub users have the possibility to use the default ROHub storage, or B2drop as their personal storage space where the resources uploaded to their research objects will be stored. B2drop resources are synchronized with the corresponding research objects in both ways.
-•	Notebooks. ROHub users can open and load the Jupyter notebooks in the ROs automatically in EGI Notebooks directly from ROHub and execute their methods/processing in an interactive computing environment (eproducible science).
-•	Replay. ROHub users can open and load automatically Jupyter notebooks and reproduce their associated computing environment with Replay, including any related input datasets, directly from the ROs in ROHub. (highest reproducible science)
-•	OpenAire/EOSC Research Graph. ROHub resources, particularly ROs, Jupyter notebooks and data cubes, are harvested in the graph, and thus they are findable directly from the EOSC marketplace.
-•	Argos. ROHub enables the creation of ROs from DMPs in Argos, leveraging and representing all the DMP information in machine-readable format, enabling researchers to shift their DMP into machine actionable DMPs, connected with the datasets themselves.
-•	ADAM. ROHub enables the aggregation of data cubes from ADAM by reference, leveraging all the available metadata available in ADAM to describe them in the RO. ROHub users can open and load data cubes in ADAM directly from ROHub for their usage and exploration
+- Semantic enrichment and recommendation plus a set of extended analytic services.  The former generate structured machine-readable metadata about the content of a research object including the main concepts and phrases, the entities and their type, and topical information from domains according to the Expert.ai linguistic knowledge graph, and generate recommendations based on the discovered metadata. The latter include the challenge and solution extraction, the Question Generation service, the claim analysis service, and the novelty scoring service
+- Checklist service: provides access to the minim-based checklist evaluation of research objects, used to assess their quality for different purposes, e.g., completeness, accessibility or ready to release, and according to the needs of a particular community or application.
+- Quality monitoring service: enables the evaluation of the RO through time by capturing discrete values provided by the checklist service in different moments of its evolution. 
+- FAIROs service: measures the FAIRness of Research Objects, by calculating the FAIRness of individual aggregated resources, including the Research Object itself, and then aggregating those results to calculate the over FAIR score.
+- EGI check-in, the EOSC Identity and Access Management (IAM) service that connects federated Identity Providers (IdPs) with EOSC service providers. 
+- Zenodo. ROHub allows to release and share ro-crates via Zenodo.
+- B2share. ROHub allows to release and share ro-crates via B2Share.
+- B2drop. ROHub users have the possibility to use the default ROHub storage, or B2drop as their personal storage space where the resources uploaded to their research objects will be stored. B2drop resources are synchronized with the corresponding research objects in both ways.
+- Notebooks. ROHub users can open and load the Jupyter notebooks in the ROs automatically in EGI Notebooks directly from ROHub and execute their methods/processing in an interactive computing environment (eproducible science).
+- Replay. ROHub users can open and load automatically Jupyter notebooks and reproduce their associated computing environment with Replay, including any related input datasets, directly from the ROs in ROHub. (highest reproducible science)
+- OpenAire/EOSC Research Graph. ROHub resources, particularly ROs, Jupyter notebooks and data cubes, are harvested in the graph, and thus they are findable directly from the EOSC marketplace.
+- Argos. ROHub enables the creation of ROs from DMPs in Argos, leveraging and representing all the DMP information in machine-readable format, enabling researchers to shift their DMP into machine actionable DMPs, connected with the datasets themselves.
+- ADAM. ROHub enables the aggregation of data cubes from ADAM by reference, leveraging all the available metadata available in ADAM to describe them in the RO. ROHub users can open and load data cubes in ADAM directly from ROHub for their usage and exploration
 
 
 Authentication and Authorization
