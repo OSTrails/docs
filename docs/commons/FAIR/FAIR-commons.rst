@@ -1,5 +1,5 @@
 FAIR Commons
-------------
+=============
 
 The following resources in this section are part of the FAIR Commons component.
 
