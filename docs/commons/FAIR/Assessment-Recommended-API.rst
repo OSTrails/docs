@@ -1,5 +1,5 @@
 Assessment Recommended API
---------------------------
+==========================
 
 The FAIR-IF follows, as closely as possible, the REST standard;
 however, unlike many REST architectures, not all identifiers in
