@@ -8,5 +8,5 @@ SKG-IF mappings
 
    DDI SKG-IF mapping <Mapping-SKGIF-DDI>
    RO-Crate SKG-IF mapping <Mapping-SKGIF-RO-Crate>
-   OpenAIRE Graph SKG-IF mappings <openaire-mappings.rst>
+   OpenAIRE Graph SKG-IF mappings <Mapping-SKGIF-OpenAIRE>
     
