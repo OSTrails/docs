@@ -1,5 +1,5 @@
 Shared Tests
---------------------------
+==============
 
 The FAIR-IF defines the API for assessments.
 
