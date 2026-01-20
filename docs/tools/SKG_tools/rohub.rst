@@ -53,33 +53,33 @@ Resources and identifiers
 --------------------------
 Portal
 ~~~~~~~~
-- Portal: https://www.rohub.org/
-- re3data.org persistent identifier: http://doi.org/10.17616/R31NJN60
-- FAIRSharing identifier: https://fairsharing.org/4119
-- Portal documentation: https://reliance-eosc.github.io/rohub-portal-documentation/
-- Version 4.0.2
+    - **Portal**: https://www.rohub.org/
+    - **re3data.org persistent identifier**: http://doi.org/10.17616/R31NJN60
+    - **FAIRSharing identifier**: https://fairsharing.org/4119
+    - **Portal documentation**: https://reliance-eosc.github.io/rohub-portal-documentation/
+    - **Version**: 4.0.2
 
 API
 ~~~~~~~~
-- API: https://api.rohub.org/api/
-- OpenAPI: https://api.rohub.org/api/swagger/
-- Redoc: https://api.rohub.org/api/redoc/
-- OAI-PMH endpoint:  https://api.rohub.org/api/oai2d/
-- SPARQL endpoint: https://rohub2020-api-virtuoso-route-rohub2020.apps.paas.psnc.pl/sparql/
-- Version: 2.1.81
+    - **API**: https://api.rohub.org/api/
+    - **OpenAPI**: https://api.rohub.org/api/swagger/
+    - **Redoc**: https://api.rohub.org/api/redoc/
+    - **OAI-PMH endpoint**:  https://api.rohub.org/api/oai2d/
+    - **SPARQL endpoint**: https://rohub2020-api-virtuoso-route-rohub2020.apps.paas.psnc.pl/sparql/
+    - **Version**: 2.1.81
 
 Python library
 ~~~~~~~~~~~~~~~~
-- Python library: https://reliance-eosc.github.io/ROHUB-API_documentation/html/README.html
-- API library documentation: https://reliance-eosc.github.io/ROHUB-API_documentation/html/index.html
-- API library example Jupyter Notebooks: https://github.com/RELIANCE-EOSC/sample-notebooks
-- Repository: https://github.com/oeg-upm/FAIR-Research-Object
-- License: MIT
+    - **Python library**: https://reliance-eosc.github.io/ROHUB-API_documentation/html/README.html
+    - **API library documentation**: https://reliance-eosc.github.io/ROHUB-API_documentation/html/index.html
+    - **API library example Jupyter Notebooks**: https://github.com/RELIANCE-EOSC/sample-notebooks
+    - **Repository**: https://github.com/oeg-upm/FAIR-Research-Object
+    - **License**: MIT
 
 support
 ~~~~~~~~
-- ROHub in EOSC: https://open-science-cloud.ec.europa.eu/resources/datasources/21.11166%2FBA1Ba2
-- Tutorial: https://reliance-eosc.github.io/ROHUB-API_documentation/html/tutorials.html
-- Training materials: https://www.reliance-project.eu/adopters/
-- Helpdesk: https://support.pcss.pl/servicedesk/customer/portal/27
-- support email: support@rohub.org
+    - **ROHub in EOSC**: https://open-science-cloud.ec.europa.eu/resources/datasources/21.11166%2FBA1Ba2
+    - **Tutorial**: https://reliance-eosc.github.io/ROHUB-API_documentation/html/tutorials.html
+    - **Training materias**: https://www.reliance-project.eu/adopters/
+    - **Helpdesk**: https://support.pcss.pl/servicedesk/customer/portal/27
+    - **support email**: support@rohub.org

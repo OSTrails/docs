@@ -57,14 +57,9 @@ The working group was established during the OSTrails project and brings togethe
 
 Relevant resources include:
 
-- **Specification repository**:
-  https://github.com/RDA-DMP-Common/common-madmp-api
-
-- **Issue tracker and discussions**:
-  https://github.com/RDA-DMP-Common/common-madmp-api/issues
-
-- **RDA Working Group page**:
-  https://www.rd-alliance.org/groups/common-application-programming-interface-api-for-machine-actionable-data-management-plans-madmps
+    - **Specification repository**: https://github.com/RDA-DMP-Common/common-madmp-api
+    - **Issue tracker and discussions**: https://github.com/RDA-DMP-Common/common-madmp-api/issues
+    - **RDA Working Group page**: https://www.rd-alliance.org/groups/common-application-programming-interface-api-for-machine-actionable-data-management-plans-madmps
 
 Documentation and versioning
 ----------------------------

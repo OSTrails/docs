@@ -11,5 +11,5 @@ This code can be deployed by anyone, or can be used as a template to guide indep
 Repositories
 ---------
 
-FAIR Champion Core FAIR Tests <https://github.com/wilkinsonlab/FAIR-Core-Tests>
-FAIR Champion OSTrails Pilots Community Tests <https://github.com/wilkinsonlab/Community-FAIR-Tests>
+    - **FAIR Champion Core FAIR Tests**: https://github.com/wilkinsonlab/FAIR-Core-Tests
+    - **FAIR Champion OSTrails Pilots Community Tests**: https://github.com/wilkinsonlab/Community-FAIR-Tests

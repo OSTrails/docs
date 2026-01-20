@@ -95,12 +95,12 @@ If your assessment component is a **FAIR Test**, this submission will also regis
 References
 ----------
 
-* `DCAT Vocabulary (W3C) <https://www.w3.org/TR/vocab-dcat-3/>`_
-* `FAIR Testing Resource (FTR) <https://ostrails.github.io/FAIR_testing_resource_vocabulary/release/1.2.0/index-en.html>`_
-* `DSW-TDK Github template repository <https://github.com/OSTrails/dsw-tdk-authoring-tool-template>`_
-* `Proxy service Github repository <https://github.com/pabloalarconm/proxy-service-authoring-tool>`_
-* `Proxy service endpoint <https://tools.ostrails.eu/questionnaire/docs>`_
-* `FAIRsharing API documentation <https://fairsharing.org/API_doc>`_
+    * `DCAT Vocabulary (W3C) <https://www.w3.org/TR/vocab-dcat-3/>`_
+    * `FAIR Testing Resource (FTR) <https://ostrails.github.io/FAIR_testing_resource_vocabulary/release/1.2.0/index-en.html>`_
+    * `DSW-TDK Github template repository <https://github.com/OSTrails/dsw-tdk-authoring-tool-template>`_
+    * `Proxy service Github repository <https://github.com/pabloalarconm/proxy-service-authoring-tool>`_
+    * `Proxy service endpoint <https://tools.ostrails.eu/questionnaire/docs>`_
+    * `FAIRsharing API documentation <https://fairsharing.org/API_doc>`_
 
 Contact us
 ----------

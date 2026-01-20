@@ -43,14 +43,9 @@ The RDA DMP Common Standard is developed and maintained by the community under t
 
 Relevant resources include:
 
-- **Specification repository**:
-  https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard
-
-- **Issue tracker and discussions**:
-  https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard/issues
-
-- **RDA Working Group page**:
-  https://www.rd-alliance.org/groups/dmp-common-standards-wg
+    - **Specification repository**: https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard
+    - **Issue tracker and discussions**: https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard/issues
+    - **RDA Working Group page**: https://www.rd-alliance.org/groups/dmp-common-standards-wg
 
 These channels are the authoritative venues for proposing changes, reporting issues, and discussing the evolution of the standard.
 

@@ -36,10 +36,10 @@ Guided Discovery and Re-use
 
 FAIRassist guides users to the benchmarks and metrics they need through a variety of routes, including:
 
-- the FAIR principles to which they relate,
-- subject area and research object type of interest,
-- associated organisations, and
-- the FAIR evaluation tools that implement them.
+- The FAIR principles to which they relate.
+- Subject area and research object type of interest.
+- Associated organisations.
+- The FAIR evaluation tools that implement them.
 
 The ecosystem of related resources is summarised and presented as tabular results, enabling further exploration and
 ultimately fostering component re-use.

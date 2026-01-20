@@ -7,13 +7,13 @@ Overview
 
 For links to OpenAPI documentation, implemented endpoints and examples of filter usage:
 
-`https://skg-if-staging.cessda.eu/ <https://skg-if-staging.cessda.eu/>`__
+    - `https://skg-if-staging.cessda.eu/ <https://skg-if-staging.cessda.eu/>`__
 
 Endpoints
 ---------
 
-* `https://skg-if-staging.cessda.eu/products <https://skg-if-staging.cessda.eu/products>`__ – Returns studies from the CESSDA Data Catalogue (CDC).
-* `https://skg-if-staging.cessda.eu/topics <https://skg-if-staging.cessda.eu/topics>`__ – Returns topics from the European Language Social Science Thesaurus (ELSST).
+    * `https://skg-if-staging.cessda.eu/products <https://skg-if-staging.cessda.eu/products>`__ – Returns studies from the CESSDA Data Catalogue (CDC).
+    * `https://skg-if-staging.cessda.eu/topics <https://skg-if-staging.cessda.eu/topics>`__ – Returns topics from the European Language Social Science Thesaurus (ELSST).
 
 Current Status
 --------------
