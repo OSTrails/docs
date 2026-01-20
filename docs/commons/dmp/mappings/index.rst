@@ -29,21 +29,26 @@ Creation Process
 The creation of maDMP mappings follows a collaborative workflow:
 
 1. **Select a traditional DMP template**
-   Identify the template to be converted into a machine-actionable format.
+
+   * Identify the template to be converted into a machine-actionable format.
 
 2. **Review standards and profiles**
-   Familiarize yourself with the RDA maDMP Common Standard and the OSTrails Application Profile. Review existing mappings (e.g., Science Europe template).
+
+   * Familiarize yourself with the RDA maDMP Common Standard and the OSTrails Application Profile. Review existing mappings (e.g., Science Europe template).
 
 3. **Draft the mapping**
+
    * Map sections and fields from the traditional template to maDMP components.
    * Define validation rules and controlled vocabularies (licenses, access levels, standards).
    * Request additions to the OSTrails AP if no corresponding field exists.
 
 4. **Test usability**
-   Validate the mapping with 3–5 real projects to ensure practical applicability.
+
+   * Validate the mapping with 3–5 real projects to ensure practical applicability.
 
 5. **Publish as commons**
-   The final mapping becomes part of the OSTrails commons and is available for reuse.
+
+   * The final mapping becomes part of the OSTrails commons and is available for reuse.
 
 
 Integration
