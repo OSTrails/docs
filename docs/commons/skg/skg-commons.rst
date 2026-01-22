@@ -1,6 +1,14 @@
 SKG Commons
 ============
 
+.. page-authors::
+    Andrea Mannocci
+    Paolo Manghi
+    Renaud Duyme
+    Menzo Windhower
+    Daan Broader
+
+
 The SKG Commons provide a common, reusable,
 extensible, and interoperable foundation for handling data exchange between Scholarly Knowledge Graph (SKG)
 interfaces across tools and services that implement the Scholarly Knowledge Graph Interoperability Framework (SKG-IF).
