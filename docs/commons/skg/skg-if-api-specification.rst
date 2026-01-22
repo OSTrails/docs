@@ -67,7 +67,7 @@ The SKG-IF OpenAPI specification is published as a machine-readable OpenAPI docu
     * Redocly Redoc: https://redocly.github.io/redoc/?url=https://skg-if.github.io/api/openapi/ver/current/skg-if-openapi.yaml
     * Swagger Editor https://editor-next.swagger.io with input https://skg-if.github.io/api/openapi/ver/current/skg-if-openapi.yaml
 
-Versioning follows a clear separation between the SKG-IF Data Model / JSON-LD context version (e.g., `https://w3id.org/skg-if/context/1.0.1/skg-if.json`), and the **SKG-IF OpenAPI version, using semantic versioning in `info.version` (e.g., `1.1.3`), with the rule that major versions of the data model and the OpenAPI should always match.
+Versioning follows a clear separation between the SKG-IF Data Model / JSON-LD context version (e.g., `https://w3id.org/skg-if/context/1.0.1/skg-if.json`), and the **SKG-IF OpenAPI** version, using semantic versioning in `info.version` (e.g., `1.1.3`), with the rule that major versions of the data model and the OpenAPI should always match.
 
 Examples:
 ---------

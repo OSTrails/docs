@@ -9,7 +9,7 @@ The repository reflects, primarily, the origin assessment platform that authored
 This code can be deployed by anyone, or can be used as a template to guide independent implementations of Tests.
 
 Repositories
----------
+-------------
 
     - **FAIR Champion Core FAIR Tests**: https://github.com/wilkinsonlab/FAIR-Core-Tests
     - **FAIR Champion OSTrails Pilots Community Tests**: https://github.com/wilkinsonlab/Community-FAIR-Tests

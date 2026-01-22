@@ -4,12 +4,12 @@ Mapping between SKG Interoperability Framework and RO-Crate
     Raul Palma
 
 
-**RO-crate** (https://w3id.org/ro/crate/1.2) is an open, community data package specification for describing all kinds of research data and related resources, within and outside the package, used and generated throughout the research process in alignment with the FAIR principles. 
-RO-Crates are rich structured metadata containers, providing a straightforward and lightweight implementation of FDOs, which are part of the long-term vision of EOSC.  
+**RO-crate** (https://w3id.org/ro/crate/1.2) is an open, community data package specification for describing all kinds of research data and related resources, within and outside the package, used and generated throughout the research process in alignment with the FAIR principles.
+RO-Crates are rich structured metadata containers, providing a straightforward and lightweight implementation of FDOs, which are part of the long-term vision of EOSC.
 The metadata, expressed in JSON-LD following the Linked Data approach,  describes the package and the aggregated research data entities like datasets, software, workflows, publications, as well as the associated contextual entities such as people, organizations, software and equipment, in a series of linked JSON-LD objects - using common published vocabularies, chiefly schema.org. 
 
-**The mapping between SKG-IF and RO-Crate** is intended for individuals who are familiar with RO-Crate specification, but new to SKG-IF. 
-The mapping is presented in the table below. 
+**The mapping between SKG-IF and RO-Crate** is intended for individuals who are familiar with RO-Crate specification, but new to SKG-IF.
+The mapping is presented in the table below.
 
 
 +---------------------------+----------------------------------------+----------------------------------+-------------------------------------+----------+----------------------------------------------+
@@ -110,7 +110,7 @@ The mapping is presented in the table below.
 +---------------------------+----------------------------------------+----------------------------------+-------------------------------------+----------+----------------------------------------------+
 |                           |                                        | datacite:usesIdentifierScheme    | scheme                              | Property | orcid/email (extension)                      |
 +---------------------------+----------------------------------------+----------------------------------+-------------------------------------+----------+----------------------------------------------+
-|                           |  https://w3id.org/dingo#orcid or       | literal:hasLiteralValue          | value                               | Property |                                              |
+|                           | https://w3id.org/dingo#orcid or        | literal:hasLiteralValue          | value                               | Property |                                              |
 |                           | schema:email                           |                                  |                                     |          |                                              |
 +---------------------------+----------------------------------------+----------------------------------+-------------------------------------+----------+----------------------------------------------+
 | Publisher/copyrightholder |                                        |                                  |                                     |          |                                              |
