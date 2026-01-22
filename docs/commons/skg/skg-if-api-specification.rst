@@ -50,11 +50,11 @@ The SKG-IF OpenAPI specification is developed and maintained collaboratively wit
 
 Relevant community resources include:
 
-* SKG-IF OpenAPI YAML (“current” dev version): https://skg-if.github.io/api/openapi/ver/current/skg-if-openapi.yaml
-* GitHub source (current): https://raw.githubusercontent.com/skg-if/api/refs/heads/main/openapi/ver/current/skg-if-openapi.yaml
-* Permanent alias for the current version: https://w3id.org/skg-if/api/skg-if-openapi.yaml
-* General API repository:  https://github.com/skg-if/api
-+ RDA SKG-IF WG and implementer channel on Discord.
+    * SKG-IF OpenAPI YAML (“current” dev version): https://skg-if.github.io/api/openapi/ver/current/skg-if-openapi.yaml
+    * GitHub source (current): https://raw.githubusercontent.com/skg-if/api/refs/heads/main/openapi/ver/current/skg-if-openapi.yaml
+    * Permanent alias for the current version: https://w3id.org/skg-if/api/skg-if-openapi.yaml
+    * General API repository:  https://github.com/skg-if/api
+    * RDA SKG-IF WG and implementer channel on Discord.
 
 These venues are the authoritative places to report issues, discuss design choices (e.g., filter grammar, JSON-LD options, authentication strategies), and propose enhancements.
 
@@ -63,19 +63,19 @@ Documentation and versioning
 
 The SKG-IF OpenAPI specification is published as a machine-readable OpenAPI document and can be explored through multiple viewers:
 
-* Stoplight Elements: https://elements-demo.stoplight.io/?spec=https://skg-if.github.io/api/openapi/ver/current/skg-if-openapi.yaml
-* Redocly Redoc: https://redocly.github.io/redoc/?url=https://skg-if.github.io/api/openapi/ver/current/skg-if-openapi.yaml
-* Swagger Editor https://editor-next.swagger.io with input https://skg-if.github.io/api/openapi/ver/current/skg-if-openapi.yaml
+    * Stoplight Elements: https://elements-demo.stoplight.io/?spec=https://skg-if.github.io/api/openapi/ver/current/skg-if-openapi.yaml
+    * Redocly Redoc: https://redocly.github.io/redoc/?url=https://skg-if.github.io/api/openapi/ver/current/skg-if-openapi.yaml
+    * Swagger Editor https://editor-next.swagger.io with input https://skg-if.github.io/api/openapi/ver/current/skg-if-openapi.yaml
 
 Versioning follows a clear separation between the SKG-IF Data Model / JSON-LD context version (e.g., `https://w3id.org/skg-if/context/1.0.1/skg-if.json`), and the **SKG-IF OpenAPI version, using semantic versioning in `info.version` (e.g., `1.1.3`), with the rule that major versions of the data model and the OpenAPI should always match.
 
 Examples:
 ---------
 
-* Official released OpenAPI version: https://github.com/skg-if/api/openapi/ver/1.1.3/skg-if-openapi.yaml
-* Permanent URL:  https://w3id.org/skg-if/api/1.1.3/skg-if-openapi.yaml
-* Data Model / context versions:  https://w3id.org/skg-if/context/1.0.0/skg-if.json, and https://w3id.org/skg-if/context/1.0.1/skg-if.json
-* Current alias: https://w3id.org/skg-if/context/skg-if.json
+    * Official released OpenAPI version: https://github.com/skg-if/api/openapi/ver/1.1.3/skg-if-openapi.yaml
+    * Permanent URL:  https://w3id.org/skg-if/api/1.1.3/skg-if-openapi.yaml
+    * Data Model / context versions:  https://w3id.org/skg-if/context/1.0.0/skg-if.json, and https://w3id.org/skg-if/context/1.0.1/skg-if.json
+    * Current alias: https://w3id.org/skg-if/context/skg-if.json
 
 The specification evolves iteratively, incorporating feedback from real-world implementations (e.g., on filters, extensions, missing fields, JSON-LD behaviour). Future versions aim to maintain compatibility with the SKG-IF Data Model while providing a stable yet extensible API surface for the SKG Commons.
 

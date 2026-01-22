@@ -39,13 +39,9 @@ of this activity is either a ``TestResult`` or a ``TestResultSet``.
 Specification
 -------------
 
-The full FAIR Testing Resource Vocabulary (FTR) 1.2.0 is specified here:
+    * The full FAIR Testing Resource Vocabulary (FTR) 1.2.0 is specified here: https://w3id.org/ftr/1.2.0
 
-* https://w3id.org/ftr/1.2.0
-
-You can also explore the GitHub repository for additional content:
-
-* https://github.com/OSTrails/FAIR_assessment_output_specification/
+    * You can also explore the GitHub repository for additional content: https://github.com/OSTrails/FAIR_assessment_output_specification/
 
 
 FAIR assessment validation

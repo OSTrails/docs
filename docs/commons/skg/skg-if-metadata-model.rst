@@ -18,12 +18,12 @@ The SKG-IF Core Data Model is implemented as an OWL ontology, the SKG-IF Ontolog
 
 SKG-O is structured into six ontological modules, one for each SKG-IF entity type, all formally imported into the main ontology:
 
-- **SKG-O**: agent – https://w3id.org/skg-if/ontology/agent/
-- **SKG-O**: data-source – https://w3id.org/skg-if/ontology/data-source/
-- **SKG-O**: grant – https://w3id.org/skg-if/ontology/grant/
-- **SKG-O**: research-product – https://w3id.org/skg-if/ontology/research-product/
-- **SKG-O**: topic – https://w3id.org/skg-if/ontology/topic/
-- **SKG-O**: venue – https://w3id.org/skg-if/ontology/venue/
+    - **SKG-O**: agent – https://w3id.org/skg-if/ontology/agent/
+    - **SKG-O**: data-source – https://w3id.org/skg-if/ontology/data-source/
+    - **SKG-O**: grant – https://w3id.org/skg-if/ontology/grant/
+    - **SKG-O**: research-product – https://w3id.org/skg-if/ontology/research-product/
+    - **SKG-O**: topic – https://w3id.org/skg-if/ontology/topic/
+    - **SKG-O**: venue – https://w3id.org/skg-if/ontology/venue/
 
 Version and usage
 ------------------
