@@ -17,7 +17,9 @@ The backend exposes a comprehensive REST API, which can be used by different app
 The user interfaces, include a reference Web Portal and a Python library.
 The ROHub portal provides a comprehensive user interface for the management and preservation of research objects, while the Python library works on top of the ROHub backend REST API, wrapping and abstracting the REST methods in user-friendly API methods that can be used, for instance, via Jupyter Notebooks.
 Additionally, various external services are integrated or leverated in ROHub, including RO added value services as well as various EOSC services.
+
 These include:
+
 - Semantic enrichment and recommendation plus a set of extended analytic services.  The former generate structured machine-readable metadata about the content of a research object including the main concepts and phrases, the entities and their type, and topical information from domains according to the Expert.ai linguistic knowledge graph, and generate recommendations based on the discovered metadata. The latter include the challenge and solution extraction, the Question Generation service, the claim analysis service, and the novelty scoring service
 - Checklist service: provides access to the minim-based checklist evaluation of research objects, used to assess their quality for different purposes, e.g., completeness, accessibility or ready to release, and according to the needs of a particular community or application.
 - Quality monitoring service: enables the evaluation of the RO through time by capturing discrete values provided by the checklist service in different moments of its evolution.
