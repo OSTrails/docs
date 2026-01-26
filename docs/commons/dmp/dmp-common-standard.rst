@@ -15,7 +15,7 @@ Version and usage
 
 The DMP Commons currently build on **version 1.2** of the RDA DMP Common Standard:
 
-- https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard/tree/v1.2
+    - **RDA DMP Common Standard**: https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard/tree/v1.2
 
 This version serves as the **foundational layer** for the DMP Commons and is used as the base model for higher-level specifications: :doc:`OSTrails Application Profile <application-profile>` and then :doc:`API specification <madmp-api-specification>`. All extensions and constraints introduced by the DMP Commons are defined as additions on top of this common core, ensuring compatibility with the RDA standard.
 

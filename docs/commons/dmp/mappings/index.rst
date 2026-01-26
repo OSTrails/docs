@@ -67,6 +67,7 @@ This work must be done by respective tool owners. The mappings are the relevant 
 Mappings
 -----------
 Here we present the mappings identified for common DMP templates used across countries and thematic clusters.
+We will add more mappings as we progress with the review.
 
 .. toctree::
     :maxdepth: 1
