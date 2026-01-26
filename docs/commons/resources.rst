@@ -2,6 +2,7 @@ OSTrails Commons: Resources
 ===========================
 
 .. page-authors::
+    Tomasz Miksa
     Daniel Garijo
     Marek Suchánek
     Allyson Lister
@@ -15,13 +16,8 @@ The following resources in this section are part of the DMP Commons component.
 
 .. toctree::
     :maxdepth: 1
-    :caption: Commons Resources
+    :caption: Commons
 
     DMP Commons <dmp/dmp-commons.rst>
     SKG Commons <skg/skg-commons.rst>
     FAIR Commons <FAIR/FAIR-commons.rst>
-
-Cross-Cutting and Supporting Resources
---------------------------------------
-
-*(No resources yet in this component.)*
