@@ -28,7 +28,10 @@ The documentation is structured as follows:
 
     Introduction <commons/intro>
     Governance <commons/governance>
-    Resources <commons/resources>
+    DMP Commons <commons/dmp/dmp-commons.rst>
+    SKG Commons <commons/skg/skg-commons.rst>
+    FAIR Commons <commons/FAIR/FAIR-commons.rst>
+
 
 .. toctree::
     :maxdepth: 4
