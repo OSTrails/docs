@@ -15,6 +15,4 @@ The following resources in this section are part of the FAIR Tools component.
     FAIRsharing <FAIR_tools/FAIRsharing>
     FAIR Assessment Authoring Tool <FAIR_tools/FAIR-Assessment-Authoring-Tool>
     FAIR Validator <FAIR_tools/FAIR-Validator>
-    Catalogue of Benchmark Scoring Algorithms <FAIR_tools/Catalogue-of-Benchmark-Scoring-Algorithms>
-    Catalogue of Benchmarks and Metrics <FAIR_tools/Catalogue-of-Benchmarks>
-    Catalogue of Tests <FAIR_tools/Catalogue-of-Tests>
+
