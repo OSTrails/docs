@@ -5,6 +5,20 @@ Marek Suchánek:
   orcid: 0000-0001-7525-9218
   affiliation: CTU in Prague
 
+Jana Martínková:
+  first_name: Jana
+  last_name: Martínková
+  github: jmartinkova
+  orcid: 0000-0001-8575-6533
+  affiliation: CTU in Prague
+
+Vojtěch Knaisl:
+  first_name: Vojtěch
+  last_name: Knaisl
+  github: vknaisl
+  orcid: 0000-0003-0103-8468
+  affiliation: Codevence Solutions
+
 Daniel Garijo:
   first_name: Daniel
   last_name: Garijo
@@ -39,3 +53,69 @@ Allyson Lister:
   github: allysonlister
   orcid: 0000-0002-7702-4495
   affiliation: University of Oxford
+
+Raul Palma:
+  first_name: Raul
+  last_name: Palma
+  github: rapw3k
+  orcid: 0000-0003-4289-4922
+  affiliation: Poznan Supercomputing and Networking Center
+
+Katja Moilanen:
+  first_name: Katja
+  last_name: Moilanen
+  github: katja-moilanen
+  orcid: 0000-0002-7668-5427
+  affiliation: TAU-FSD/CESSDA
+
+Andrea Mannocci:
+  first_name: Andrea
+  last_name: Mannocci
+  github: andremann
+  orcid: 0000-0002-5193-7851
+  affiliation: CNR-ISTI
+
+Paolo Manghi:
+  first_name: Paolo
+  last_name: Manghi
+  github: paolomanghi
+  orcid: 0000-0001-7291-3210
+  affiliation: CNR-ISTI
+
+Miriam Baglioni:
+  first_name: Miriam
+  last_name: baglioni
+  github: mirima2
+  orcid: 0000-0002-2273-9004
+  affiliation: CNR-ISTI
+
+Pablo Alarcón-Moreno:
+  first_name: Pablo
+  last_name: Alarcón-Moreno
+  github: pabloalarconm
+  orcid: 0000-0001-5974-589X
+  affiliation: Universidad Politécnica de Madrid
+
+Renaud Duyme:
+  first_name: Renaud
+  last_name: Duyme
+  github: rduyme
+  affiliation: ESFR
+
+Andres Tabima:
+  first_name: Andres
+  last_name: Tabima
+  github: andresTabiTuwien
+  orcid: 0009-0002-4848-5089
+  affiliation: TU Wien
+
+Menzo Windhower:
+  first_name: Menzo
+  last_name: Windhowe
+  orcid: 0000-0002-2204-4018
+  affiliation: KNAW
+
+Daan Broader:
+  first_name: Daan
+  last_name: Broader
+  affiliation: KNAW

@@ -43,9 +43,10 @@ First, install the required dependencies (preferably in a virtual environment):
 ```bash
 python -m venv venv
 source venv/bin/activate
-
 pip install -r requirements.txt
 ```
+
+**Note**: To activate the env on Windows, run in cmd: `venv\Scripts\activate.bat`.
 
 Then, you can build the documentation using the following command:
 
