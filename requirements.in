@@ -1,0 +1,8 @@
+# requirements.in
+# This file lists the direct dependencies for the project:
+Sphinx
+sphinx-copybutton
+sphinxcontrib-bibtex
+sphinxcontrib-openapi
+
+furo
