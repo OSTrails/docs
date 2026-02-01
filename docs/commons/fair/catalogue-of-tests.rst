@@ -13,7 +13,7 @@ This repository is built on top of the **FAIR Data Point (FDP)**, a
 software framework maintained by the
 `FAIRDataTeam <https://github.com/FAIRDataTeam>`_.
 
-.. figure:: Test-Algorithm-Registry.png
+.. figure:: test-algorithm-registry.png
     :alt: Test Algorithm Registry
     :align: center
 

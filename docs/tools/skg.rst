@@ -10,6 +10,6 @@ The following resources in this section are part of the SKG Tools component.
     :maxdepth: 1
     :titlesonly:
 
-    OpenAIRE Graph SKG-IF API <SKG_tools/openaire>
-    RO-HUB SKG-IF API <SKG_tools/rohub>
-    CESSDA SKG-IF API <SKG_tools/cessda>
+    OpenAIRE Graph SKG-IF API <skg/openaire>
+    RO-HUB SKG-IF API <skg/rohub>
+    CESSDA SKG-IF API <skg/cessda>

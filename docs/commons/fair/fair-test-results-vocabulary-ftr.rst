@@ -32,7 +32,7 @@ of this activity is either a ``TestResult`` or a ``TestResultSet``.
 
 ----
 
-.. figure:: FAIRTestResult_diagram_v12.drawio.png
+.. figure:: fair-test-results-diagram-v12.png
     :alt: FAIR Testing Resource Vocabulary (FTR)
     :target: https://github.com/OSTrails/FAIR_testing_resource_vocabulary
 

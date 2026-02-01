@@ -17,7 +17,7 @@ The OpenAIRE Graph employs a comprehensive data model that encapsulates a divers
 
 The graph not only represents these entities but also illustrates the relationships between them. This interconnectedness allows users to explore citations, collaborations, project affiliations, and software dependencies among a vast network of research products.
 
-.. figure:: SKG-OpenAIRE-Graph.png
+.. figure:: openaire-graph.png
     :alt: SKG OpenAIRE Graph
     :align: center
 
