@@ -73,5 +73,5 @@ We will add more mappings as we progress with the review.
     :maxdepth: 1
     :titlesonly:
 
-    Science Europe maDMP mapping <Science-Europe-maDMP-mapping>
-    Austrian FWF – maDMP mapping <Austrian-FWF–maDMP-mapping>
+    Science Europe maDMP mapping <science-europe>
+    Austrian FWF – maDMP mapping <austrian-fwf>
