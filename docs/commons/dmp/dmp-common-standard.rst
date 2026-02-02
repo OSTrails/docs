@@ -30,7 +30,7 @@ Within the DMP Commons, the RDA DMP Common Standard:
 
 The standard intentionally avoids domain-specific requirements or policy-driven constraints. Such specializations are addressed at higher layers (e.g. application profiles), allowing the common standard to remain stable and broadly applicable.
 
-.. figure:: https://raw.githubusercontent.com/RDA-DMP-Common/RDA-DMP-Common-Standard/refs/tags/v1.2/docs/diagrams/maDMP-diagram.png
+.. figure:: maDMP-diagram-v1.2.png
     :alt: RDA DMP Common Standard for maDMPs v1.2
     :target: https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard/tree/v1.2
 
