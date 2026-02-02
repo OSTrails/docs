@@ -16,7 +16,7 @@ In addition, DMP Commons are relevant for data stewards and other stakeholders w
 
 The Commons are built as a **layered framework** consisting of a common data model, an OSTrails (i.e. Europe/EOSC) -specific application profile, and a standard API. Together, these layers enable consistent interpretation of DMP content and predictable interactions between services, regardless of their internal architectures. This approach allows platforms to evolve independently while remaining interoperable at the boundaries. In addition, we provide `maDMP mappings <mappings/index>`_ to support the development of application profiles and to align DMP information with external standards and domain models.
 
-.. figure:: ostrails_dmp-commons.png
+.. figure:: dmp-commons.png
     :alt: DMP Commons Layers
     :align: center
     :scale: 60%
