@@ -22,9 +22,9 @@ software framework maintained by the
 
 The FDP index includes descriptions of test records from multiple
 assessment tools, such as
-`FAIR Champion </docs/docs/tools/FAIR_tools/FAIR-Champion.rst>`_
+:ref:`FAIR Champion <tool-fair-champion>`
 and
-`FOOPS </docs/docs/tools/FAIR_tools/FOOPS.rst>`_.
+:ref:`FOOPS <tool-foops>`.
 
 Registering a Test in the Catalogue
 -----------------------------------
@@ -64,4 +64,4 @@ registers the record in the FDP-based OSTrails index: https://tools.ostrails.eu/
 
 The FAIR Assessment Authoring Tool is available at: https://ostrails-fair.fair-wizard.com/wizard/dashboard
 
-All its documentation is available `here </docs/docs/tools/FAIR_tools/FAIR-Assessment-Authoring-Tool.rst>`_
+All its documentation is available :ref:`here <tool-fair-assessment-authoring-tool>`

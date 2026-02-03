@@ -1,3 +1,5 @@
+.. _tool-fair-assessment-authoring-tool:
+
 FAIR Assessment Authoring Tool
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

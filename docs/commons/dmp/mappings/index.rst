@@ -1,3 +1,5 @@
+.. _dmp-mappings:
+
 maDMP Mappings
 ==============
 

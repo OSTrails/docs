@@ -6,7 +6,7 @@
 
 ## Usage
 
-This repository contains the source files for the OSTrails documentation. The documentation is hosted on Read-the-Docs and can be accessed (only for this branch) [here](https://docs.ostrails.eu/en/latest/commons/intro.html).
+This repository contains the source files for the OSTrails documentation. The documentation is hosted on Read-the-Docs and can be accessed  [here](https://docs.ostrails.eu).
 
 ## Contributing
 
