@@ -16,6 +16,18 @@ If you find a bug in the documentation, please [open an issue](https://github.co
 
 The documentation is hosted on Read-the-Docs and using standard Sphinx documentation. The documentation is written in reStructuredText (`.rst`) format. It can be compiled locally using Sphinx and viewed in a web browser.
 
+### File Naming Convention
+
+While it may not be clear at first, naming of documentation files is important for clarity and organization. It is also directly reflected in the URLs of the hosted documentation. Please follow these conventions when naming documentation files:
+
+- Use lowercase letters.
+- Use hyphens (`-`) to separate words. Do not use underscores (`_`).
+- Avoid using special characters or spaces.
+- Use descriptive names that reflect the content of the file.
+- Do not change names of existing files unless absolutely necessary, as this may break links.
+
+Adhering to these conventions will help maintain a consistent and organized documentation structure.
+
 ### Writing Style
 
 When contributing to the documentation, please follow the following writing style:
@@ -43,9 +55,10 @@ First, install the required dependencies (preferably in a virtual environment):
 ```bash
 python -m venv venv
 source venv/bin/activate
-
 pip install -r requirements.txt
 ```
+
+**Note**: To activate the env on Windows, run in cmd: `venv\Scripts\activate.bat`.
 
 Then, you can build the documentation using the following command:
 

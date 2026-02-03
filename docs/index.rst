@@ -13,26 +13,37 @@ Documentation Structure
 The documentation is structured as follows:
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 4
     :caption: Architecture
 
     Introduction <architecture/intro>
-    DMP IF <architecture/dmp_if>
-    SKG IF <architecture/skg_if>
-    FAIR IF <architecture/fair_if>
+    DMP IF <architecture/dmp-if>
+    SKG IF <architecture/skg-if>
+    FAIR IF <architecture/fair-if>
 
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 4
     :caption: Commons
 
     Introduction <commons/intro>
     Governance <commons/governance>
-    Resources <commons/resources>
+    DMP Commons <commons/dmp/dmp-commons.rst>
+    SKG Commons <commons/skg/skg-commons.rst>
+    FAIR Commons <commons/fair/fair-commons.rst>
 
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 4
+    :caption: Tools
+
+    FAIR Tools <tools/fair>
+    DMP Tools <tools/dmp>
+    SKG Tools <tools/skg>
+
+
+.. toctree::
+    :maxdepth: 4
     :caption: Other
 
     other/vocabulary

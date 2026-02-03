@@ -11,7 +11,7 @@ A key objective of this architecture is to prevent vendor lock-in, ensuring tool
 
 The architecture also supports both current well-known and potential future patterns of interactions between components, fostering innovative use cases that enhance automation and machine-actionability of digital object information exchange. For example, while it is yet uncommon for data repositories to update DMPs, the architecture anticipates and accommodates such potential pathways.
 
-.. figure:: OSTrails-architecture.png
+.. figure:: ostrails-reference-architecture.png
 
     OSTrails Architecture
 

@@ -14,6 +14,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent / '_ext'))
 project = 'OSTrails'
 release = '0.1.0'
 
+master_doc = 'index'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
