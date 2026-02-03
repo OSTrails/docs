@@ -1,3 +1,5 @@
+.. _tool-fair-champion:
+
 FAIR Champion
 ^^^^^^^^^^^^^
 
