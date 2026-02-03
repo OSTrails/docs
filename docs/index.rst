@@ -17,9 +17,9 @@ The documentation is structured as follows:
     :caption: Architecture
 
     Introduction <architecture/intro>
-    DMP IF <architecture/dmp_if>
-    SKG IF <architecture/skg_if>
-    FAIR IF <architecture/fair_if>
+    DMP IF <architecture/dmp-if>
+    SKG IF <architecture/skg-if>
+    FAIR IF <architecture/fair-if>
 
 
 .. toctree::
@@ -30,16 +30,17 @@ The documentation is structured as follows:
     Governance <commons/governance>
     DMP Commons <commons/dmp/dmp-commons.rst>
     SKG Commons <commons/skg/skg-commons.rst>
-    FAIR Commons <commons/FAIR/FAIR-commons.rst>
+    FAIR Commons <commons/fair/fair-commons.rst>
 
 
 .. toctree::
     :maxdepth: 4
     :caption: Tools
 
-    FAIR Tools <tools/FAIR>
-    DMP Tools <tools/DMP>
-    SKG Tools <tools/SKG>
+    FAIR Tools <tools/fair>
+    DMP Tools <tools/dmp>
+    SKG Tools <tools/skg>
+
 
 .. toctree::
     :maxdepth: 4

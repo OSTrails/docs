@@ -13,11 +13,11 @@ The following resources in this section are part of the FAIR Commons component.
     :maxdepth: 1
     :titlesonly:
 
-    Guidance Element Specification <Guidance-Element-Specification>
-    FAIR Test Results Vocabulary (FTR) <FAIR-Test-Results-Vocabulary-FTR>
-    Assessment Recommended API <Assessment-Recommended-API>
-    Catalogue of Benchmarks and Metrics <Catalogue-of-Benchmarks>
-    Catalogue of Tests <Catalogue-of-Tests>
-    Catalogue of Benchmark Scoring Algorithms <Catalogue-of-Benchmark-Scoring-Algorithms>
-    Code of Shared Tests <Shared-Tests>
+    Guidance Element Specification <guidance-element-specification>
+    FAIR Test Results Vocabulary (FTR) <fair-test-results-vocabulary-ftr>
+    Assessment Recommended API <assessment-recommended-api>
+    Catalogue of Benchmarks and Metrics <catalogue-of-benchmarks>
+    Catalogue of Tests <catalogue-of-tests>
+    Catalogue of Benchmark Scoring Algorithms <catalogue-of-benchmark-scoring-algorithms>
+    Code of Shared Tests <shared-tests>
 

@@ -44,3 +44,41 @@ jobs:
         run: |
           flake8 docs --count --select=E9,F63,F7,F82 --show-source --statistics
           flake8 docs --count --max-complexity=12 --max-line-length=130 --statistics
+
+  file-naming:
+    name: File Naming Convention
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Check docs file naming
+        run: |
+          echo "Checking documentation filenames…"
+
+          invalid_files=$(find docs \
+            -type f \( \
+              -name "*.rst" \
+              -o -name "*.png" \
+              -o -name "*.jpg" \
+              -o -name "*.jpeg" \
+              -o -name "*.svg" \
+              -o -name "*.gif" \
+              -o -name "*.tiff" \
+            \) \
+            | grep -Ev '^docs/_(static|templates)/' \
+            | grep -E '[A-Z_]' || true)
+
+          if [ -n "$invalid_files" ]; then
+            echo "❌ Invalid documentation filenames found:"
+            echo "$invalid_files"
+            echo ""
+            echo "Rules:"
+            echo "  - lowercase only"
+            echo "  - use '-' as separator"
+            echo "  - no underscores '_'"
+            echo "  - exception: docs/_static/** and docs/_templates/**"
+            exit 1
+          fi
+
+          echo "✅ Documentation filenames look good."

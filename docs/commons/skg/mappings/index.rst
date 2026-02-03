@@ -43,7 +43,6 @@ Below, we list SKG mappings defined for commonly used scholarly metadata sources
    :maxdepth: 1
    :titlesonly:
 
-   DDI SKG-IF mapping <Mapping-SKGIF-DDI>
-   RO-Crate SKG-IF mapping <Mapping-SKGIF-RO-Crate>
-   OpenAIRE Graph SKG-IF mapping <Mapping-SKGIF-OpenAIRE>
-
+   DDI SKG-IF mapping <ddi>
+   RO-Crate SKG-IF mapping <ro-crate>
+   OpenAIRE Graph SKG-IF mapping <openaire-graph>
