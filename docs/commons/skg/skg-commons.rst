@@ -5,8 +5,8 @@ SKG Commons
     Andrea Mannocci
     Paolo Manghi
     Renaud Duyme
-    Menzo Windhower
-    Daan Broader
+    Menzo Windhouwer
+    Daan Broeder
 
 
 The SKG Commons provide a common, reusable,
@@ -19,7 +19,7 @@ The Commons are organised as a framework composed of a shared core data model, S
 standard APIs, and shared mappings from local platform models onto the SKG-IF:
 
 - **RDA SKG-IF Core Data Model**: The base model that captures the key SKG entities, relationships, and constraints in a machine-actionable form.
-- **SKG-IF Extensions**: Community- or domain-specific specialisations of the core model that add entities, fields, and constraints to meet particular interoperability and policy requirements.
+- **SKG-IF Extensions**: Community- or domain-specific specialisations of the core model that adapt or add new entities, fields, and constraints to meet particular interoperability and policy requirements.
 - **SKG Commons API Specifications**: Standardised APIs for programmatic access to SKG data across platforms, built on the core model and designed to work with the defined application profiles.
 - **SKG mappings**: data model mappings between SKG-IF and external vocabularies, schemas, and domain models, facilitating the creation of application profiles and the alignment of SKG information with existing standards.
 
@@ -31,9 +31,9 @@ The SKG Commons follow a community-driven, evolutionary approach, meaning they a
 
 Contribution and future evolution
 ----------------------------------
-The SKG Commons actively collaborate with and contributes to the further development of the SKG-IF Core Data Model and SKG-O.
+The SKG Commons actively collaborate with and contributes to the further development of the SKG-IF Core Data Model and SKG-O. 
 
-This contribution is informed by practical implementation experience with SKG-IF Extensions, JSON-LD contexts, SHACL validation, and the SKG Commons APIs, as well as by identifying gaps or ambiguities that hinder interoperability across infrastructures, domains, or regions.
+Project members delivering the commons participate in the RDA SKG-IF WG and contrbute their specific community expertise and views wrt modelling the research domain and technical solutions. This contribution is informed by practical implementation experience with SKG-IF Extensions, JSON-LD contexts, SHACL validation, and the SKG Commons APIs, as well as by identifying gaps or ambiguities that hinder interoperability across infrastructures, domains, or regions.
 
 Proposed enhancements are not limited to a particular platform or geography; they aim to strengthen SKG-IF for the broader international community and future versions of the framework. As SKG-IF evolves, the SKG Commons will track and adopt new versions, preserving continuity while enabling incremental uptake of improvements.
 
