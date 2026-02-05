@@ -5,21 +5,21 @@ SKG Commons
     Andrea Mannocci
     Paolo Manghi
     Renaud Duyme
-    Menzo Windhower
-    Daan Broader
+    Menzo Windhouwer
+    Daan Broeder
 
 
 The SKG Commons provide a common, reusable,
 extensible, and interoperable foundation for handling data exchange between Scholarly Knowledge Graph (SKG)
 interfaces across tools and services that implement the Scholarly Knowledge Graph Interoperability Framework (SKG-IF).
 They specify how SKG information is modelled, constrained, and exchanged,
-while remaining neutral regarding the internal design or implementation of individual systems. The main audience for the SKG Commons consists of software developers who build services to create, manage, or consume SKGs. This includes SKG providers (e.g., OpenAIRE Graph, OpenCitations), other services that manage scholarly metadata and wish to expose interoperable interfaces (e.g., FAIRSharing, RO-Hub), and services that want to integrate with such platforms, as described in the OSTrails Architecture and Pathways.
+while remaining neutral regarding the internal design or implementation of individual systems. The main audience for the SKG Commons consists of software developers who build services to create, manage, or consume SKGs. This includes SKG providers (e.g., OpenAIRE Graph, OpenCitations), other services that manage scholarly metadata and wish to expose interoperable interfaces (e.g., FAIRSharing, RO-Hub and thematic rich metadata repositories), and services that want to integrate with such platforms, as described in the OSTrails Architecture and Pathways.
 
 The Commons are organised as a framework composed of a shared core data model, SKG-IF community extensions to that model,
 standard APIs, and shared mappings from local platform models onto the SKG-IF:
 
 - **RDA SKG-IF Core Data Model**: The base model that captures the key SKG entities, relationships, and constraints in a machine-actionable form.
-- **SKG-IF Extensions**: Community- or domain-specific specialisations of the core model that add entities, fields, and constraints to meet particular interoperability and policy requirements.
+- **SKG-IF Extensions**: Community- or domain-specific specialisations of the core model that modify or add new entities, fields, and constraints to meet particular interoperability and policy requirements.
 - **SKG Commons API Specifications**: Standardised APIs for programmatic access to SKG data across platforms, built on the core model and designed to work with the defined application profiles.
 - **SKG mappings**: data model mappings between SKG-IF and external vocabularies, schemas, and domain models, facilitating the creation of application profiles and the alignment of SKG information with existing standards.
 
