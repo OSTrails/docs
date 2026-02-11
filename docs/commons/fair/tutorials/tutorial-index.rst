@@ -17,7 +17,7 @@ The following list in this section are part of the tutorials documentation.
     How to define and run a scoring algorithm <define-run-scoring-algorithm>
     How to create a benchmark <create-benchmark>
     How to create a metric <create-metric>
-    How to know what are the tests in the CESSDA benchmark <discover-test-CESSDA-benchmark>
+    How to know what are the tests in the CESSDA benchmark <discover-test-cessda-benchmark>
     How to register and curate a metric in FS <register-curate-metric-fs>
     How create a test (service) following the FTR API <create-test-following-ftr>
     How register a test <register-test>
