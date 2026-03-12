@@ -1,7 +1,7 @@
 .. _tutorial_create_metric_tests:
 
 How to create a test (service) following the FTR API
-===================================================
+====================================================
 
 Benchmark Assessment Algorithms rely on **FAIR Metric Tests**.
 

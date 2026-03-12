@@ -200,7 +200,7 @@ Step 5 – Run assessments on multiple objects
 To run assessments on multiple digital objects you can use the
 **benchmark runner** application.
 
-1. Clone the repository:
+1. Clone the repository::
 
    https://github.com/cessda/cessda.cmv.benchmark-runner
 
