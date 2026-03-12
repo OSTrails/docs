@@ -201,19 +201,16 @@ To run assessments on multiple digital objects you can use the
 **benchmark runner** application.
 
 1. Clone the repository::
-
-https://github.com/cessda/cessda.cmv.benchmark-runner
+   https://github.com/cessda/cessda.cmv.benchmark-runner
 
 2. Build the application::
-
-mvn compile
+   mvn compile
 
 3. Edit the ``guids.txt`` file so that it contains the GUIDs of the
    digital objects to be assessed.
 
 4. Run the application using::
-
-mvn exec:java -Dexec.args=<algorithm-URL>
+   mvn exec:java -Dexec.args=<algorithm-URL>
 
 where ``<algorithm-URL>`` is the URL of your registered Benchmark
 algorithm.
