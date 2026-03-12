@@ -1,4 +1,4 @@
-.. tutorial_create_metric_tests:
+.. _tutorial_create_metric_tests:
 
 How to create a test (service) following the FTR API
 ===================================================
