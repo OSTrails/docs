@@ -19,8 +19,7 @@ The following list in this section are part of the tutorials documentation.
     How to create a metric <create-metric>
     How to know what are the tests in the CESSDA benchmark <discover-test-cessda-benchmark>
     How to register and curate a metric in FS <register-curate-metric-fs>
-    How create a test (service) following the FTR API <create-test-following-ftr>
-    How register a test <register-test>
+    How to Create and Register a Test following the FTR API <create-test-following-ftr>
     How host/deploy a test <host-deploy-test>
     As a fair assessment developer, how comply to FTR spec to interoperate with others <how-comply-ftr>
     How have others use my metrics <others-use-my-metrics>
