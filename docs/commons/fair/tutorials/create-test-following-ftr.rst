@@ -1,7 +1,7 @@
 .. _tutorial_create_metric_tests:
 
 How to Create and Register a Test following the FTR API
-====================================================
+=======================================================
 
 Benchmark Assessment Algorithms rely on **FAIR Metric Tests**.
 
@@ -29,7 +29,7 @@ A test has three main components.
 .. _creating_metric_test:
 
 Creating a new Test Implementation
--------------------------------
+----------------------------------
 Tests can be written in any programming language provided they:
 
 * either:
@@ -40,7 +40,7 @@ Tests can be written in any programming language provided they:
 
 
 Creating and Registering a new FAIR Metric Test DCAT Record
--------------------------------
+-----------------------------------------------------------
 
 Tests used with the OSTrails Benchmark Algorithms **must** be registered (using a DCAT Descriptor) in the OSTrails Test Registry.  This can be done by:
 
@@ -85,4 +85,4 @@ the OSTrails FAIR Champion tool.
 
 Continue with the tutorial:
 
-:ref:`tutorial_fair_benchmark_algorithm`
+:doc:`Benchmark <./tutorial_fair_benchmark_algorithm>`

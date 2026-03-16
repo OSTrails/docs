@@ -22,13 +22,11 @@ Tests have two "modalities":
 
 The API for option 1 is to consume the following JSON data structure:
 
-::
     { "resource_identifier": "GUID" }
 
 
 The API for option 2 is to follow this OpenAPI3 pattern for file upload:
 
-::
       requestBody:
         required: true
         content:

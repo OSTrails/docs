@@ -9,7 +9,6 @@ https://github.com/OSTrails/FAIR-Champion/
 
 However, you can simply access the latest Docker image, using the following docker-compose file:
 
-::
     services:
 
       champion: 
@@ -29,12 +28,17 @@ Find the latest versioned tag for Champion at `Dockerhub <https://hub.docker.com
 
 The following environment variables should be set (in the docker-compose, probably)
 
-::
-    RACK_ENV='development'    
+
+    RACK_ENV='development'   
+
     TEST_HOST='https://tests.ostrails.eu/tests' # this is probably now deprecated, as per March 2026
+
     CHAMP_HOST=https://tools.ostrails.eu/champion' # the URL of your own Champion instance
+
     FDPINDEX_SPARQL='https://tools.ostrails.eu/repositories/fdpindex-fdp'  # THIS IS CRITICAL!  
+
     FDPINDEXPROXY='https://tools.ostrails.eu/fdp-index-proxy/proxy' # if you plan to regisgter new tests or benchmarks using your local copy
+    
     CHAMPION_HOST='https://tools.ostrails.eu/champion'  # probably redundant to the one above.  I'll check
 
 
