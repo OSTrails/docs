@@ -1,4 +1,4 @@
-How to run a test that exists
+How to run an existing Test
 ==============================
 
 Using the FAIR Champion GUI:

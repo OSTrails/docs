@@ -10,9 +10,9 @@ The following list in this section are part of the tutorials documentation.
     :maxdepth: 1
     :titlesonly:
 
-    How define my Benchmark and its associated specialised Metrics <define-benchmark-associated-metrics>
-    How find a test for my digital object <find-test-for-digital-object>
-    How to run a test that exists <run-existing-test>
+    How to create a FAIR Benchmark with its associated Metrics <create-benchmark>
+    How to find a Test appropriate for my digital object <find-test-for-digital-object>
+    How to run an existing Test <run-existing-test>
     How to deploy Champion myself <deploy-champion>
     How to define and run a scoring algorithm <define-run-scoring-algorithm>
     How to create a benchmark <create-benchmark>
