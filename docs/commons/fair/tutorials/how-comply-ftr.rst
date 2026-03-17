@@ -32,9 +32,9 @@ The first step
 is to analyse these tests and determine whether they correspond to existing 
 metrics defined in the FAIR Sharing framework.
 
-- If a test can be mapped to an existing metric, follow this tutorial :doc:``others-use-my-metrics``
+- If a test can be mapped to an existing metric, follow this tutorial :doc:`others-use-my-metrics`
 
-- If no suitable metric exists, you will need to create new ones by following :doc:``create-metric``
+- If no suitable metric exists, you will need to create new ones by following :doc:`create-metric`
 
 This step is essential to ensure interoperability and reuse of existing  community standards whenever possible.
 
@@ -47,7 +47,7 @@ Guidelines:
 Resources:
 
 - Reuse metrics :doc:`others-use-my-metrics` 
-- Create new metrics :doc:``create-metric``
+- Create new metrics :doc:`create-metric`
 
 Step 2 - Grouping Metrics into a Benchmark
 ------------------------------------------
@@ -65,7 +65,7 @@ Key considerations:
 
 Resource:
 
-- :doc:``create-benchmark``
+- :doc:`create-benchmark`
 
 Step 3 - API Creation
 --------------------
@@ -110,7 +110,7 @@ Requirements:
 
 Resource:
 
-- :doc:``create-test-following-ftr``
+- :doc:`create-test-following-ftr`
 
 Step 5 - Scoring Algorithm Implementation
 ----------------------------------------
@@ -132,7 +132,7 @@ Best practices:
 
 Resource:
 
-- :doc:``define-run-scoring-algorithm``
+- :doc:`define-run-scoring-algorithm`
 
 Step 6 - Deployment
 ------------------
@@ -149,7 +149,7 @@ Checklist:
 
 Validation:
 
-- :doc:``run-existing-test``
+- :doc:`run-existing-test`
 
 
 Conclusion
