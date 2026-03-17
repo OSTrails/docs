@@ -5,6 +5,17 @@ FAIR Test Results (FTR) Developer Tutorial
    :depth: 2
    :local:
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   others-use-my-metrics
+   create-metric
+   create-benchmark
+   create-test-following-ftr
+   define-run-scoring-algorithm
+   run-existing-test
+
 Overview
 --------
 
