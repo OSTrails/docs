@@ -20,6 +20,7 @@ master_doc = 'index'
 
 extensions = [
     'sphinx_copybutton',
+    'sphinx_togglebutton',
     'sphinxcontrib.bibtex',
     'sphinxcontrib.openapi',
     # custom extensions:
