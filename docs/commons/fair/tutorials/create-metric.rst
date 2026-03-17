@@ -1,4 +1,4 @@
-How to create a Metric
+How to register a Metric
 ======================
 
 This tutorial explains how to create a **community FAIR Metric** using the OSTrails FAIR Assessment framework.
