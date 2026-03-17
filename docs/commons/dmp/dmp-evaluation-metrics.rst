@@ -339,6 +339,11 @@ Failure Criterion
 
 No dataset entry contains reuse information.
 
+Tests
+^^^^^
+
+- :ref:`Test 1: Check for reused dataset declaration <dmp-test-1>`
+
 JSON-LD
 ^^^^^^^
 
@@ -466,6 +471,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 At least one reused dataset is missing an identifier or identifier metadata.
+
+Tests
+^^^^^
+
+- :ref:`Test 3: Check for reused dataset PID <dmp-test-3>`
 
 JSON-LD
 ^^^^^^^
@@ -595,6 +605,11 @@ Failure Criterion
 
 At least one reused dataset is missing license information or required license fields.
 
+Tests
+^^^^^
+
+- :ref:`Test 2: Check License for Reused Datasets <dmp-test-2>`
+
 JSON-LD
 ^^^^^^^
 
@@ -722,6 +737,13 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 At least one reused dataset lacks distribution or source metadata, or required minimal fields.
+
+Tests
+^^^^^
+
+- :ref:`Test 4: Check Distribution Entry is Present <dmp-test-4>`
+- :ref:`Test 5: Check Distribution Access Information is Present <dmp-test-5>`
+- :ref:`Test 6: Check Distribution Title is Present <dmp-test-6>`
 
 JSON-LD
 ^^^^^^^
@@ -851,6 +873,11 @@ Failure Criterion
 
 At least one reused dataset is missing a `data_access` value or contains an invalid value.
 
+Tests
+^^^^^
+
+- :ref:`Test 7: Check Access Rights for Reused Datasets <dmp-test-7>`
+
 JSON-LD
 ^^^^^^^
 
@@ -978,6 +1005,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 At least one reused dataset is missing `personal_data` information or contains an invalid or undefined value.
+
+Tests
+^^^^^
+
+- :ref:`Test 8: Check Personal Data Flag for Reused Datasets <dmp-test-8>`
 
 JSON-LD
 ^^^^^^^
@@ -1107,6 +1139,11 @@ Failure Criterion
 
 At least one reused dataset is missing `sensitive_data` information or contains an invalid or undefined value.
 
+Tests
+^^^^^
+
+- :ref:`Test 9: Check Sensitive Data Flag for Reused Datasets <dmp-test-9>`
+
 JSON-LD
 ^^^^^^^
 
@@ -1234,6 +1271,12 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 At least one reused dataset lacks a distribution URL.
+
+Tests
+^^^^^
+
+- :ref:`Test 10: Check Distribution URL is Present <dmp-test-10>`
+- :ref:`Test 11: Check Access URL is Present and Non-empty <dmp-test-11>`
 
 JSON-LD
 ^^^^^^^
@@ -1369,6 +1412,12 @@ At least one reused dataset PID:
 - cannot be matched to a target repository record, **or**
 - does not resolve via a PID resolver.
 
+Tests
+^^^^^
+
+- :ref:`Test 12: Check PID Matches Destination Repository Record <dmp-test-12>`
+- :ref:`Test 13: Check PID Resolves Successfully <dmp-test-13>`
+
 JSON-LD
 ^^^^^^^
 
@@ -1501,6 +1550,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 At least one reused dataset has a `data_access` value in the maDMP that does not match the access rights recorded in the destination repository.
+
+Tests
+^^^^^
+
+- :ref:`Test 14: Check Reused Data Access Matches Destination <dmp-test-14>`
 
 JSON-LD
 ^^^^^^^
@@ -1635,6 +1689,11 @@ Failure Criterion
 
 At least one reused dataset has a license value in the maDMP that does not match the license recorded in the destination repository.
 
+Tests
+^^^^^
+
+- :ref:`Test 15: Check Reused Data License Matches Destination <dmp-test-15>`
+
 JSON-LD
 ^^^^^^^
 
@@ -1766,6 +1825,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 All dataset entries include `is_reused` (i.e., no dataset is found without `is_reused`), or no dataset entries exist.
+
+Tests
+^^^^^
+
+- :ref:`Test 16: Check for new data (no is_reused) <dmp-test-16>`
 
 JSON-LD
 ^^^^^^^
@@ -1899,6 +1963,11 @@ Failure Criterion
 
 No dataset provides `technical_resource`, or one or more required fields are missing (`description`, `name`, `id.identifier`, `id.type`).
 
+Tests
+^^^^^
+
+- :ref:`Test 17: Check technical_resource for new data collection/creation <dmp-test-17>`
+
 JSON-LD
 ^^^^^^^
 
@@ -2028,6 +2097,12 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No “new” dataset contains `data_access` and/or rights information, or `data_access` is missing/invalid.
+
+Tests
+^^^^^
+
+- :ref:`Test 18: Check data_access for new datasets <dmp-test-18>`
+- :ref:`Test 19: Check rights of new dataset <dmp-test-19>`
 
 JSON-LD
 ^^^^^^^
@@ -2161,6 +2236,11 @@ Failure Criterion
 
 No “new” dataset provides `metadata`, or one or more required fields are missing (`description`, `language`, `metadata_id.identifier`, `metadata_id.type`).
 
+Tests
+^^^^^
+
+- :ref:`Test 20: Check metadata for new dataset <dmp-test-20>`
+
 JSON-LD
 ^^^^^^^
 
@@ -2291,6 +2371,12 @@ Failure Criterion
 
 No `dataset_id` is provided, and/or the provided PID(s) do not resolve.
 
+Tests
+^^^^^
+
+- :ref:`Test 21: Check dataset_id exists <dmp-test-21>`
+- :ref:`Test 22: Check PID resolves for dataset_id <dmp-test-22>`
+
 JSON-LD
 ^^^^^^^
 
@@ -2419,6 +2505,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 At least one new dataset has `data_access` in the maDMP that does not match the destination repository access rights, or required fields cannot be found.
+
+Tests
+^^^^^
+
+- :ref:`Test 23: Check new data access matches destination <dmp-test-23>`
 
 JSON-LD
 ^^^^^^^
@@ -2553,6 +2644,11 @@ Failure Criterion
 
 At least one new dataset has a license value in the maDMP that does not match the destination repository license, or required fields cannot be found.
 
+Tests
+^^^^^
+
+- :ref:`Test 24: Check new data license matches destination <dmp-test-24>`
+
 JSON-LD
 ^^^^^^^
 
@@ -2685,6 +2781,11 @@ Failure Criterion
 
 `dataset.type` is missing/empty for one or more dataset entries, or uses values outside the accepted vocabulary (if validation against a vocabulary is required).
 
+Tests
+^^^^^
+
+- :ref:`Test 25: Check dataset.type is specified <dmp-test-25>`
+
 JSON-LD
 ^^^^^^^
 
@@ -2813,6 +2914,11 @@ Failure Criterion
 
 `distribution.format` is missing/empty for one or more distributions, or no distribution information exists where expected.
 
+Tests
+^^^^^
+
+- :ref:`Test 26: Check distribution.format is specified <dmp-test-26>`
+
 JSON-LD
 ^^^^^^^
 
@@ -2940,6 +3046,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 `distribution.byte_size` is missing, empty, non-numeric, or negative for one or more distributions, or no distribution information exists where expected.
+
+Tests
+^^^^^
+
+- :ref:`Test 27: Check distribution.byte_size is specified <dmp-test-27>`
 
 JSON-LD
 ^^^^^^^
@@ -3072,6 +3183,12 @@ Failure Criterion
 
 At least one dataset has a type or subtype mismatch between maDMP and the destination repository, or required fields cannot be retrieved.
 
+Tests
+^^^^^
+
+- :ref:`Test 28: Check dataset.type matches destination type <dmp-test-28>`
+- :ref:`Test 29: Check dataset.type aligns with destination subtype <dmp-test-29>`
+
 JSON-LD
 ^^^^^^^
 
@@ -3200,6 +3317,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 At least one distribution format declared in the maDMP does not match (or cannot be mapped to) the formats of the deposited files in the destination repository, or required repository metadata cannot be retrieved.
+
+Tests
+^^^^^
+
+- :ref:`Test 30: Check final dataset format matches destination files <dmp-test-30>`
 
 JSON-LD
 ^^^^^^^
@@ -3330,6 +3452,11 @@ Failure Criterion
 
 At least one distribution has a size mismatch between maDMP and destination repository, or required repository metadata cannot be retrieved.
 
+Tests
+^^^^^
+
+- :ref:`Test 31: Check final dataset size matches destination size <dmp-test-31>`
+
 JSON-LD
 ^^^^^^^
 
@@ -3458,6 +3585,11 @@ Failure Criterion
 
 The maDMP JSON fails schema validation (one or more validation errors), including type mismatches, missing required fields, or invalid structures.
 
+Tests
+^^^^^
+
+- :ref:`Test 32: Check maDMP JSON Validates Against DMP Common Standard Schema <dmp-test-32>`
+
 JSON-LD
 ^^^^^^^
 
@@ -3585,6 +3717,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No controlled vocabulary usage can be identified in `dataset_methodology`, or methodology information is missing where expected.
+
+Tests
+^^^^^
+
+- :ref:`Test 33: Check dataset_methodology for controlled vocabularies <dmp-test-33>`
 
 JSON-LD
 ^^^^^^^
@@ -3842,6 +3979,11 @@ Failure Criterion
 
 No related identifier entry indicates a ReadMe file, or related identifier information is missing where expected.
 
+Tests
+^^^^^
+
+- :ref:`Test 35: Check related_identifier resource_type for ReadMe file <dmp-test-35>`
+
 JSON-LD
 ^^^^^^^
 
@@ -3954,6 +4096,11 @@ Failure Criterion
 
 `metadata_standard_id` is missing, or one or more referenced metadata standards cannot be found in the target registries.
 
+Tests
+^^^^^
+
+- :ref:`Test 36: Check metadata_standard_id is registered in metadata registries <dmp-test-36>`
+
 JSON-LD
 ^^^^^^^
 
@@ -4065,6 +4212,12 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No dataset contains a `related_identifier` or `technical_resource.name` entry that can be linked to an electronic lab notebook.
+
+Tests
+^^^^^
+
+- :ref:`Test 34: Check technical_resource.name for electronic lab notebook reference <dmp-test-34>`
+- :ref:`Test 38: Check ELN dataset linked via related_ids <dmp-test-38>`
 
 JSON-LD
 ^^^^^^^
@@ -4189,6 +4342,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 At least one declared dataset format is not open, cannot be classified as open, or format information is missing where expected.
+
+Tests
+^^^^^
+
+- :ref:`Test 37: Check distribution format is open <dmp-test-37>`
 
 JSON-LD
 ^^^^^^^
@@ -4318,6 +4476,11 @@ Failure Criterion
 
 No dataset contains a `technical_resource` entry, or all `technical_resource` entries are missing both `name` and `technical_resource_id`.
 
+Tests
+^^^^^
+
+- :ref:`Test 39: Check technical_resource for dataset documentation <dmp-test-39>`
+
 JSON-LD
 ^^^^^^^
 
@@ -4441,6 +4604,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No dataset contains a `data_quality_assurance` field, or all present values are empty or missing.
+
+Tests
+^^^^^
+
+- :ref:`Test 40: Check data_quality_assurance for quality control methods <dmp-test-40>`
 
 JSON-LD
 ^^^^^^^
@@ -4566,6 +4734,11 @@ Failure Criterion
 
 No dataset distribution contains a `host` object, or all present `host` entries are missing both `title` and `url`.
 
+Tests
+^^^^^
+
+- :ref:`Test 41: Check host.title and host.url for storage location <dmp-test-41>`
+
 JSON-LD
 ^^^^^^^
 
@@ -4689,6 +4862,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No dataset distribution declares a `host`, or all declared hosts cannot be identified as a trusted repository (e.g., reference to personal storage, local device, or missing host information).
+
+Tests
+^^^^^
+
+- :ref:`Test 42: Check host for trusted repository storage <dmp-test-42>`
 
 JSON-LD
 ^^^^^^^
@@ -4815,6 +4993,12 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 At least one dataset is missing `sensitive_data`, or the declared storage and backup properties (`security_and_privacy`, `backup_type`) are absent or inconsistent with the sensitivity classification.
+
+Tests
+^^^^^
+
+- :ref:`Test 43: Check sensitive_data classification is assigned <dmp-test-43>`
+- :ref:`Test 44: Check host security and backup reflect sensitivity level <dmp-test-44>`
 
 JSON-LD
 ^^^^^^^
@@ -4944,6 +5128,11 @@ Failure Criterion
 
 No `contributor` entry exists, or no contributor has a `role` value that can be associated with backup responsibilities.
 
+Tests
+^^^^^
+
+- :ref:`Test 45: Check contributor.role for backup responsibility <dmp-test-45>`
+
 JSON-LD
 ^^^^^^^
 
@@ -5067,6 +5256,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No dataset distribution contains a `host` object with a `backup_frequency` field, or all present values are empty or missing.
+
+Tests
+^^^^^
+
+- :ref:`Test 46: Check backup_frequency is declared <dmp-test-46>`
 
 JSON-LD
 ^^^^^^^
@@ -5316,6 +5510,11 @@ Failure Criterion
 
 The `host.id` in the maDMP is absent, does not resolve, or does not match the identifier of the actual deposit location in the target repository.
 
+Tests
+^^^^^
+
+- :ref:`Test 47: Check host.id matches Zenodo deposit location <dmp-test-47>`
+
 JSON-LD
 ^^^^^^^
 
@@ -5439,6 +5638,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No dataset distribution contains a `security_and_privacy` object, or all present entries are missing a `title` or have an empty value.
+
+Tests
+^^^^^
+
+- :ref:`Test 48: Check security_and_privacy.title for security measures <dmp-test-48>`
 
 JSON-LD
 ^^^^^^^
@@ -5564,6 +5768,11 @@ Failure Criterion
 
 A dataset is flagged as sensitive but has no `security_and_privacy` entry, or the `description` field is absent, empty, or contains no reference to access rights management.
 
+Tests
+^^^^^
+
+- :ref:`Test 49: Check security_and_privacy.description for access rights management <dmp-test-49>`
+
 JSON-LD
 ^^^^^^^
 
@@ -5687,6 +5896,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No dataset distribution contains a `security_and_privacy` entry, or all present `description` values are absent, empty, or contain no reference to access control for authorised users.
+
+Tests
+^^^^^
+
+- :ref:`Test 50: Check security_and_privacy.description for authorised access controls <dmp-test-50>`
 
 JSON-LD
 ^^^^^^^
@@ -5812,6 +6026,11 @@ Failure Criterion
 
 No dataset containing sensitive data includes a `security_and_privacy` entry, or all present `description` values are absent, empty, or contain no reference to access control and user permission management.
 
+Tests
+^^^^^
+
+- :ref:`Test 51: Check security_and_privacy.description for access control and user permissions <dmp-test-51>`
+
 JSON-LD
 ^^^^^^^
 
@@ -5935,6 +6154,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No dataset contains a `security_and_privacy` entry, or all present `description` values are absent, empty, or contain no reference to access procedures for restricted or sensitive data.
+
+Tests
+^^^^^
+
+- :ref:`Test 52: Check security_and_privacy.description for access procedures <dmp-test-52>`
 
 JSON-LD
 ^^^^^^^
@@ -6060,6 +6284,11 @@ Failure Criterion
 
 No dataset contains a `security_and_privacy.description` referencing GDPR or data protection requirements, and no `ethical_issues_report` field is present or non-empty across the maDMP.
 
+Tests
+^^^^^
+
+- :ref:`Test 53: Check security_and_privacy.description and ethical_issues_report for GDPR and ethics compliance <dmp-test-53>`
+
 JSON-LD
 ^^^^^^^
 
@@ -6183,6 +6412,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No dataset distribution contains a `security_and_privacy` entry with a non-empty `title`, indicating that no security measures have been confirmed as implemented at the destination.
+
+Tests
+^^^^^
+
+- :ref:`Test 54: Check security_and_privacy.title for implemented security measures at destination <dmp-test-54>`
 
 JSON-LD
 ^^^^^^^
@@ -6308,6 +6542,11 @@ Failure Criterion
 
 A dataset is flagged as sensitive but has no `security_and_privacy` entry, or all present `description` values are absent or empty, with no data protection method described.
 
+Tests
+^^^^^
+
+- :ref:`Test 55: Check security_and_privacy.description for data protection method when sensitive_data is true <dmp-test-55>`
+
 JSON-LD
 ^^^^^^^
 
@@ -6431,6 +6670,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No dataset contains a `security_and_privacy` entry, or all present entries contain no reference to the provision of anonymised or synthetic data.
+
+Tests
+^^^^^
+
+- :ref:`Test 56: Check security_and_privacy for anonymised synthetic data provision <dmp-test-56>`
 
 JSON-LD
 ^^^^^^^
@@ -6556,6 +6800,11 @@ Failure Criterion
 
 No dataset distribution contains a `rights` field, or all present `rights` values indicate restrictions or are ambiguous about the absence of restrictions.
 
+Tests
+^^^^^
+
+- :ref:`Test 57: Check rights for statement of no data restrictions <dmp-test-57>`
+
 JSON-LD
 ^^^^^^^
 
@@ -6679,6 +6928,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No dataset distribution contains a `license_ref` field, or all present values are empty or missing.
+
+Tests
+^^^^^
+
+- :ref:`Test 58: Check license_ref for dataset licence <dmp-test-58>`
 
 JSON-LD
 ^^^^^^^
@@ -6804,6 +7058,11 @@ Failure Criterion
 
 A dataset is typed as software but has no `license_ref`, or the declared `license_ref` does not match any recognised software licence in the SPDX registry.
 
+Tests
+^^^^^
+
+- :ref:`Test 59: Check license_ref against SPDX for software datasets <dmp-test-59>`
+
 JSON-LD
 ^^^^^^^
 
@@ -6927,6 +7186,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No dataset contains a `data_access` or `rights` entry that references a data access agreement or MoU, or all present values are absent, empty, or contain no indication of a formal agreement.
+
+Tests
+^^^^^
+
+- :ref:`Test 60: Check data_access and rights for access agreements or MoUs <dmp-test-60>`
 
 JSON-LD
 ^^^^^^^
@@ -7052,6 +7316,11 @@ Failure Criterion
 
 No `contributor` entry exists with a `role` of `owner`, or the ownership field is present but blank.
 
+Tests
+^^^^^
+
+- :ref:`Test 61: Check contributor.role for data owner <dmp-test-61>`
+
 JSON-LD
 ^^^^^^^
 
@@ -7176,6 +7445,11 @@ Failure Criterion
 
 A dataset is typed as software but has no `contributor` entry, or no contributor has a role indicating authorship.
 
+Tests
+^^^^^
+
+- :ref:`Test 62: Check contributor for author role when dataset type is software <dmp-test-62>`
+
 JSON-LD
 ^^^^^^^
 
@@ -7299,6 +7573,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 The `ethical_issues_exist` field is absent, empty, or contains a value outside the accepted set of `yes`, `no`, or `unknown`.
+
+Tests
+^^^^^
+
+- :ref:`Test 63: Check ethical_issues_exist for valid value <dmp-test-63>`
 
 JSON-LD
 ^^^^^^^
@@ -7548,6 +7827,11 @@ Failure Criterion
 
 `ethical_issues_exist` is set to `no` but the `ethical_issues_description` field is absent or empty, with no justification provided.
 
+Tests
+^^^^^
+
+- :ref:`Test 64: Check ethical_issues_description is present when ethical_issues_exist is no <dmp-test-64>`
+
 JSON-LD
 ^^^^^^^
 
@@ -7672,6 +7956,11 @@ Failure Criterion
 
 No dataset contains a `data_access` field, or all present values are set to `shared`, `closed`, or any value other than `open`.
 
+Tests
+^^^^^
+
+- :ref:`Test 65: Check data_access for open status <dmp-test-65>`
+
 JSON-LD
 ^^^^^^^
 
@@ -7795,6 +8084,12 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No dataset contains a `distribution` entry, or all present distributions lack a `license_ref` field or contain an empty value.
+
+Tests
+^^^^^
+
+- :ref:`Test 66: Check distribution is present for dataset <dmp-test-66>`
+- :ref:`Test 67: Check license_ref is present within distribution <dmp-test-67>`
 
 JSON-LD
 ^^^^^^^
@@ -7925,6 +8220,11 @@ Failure Criterion
 
 No dataset distribution contains a `rights` field, or all present values are absent or empty.
 
+Tests
+^^^^^
+
+- :ref:`Test 68: Check rights for data restrictions reference <dmp-test-68>`
+
 JSON-LD
 ^^^^^^^
 
@@ -8048,6 +8348,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No dataset distribution contains a `license_ref` field, or all present `license_ref` values do not correspond to a CC-BY licence as required by Horizon Europe RDM guidelines.
+
+Tests
+^^^^^
+
+- :ref:`Test 69: Check distribution license_ref for Horizon Europe CC-BY compliance <dmp-test-69>`
 
 JSON-LD
 ^^^^^^^
@@ -8173,6 +8478,11 @@ Failure Criterion
 
 The `data_access` value at dataset level conflicts with or is not supported by the access policy of the declared destination host, or the relevant fields are absent or empty.
 
+Tests
+^^^^^
+
+- :ref:`Test 70: Check data_access matches destination host access policy <dmp-test-70>`
+
 JSON-LD
 ^^^^^^^
 
@@ -8296,6 +8606,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 The `license_ref` value is absent, empty, or inconsistent with the licence policy of the declared destination host, indicating a mismatch between the declared data licence and the repository's requirements.
+
+Tests
+^^^^^
+
+- :ref:`Test 71: Check distribution license_ref matches destination host licence policy <dmp-test-71>`
 
 JSON-LD
 ^^^^^^^
@@ -8421,6 +8736,11 @@ Failure Criterion
 
 The `license.start_date` field is absent or empty, or its value is inconsistent with the embargo policy of the declared destination host, indicating a mismatch between the planned embargo date and the repository's supported availability window.
 
+Tests
+^^^^^
+
+- :ref:`Test 72: Check distribution license.start_date matches destination embargo policy <dmp-test-72>`
+
 JSON-LD
 ^^^^^^^
 
@@ -8545,6 +8865,11 @@ Failure Criterion
 
 The `rights` field is absent or empty, or its value is inconsistent with the restriction policy of the declared destination host, indicating a mismatch between the declared data restrictions and the repository's supported access conditions.
 
+Tests
+^^^^^
+
+- :ref:`Test 73: Check rights matches destination host restriction policy <dmp-test-73>`
+
 JSON-LD
 ^^^^^^^
 
@@ -8668,6 +8993,12 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 An embargo date is present in the repository host entry, or `distribution.license.start_date` is set in the maDMP, indicating a potential violation of Horizon Europe embargo policy.
+
+Tests
+^^^^^
+
+- :ref:`Test 74: Check repository host for absence of embargo date <dmp-test-74>`
+- :ref:`Test 75: Check distribution.license.start_date for absence in maDMP <dmp-test-75>`
 
 JSON-LD
 ^^^^^^^
@@ -8798,6 +9129,11 @@ Failure Criterion
 
 No dataset distribution contains a `host.title` or `host.url` value that matches a thematic repository in the OpenAIRE Graph repositories API or equivalent SKG API registry, or the relevant fields are absent or empty.
 
+Tests
+^^^^^
+
+- :ref:`Test 76: Check host.title and host.url against thematic repository registries <dmp-test-76>`
+
 JSON-LD
 ^^^^^^^
 
@@ -8921,6 +9257,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No dataset distribution contains a `host.title` or `host.url` that matches a FAIR-assessed repository in OpenAIRE or FAIRsharing, or the relevant fields are absent or empty.
+
+Tests
+^^^^^
+
+- :ref:`Test 77: Check host against OpenAIRE and FAIRsharing FAIR benchmarks <dmp-test-77>`
 
 JSON-LD
 ^^^^^^^
@@ -9046,6 +9387,12 @@ Failure Criterion
 
 No dataset distribution contains a `host.title` or `host.url` that matches an entry in a recognised trusted repository registry, or the relevant fields are absent or empty.
 
+Tests
+^^^^^
+
+- :ref:`Test 78: Check host against trusted repository registry benchmark <dmp-test-78>`
+- :ref:`Test 87: Check host_id against Zenodo and FAIRsharing for policy compliance <dmp-test-87>`
+
 JSON-LD
 ^^^^^^^
 
@@ -9169,6 +9516,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No dataset distribution contains a `host` entry with both `backup_frequency` and `backup_type` fields present and non-empty, indicating that no back-up strategy has been documented.
+
+Tests
+^^^^^
+
+- :ref:`Test 79: Check host.backup_frequency and host.backup_type for back-up strategy <dmp-test-79>`
 
 JSON-LD
 ^^^^^^^
@@ -9294,6 +9646,11 @@ Failure Criterion
 
 No dataset distribution contains a `host` entry with a `certified_with` field present and non-empty, indicating that no repository certification has been documented.
 
+Tests
+^^^^^
+
+- :ref:`Test 80: Check certified_with exists in host <dmp-test-80>`
+
 JSON-LD
 ^^^^^^^
 
@@ -9417,6 +9774,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No `cost` entry is present, or no present `cost` entry contains a `title` or `description` referencing preservation, indicating that no resources for long-term preservation have been declared.
+
+Tests
+^^^^^
+
+- :ref:`Test 81: Check cost title or description for preservation reference <dmp-test-81>`
 
 JSON-LD
 ^^^^^^^
@@ -9542,6 +9904,11 @@ Failure Criterion
 
 No dataset distribution contains a `host_id.identifier` or `host_id.type` that resolves to a FAIRsharing repository entry with associated policies, or the relevant fields are absent or empty.
 
+Tests
+^^^^^
+
+- :ref:`Test 82: Check host_id against FAIRsharing for repository policy <dmp-test-82>`
+
 JSON-LD
 ^^^^^^^
 
@@ -9665,6 +10032,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 The `dataset_id` value is absent or empty, does not resolve via DOI URL, or resolves to a repository other than the declared destination, indicating a mismatch between the dataset identifier and its intended destination.
+
+Tests
+^^^^^
+
+- :ref:`Test 83: Check dataset_id resolves to declared destination via DOI URL <dmp-test-83>`
 
 JSON-LD
 ^^^^^^^
@@ -9790,6 +10162,11 @@ Failure Criterion
 
 No dataset distribution contains both a non-empty `preservation_statement` and a declared `host` entry, indicating that no intention to store the dataset in a long-term storage system has been documented.
 
+Tests
+^^^^^
+
+- :ref:`Test 84: Check preservation_statement and host for long-term storage intention <dmp-test-84>`
+
 JSON-LD
 ^^^^^^^
 
@@ -9913,6 +10290,12 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No dataset contains `keyword` or `language` values that match the characteristics supported by the declared destination repository in Zenodo, or the relevant fields are absent or empty.
+
+Tests
+^^^^^
+
+- :ref:`Test 85: Check dataset.keyword against Zenodo keywords <dmp-test-85>`
+- :ref:`Test 86: Check dataset.language against Zenodo language support <dmp-test-86>`
 
 JSON-LD
 ^^^^^^^
@@ -10043,6 +10426,11 @@ Failure Criterion
 
 No dataset contains a `related_identifier` entry with a non-empty `identifier` field, indicating that no external resources have been declared in the DMP.
 
+Tests
+^^^^^
+
+- :ref:`Test 88: Check related_identifier.identifier for external resources <dmp-test-88>`
+
 JSON-LD
 ^^^^^^^
 
@@ -10166,6 +10554,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No dataset contains a `related_identifier` entry with non-empty `metadata_scheme`, `scheme_type`, and `scheme_uri` fields, indicating that no metadata standard or format has been declared in the DMP.
+
+Tests
+^^^^^
+
+- :ref:`Test 89: Check related_identifier for metadata standard fields <dmp-test-89>`
 
 JSON-LD
 ^^^^^^^
@@ -10291,6 +10684,11 @@ Failure Criterion
 
 All URLs present in the maDMP are either syntactically invalid, unreachable, or return error responses, indicating that no declared external resource link is resolvable.
 
+Tests
+^^^^^
+
+- :ref:`Test 90: Check URLs in maDMP are valid and resolvable <dmp-test-90>`
+
 JSON-LD
 ^^^^^^^
 
@@ -10414,6 +10812,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No dataset in scope produces a matching record in the OpenAIRE SKG-IF API using the declared `dataset_id.identifier`, `dataset_id.type`, `dataset.title`, or `dataset.type`, or the relevant fields are absent or empty.
+
+Tests
+^^^^^
+
+- :ref:`Test 91: Check dataset fields against OpenAIRE SKG-IF API <dmp-test-91>`
 
 JSON-LD
 ^^^^^^^
@@ -10539,6 +10942,11 @@ Failure Criterion
 
 No dataset contains a `contributor` entry whose `role` value matches a CRediT taxonomy term, or the `contributor` field is absent or empty.
 
+Tests
+^^^^^
+
+- :ref:`Test 92: Check contributor roles against CRediT taxonomy <dmp-test-92>`
+
 JSON-LD
 ^^^^^^^
 
@@ -10663,6 +11071,11 @@ Failure Criterion
 
 No dataset distribution contains a `host` entry with a non-empty `pid_system` field, indicating that no persistent identifier system has been declared.
 
+Tests
+^^^^^
+
+- :ref:`Test 93: Check host.pid_system for PID declaration <dmp-test-93>`
+
 JSON-LD
 ^^^^^^^
 
@@ -10786,6 +11199,12 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 Either the `certified_with` field is absent or does not match a trusted registry, or `host_id.identifier` and `host_id.type` are absent, empty, or do not resolve to a valid repository link.
+
+Tests
+^^^^^
+
+- :ref:`Test 94: Check certified_with against trusted registry <dmp-test-94>`
+- :ref:`Test 95: Check host_id.identifier and host_id.type for valid repository link <dmp-test-95>`
 
 JSON-LD
 ^^^^^^^
@@ -10915,6 +11334,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 The `host.pid_system` value is absent, empty, or does not match the PID system supported by the declared destination repository in Zenodo, indicating a mismatch between the declared and actual PID provision.
+
+Tests
+^^^^^
+
+- :ref:`Test 96: Check host.pid_system matches destination PID system in Zenodo <dmp-test-96>`
 
 JSON-LD
 ^^^^^^^
@@ -11164,6 +11588,11 @@ Failure Criterion
 
 No `contributor` entry is present at DMP level, or no present entry contains non-empty values for all three of `name`, `role`, and `contact`, indicating that contributor role information is incomplete or absent.
 
+Tests
+^^^^^
+
+- :ref:`Test 97: Check dmp.contributor name, role, and contact <dmp-test-97>`
+
 JSON-LD
 ^^^^^^^
 
@@ -11287,6 +11716,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No `contributor` entry is present with a `role` value of `Data Steward`, indicating that no Data Steward has been assigned to validate the DMP.
+
+Tests
+^^^^^
+
+- :ref:`Test 98: Check dmp.contributor.role for Data Steward <dmp-test-98>`
 
 JSON-LD
 ^^^^^^^
@@ -11412,6 +11846,11 @@ Failure Criterion
 
 No `contributor` entry contains both a non-empty `contributor_id` and a non-empty `affiliation.affiliation_id`, indicating that contributor and/or organisational PIDs are absent or incomplete.
 
+Tests
+^^^^^
+
+- :ref:`Test 99: Check contributor_id and affiliation.affiliation_id for PIDs <dmp-test-99>`
+
 JSON-LD
 ^^^^^^^
 
@@ -11535,6 +11974,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No contributor declared in the maDMP via `dmp.contributor.name`, `dmp.contributor.role`, and `dmp.contributor.contact` can be matched against `contributors.name` and `contributors.type` in the destination, or the relevant fields are absent or empty in either source.
+
+Tests
+^^^^^
+
+- :ref:`Test 100: Check dmp.contributor fields against destination contributors <dmp-test-100>`
 
 JSON-LD
 ^^^^^^^
@@ -11660,6 +12104,11 @@ Failure Criterion
 
 No contributor in the maDMP has a `role` value of `Data Steward`, or no corresponding `contributors.type` of `Other` is present in the destination, indicating that the Data Steward validation is not reflected in the destination record.
 
+Tests
+^^^^^
+
+- :ref:`Test 101: Check Data Steward role in maDMP against contributors.type Other in destination <dmp-test-101>`
+
 JSON-LD
 ^^^^^^^
 
@@ -11783,6 +12232,12 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 No `cost` entry is present in the maDMP, or the declared cost values do not match the actual cost of the destination repository, indicating a discrepancy between the budgeted and actual repository cost.
+
+Tests
+^^^^^
+
+- :ref:`Test 102: Check contributor PIDs in maDMP against Zenodo contributors <dmp-test-102>`
+- :ref:`Test 103: Check cost in maDMP against repository cost <dmp-test-103>`
 
 JSON-LD
 ^^^^^^^
@@ -11908,6 +12363,11 @@ Failure Criterion
 
 No `cost` entry is present at DMP level, or no present entry contains the required non-empty fields, indicating that budget information for the DMP is absent or incomplete.
 
+Tests
+^^^^^
+
+- :ref:`Test 104: Check cost fields for budget specification <dmp-test-104>`
+
 JSON-LD
 ^^^^^^^
 
@@ -12031,6 +12491,11 @@ Failure Criterion
 ^^^^^^^^^^^^^^^^^
 
 The `cost` field is absent, empty, or does not contain any indication that no additional resources are required, indicating that the DMP does not address the absence of extra RDM costs.
+
+Tests
+^^^^^
+
+- :ref:`Test 105: Check cost in maDMP for no additional resources statement <dmp-test-105>`
 
 JSON-LD
 ^^^^^^^
