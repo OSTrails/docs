@@ -32,11 +32,9 @@ The first step
 is to analyse these tests and determine whether they correspond to existing 
 metrics defined in the FAIR Sharing framework.
 
-- If a test can be mapped to an existing metric, follow this tutorial ->
-  :doc:``others-use-my-metrics``
+- If a test can be mapped to an existing metric, follow this tutorial :doc:``others-use-my-metrics``
 
-- If no suitable metric exists, you will need to create new ones by following ->
-  :doc:``create-metric``
+- If no suitable metric exists, you will need to create new ones by following :doc:``create-metric``
 
 This step is essential to ensure interoperability and reuse of existing  community standards whenever possible.
 
@@ -48,8 +46,8 @@ Guidelines:
 
 Resources:
 
-- Reuse metrics -> :doc:`others-use-my-metrics` 
-- Create new metrics -> :doc:``create-metric``
+- Reuse metrics :doc:`others-use-my-metrics` 
+- Create new metrics :doc:``create-metric``
 
 Step 2 - Grouping Metrics into a Benchmark
 ------------------------------------------
