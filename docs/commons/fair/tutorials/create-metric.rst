@@ -87,58 +87,91 @@ Now, you can review the document with your answers to the questionnaire, by clic
 4. In the **Documents** section, click the three dots icon (⋯) beside your document.
 5. Select *Submit*.
 
-The submission will be sent via the GitHub API to be registered in an OSTrails GitHub repository for collecting metadata about these assessment components <https://github.com/OSTrails/assessment-component-metadata-records>`_, and indexed by the `FAIRsharing <https://fairsharing.org/>`_ registry.
+The submission will be sent via the GitHub API to be registered in an `OSTrails GitHub repository for collecting metadata about these assessment components <https://github.com/OSTrails/assessment-component-metadata-records>`_, and indexed by the `FAIRsharing <https://fairsharing.org/>`_ registry.
 
 
 Next steps
 ----------
+Once submitted to FAIRsharing, the record will remain hidden until approved by the FAIRsharing curation team. Once made public, claim your record in FAIRsharing. Information on creating an account and claiming a record is available in the next section, and at https://fairsharing.gitbook.io/ 
 
 
-+------------------+---------------------------------------------+
-| Field            | Status                                      |
-+==================+=============================================+
-| Object type      | Type of digital object evaluated            |
-+------------------+---------------------------------------------+
-| Subject          | Domain or discipline                        |
-+------------------+---------------------------------------------+
-| Principle        | FAIR principle linked to the Metric         |
-+------------------+---------------------------------------------+
+FAIRsharing
+======================
+[[Principle abbrev]]M:[[Abbreviation of sub-principle]]:[[M|D|P]]:[[short name for the metric]] 
 
+This tutorial provides a comprehensive walkthrough for registering a **Metric** directly within the FAIRassist registry on FAIRsharing.
+.. _fs_prerequisites:
 
-+---------------------------+-------------+----------------------------------------------------------------------------------------------------------------------------------+
-| Field                     | Status      | Missing Fields Guidance                                                                                                          |
-+===========================+=============+==================================================================================================================================+
-| `Record Name <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/record-name>`_ |
-|                           | Mandatory   | Provide the full name of the resource. Use the format: [[Principle name]] Metric - [[Abbreviation]] - [[Metadata or Data]]       |
-|                           |             | [[descriptive metric name]]. Example: “FAIR Metric – F1 – Metadata - Identifier is globally unique”.                           |
-+---------------------------+-------------+----------------------------------------------------------------------------------------------------------------------------------+
-| `Abbreviation <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/abbreviation>`_ |
-|                           | Optional    | Use the format: [[Principle abbrev]]M:[[Sub-principle]]:[[M or D]]:[[short name]]. Example: “FM:F1:M:IdentUnique”.              |
-+---------------------------+-------------+----------------------------------------------------------------------------------------------------------------------------------+
-| `Homepage <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/homepage>`_       |
-|                           | Mandatory   | Provide the homepage URL for the resource.                                                                                       |
-+---------------------------+-------------+----------------------------------------------------------------------------------------------------------------------------------+
-| `Description <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/description>`_ |
-|                           | Mandatory   | Free-text summary of the resource and its purpose (minimum 40 characters).                                                       |
-+---------------------------+-------------+----------------------------------------------------------------------------------------------------------------------------------+
-| `Year of creation <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/year-of-creation>`_ |
-|                           | Recommended | Provide the year the resource was first released.                                                                                |
-+---------------------------+-------------+----------------------------------------------------------------------------------------------------------------------------------+
-| `Contacts <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/contact-information>`_ |
-|                           | Mandatory   | Provide at least one contact (name and email) responsible for maintaining the resource.                                          |
-+---------------------------+-------------+----------------------------------------------------------------------------------------------------------------------------------+
-| `Countries <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/countries>`_     |
-|                           | Mandatory   | Select one or more countries where the resource is hosted.                                                                       |
-+---------------------------+-------------+----------------------------------------------------------------------------------------------------------------------------------+
-| `Subjects and Taxonomies <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/taxonomic-range-research-subjects-domains-and-user-defined-tags>`_ |
-|                           | Mandatory   | Select at least one subject and one taxonomy. Use “Not applicable” for taxonomy if irrelevant.                                   |
-+---------------------------+-------------+----------------------------------------------------------------------------------------------------------------------------------+
-| `Object Type <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/object-types>`_ |
-|                           | Mandatory   | Define the type of digital research object. At least one must be provided.                                                       |
-+---------------------------+-------------+----------------------------------------------------------------------------------------------------------------------------------+
+Prerequisites
+-------------
+* ensure you are logged in via your ORCID. This ensures your curation work is publicly attributed to you. You can find out more about creating an account in our gitbook documentation <https://fairsharing.gitbook.io/fairsharing#accessing-fairsharing-through-3rd-party-accounts>_.
+* Create a narrative description of your metric, and how it interprets the **`FAIR Principle <https://doi.org/10.1038/sdata.2016.18>`_** that it measures. You may find the metric sections of the tutorial at [[define-benchmark-associated-metrics.rst]] useful. 
 
+Creating a record
+----------------
+Please follow the instructions in our documentation <https://fairsharing.gitbook.io/fairsharing#creating-a-record>_ on how to create a new record in FAIRsharing. Once you’ve done that, you will be presented with the more detailed record edit interface.
 
+Editing your record
+----------------
 
+Each of the tables below corresponds to a single tab of the edit interface for a FAIRsharing record, and summarises the key fields that should be populated. For complete documentation, see our gitbook pages <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/how-to-update-a-record>_.
 
+Remember to save your updates regularly.
 
+**General Information**
+=======================
 
+The form in the general information tab establishes the identity, ownership, and scientific scope of your record.
+
+General Information
+===================
+
+The form in the general information tab establishes the identity, ownership, and scientific scope of your record.
+
+* `Record Name <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/record-name>`_ (Mandatory): Provide the full name of the resource. You should create a name of the format: [[Principle name]] Metric - [[Abbreviation of sub-principle]] - [[Metadata or Data]] [[descriptive metric name]]. An example is “FAIR Metric – F1 – Metadata - Identifier is globally unique”.
+* `Abbreviation <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/abbreviation>`_ (Optional): You should create an abbreviation of the format: [[Principle abbrev]]M:[[Abbreviation of sub-principle]]:[[M or D]]:[[short name for the metric]]. An example is “FM:F1:M:IdentUnique”.
+* `Homepage <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/homepage>`_ (Mandatory): Provide the homepage URL for the resource.
+* `Description <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/description>`_ (Mandatory): Free-text summary of the resource and its purpose; see also our documentation on descriptions. (Min. 40 chars).
+* `Year of creation <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/year-of-creation>`_ (Recommended): Provide the year the resource was first released.
+* `Contacts <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/contact-information>`_ (Mandatory): At least one contact point should be provided, consisting of a name and email address for the person or group responsible for the maintenance of the resource.
+* `Countries <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/countries>`_ (Mandatory): Select the country or countries where the resource is hosted. At least one must be added.
+* `Subjects and Taxonomies <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/taxonomic-range-research-subjects-domains-and-user-defined-tags>`_ (Mandatory): Select the relevant subject area and species. At least one of each must be added. “Not applicable” may be used for the Taxonomy value when the species is irrelevant, as is often the case for metrics.
+* `Object Type <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/object-types>`_ (Mandatory): Define the type of digital research object in scope. At least one object type must be provided for Metrics/Benchmarks.
+
+**Licence and Support Links**
+=============================
+
+Ensures users understand how to access help and the legal usage rights of the metadata.
+
+* `Licences <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/licences-and-support-links/licences>`_ (Recommended): Licences for the content of your resource (e.g. the specification) should be listed. Providing licences increases the likelihood of understanding usage rights.
+* `Support <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/licences-and-support-links/support-links>`_ (Recommended): Support links allow you to supply information about the various types of documentation, training and support available for your resource.
+
+**Publications**
+================
+
+Connects the record to the literature related to the metric.
+
+* `Publications <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/publications>`_ (Recommended): This section is only for publications that describe your resource and those you would ask others to use when citing your database, standard or policy.
+* `Citations <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/publications#citing-your-resource>`_ (Recommended): You may have one or more publications that should be used to cite your resource. Note this using the 'Cite record using this publication?' toggle.
+
+**Organisations and Grants**
+============================
+
+Defines the institutional backing and funding for the resource.
+
+* `Organisations <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/organisations-and-grants>`_ (Recommended): Each organisation involved should be added with its role. At least one maintaining organisation and one funding organisation should be added.
+
+**Relations to Other Records**
+==============================
+
+* `related_to <https://fairsharing.gitbook.io/fairsharing/associated-records/from-fairassist-records>`_ (Recommended): One of the most important parts of a record is its relationships. Link to records (other than benchmarks) via the autocomplete field using the FAIRsharing ID, full name, or short name.
+* `measures_principle <https://fairsharing.gitbook.io/fairsharing/associated-records/from-fairassist-records>`_ (Mandatory): Every metric must be linked to exactly ONE principle record from any given principle hierarchy. Use for the narrowest principle possible (e.g. FAIR F1). Cannot point to two principles from the same hierarchy.
+
+**Additional Information**
+==========================
+
+Specific functional metadata for assessment tools.
+
+* `Associated evaluation tools <https://fairsharing.gitbook.io/fairsharing/additional-information/associated-tools>`_ (Optional): If your metric/benchmark is available from a particular FAIR evaluation tool, please add it here.
+* `Associated Tests <https://fairsharing.gitbook.io/fairsharing/additional-information/metric-tests-and-examples>`_ (Optional): Links to the tests that execute this metric.
+* `Positive, Negative and Indeterminate examples <https://fairsharing.gitbook.io/fairsharing/additional-information/metric-tests-and-examples#positive-examples>`_ (Optional): URLs that provide illustrative examples of positive, negative and indeterminate outcomes.
