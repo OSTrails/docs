@@ -1,7 +1,7 @@
 .. _tutorial_create_metric_tests:
 
-How to create a test (service) following the FTR API
-====================================================
+How to Create and Register a Test following the FTR API
+=======================================================
 
 Benchmark Assessment Algorithms rely on **FAIR Metric Tests**.
 
@@ -25,17 +25,30 @@ A test has three main components.
 
   The executable service that performs the assessment.
 
-Tests can be written in any programming language provided they:
-
-* accept the **GUID of a digital object** as input
-* return a **JSON result object** containing the outcome
 
 .. _creating_metric_test:
 
-Creating a new FAIR Metric Test
--------------------------------
+Creating a new Test Implementation
+----------------------------------
+Tests can be written in any programming language provided they:
 
-New tests can be registered using **FAIR Wizard**.
+* either:
+  * accept the **GUID of a digital object** as input, OR
+  * accept an upload of the Metadata record to be tested
+* return a **JSON result object** containing the outcome following the FTR specification
+* We highly recommend that Tests follow the FTR API, which defines the routes and HTTP protocols for each kind of test behaviour (e.g. discovery or execution)
+
+
+Creating and Registering a new FAIR Metric Test DCAT Record
+-----------------------------------------------------------
+
+Tests used with the OSTrails Benchmark Algorithms **must** be registered (using a DCAT Descriptor) in the OSTrails Test Registry.  This can be done by:
+
+a. Authoring a test DCAT descriptor "manually", and doing a pull-request on the FAIR Metrics repository.  This will result in the automatic addition of a landing page for your test, but it will not automatically notify FAIRsharing.
+
+or
+
+b. Test descriptors can be authored and registered using **FAIR Wizard**.
 
 1. Open FAIR Wizard and create a **new project**.
 2. Select a knowledge model.
@@ -60,20 +73,16 @@ After processing, the test record is deposited in the
 indexed by FAIR Data Point.
 
 The test will then appear in the **FAIR Champion Test Registry** and
-can be referenced in your Benchmark Configuration Spreadsheet.
+can be referenced, by the Test ID, in your Benchmark Configuration Spreadsheet.
 
 Next steps
 ----------
 
-Once your Benchmark Assessment Algorithm and tests are defined you can:
+The next thing you probably want to do is to add this test to a benchmark.
 
-* integrate additional **FAIR Metric Tests**
-* refine scoring conditions and weights
-* run assessments across larger collections of digital objects
-
-This enables automated **community FAIR Benchmark assessments** using
+There is a semi-automated **community FAIR Benchmark assessments** that can be authored and executed by
 the OSTrails FAIR Champion tool.
 
 Continue with the tutorial:
 
-:ref:`tutorial_fair_benchmark_algorithm`
+:doc:`Benchmark <./tutorial_fair_benchmark_algorithm>`

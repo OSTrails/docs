@@ -1,7 +1,7 @@
 .. _tutorial_create_fair_benchmark:
 
-Creating a FAIR Benchmark and Metrics
-=====================================
+Creating a FAIR Benchmark with its Associated Metrics
+=====================================================
 
 This tutorial explains how to create a **community FAIR Benchmark** and
 any additional **Metrics** using the OSTrails FAIR Assessment framework.
