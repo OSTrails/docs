@@ -1,6 +1,9 @@
 FAIR Guidance Vocabulary Specification (FGV)
 =============================================
 
+..  page-authors::
+    Wilko Steinhoff
+
 The **FAIR Guidance Vocabulary (FGV)** provides a machine-readable ontology that implements the FAIR Guidance Model described in the OSTrails Deliverable D1.3. It formalizes the structure of FAIR-enabling guidance by extending and aligning with standards such as `DCAT <https://www.w3.org/TR/vocab-dcat-3/>`__, `Schema.org <https://schema.org/version/latest>`__, and the `Semanticscience Integrated Ontology (SIO) <http://semanticscience.org/ontology/sio.owl>`__.
 
 **FGV** describes Guidance Entities—including their *typology* (e.g., FAQ, Best Practice), their links to *external resources* (such as webpages, annotations, or API responses), and their conceptual *focus areas* (e.g., How, Why, What). This enables consistent, interoperable, and machine-actionable representation of guidance across systems and services in a FAIR manner.
