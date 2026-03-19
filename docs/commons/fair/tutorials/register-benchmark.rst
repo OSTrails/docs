@@ -131,7 +131,7 @@ Now, you can review the document with your answers to the questionnaire, by clic
 4. In the **Documents** section, click the three dots icon (⋯) beside your document.
 5. Select *Submit*.
 
-The submission will be sent via the GitHub API to be registered in an OSTrails GitHub repository for collecting metadata about these assessment components <https://github.com/OSTrails/assessment-component-metadata-records>`_, and indexed by the `FAIRsharing <https://fairsharing.org/>`_ registry.
+The submission will be sent via the GitHub API to be registered in an `OSTrails GitHub repository for collecting metadata about these assessment components <https://github.com/OSTrails/assessment-component-metadata-records>`_, and indexed by the `FAIRsharing <https://fairsharing.org/>`_ registry.
 
 
 Next steps
@@ -144,7 +144,6 @@ FAIRsharing
 ======================
 
 This tutorial provides a comprehensive walkthrough for registering a **Benchmark** directly within the FAIRassist registry on FAIRsharing.
-.. _fs_prerequisites:
 
 Prerequisites
 -------------
@@ -167,14 +166,8 @@ General Information
 
 The form in the general information tab establishes the identity, ownership, and scientific scope of your record.
 
-* `Record Name <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/record-name>`_ (Mandatory): Provide the full name of the resource. You should create a name of the format: 
- [[Principle name]] Benchmark - [[descriptive benchmark name]]. 
-
- An example is “FAIR Benchmark - FAIR Portugal Dataverse Benchmark”.
-* `Abbreviation <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/abbreviation>`_ (Optional): You should create an abbreviation of the format: 
- [[Principle abbrev]]B:[[short name for the benchmark]]. 
-
- An example is “FB - FAIR PT-DV”.
+* `Record Name <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/record-name>`_ (Mandatory): Provide the full name of the resource. You should create a name of the format: [[Principle name]] Benchmark - [[descriptive benchmark name]]. An example is “FAIR Benchmark - FAIR Portugal Dataverse Benchmark”.
+* `Abbreviation <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/abbreviation>`_ (Optional): You should create an abbreviation of the format: [[Principle abbrev]]B:[[short name for the benchmark]]. An example is “FB - FAIR PT-DV”.
 * `Homepage <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/homepage>`_ (Mandatory): Provide the homepage URL for the resource.
 * `Description <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/description>`_ (Mandatory): Free-text summary of the resource and its purpose; see also our documentation on descriptions. (Min. 40 chars).
 * `Year of creation <https://fairsharing.gitbook.io/fairsharing/record-sections-and-fields/general-information/year-of-creation>`_ (Recommended): Provide the year the resource was first released.
