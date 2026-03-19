@@ -13,7 +13,8 @@ Does your metric already exist?
 ======================
 You should review existing metrics in FAIRsharing for the Principle that you are measuring. If it already exists, then please use that metric in your benchmark rather than creating a new one. To discover the metrics related to a particular Principle, find the Principle in FAIRsharing and explore its relationships.
 
-For example, if you require a metric for F1 ((Meta)data are assigned globally unique and persistent identifiers) that checks the global uniqueness of an identifier, then visit https://doi.org/10.25504/FAIRsharing.a2cea7 and review the list of related metrics. See also the tutorial on `find-reuse-metrics.rst < >`_.
+For example, if you require a metric for F1 ((Meta)data are assigned globally unique and persistent identifiers) that checks the global uniqueness of an identifier, then visit https://doi.org/10.25504/FAIRsharing.a2cea7 and review the list of related metrics. See also the tutorial on `find-metrics-and-benchmarks
+.rst < >`_.
 
 
 FAIR Wizard
