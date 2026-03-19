@@ -1,2 +1,0 @@
-How register a test
-======================
