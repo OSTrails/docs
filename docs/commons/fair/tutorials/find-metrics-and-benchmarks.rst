@@ -7,7 +7,7 @@ This tutorial explains how to discover FAIR metrics and benchmarks using
 two complementary routes: the FAIRassist registry and FAIRsharing's own
 search and browse features. Once you have found a metric of interest, you
 can learn how to locate any tests that implement it in
-:doc:`find-test-for-digital-object`.
+`find-test-for-digital-object.rst <https://github.com/saracuriel/docs/blob/0ba068e8e83030cf3d168923a4f135a414f8167b/docs/commons/fair/tutorials/find-test-for-digital-object.rst>`_.
 
 .. contents:: Contents
    :local:
