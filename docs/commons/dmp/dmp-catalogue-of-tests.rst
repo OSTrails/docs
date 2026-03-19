@@ -15,319 +15,319 @@ The following catalogue lists the 105 DMP Tests defined within the OSTrails proj
      - Test ID
      - Title
    * - 1
-     - madmp-reused-datasets-declared-json
+     - T-DCSC-001
      - :ref:`Check for reused dataset declaration <dmp-test-1>`
    * - 2
-     - T-DCSC
+     - T-DCSC-002
      - :ref:`Check License for Reused Datasets <dmp-test-2>`
    * - 3
-     - T-DCSC
+     - T-DCSC-003
      - :ref:`Check for reused dataset PID <dmp-test-3>`
    * - 4
-     - T-DCSC
+     - T-DCSC-004
      - :ref:`Check Distribution Entry is Present <dmp-test-4>`
    * - 5
-     - T-DCSC
+     - T-DCSC-005
      - :ref:`Check Distribution Access Information is Present <dmp-test-5>`
    * - 6
-     - T-DCSC
+     - T-DCSC-006
      - :ref:`Check Distribution Title is Present <dmp-test-6>`
    * - 7
-     - T-DCSC
+     - T-DCSC-007
      - :ref:`Check Access Rights for Reused Datasets <dmp-test-7>`
    * - 8
-     - T-DCSC
+     - T-DCSC-008
      - :ref:`Check Personal Data Flag for Reused Datasets <dmp-test-8>`
    * - 9
-     - T-DCSC
+     - T-DCSC-009
      - :ref:`Check Sensitive Data Flag for Reused Datasets <dmp-test-9>`
    * - 10
-     - T-DCSC
+     - T-DCSC-010
      - :ref:`Check Distribution URL is Present <dmp-test-10>`
    * - 11
-     - T-DCSC
+     - T-DCSC-011
      - :ref:`Check Access URL is Present and Non-empty <dmp-test-11>`
    * - 12
-     - T-DCSC
+     - T-DCSC-012
      - :ref:`Check PID Matches Destination Repository Record <dmp-test-12>`
    * - 13
-     - T-DCSC
+     - T-DCSC-013
      - :ref:`Check PID Resolves Successfully <dmp-test-13>`
    * - 14
-     - T-DCSC
+     - T-DCSC-014
      - :ref:`Check Reused Data Access Matches Destination <dmp-test-14>`
    * - 15
-     - T-DCSC
+     - T-DCSC-015
      - :ref:`Check Reused Data License Matches Destination <dmp-test-15>`
    * - 16
-     - T-DCSC
+     - T-DCSC-016
      - :ref:`Check for new data (no is_reused) <dmp-test-16>`
    * - 17
-     - T-DCSC
+     - T-DCSC-017
      - :ref:`Check technical_resource for new data collection/creation <dmp-test-17>`
    * - 18
-     - T-DCSC
+     - T-DCSC-018
      - :ref:`Check data_access for new datasets <dmp-test-18>`
    * - 19
-     - T-DCSC
+     - T-DCSC-019
      - :ref:`Check rights of new dataset <dmp-test-19>`
    * - 20
-     - T-DCSC
+     - T-DCSC-020
      - :ref:`Check metadata for new dataset <dmp-test-20>`
    * - 21
-     - T-DCSC
+     - T-DCSC-021
      - :ref:`Check dataset_id exists <dmp-test-21>`
    * - 22
-     - T-DCSC
+     - T-DCSC-022
      - :ref:`Check PID resolves for dataset_id <dmp-test-22>`
    * - 23
-     - T-DCSC
+     - T-DCSC-023
      - :ref:`Check new data access matches destination <dmp-test-23>`
    * - 24
-     - T-DCSC
+     - T-DCSC-024
      - :ref:`Check new data license matches destination <dmp-test-24>`
    * - 25
-     - T-DCSC
+     - T-DCSC-025
      - :ref:`Check dataset.type is specified <dmp-test-25>`
    * - 26
-     - T-DCSC
+     - T-DCSC-026
      - :ref:`Check distribution.format is specified <dmp-test-26>`
    * - 27
-     - T-DCSC
+     - T-DCSC-027
      - :ref:`Check distribution.byte_size is specified <dmp-test-27>`
    * - 28
-     - T-DCSC
+     - T-DCSC-028
      - :ref:`Check dataset.type matches destination type <dmp-test-28>`
    * - 29
-     - T-DCSC
+     - T-DCSC-029
      - :ref:`Check dataset.type aligns with destination subtype <dmp-test-29>`
    * - 30
-     - T-DCSC
+     - T-DCSC-030
      - :ref:`Check final dataset format matches destination files <dmp-test-30>`
    * - 31
-     - T-DCSC
+     - T-DCSC-031
      - :ref:`Check final dataset size matches destination size <dmp-test-31>`
    * - 32
-     - T-DCSC
+     - T-DCSC-032
      - :ref:`Check maDMP JSON Validates Against DMP Common Standard Schema <dmp-test-32>`
    * - 33
-     - T-DCSC
+     - T-DCSC-033
      - :ref:`Check dataset_methodology for controlled vocabularies <dmp-test-33>`
    * - 34
-     - T-DCSC
+     - T-DCSC-034
      - :ref:`Check technical_resource.name for electronic lab notebook reference <dmp-test-34>`
    * - 35
-     - T-DCSC
+     - T-DCSC-035
      - :ref:`Check related_identifier resource_type for ReadMe file <dmp-test-35>`
    * - 36
-     - T-DCSC
+     - T-DCSC-036
      - :ref:`Check metadata_standard_id is registered in metadata registries <dmp-test-36>`
    * - 37
-     - T-DCSC
+     - T-DCSC-037
      - :ref:`Check distribution format is open <dmp-test-37>`
    * - 38
-     - T-DCSC
+     - T-DCSC-038
      - :ref:`Check ELN dataset linked via related_ids <dmp-test-38>`
    * - 39
-     - T-DCSC
+     - T-DCSC-039
      - :ref:`Check technical_resource for dataset documentation <dmp-test-39>`
    * - 40
-     - T-DCSC
+     - T-DCSC-040
      - :ref:`Check data_quality_assurance for quality control methods <dmp-test-40>`
    * - 41
-     - T-DCSC
+     - T-DCSC-041
      - :ref:`Check host.title and host.url for storage location <dmp-test-41>`
    * - 42
-     - T-DCSC
+     - T-DCSC-042
      - :ref:`Check host for trusted repository storage <dmp-test-42>`
    * - 43
-     - T-DCSC
+     - T-DCSC-043
      - :ref:`Check sensitive_data classification is assigned <dmp-test-43>`
    * - 44
-     - T-DCSC
+     - T-DCSC-044
      - :ref:`Check host security and backup reflect sensitivity level <dmp-test-44>`
    * - 45
-     - T-DCSC
+     - T-DCSC-045
      - :ref:`Check contributor.role for backup responsibility <dmp-test-45>`
    * - 46
-     - T-DCSC
+     - T-DCSC-046
      - :ref:`Check backup_frequency is declared <dmp-test-46>`
    * - 47
-     - T-DCSC
+     - T-DCSC-047
      - :ref:`Check host.id matches Zenodo deposit location <dmp-test-47>`
    * - 48
-     - T-DCSC
+     - T-DCSC-048
      - :ref:`Check security_and_privacy.title for security measures <dmp-test-48>`
    * - 49
-     - T-DCSC
+     - T-DCSC-049
      - :ref:`Check security_and_privacy.description for access rights management <dmp-test-49>`
    * - 50
-     - T-DCSC
+     - T-DCSC-050
      - :ref:`Check security_and_privacy.description for authorised access controls <dmp-test-50>`
    * - 51
-     - T-DCSC
+     - T-DCSC-051
      - :ref:`Check security_and_privacy.description for access control and user permissions <dmp-test-51>`
    * - 52
-     - T-DCSC
+     - T-DCSC-052
      - :ref:`Check security_and_privacy.description for access procedures <dmp-test-52>`
    * - 53
-     - T-DCSC
+     - T-DCSC-053
      - :ref:`Check security_and_privacy.description and ethical_issues_report for GDPR and ethics compliance <dmp-test-53>`
    * - 54
-     - T-DCSC
+     - T-DCSC-054
      - :ref:`Check security_and_privacy.title for implemented security measures at destination <dmp-test-54>`
    * - 55
-     - T-DCSC
+     - T-DCSC-055
      - :ref:`Check security_and_privacy.description for data protection method when sensitive_data is true <dmp-test-55>`
    * - 56
-     - T-DCSC
+     - T-DCSC-056
      - :ref:`Check security_and_privacy for anonymised synthetic data provision <dmp-test-56>`
    * - 57
-     - T-DCSC
+     - T-DCSC-057
      - :ref:`Check rights for statement of no data restrictions <dmp-test-57>`
    * - 58
-     - T-DCSC
+     - T-DCSC-058
      - :ref:`Check license_ref for dataset licence <dmp-test-58>`
    * - 59
-     - T-DCSC
+     - T-DCSC-059
      - :ref:`Check license_ref against SPDX for software datasets <dmp-test-59>`
    * - 60
-     - T-DCSC
+     - T-DCSC-060
      - :ref:`Check data_access and rights for access agreements or MoUs <dmp-test-60>`
    * - 61
-     - T-DCSC
+     - T-DCSC-061
      - :ref:`Check contributor.role for data owner <dmp-test-61>`
    * - 62
-     - T-DCSC
+     - T-DCSC-062
      - :ref:`Check contributor for author role when dataset type is software <dmp-test-62>`
    * - 63
-     - T-DCSC
+     - T-DCSC-063
      - :ref:`Check ethical_issues_exist for valid value <dmp-test-63>`
    * - 64
-     - T-DCSC
+     - T-DCSC-064
      - :ref:`Check ethical_issues_description is present when ethical_issues_exist is no <dmp-test-64>`
    * - 65
-     - T-DCSC
+     - T-DCSC-065
      - :ref:`Check data_access for open status <dmp-test-65>`
    * - 66
-     - T-DCSC
+     - T-DCSC-066
      - :ref:`Check distribution is present for dataset <dmp-test-66>`
    * - 67
-     - T-DCSC
+     - T-DCSC-067
      - :ref:`Check license_ref is present within distribution <dmp-test-67>`
    * - 68
-     - T-DCSC
+     - T-DCSC-068
      - :ref:`Check rights for data restrictions reference <dmp-test-68>`
    * - 69
-     - T-DCSC
+     - T-DCSC-069
      - :ref:`Check distribution license_ref for Horizon Europe CC-BY compliance <dmp-test-69>`
    * - 70
-     - T-DCSC
+     - T-DCSC-070
      - :ref:`Check data_access matches destination host access policy <dmp-test-70>`
    * - 71
-     - T-DCSC
+     - T-DCSC-071
      - :ref:`Check distribution license_ref matches destination host licence policy <dmp-test-71>`
    * - 72
-     - T-DCSC
+     - T-DCSC-072
      - :ref:`Check distribution license.start_date matches destination embargo policy <dmp-test-72>`
    * - 73
-     - T-DCSC
+     - T-DCSC-073
      - :ref:`Check rights matches destination host restriction policy <dmp-test-73>`
    * - 74
-     - T-DCSC
+     - T-DCSC-074
      - :ref:`Check repository host for absence of embargo date <dmp-test-74>`
    * - 75
-     - T-DCSC
+     - T-DCSC-075
      - :ref:`Check distribution.license.start_date for absence in maDMP <dmp-test-75>`
    * - 76
-     - T-DCSC
+     - T-DCSC-076
      - :ref:`Check host.title and host.url against thematic repository registries <dmp-test-76>`
    * - 77
-     - T-DCSC
+     - T-DCSC-077
      - :ref:`Check host against OpenAIRE and FAIRsharing FAIR benchmarks <dmp-test-77>`
    * - 78
-     - T-DCSC
+     - T-DCSC-078
      - :ref:`Check host against trusted repository registry benchmark <dmp-test-78>`
    * - 79
-     - T-DCSC
+     - T-DCSC-079
      - :ref:`Check host.backup_frequency and host.backup_type for back-up strategy <dmp-test-79>`
    * - 80
-     - T-DCSC
+     - T-DCSC-080
      - :ref:`Check certified_with exists in host <dmp-test-80>`
    * - 81
-     - T-DCSC
+     - T-DCSC-081
      - :ref:`Check cost title or description for preservation reference <dmp-test-81>`
    * - 82
-     - T-DCSC
+     - T-DCSC-082
      - :ref:`Check host_id against FAIRsharing for repository policy <dmp-test-82>`
    * - 83
-     - T-DCSC
+     - T-DCSC-083
      - :ref:`Check dataset_id resolves to declared destination via DOI URL <dmp-test-83>`
    * - 84
-     - T-DCSC
+     - T-DCSC-084
      - :ref:`Check preservation_statement and host for long-term storage intention <dmp-test-84>`
    * - 85
-     - T-DCSC
+     - T-DCSC-085
      - :ref:`Check dataset.keyword against Zenodo keywords <dmp-test-85>`
    * - 86
-     - T-DCSC
+     - T-DCSC-086
      - :ref:`Check dataset.language against Zenodo language support <dmp-test-86>`
    * - 87
-     - T-DCSC
+     - T-DCSC-087
      - :ref:`Check host_id against Zenodo and FAIRsharing for policy compliance <dmp-test-87>`
    * - 88
-     - T-DCSC
+     - T-DCSC-088
      - :ref:`Check related_identifier.identifier for external resources <dmp-test-88>`
    * - 89
-     - T-DCSC
+     - T-DCSC-089
      - :ref:`Check related_identifier for metadata standard fields <dmp-test-89>`
    * - 90
-     - T-DCSC
+     - T-DCSC-090
      - :ref:`Check URLs in maDMP are valid and resolvable <dmp-test-90>`
    * - 91
-     - T-DCSC
+     - T-DCSC-091
      - :ref:`Check dataset fields against OpenAIRE SKG-IF API <dmp-test-91>`
    * - 92
-     - T-DCSC
+     - T-DCSC-092
      - :ref:`Check contributor roles against CRediT taxonomy <dmp-test-92>`
    * - 93
-     - T-DCSC
+     - T-DCSC-093
      - :ref:`Check host.pid_system for PID declaration <dmp-test-93>`
    * - 94
-     - T-DCSC
+     - T-DCSC-094
      - :ref:`Check certified_with against trusted registry <dmp-test-94>`
    * - 95
-     - T-DCSC
+     - T-DCSC-095
      - :ref:`Check host_id.identifier and host_id.type for valid repository link <dmp-test-95>`
    * - 96
-     - T-DCSC
+     - T-DCSC-096
      - :ref:`Check host.pid_system matches destination PID system in Zenodo <dmp-test-96>`
    * - 97
-     - T-DCSC
+     - T-DCSC-097
      - :ref:`Check dmp.contributor name, role, and contact <dmp-test-97>`
    * - 98
-     - T-DCSC
+     - T-DCSC-098
      - :ref:`Check dmp.contributor.role for Data Steward <dmp-test-98>`
    * - 99
-     - T-DCSC
+     - T-DCSC-099
      - :ref:`Check contributor_id and affiliation.affiliation_id for PIDs <dmp-test-99>`
    * - 100
-     - T-DCSC
+     - T-DCSC-100
      - :ref:`Check dmp.contributor fields against destination contributors <dmp-test-100>`
    * - 101
-     - T-DCSC
+     - T-DCSC-101
      - :ref:`Check Data Steward role in maDMP against contributors.type Other in destination <dmp-test-101>`
    * - 102
-     - T-DCSC
+     - T-DCSC-102
      - :ref:`Check contributor PIDs in maDMP against Zenodo contributors <dmp-test-102>`
    * - 103
-     - T-DCSC
+     - T-DCSC-103
      - :ref:`Check cost in maDMP against repository cost <dmp-test-103>`
    * - 104
-     - T-DCSC
+     - T-DCSC-104
      - :ref:`Check cost fields for budget specification <dmp-test-104>`
    * - 105
-     - T-DCSC
+     - T-DCSC-105
      - :ref:`Check cost in maDMP for no additional resources statement <dmp-test-105>`
 
 
@@ -338,7 +338,7 @@ The following catalogue lists the 105 DMP Tests defined within the OSTrails proj
 Test 1: Check for reused dataset declaration
 --------------------------------------------
 
-:Test ID: madmp-reused-datasets-declared-json
+:Test ID: T-DCSC-001
 :Persistent URI: https://example.org/test/madmp-reused-datasets-declared-json
 :Implements: :ref:`Metric 1: Reused Dataset Declared in the DMP <dmp-metric-1>`
 
@@ -465,7 +465,7 @@ JSON-LD
 Test 2: Check License for Reused Datasets
 -----------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-002
 :Persistent URI: https://example.org/test/T-DCSC-license
 :Implements: :ref:`Metric 3: Reused Dataset Has a Declared License <dmp-metric-3>`
 
@@ -595,7 +595,7 @@ JSON-LD
 Test 3: Check for reused dataset PID
 ------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-003
 :Persistent URI: https://example.org/test/T-DCSC-reused-dataset-pid
 :Implements: :ref:`Metric 2: Reused Dataset Has a Persistent Identifier <dmp-metric-2>`
 
@@ -725,7 +725,7 @@ JSON-LD
 Test 4: Check Distribution Entry is Present
 -------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-004
 :Persistent URI: https://example.org/test/T-DCSC-distribution-present
 :Implements: :ref:`Metric 4: Reused Dataset Has Distribution Information <dmp-metric-4>`
 
@@ -853,7 +853,7 @@ JSON-LD
 Test 5: Check Distribution Access Information is Present
 --------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-005
 :Persistent URI: https://example.org/test/T-DCSC-distribution-access
 :Implements: :ref:`Metric 4: Reused Dataset Has Distribution Information <dmp-metric-4>`
 
@@ -980,7 +980,7 @@ JSON-LD
 Test 6: Check Distribution Title is Present
 -------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-006
 :Persistent URI: https://example.org/test/T-DCSC-distribution-title
 :Implements: :ref:`Metric 4: Reused Dataset Has Distribution Information <dmp-metric-4>`
 
@@ -1107,7 +1107,7 @@ JSON-LD
 Test 7: Check Access Rights for Reused Datasets
 -----------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-007
 :Persistent URI: https://example.org/test/T-DCSC-access
 :Implements: :ref:`Metric 5: Reused Dataset Has Declared Access Conditions <dmp-metric-5>`
 
@@ -1236,7 +1236,7 @@ JSON-LD
 Test 8: Check Personal Data Flag for Reused Datasets
 ----------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-008
 :Persistent URI: https://example.org/test/T-DCSC-personal-data
 :Implements: :ref:`Metric 6: Reused Dataset Contains Personal Data <dmp-metric-6>`
 
@@ -1365,7 +1365,7 @@ JSON-LD
 Test 9: Check Sensitive Data Flag for Reused Datasets
 -----------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-009
 :Persistent URI: https://example.org/test/T-DCSC-sensitive-data
 :Implements: :ref:`Metric 7: Reused Dataset Contains Sensitive Data <dmp-metric-7>`
 
@@ -1494,7 +1494,7 @@ JSON-LD
 Test 10: Check Distribution URL is Present
 ------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-010
 :Persistent URI: https://example.org/test/T-DCSC-distribution-url-present
 :Implements: :ref:`Metric 8: Reused Dataset Has an Access URL <dmp-metric-8>`
 
@@ -1621,7 +1621,7 @@ JSON-LD
 Test 11: Check Access URL is Present and Non-empty
 --------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-011
 :Persistent URI: https://example.org/test/T-DCSC-access-url
 :Implements: :ref:`Metric 8: Reused Dataset Has an Access URL <dmp-metric-8>`
 
@@ -1748,7 +1748,7 @@ JSON-LD
 Test 12: Check PID Matches Destination Repository Record
 --------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-012
 :Persistent URI: https://example.org/test/T-DCSC-repo-match
 :Implements: :ref:`Metric 9: Reused Dataset PID Resolves in the Repository <dmp-metric-9>`
 
@@ -1760,7 +1760,7 @@ Checks whether the persistent identifier declared for the reused dataset in the 
 Input
 ^^^^^
 
-- dataset_id in maDMP  
+- dataset_id in maDMP
 - repository identifier field(s) (e.g., DOI URL)
 
 Output
@@ -1877,7 +1877,7 @@ JSON-LD
 Test 13: Check PID Resolves Successfully
 ----------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-013
 :Persistent URI: https://example.org/test/T-DCSC-pid-resolves
 :Implements: :ref:`Metric 9: Reused Dataset PID Resolves in the Repository <dmp-metric-9>`
 
@@ -1889,7 +1889,7 @@ Checks whether the persistent identifier declared in the maDMP resolves to an ac
 Input
 ^^^^^
 
-- dataset_id from maDMP  
+- dataset_id from maDMP
 - PID resolver
 
 Output
@@ -2005,7 +2005,7 @@ JSON-LD
 Test 14: Check Reused Data Access Matches Destination
 -----------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-014
 :Persistent URI: https://example.org/test/T-DCSC-access-match
 :Implements: :ref:`Metric 10: Reused Dataset Access Conditions Match the Repository <dmp-metric-10>`
 
@@ -2017,7 +2017,7 @@ Check if reused data access in DMP matches the destination.
 Input
 ^^^^^
 
-- `data_access` in maDMP  
+- `data_access` in maDMP
 - `access_right` in destination repository (e.g., Zenodo)
 
 Output
@@ -2134,7 +2134,7 @@ JSON-LD
 Test 15: Check Reused Data License Matches Destination
 ------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-015
 :Persistent URI: https://example.org/test/T-DCSC-license-match
 :Implements: :ref:`Metric 11: Reused Dataset License Matches the Repository <dmp-metric-11>`
 
@@ -2146,7 +2146,7 @@ Checks if the license of the repository is the one mentioned in the DMP.
 Input
 ^^^^^
 
-- license in maDMP JSON  
+- license in maDMP JSON
 - license in destination repository (e.g., Zenodo)
 
 Output
@@ -2263,7 +2263,7 @@ JSON-LD
 Test 16: Check for new data (no is_reused)
 ------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-016
 :Persistent URI: https://example.org/test/T-DCSC-new-data
 :Implements: :ref:`Metric 12: New Dataset Declared in the DMP <dmp-metric-12>`
 
@@ -2390,7 +2390,7 @@ JSON-LD
 Test 17: Check technical_resource for new data collection/creation
 ------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-017
 :Persistent URI: https://example.org/test/T-DCSC-new-data-technical-resource
 :Implements: :ref:`Metric 13: New Dataset Collection or Creation Method Declared <dmp-metric-13>`
 
@@ -2520,7 +2520,7 @@ JSON-LD
 Test 18: Check data_access for new datasets
 -------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-018
 :Persistent URI: https://example.org/test/T-DCSC-new-data-access
 :Implements: :ref:`Metric 14: New Dataset Has Declared Access Conditions <dmp-metric-14>`
 
@@ -2649,7 +2649,7 @@ JSON-LD
 Test 19: Check rights of new dataset
 ------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-019
 :Persistent URI: https://example.org/test/T-DCSC-new-data-rights
 :Implements: :ref:`Metric 14: New Dataset Has Declared Access Conditions <dmp-metric-14>`
 
@@ -2778,7 +2778,7 @@ JSON-LD
 Test 20: Check metadata for new dataset
 ---------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-020
 :Persistent URI: https://example.org/test/T-DCSC-new-data-metadata
 :Implements: :ref:`Metric 15: New Dataset Has Sufficient Metadata <dmp-metric-15>`
 
@@ -2910,7 +2910,7 @@ JSON-LD
 Test 21: Check dataset_id exists
 --------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-021
 :Persistent URI: https://example.org/test/T-DCSC-dataset-id-exists
 :Implements: :ref:`Metric 16: New Dataset Persistent Identifier Resolves Successfully <dmp-metric-16>`
 
@@ -3037,7 +3037,7 @@ JSON-LD
 Test 22: Check PID resolves for dataset_id
 ------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-022
 :Persistent URI: https://example.org/test/T-DCSC-dataset-id-resolves
 :Implements: :ref:`Metric 16: New Dataset Persistent Identifier Resolves Successfully <dmp-metric-16>`
 
@@ -3165,7 +3165,7 @@ JSON-LD
 Test 23: Check new data access matches destination
 --------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-023
 :Persistent URI: https://example.org/test/T-DCSC-new-data-access-match-destination
 :Implements: :ref:`Metric 17: New Dataset Access Conditions Match the Repository <dmp-metric-17>`
 
@@ -3295,7 +3295,7 @@ JSON-LD
 Test 24: Check new data license matches destination
 ---------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-024
 :Persistent URI: https://example.org/test/T-DCSC-new-data-license-match-destination
 :Implements: :ref:`Metric 18: New Dataset License Matches the Repository <dmp-metric-18>`
 
@@ -3426,7 +3426,7 @@ JSON-LD
 Test 25: Check dataset.type is specified
 ----------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-025
 :Persistent URI: https://example.org/test/T-DCSC-dataset-type
 :Implements: :ref:`Metric 19: Dataset Type Specified <dmp-metric-19>`
 
@@ -3554,7 +3554,7 @@ JSON-LD
 Test 26: Check distribution.format is specified
 -----------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-026
 :Persistent URI: https://example.org/test/T-DCSC-distribution-format
 :Implements: :ref:`Metric 20: Dataset File Format Specified <dmp-metric-20>`
 
@@ -3682,7 +3682,7 @@ JSON-LD
 Test 27: Check distribution.byte_size is specified
 --------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-027
 :Persistent URI: https://example.org/test/T-DCSC-distribution-byte-size
 :Implements: :ref:`Metric 21: Dataset Size Specified <dmp-metric-21>`
 
@@ -3810,7 +3810,7 @@ JSON-LD
 Test 28: Check dataset.type matches destination type
 ----------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-028
 :Persistent URI: https://example.org/test/T-DCSC-dataset-type-match-destination-type
 :Implements: :ref:`Metric 22: Dataset Type Matches the Repository <dmp-metric-22>`
 
@@ -3940,7 +3940,7 @@ JSON-LD
 Test 29: Check dataset.type aligns with destination subtype
 -----------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-029
 :Persistent URI: https://example.org/test/T-DCSC-dataset-type-align-destination-subtype
 :Implements: :ref:`Metric 22: Dataset Type Matches the Repository <dmp-metric-22>`
 
@@ -4070,7 +4070,7 @@ JSON-LD
 Test 30: Check final dataset format matches destination files
 -------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-030
 :Persistent URI: https://example.org/test/T-DCSC-dataset-format-match-destination-files
 :Implements: :ref:`Metric 23: Dataset File Format Matches the Repository <dmp-metric-23>`
 
@@ -4200,7 +4200,7 @@ JSON-LD
 Test 31: Check final dataset size matches destination size
 ----------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-031
 :Persistent URI: https://example.org/test/T-DCSC-dataset-size-match-destination-size
 :Implements: :ref:`Metric 24: Dataset Size Matches the Repository <dmp-metric-24>`
 
@@ -4330,7 +4330,7 @@ JSON-LD
 Test 32: Check maDMP JSON Validates Against DMP Common Standard Schema
 ----------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-032
 :Persistent URI: https://example.org/test/T-DCSC-dmp-cs-schema-validation
 :Implements: :ref:`Metric 25: DMP Common Standard Field Compliance <dmp-metric-25>`
 
@@ -4458,7 +4458,7 @@ JSON-LD
 Test 33: Check dataset_methodology for controlled vocabularies
 --------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-033
 :Persistent URI: https://example.org/test/T-DCSC-dataset-methodology-controlled-vocabularies
 :Implements: :ref:`Metric 26: Controlled Vocabularies Used in Methodology <dmp-metric-26>`
 
@@ -4587,7 +4587,7 @@ JSON-LD
 Test 34: Check technical_resource.name for electronic lab notebook reference
 ----------------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-034
 :Persistent URI: https://example.org/test/T-DCSC-technical-resource-eln-reference
 :Implements: :ref:`Metric 31: Electronic Lab Notebook Referenced as a Technical Resource <dmp-metric-31>`
 
@@ -4715,7 +4715,7 @@ JSON-LD
 Test 35: Check related_identifier resource_type for ReadMe file
 ---------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-035
 :Persistent URI: https://example.org/test/T-DCSC-related-identifier-readme-file
 :Implements: :ref:`Metric 28: ReadMe File Reference <dmp-metric-28>`
 
@@ -4831,7 +4831,7 @@ JSON-LD
 Test 36: Check metadata_standard_id is registered in metadata registries
 ------------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-036
 :Persistent URI: https://example.org/test/T-DCSC-metadata-standard-registered
 :Implements: :ref:`Metric 29: Metadata Standards Used <dmp-metric-29>`
 
@@ -4948,7 +4948,7 @@ JSON-LD
 Test 37: Check distribution format is open
 ------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-037
 :Persistent URI: https://example.org/test/T-DCSC-distribution-format-open
 :Implements: :ref:`Metric 30: Dataset Distributions Use Open File Formats <dmp-metric-30>`
 
@@ -5064,7 +5064,7 @@ JSON-LD
 Test 38: Check ELN dataset linked via related_ids
 -------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-038
 :Persistent URI: https://example.org/test/T-DCSC-eln-dataset-linked-related-ids
 :Implements: :ref:`Metric 31: Electronic Lab Notebook Linked <dmp-metric-31>`
 
@@ -5193,7 +5193,7 @@ JSON-LD
 Test 39: Check technical_resource for dataset documentation
 -----------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-039
 :Persistent URI: https://example.org/test/T-DCSC-technical-resource-dataset-documentation
 :Implements: :ref:`Metric 32: Existence of Dataset Documentation <dmp-metric-32>`
 
@@ -5321,7 +5321,7 @@ JSON-LD
 Test 40: Check data_quality_assurance for quality control methods
 -----------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-040
 :Persistent URI: https://example.org/test/T-DCSC-data-quality-assurance
 :Implements: :ref:`Metric 33: Quality Control Methods Stated <dmp-metric-33>`
 
@@ -5449,7 +5449,7 @@ JSON-LD
 Test 41: Check host.title and host.url for storage location
 -----------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-041
 :Persistent URI: https://example.org/test/T-DCSC-host-storage-location
 :Implements: :ref:`Metric 34: Data Storage Location mentioned in the DMP <dmp-metric-34>`
 
@@ -5577,7 +5577,7 @@ JSON-LD
 Test 42: Check host for trusted repository storage
 --------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-042
 :Persistent URI: https://example.org/test/T-DCSC-host-trusted-repository
 :Implements: :ref:`Metric 35: Use of Secure Storage for the dataset in a trusted repository <dmp-metric-35>`
 
@@ -5706,7 +5706,7 @@ JSON-LD
 Test 43: Check sensitive_data classification is assigned
 --------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-043
 :Persistent URI: https://example.org/test/T-DCSC-sensitive-data-classification
 :Implements: :ref:`Metric 36: Alignment of Storage and Backup with Information Sensitivity <dmp-metric-36>`
 
@@ -5834,7 +5834,7 @@ JSON-LD
 Test 44: Check host security and backup reflect sensitivity level
 -----------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-044
 :Persistent URI: https://example.org/test/T-DCSC-host-security-backup-sensitivity
 :Implements: :ref:`Metric 36: Alignment of Storage and Backup with Information Sensitivity <dmp-metric-36>`
 
@@ -5964,7 +5964,7 @@ JSON-LD
 Test 45: Check contributor.role for backup responsibility
 ---------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-045
 :Persistent URI: https://example.org/test/T-DCSC-contributor-role-backup
 :Implements: :ref:`Metric 37: Back up Responsibility <dmp-metric-37>`
 
@@ -6092,7 +6092,7 @@ JSON-LD
 Test 46: Check backup_frequency is declared
 -------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-046
 :Persistent URI: https://example.org/test/T-DCSC-backup-frequency
 :Implements: :ref:`Metric 38: Back up Frequency <dmp-metric-38>`
 
@@ -6220,7 +6220,7 @@ JSON-LD
 Test 47: Check host.id matches Zenodo deposit location
 ------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-047
 :Persistent URI: https://example.org/test/T-DCSC-host-id-matches-zenodo
 :Implements: :ref:`Metric 40: Stored Dataset Location Confirmed <dmp-metric-40>`
 
@@ -6349,7 +6349,7 @@ JSON-LD
 Test 48: Check security_and_privacy.title for security measures
 ---------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-048
 :Persistent URI: https://example.org/test/T-DCSC-security-and-privacy-title
 :Implements: :ref:`Metric 41: Security Measures Implementation <dmp-metric-41>`
 
@@ -6477,7 +6477,7 @@ JSON-LD
 Test 49: Check security_and_privacy.description for access rights management
 ----------------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-049
 :Persistent URI: https://example.org/test/T-DCSC-security-and-privacy-description
 :Implements: :ref:`Metric 42: Sensitive Data Protection Description <dmp-metric-42>`
 
@@ -6606,7 +6606,7 @@ JSON-LD
 Test 50: Check security_and_privacy.description for authorised access controls
 ------------------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-050
 :Persistent URI: https://example.org/test/T-DCSC-security-and-privacy-authorised-access
 :Implements: :ref:`Metric 43: Authorised Access Control <dmp-metric-43>`
 
@@ -6735,7 +6735,7 @@ JSON-LD
 Test 51: Check security_and_privacy.description for access control and user permissions
 ---------------------------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-051
 :Persistent URI: https://example.org/test/T-DCSC-security-and-privacy-user-management
 :Implements: :ref:`Metric 44: Access Control and User Management <dmp-metric-44>`
 
@@ -6865,7 +6865,7 @@ JSON-LD
 Test 52: Check security_and_privacy.description for access procedures
 ---------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-052
 :Persistent URI: https://example.org/test/T-DCSC-security-and-privacy-access-procedures
 :Implements: :ref:`Metric 45: Required Access Procedures <dmp-metric-45>`
 
@@ -6994,7 +6994,7 @@ JSON-LD
 Test 53: Check security_and_privacy.description and ethical_issues_report for GDPR and ethics compliance
 --------------------------------------------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-053
 :Persistent URI: https://example.org/test/T-DCSC-gdpr-ethics-compliance
 :Implements: :ref:`Metric 46: GDPR and Ethics Compliance <dmp-metric-46>`
 
@@ -7123,7 +7123,7 @@ JSON-LD
 Test 54: Check security_and_privacy.title for implemented security measures at destination
 ------------------------------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-054
 :Persistent URI: https://example.org/test/T-DCSC-security-and-privacy-title-destination
 :Implements: :ref:`Metric 47: Final Security Measures Implementation <dmp-metric-47>`
 
@@ -7251,7 +7251,7 @@ JSON-LD
 Test 55: Check security_and_privacy.description for data protection method when sensitive_data is true
 ------------------------------------------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-055
 :Persistent URI: https://example.org/test/T-DCSC-sensitive-data-protection-method
 :Implements: :ref:`Metric 48: Sensitive Data Using Method <dmp-metric-48>`
 
@@ -7381,7 +7381,7 @@ JSON-LD
 Test 56: Check security_and_privacy for anonymised synthetic data provision
 ---------------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-056
 :Persistent URI: https://example.org/test/T-DCSC-anonymised-synthetic-data
 :Implements: :ref:`Metric 49: Provision of Anonymised Synthetic Data <dmp-metric-49>`
 
@@ -7509,7 +7509,7 @@ JSON-LD
 Test 57: Check rights for statement of no data restrictions
 -----------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-057
 :Persistent URI: https://example.org/test/T-DCSC-rights-no-restrictions
 :Implements: :ref:`Metric 50: Statement of No Data Restrictions <dmp-metric-50>`
 
@@ -7637,7 +7637,7 @@ JSON-LD
 Test 58: Check license_ref for dataset licence
 ----------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-058
 :Persistent URI: https://example.org/test/T-DCSC-license-ref
 :Implements: :ref:`Metric 51: Dataset License Declared <dmp-metric-51>`
 
@@ -7765,7 +7765,7 @@ JSON-LD
 Test 59: Check license_ref against SPDX for software datasets
 -------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-059
 :Persistent URI: https://example.org/test/T-DCSC-license-ref-spdx-software
 :Implements: :ref:`Metric 52: Software Dataset Has a Standardised Machine-Readable License <dmp-metric-52>`
 
@@ -7894,7 +7894,7 @@ JSON-LD
 Test 60: Check data_access and rights for access agreements or MoUs
 -------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-060
 :Persistent URI: https://example.org/test/T-DCSC-data-access-agreements
 :Implements: :ref:`Metric 53: Data Access Agreements <dmp-metric-53>`
 
@@ -8022,7 +8022,7 @@ JSON-LD
 Test 61: Check contributor.role for data owner
 ----------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-061
 :Persistent URI: https://example.org/test/T-DCSC-contributor-role-owner
 :Implements: :ref:`Metric 54: Data Ownership Role Declared <dmp-metric-54>`
 
@@ -8151,7 +8151,7 @@ JSON-LD
 Test 62: Check contributor for author role when dataset type is software
 ------------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-062
 :Persistent URI: https://example.org/test/T-DCSC-contributor-author-software
 :Implements: :ref:`Metric 55: Software Dataset Author Declared <dmp-metric-55>`
 
@@ -8280,7 +8280,7 @@ JSON-LD
 Test 63: Check ethical_issues_exist for valid value
 ---------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-063
 :Persistent URI: https://example.org/test/T-DCSC-ethical-issues-exist
 :Implements: :ref:`Metric 56: Ethical Issues Status Declared <dmp-metric-56>`
 
@@ -8408,7 +8408,7 @@ JSON-LD
 Test 64: Check ethical_issues_description is present when ethical_issues_exist is no
 ------------------------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-064
 :Persistent URI: https://example.org/test/T-DCSC-ethical-issues-description-no
 :Implements: :ref:`Metric 58: Justification for Absence of Ethical Issues <dmp-metric-58>`
 
@@ -8536,7 +8536,7 @@ JSON-LD
 Test 65: Check data_access for open status
 ------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-065
 :Persistent URI: https://example.org/test/T-DCSC-data-access-open
 :Implements: :ref:`Metric 59: Data Access Status Open for the Dataset <dmp-metric-59>`
 
@@ -8664,7 +8664,7 @@ JSON-LD
 Test 66: Check distribution is present for dataset
 --------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-066
 :Persistent URI: https://example.org/test/T-DCSC-distribution-present
 :Implements: :ref:`Metric 60: Data License is Present <dmp-metric-60>`
 
@@ -8791,7 +8791,7 @@ JSON-LD
 Test 67: Check license_ref is present within distribution
 ---------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-067
 :Persistent URI: https://example.org/test/T-DCSC-distribution-license-ref
 :Implements: :ref:`Metric 60: Data License is Present <dmp-metric-60>`
 
@@ -8918,7 +8918,7 @@ JSON-LD
 Test 68: Check rights for data restrictions reference
 -----------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-068
 :Persistent URI: https://example.org/test/T-DCSC-rights-restrictions-reference
 :Implements: :ref:`Metric 61: Data Restrictions Reference <dmp-metric-61>`
 
@@ -9045,7 +9045,7 @@ JSON-LD
 Test 69: Check distribution license_ref for Horizon Europe CC-BY compliance
 ---------------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-069
 :Persistent URI: https://example.org/test/T-DCSC-distribution-license-cc-by
 :Implements: :ref:`Metric 62: Dataset License Complies with Funder Requirements <dmp-metric-62>`
 
@@ -9173,7 +9173,7 @@ JSON-LD
 Test 70: Check data_access matches destination host access policy
 -----------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-070
 :Persistent URI: https://example.org/test/T-DCSC-data-access-host-consistency
 :Implements: :ref:`Metric 63: Repository Access Rights Consistency Aligned <dmp-metric-63>`
 
@@ -9302,7 +9302,7 @@ JSON-LD
 Test 71: Check distribution license_ref matches destination host licence policy
 -------------------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-071
 :Persistent URI: https://example.org/test/T-DCSC-distribution-license-host-alignment
 :Implements: :ref:`Metric 64: Repository Data License Aligned with the DMP <dmp-metric-64>`
 
@@ -9431,7 +9431,7 @@ JSON-LD
 Test 72: Check distribution license.start_date matches destination embargo policy
 ---------------------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-072
 :Persistent URI: https://example.org/test/T-DCSC-distribution-license-start-date-embargo
 :Implements: :ref:`Metric 65: Embargo Implementation Alignment <dmp-metric-65>`
 
@@ -9560,7 +9560,7 @@ JSON-LD
 Test 73: Check rights matches destination host restriction policy
 -----------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-073
 :Persistent URI: https://example.org/test/T-DCSC-rights-destination-restriction-alignment
 :Implements: :ref:`Metric 66: Repository Data Restrictions <dmp-metric-66>`
 
@@ -9689,7 +9689,7 @@ JSON-LD
 Test 74: Check repository host for absence of embargo date
 ----------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-074
 :Persistent URI: https://example.org/test/T-DCSC-host-embargo-date-absent
 :Implements: :ref:`Metric 67: Embargo Declared in the DMP or Repository <dmp-metric-67>`
 
@@ -9817,7 +9817,7 @@ JSON-LD
 Test 75: Check distribution.license.start_date for absence in maDMP
 -------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-075
 :Persistent URI: https://example.org/test/T-DCSC-distribution-license-start-date-absent
 :Implements: :ref:`Metric 67: Embargo Declared in the DMP or Repository <dmp-metric-67>`
 
@@ -9944,7 +9944,7 @@ JSON-LD
 Test 76: Check host.title and host.url against thematic repository registries
 -----------------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-076
 :Persistent URI: https://example.org/test/T-DCSC-host-thematic-registry-match
 :Implements: :ref:`Metric 68: Thematic Data Repositories Referenced <dmp-metric-68>`
 
@@ -10073,7 +10073,7 @@ JSON-LD
 Test 77: Check host against OpenAIRE and FAIRsharing FAIR benchmarks
 --------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-077
 :Persistent URI: https://example.org/test/T-DCSC-host-fair-benchmark
 :Implements: :ref:`Metric 69: Repository Conforms with FAIR Data Principles <dmp-metric-69>`
 
@@ -10202,7 +10202,7 @@ JSON-LD
 Test 78: Check host against trusted repository registry benchmark
 -----------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-078
 :Persistent URI: https://example.org/test/T-DCSC-host-trusted-registry
 :Implements: :ref:`Metric 70: Trusted Repository is Used <dmp-metric-70>`
 
@@ -10331,7 +10331,7 @@ JSON-LD
 Test 79: Check host.backup_frequency and host.backup_type for back-up strategy
 ------------------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-079
 :Persistent URI: https://example.org/test/T-DCSC-host-backup-strategy
 :Implements: :ref:`Metric 71: Verification of Back-up Strategy <dmp-metric-71>`
 
@@ -10460,7 +10460,7 @@ JSON-LD
 Test 80: Check certified_with exists in host
 --------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-080
 :Persistent URI: https://example.org/test/T-DCSC-host-certified-with
 :Implements: :ref:`Metric 72: Certification of Repository <dmp-metric-72>`
 
@@ -10588,7 +10588,7 @@ JSON-LD
 Test 81: Check cost title or description for preservation reference
 -------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-081
 :Persistent URI: https://example.org/test/T-DCSC-cost-preservation-reference
 :Implements: :ref:`Metric 73: Used Resources for Preservation <dmp-metric-73>`
 
@@ -10716,7 +10716,7 @@ JSON-LD
 Test 82: Check host_id against FAIRsharing for repository policy
 ----------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-082
 :Persistent URI: https://example.org/test/T-DCSC-host-id-fairsharing-policy
 :Implements: :ref:`Metric 74: Repository Policy is Present <dmp-metric-74>`
 
@@ -10845,7 +10845,7 @@ JSON-LD
 Test 83: Check dataset_id resolves to declared destination via DOI URL
 ----------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-083
 :Persistent URI: https://example.org/test/T-DCSC-dataset-id-doi-destination
 :Implements: :ref:`Metric 75: Repository Identifier Accuracy <dmp-metric-75>`
 
@@ -10974,7 +10974,7 @@ JSON-LD
 Test 84: Check preservation_statement and host for long-term storage intention
 ------------------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-084
 :Persistent URI: https://example.org/test/T-DCSC-preservation-statement-host
 :Implements: :ref:`Metric 76: Long-Term Preservation Dataset <dmp-metric-76>`
 
@@ -11102,7 +11102,7 @@ JSON-LD
 Test 85: Check dataset.keyword against Zenodo keywords
 ------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-085
 :Persistent URI: https://example.org/test/T-DCSC-dataset-keyword-zenodo
 :Implements: :ref:`Metric 77: Dataset Characteristics Are Compatible with the Repository <dmp-metric-77>`
 
@@ -11230,7 +11230,7 @@ JSON-LD
 Test 86: Check dataset.language against Zenodo language support
 ---------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-086
 :Persistent URI: https://example.org/test/T-DCSC-dataset-language-zenodo
 :Implements: :ref:`Metric 77: Dataset Characteristics Are Compatible with the Repository <dmp-metric-77>`
 
@@ -11358,7 +11358,7 @@ JSON-LD
 Test 87: Check host_id against Zenodo and FAIRsharing for policy compliance
 ---------------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-087
 :Persistent URI: https://example.org/test/T-DCSC-host-id-zenodo-fairsharing-policy
 :Implements: :ref:`Metric 70: Trusted Repository is Used <dmp-metric-70>`
 
@@ -11487,7 +11487,7 @@ JSON-LD
 Test 88: Check related_identifier.identifier for external resources
 -------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-088
 :Persistent URI: https://example.org/test/T-DCSC-related-identifier-external-resources
 :Implements: :ref:`Metric 78: Data External Resources Included in the DMP <dmp-metric-78>`
 
@@ -11614,7 +11614,7 @@ JSON-LD
 Test 89: Check related_identifier for metadata standard fields
 --------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-089
 :Persistent URI: https://example.org/test/T-DCSC-related-identifier-metadata-standard
 :Implements: :ref:`Metric 79: Metadata Standard Specified in the DMP <dmp-metric-79>`
 
@@ -11741,7 +11741,7 @@ JSON-LD
 Test 90: Check URLs in maDMP are valid and resolvable
 -----------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-090
 :Persistent URI: https://example.org/test/T-DCSC-url-resolvable
 :Implements: :ref:`Metric 80: Resolvable External Resources <dmp-metric-80>`
 
@@ -11869,7 +11869,7 @@ JSON-LD
 Test 91: Check dataset fields against OpenAIRE SKG-IF API
 ---------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-091
 :Persistent URI: https://example.org/test/T-DCSC-dataset-openaire-skg-if
 :Implements: :ref:`Metric 81: OpenAIRE Mentioned Dataset Validation <dmp-metric-81>`
 
@@ -11998,7 +11998,7 @@ JSON-LD
 Test 92: Check contributor roles against CRediT taxonomy
 --------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-092
 :Persistent URI: https://example.org/test/T-DCSC-contributor-credit-taxonomy
 :Implements: :ref:`Metric 82: Contributor Roles Follow CRediT Taxonomy <dmp-metric-82>`
 
@@ -12126,7 +12126,7 @@ JSON-LD
 Test 93: Check host.pid_system for PID declaration
 --------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-093
 :Persistent URI: https://example.org/test/T-DCSC-host-pid-system
 :Implements: :ref:`Metric 83: Repository Supports Persistent Identifiers for Datasets <dmp-metric-83>`
 
@@ -12254,7 +12254,7 @@ JSON-LD
 Test 94: Check certified_with against trusted registry
 ------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-094
 :Persistent URI: https://example.org/test/T-DCSC-certified-with-trusted-registry
 :Implements: :ref:`Metric 84: Trusted Repository Referenced <dmp-metric-84>`
 
@@ -12382,7 +12382,7 @@ JSON-LD
 Test 95: Check host_id.identifier and host_id.type for valid repository link
 ----------------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-095
 :Persistent URI: https://example.org/test/T-DCSC-host-id-valid-link
 :Implements: :ref:`Metric 84: Trusted Repository Referenced <dmp-metric-84>`
 
@@ -12511,7 +12511,7 @@ JSON-LD
 Test 96: Check host.pid_system matches destination PID system in Zenodo
 -----------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-096
 :Persistent URI: https://example.org/test/T-DCSC-host-pid-system-zenodo
 :Implements: :ref:`Metric 85: Dataset PID System in the DMP Matches the Repository <dmp-metric-85>`
 
@@ -12640,7 +12640,7 @@ JSON-LD
 Test 97: Check dmp.contributor name, role, and contact
 ------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-097
 :Persistent URI: https://example.org/test/T-DCSC-contributor-name-role-contact
 :Implements: :ref:`Metric 87: Research Data Management Roles Declared <dmp-metric-87>`
 
@@ -12767,7 +12767,7 @@ JSON-LD
 Test 98: Check dmp.contributor.role for Data Steward
 ----------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-098
 :Persistent URI: https://example.org/test/T-DCSC-contributor-role-data-steward
 :Implements: :ref:`Metric 88: DMP Validation by Data Steward <dmp-metric-88>`
 
@@ -12895,7 +12895,7 @@ JSON-LD
 Test 99: Check contributor_id and affiliation.affiliation_id for PIDs
 ---------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-099
 :Persistent URI: https://example.org/test/T-DCSC-contributor-id-affiliation-id
 :Implements: :ref:`Metric 89: Contributors and Organisations PIDs <dmp-metric-89>`
 
@@ -13023,7 +13023,7 @@ JSON-LD
 Test 100: Check dmp.contributor fields against destination contributors
 -----------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-100
 :Persistent URI: https://example.org/test/T-DCSC-contributor-fields-destination
 :Implements: :ref:`Metric 90: Referenced RDM Roles <dmp-metric-90>`
 
@@ -13152,7 +13152,7 @@ JSON-LD
 Test 101: Check Data Steward role in maDMP against contributors.type Other in destination
 -----------------------------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-101
 :Persistent URI: https://example.org/test/T-DCSC-data-steward-role-destination-other
 :Implements: :ref:`Metric 91: Data Steward Contribution Reflected in the Destination Repository <dmp-metric-91>`
 
@@ -13282,7 +13282,7 @@ JSON-LD
 Test 102: Check contributor PIDs in maDMP against Zenodo contributors
 ---------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-102
 :Persistent URI: https://example.org/test/T-DCSC-contributor-pids-zenodo
 :Implements: :ref:`Metric 92: Contributor and Organisation PIDs Match the Destination Repository <dmp-metric-92>`
 
@@ -13411,7 +13411,7 @@ JSON-LD
 Test 103: Check cost in maDMP against repository cost
 -----------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-103
 :Persistent URI: https://example.org/test/T-DCSC-cost-repository
 :Implements: :ref:`Metric 92: Contributor and Organisation PIDs Match the Destination Repository <dmp-metric-92>`
 
@@ -13541,7 +13541,7 @@ JSON-LD
 Test 104: Check cost fields for budget specification
 ----------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-104
 :Persistent URI: https://example.org/test/T-DCSC-cost-budget-specification
 :Implements: :ref:`Metric 93: DMP Includes a Budget for Personnel and Monetary Resources <dmp-metric-93>`
 
@@ -13668,7 +13668,7 @@ JSON-LD
 Test 105: Check cost in maDMP for no additional resources statement
 -------------------------------------------------------------------
 
-:Test ID: T-DCSC
+:Test ID: T-DCSC-105
 :Persistent URI: https://example.org/test/T-DCSC-cost-no-additional-resources
 :Implements: :ref:`Metric 94: DMP States No Additional RDM Resources Are Required <dmp-metric-94>`
 
