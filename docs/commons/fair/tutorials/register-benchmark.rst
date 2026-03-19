@@ -3,9 +3,6 @@
 How to register a Benchmark
 ======================
 
-At ..tutorial_fair
-
-
 This tutorial explains how to register a **community FAIR Benchmark** using the OSTrails FAIR Assessment framework.
 
 A Benchmark is a community-specific grouping of a set of Metrics that provides a narrative of those particular ways in which that community defines FAIR for assessment purposes. 
