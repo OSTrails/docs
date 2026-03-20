@@ -142,7 +142,6 @@ Once submitted to FAIRsharing, the record will remain hidden until approved by t
 
 FAIRsharing
 ======================
-[[Principle abbrev]]M:[[Abbreviation of sub-principle]]:[[M|D|P]]:[[short name for the metric]] 
 
 This tutorial provides a comprehensive walkthrough for registering a **Metric** directly within the FAIRassist registry on FAIRsharing.
 
