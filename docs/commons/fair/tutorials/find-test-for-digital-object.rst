@@ -1,9 +1,16 @@
 .. _find-test-for-digital-object:
 
+==================================
+How to find a Test for my digital object
+==================================
+
+This tutorial covers how to find a Test using FAIRsharing (Test linked to a Metric), and how to find Tests using FAIR Champion. 
+
+
 FAIRsharing: Finding a Test Linked to a Metric
 ==================================
 
-This tutorial explains how to navigate to a metric record in FAIRsharing
+This section explains how to navigate to a metric record in FAIRsharing
 and locate any tests that implement it. If you have not yet found a
 metric of interest, see `find-metrics-and-benchmarks <https://github.com/saracuriel/docs/blob/57bc2cded89188532a0244fda6a8bb131740d74a/docs/commons/fair/tutorials/find-metrics-and-benchmarks.rst>`_ first.
 
