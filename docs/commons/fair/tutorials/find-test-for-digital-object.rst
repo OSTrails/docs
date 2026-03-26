@@ -12,7 +12,7 @@ FAIRsharing: Finding a Test Linked to a Metric
 
 This section explains how to navigate to a metric record in FAIRsharing
 and locate any tests that implement it. If you have not yet found a
-metric of interest, see `find-metrics-and-benchmarks <https://github.com/saracuriel/docs/blob/57bc2cded89188532a0244fda6a8bb131740d74a/docs/commons/fair/tutorials/find-metrics-and-benchmarks.rst>`_ first.
+metric of interest, see `find-metrics-and-benchmarks <find-metrics-and-benchmarks.rst>`_ first.
 
 .. contents:: Contents
    :local:
