@@ -13,7 +13,7 @@ Does your metric already exist?
 ======================
 You should review existing metrics in FAIRsharing for the Principle that you are measuring. If it already exists, then please use that metric in your benchmark rather than creating a new one. To discover the metrics related to a particular Principle, find the Principle in FAIRsharing and explore its relationships.
 
-For example, if you require a metric for F1 ((Meta)data are assigned globally unique and persistent identifiers) that checks the global uniqueness of an identifier, then visit https://doi.org/10.25504/FAIRsharing.a2cea7 and review the list of related metrics. See also the tutorial on `find-metrics-and-benchmarks.rst <https://github.com/saracuriel/docs/blob/613244f5e31132228b91daea94b5e4cff0402295/docs/commons/fair/tutorials/find-metrics-and-benchmarks.rst>`_.
+For example, if you require a metric for F1 ((Meta)data are assigned globally unique and persistent identifiers) that checks the global uniqueness of an identifier, then visit https://doi.org/10.25504/FAIRsharing.a2cea7 and review the list of related metrics. See also the tutorial on `find-metrics-and-benchmarks.rst <find-metrics-and-benchmarks.rst>`_.
 
 
 FAIR Wizard
@@ -26,7 +26,7 @@ Prerequisites
 
 Before starting you should:
 
-* Create a narrative description of your metric, and how it interprets the `FAIR Principle <https://doi.org/10.1038/sdata.2016.18>`_ that it measures. You may find the metric sections of the tutorial at `define-benchmark-associated-metrics.rst <https://github.com/OSTrails/assessment-component-metadata-records/blob/bd0b3b9aaae4e1c2138904c4d90a609f784e10bc/README.md>`_ useful.
+* Create a narrative description of your metric, and how it interprets the `FAIR Principle <https://doi.org/10.1038/sdata.2016.18>`_ that it measures. You may find the metric sections of the tutorial at `define-benchmark-associated-metrics.rst <define-benchmark-associated-metrics.rst>`_ useful.
 * Have access to the `FAIR Wizard authoring tool <https://ostrails-fair.fair-wizard.com/wizard/dashboard>`_.
 * Identify the **type of digital object** that your Metric will evaluate.
 
