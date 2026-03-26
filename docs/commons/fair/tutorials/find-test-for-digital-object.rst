@@ -217,7 +217,7 @@ concrete implementations available.
 Further reading
 ---------------
 
-- `find-metrics-and-benchmarks <https://github.com/saracuriel/docs/blob/57bc2cded89188532a0244fda6a8bb131740d74a/docs/commons/fair/tutorials/find-metrics-and-benchmarks.rst>`_ — how to discover metrics and
+- `find-metrics-and-benchmarks <find-metrics-and-benchmarks.rst>`_ — how to discover metrics and
   benchmarks via FAIRassist and FAIRsharing.
 - `FAIRsharing documentation on metric tests and examples
   <https://fairsharing.gitbook.io/fairsharing/additional-information/metric-tests-and-examples>`_
