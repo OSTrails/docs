@@ -20,8 +20,8 @@ Prerequisites
 
 Before starting you should:
 
-* Have a defined set of **FAIR Metrics**, as well as any required **community-specific specialised Metrics**. You may find the tutorial at `define-benchmark-associated-metrics.rst <https://github.com/OSTrails/assessment-component-metadata-records/blob/bd0b3b9aaae4e1c2138904c4d90a609f784e10bc/README.md>`_ useful.
-* Have a completed **community FAIR Benchmark narrative** definition, aligned with the community or discipline for which it will apply. This can be done by following the tutorial at  `define-benchmark-associated-metrics.rst <https://github.com/OSTrails/assessment-component-metadata-records/blob/bd0b3b9aaae4e1c2138904c4d90a609f784e10bc/README.md>`_. This narrative definition of FAIR will contain a description of your benchmark
+* Have a defined set of **FAIR Metrics**, as well as any required **community-specific specialised Metrics**. You may find the tutorial at `define-benchmark-associated-metrics.rst <define-benchmark-associated-metrics.rst>`_ useful.
+* Have a completed **community FAIR Benchmark narrative** definition, aligned with the community or discipline for which it will apply. This can be done by following the tutorial at  `define-benchmark-associated-metrics.rst <define-benchmark-associated-metrics.rst>`_. This narrative definition of FAIR will contain a description of your benchmark
 * Have access to the `FAIR Wizard authoring tool <https://ostrails-fair.fair-wizard.com/wizard/dashboard>`_.
 
 .. _create_project:
