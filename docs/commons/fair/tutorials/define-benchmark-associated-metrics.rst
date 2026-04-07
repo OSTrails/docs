@@ -1,6 +1,6 @@
 .. _tutorial_create_fair_benchmark:
 
-Creating a FAIR Benchmark with its Associated Metrics
+Defining a FAIR Benchmark with its Associated Metrics
 =====================================================
 
 This tutorial explains how to create a **community FAIR Benchmark** and
