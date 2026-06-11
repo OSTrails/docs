@@ -1,7 +1,7 @@
 FAIROS
 ^^^^^^
 
-FAIROs is a FAIR assessment tool for [Research Objects](https://www.researchobject.org/ro-crate/). The tool uses external tools such as [F-UJI](https://f-uji.net/), [FOOPS](https://w3id.org/foops/) and [RSFC](https://github.com/oeg-upm/rsfc) to assess datasets, ontologies and software. The catalog contains the metrics and tests used to evaluate Research Objects. The source code with the FTR specification is in the branch dev-ostrails.
+FAIROs is a FAIR assessment tool for `Research Objects <https://www.researchobject.org/ro-crate/>`_. The tool uses external tools such as `F-UJI <https://f-uji.net/>`_, `FOOPS <https://w3id.org/foops/>`_ and `RSFC <https://github.com/oeg-upm/rsfc>`_ to assess datasets, ontologies and software. The catalog contains the metrics and tests used to evaluate Research Objects. The source code with the FTR specification is in the branch dev-ostrails.
 
     - **Persistent identifier**: https://w3id.org/FAIROS/
     - **Zenodo link (latest release)**: https://doi.org/10.5281/zenodo.7795727

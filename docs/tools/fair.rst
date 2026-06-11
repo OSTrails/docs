@@ -15,4 +15,5 @@ The following resources in this section are part of the FAIR Tools component.
     FAIRsharing <fair/fairsharing>
     FAIR Assessment Authoring Tool <fair/fair-assessment-authoring-tool>
     FAIR Validator <fair/fair-validator>
+    RSFC <fair/rsfc>
 
