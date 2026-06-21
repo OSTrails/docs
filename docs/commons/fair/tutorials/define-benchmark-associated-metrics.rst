@@ -1,4 +1,4 @@
-.. _tutorial_create_fair_benchmark:
+registering.. _tutorial_create_fair_benchmark:
 
 Defining a FAIR Benchmark with its Associated Metrics
 =====================================================
@@ -214,20 +214,22 @@ Step 6 – Register the Benchmark and Metrics
 -------------------------------------------
 
 To enable reuse and interoperability, the Benchmark and its Metrics
-should be registered in community registries such as
+should be converted from a narrative document into both FTR specification documents and registered in community registries such as
 `FAIRsharing <https://fairsharing.org>`_.
 
-Registration should include:
+Conversion to FTR and registration with FAIRsharing should include:
 
 * the **Benchmark description**
 * each **specialised Metric**
 * references to any **standards, databases, or vocabularies**
 
-Registering these components allows:
+Registering in FAIRsharing these components allows:
 
 * FAIR assessment tools to discover and implement the Metrics
 * other communities to reuse or adapt the Benchmark
 * FAIR assessment results to be compared across tools
+
+More information on how to create formal FTR specification documents and registering them with FAIRsharing is available in our tutorials on specifying and registering `benchmarks <register-benchmark.html>`_ and `metrics <register-metric.html>`_.
 
 Next steps
 ----------
