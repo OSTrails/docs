@@ -7,13 +7,17 @@ This tutorial explains how to register a **community FAIR Metric** using the OST
 A Metric is a narrative description that a Test must wholly implement. Each metric should implement exactly one dimension (e.g. one of the FAIR Principles). They may be domain-agnostic or not. 
 For more information, check `the FAIR Testing Resource (FTR) vocabulary <https://ostrails.github.io/FAIR_testing_resource_vocabulary/release/1.2.0/index-en.html>`_. 
 
-There are two ways to register a Metric. The first is to use the `FAIR Wizard authoring tool <https://ostrails-fair.fair-wizard.com/wizard/dashboard>`_, a questionnaire-based knowledge model designed to collect and structure metadata for FAIR Assessment Components, including Metrics. It auto-generates FTR metadata and registers it in FAIRsharing for you. The second is to register your Metric directly with FAIRsharing. This tutorial covers both options.
+There are two ways to register a Metric. The first is to use the `FAIR Wizard authoring tool <https://ostrails-fair.fair-wizard.com/wizard/dashboard>`_, a questionnaire-based knowledge model designed to collect and structure metadata for FAIR Assessment Components, including Metrics. It auto-generates FTR specification metadata and stores it within an OSTrails github repository, then registers it in FAIRsharing for you. If you have not yet created FTR files for your metrics, then you should use this option.
+
+The second is to register your Metric directly with FAIRsharing. If you have already created your FTR specification files for your metrics (eg in your own github repository) then you should use this option.
+
+This tutorial covers both options.
 
 Does your metric already exist?
 ======================
 You should review existing metrics in FAIRsharing for the Principle that you are measuring. If it already exists, then please use that metric in your benchmark rather than creating a new one. To discover the metrics related to a particular Principle, find the Principle in FAIRsharing and explore its relationships.
 
-For example, if you require a metric for F1 ((Meta)data are assigned globally unique and persistent identifiers) that checks the global uniqueness of an identifier, then visit https://doi.org/10.25504/FAIRsharing.a2cea7 and review the list of related metrics. See also the tutorial on `find-metrics-and-benchmarks.rst <find-metrics-and-benchmarks.rst>`_.
+For example, if you require a metric for F1 ((Meta)data are assigned globally unique and persistent identifiers) that checks the global uniqueness of an identifier, then visit https://doi.org/10.25504/FAIRsharing.a2cea7 and review the list of related metrics. See also the tutorial on `finding metrics and benchmarks <find-metrics-and-benchmarks.html>`_.
 
 
 FAIR Wizard
@@ -26,7 +30,7 @@ Prerequisites
 
 Before starting you should:
 
-* Create a narrative description of your metric, and how it interprets the `FAIR Principle <https://doi.org/10.1038/sdata.2016.18>`_ that it measures. You may find the metric sections of the tutorial at `define-benchmark-associated-metrics.rst <define-benchmark-associated-metrics.rst>`_ useful.
+* Create a narrative description of your metric, and how it interprets the `FAIR Principle <https://doi.org/10.1038/sdata.2016.18>`_ that it measures. You may find the metric sections of the tutorial for `defining benchmarks and associated metrics <define-benchmark-associated-metrics.html>`_ useful.
 * Have access to the `FAIR Wizard authoring tool <https://ostrails-fair.fair-wizard.com/wizard/dashboard>`_.
 * Identify the **type of digital object** that your Metric will evaluate.
 
