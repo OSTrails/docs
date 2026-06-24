@@ -2,7 +2,7 @@ Assesssment Tools
 ^^^^^^^^^^^^^^^^^^
 
 .. toctree::
-    :caption: Assessment Tools
+    :caption: Tools
     :maxdepth: 1
     :titlesonly:
 
