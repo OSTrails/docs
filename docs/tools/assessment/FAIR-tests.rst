@@ -1,4 +1,10 @@
-FAIR Tests
--------------
 
-Add links to tests
+.. _tool-fair-tests:
+
+FAIR Tests
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+*link
+*link
+*link
+*link
