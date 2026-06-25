@@ -1,3 +1,6 @@
+
+.. _tool-fairos:
+
 FAIROS
 ^^^^^^
 
