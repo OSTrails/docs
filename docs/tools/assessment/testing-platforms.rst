@@ -3,7 +3,7 @@
 Testing Platforms
 ^^^^^^^^^^^^^^^^^
 
-:ref: `tool-fair-champio`
-:ref: `tool-fairos`
-:ref: `tool-foops`
+:doc: `../fair/fair-champion`
+:doc: `../fair/fairos`
+:doc: `../fair/foops`
 
