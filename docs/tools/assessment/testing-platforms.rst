@@ -3,7 +3,7 @@
 Testing Platforms
 ^^^^^^^^^^^^^^^^^
 
-:ref: `tools-fair-tests`
-:ref: `tools-dmp-tests`
-:ref: `tools-testing-platforms`
+:ref: `tool-fair-champio`
+:ref: `tool-fairos`
+:ref: `tool-foops`
 
