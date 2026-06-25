@@ -1,3 +1,4 @@
+.. _run-existing-test:
 How to run an existing Test
 ==============================
 
@@ -23,7 +24,7 @@ OR
 3. Prepare your input, in the format:  { "resource_identifier": "GUID" }
 4. use the code example in the top of that Web page, together with your Test identifier and your input
 
-  curl -H "Content-type: application/json" -H "Accept: application/json" 
-        -d '{"resource_identifier": "https://exampledataset.org"}' 
+  curl -H "Content-type: application/json" -H "Accept: application/json"
+        -d '{"resource_identifier": "https://exampledataset.org"}'
         https://tests.ostrails.eu/tests/fc_data_identifier_in_metadata
 

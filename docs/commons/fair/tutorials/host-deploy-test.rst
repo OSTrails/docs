@@ -1,7 +1,7 @@
 How host/deploy a test
 =========================
 
-The easiest way is to ask someone from OSTrails WP3 to write the test for you, and host it on the OSTrails Infrastructure.  
+The easiest way is to ask someone from OSTrails WP3 to write the test for you, and host it on the OSTrails Infrastructure.
 This helps keep tests quality-controlled, consistent, and with reliable up-time.
 
 If you really want to do it yourself, you need:
@@ -14,7 +14,7 @@ If you really want to do it yourself, you need:
 6. Understanding of the FTR Vocabulary, and specifically the pieces related to a TestResult object
 7. Understand how to author an OpenAPI Service Descriptor
 8. Either understand a DCAT DataService object, or use the Test Wizard to author this object
-   
+
 Tests have two "modalities":
 
 1. A test can consume a GUID, and use normal identifier resolution on that to retrieve metadata
@@ -44,13 +44,13 @@ The API for option 2 is to follow this OpenAPI3 pattern for file upload:
                 contentType: application/json
 
 
-Test outputs must follow the FTR schema, and at a minimim must include 
+Test outputs must follow the FTR schema, and at a minimim must include
 
 1. The identifier of the metadata object that was tesated
 2. The Metric that is associated with the Test
 3. The "value" of the output (pass/fail/indeterminate are the only valid outputs)
 4. A reference to the TestExecution, and metadata about that (e.g. test identifier, date, version, etc)
-   
+
 Test outputs may optimally include a reference to a Guidance Object.  Guidance Objects are added during test execution, when a test detects an error.  They are intended to help the metadata author avoid the error.
 
 Guidance Objects are still under development, so are not deeply documented here.

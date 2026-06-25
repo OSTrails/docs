@@ -1,23 +1,17 @@
 .. _find-test-for-digital-object:
 
-==================================
 How to find a Test for my digital object
-==================================
+========================================
 
-This tutorial covers how to find a Test using FAIRsharing (Test linked to a Metric), and how to find Tests using FAIR Champion. 
+This tutorial covers how to find a Test using FAIRsharing (Test linked to a Metric), and how to find Tests using FAIR Champion.
 
 
 FAIRsharing: Finding a Test Linked to a Metric
-==================================
+-----------------------------------------------
 
 This section explains how to navigate to a metric record in FAIRsharing
 and locate any tests that implement it. If you have not yet found a
 metric of interest, see `find-metrics-and-benchmarks <find-metrics-and-benchmarks.rst>`_ first.
-
-.. contents:: Contents
-   :local:
-   :depth: 2
-
 
 Background: how tests relate to metrics
 -----------------------------------------
@@ -225,7 +219,7 @@ Further reading
 - `FAIR Champion test registry <https://tools.ostrails.eu/champion/tests/>`_
 
 Finding a Test in FAIR Champion
-==============
+-------------------------------
 `FAIR Champion <https://tools.ostrails.eu/champion>`_ is a tool/framework designed to evaluate and assess digital objects based on FAIR metrics. More information can be found `here <https://github.com/markwilkinson/FAIR-Champion>`_.
 
 FAIR Champion also allows you to discover FAIR Assessment Components, such as Tests, that are relevant to your needs.
@@ -237,12 +231,12 @@ By clicking on the first option, *"List all Tests in OSTrails Registry"*, a brow
 
 You may want to look for a Test you previously identified using the FAIRassist tool (described in the previous section of this tutorial), or you can discover Tests from scratch if you do not already know their exact name.
 
-1. Enter keywords related to your use case.  
+1. Enter keywords related to your use case.
    The system will return a list of matching Tests based on their content, such as name and description.
 
-2. Once you obtain the list of matching Tests, each result includes a short description to help you understand what the Test evaluates.  
-   You can use this information to quickly assess whether a Test is relevant to your needs.  
-   Additional information, such as the **Test ID** for the Benchmark Algorithm Spreadsheet, is available in the *Additional Details* drop-down.  
+2. Once you obtain the list of matching Tests, each result includes a short description to help you understand what the Test evaluates.
+   You can use this information to quickly assess whether a Test is relevant to your needs.
+   Additional information, such as the **Test ID** for the Benchmark Algorithm Spreadsheet, is available in the *Additional Details* drop-down.
    The option to run the Test is also available via the *Execute Test* drop-down.
 
 Refining your search
@@ -251,6 +245,6 @@ You can narrow down your results in two ways:
 
 A. By refining your keywords to make them more specific.
 
-B. By using FAIRassist beforehand to perform a more targeted search.  
+B. By using FAIRassist beforehand to perform a more targeted search.
    This is especially useful if you have already identified a Test and want to locate it more quickly, while accessing its description, additional details, and execution options.
 

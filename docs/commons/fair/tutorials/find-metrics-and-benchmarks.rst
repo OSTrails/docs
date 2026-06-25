@@ -9,11 +9,6 @@ search and browse features. Once you have found a metric of interest, you
 can learn how to locate any tests that implement it in
 `find-test-for-digital-object.rst <find-test-for-digital-object.rst>`_.
 
-.. contents:: Contents
-   :local:
-   :depth: 2
-
-
 What are metrics and benchmarks?
 ---------------------------------
 

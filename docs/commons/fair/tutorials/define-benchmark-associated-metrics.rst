@@ -1,4 +1,4 @@
-registering.. _tutorial_create_fair_benchmark:
+.. _tutorial_create_fair_benchmark:
 
 Defining a FAIR Benchmark with its Associated Metrics
 =====================================================
