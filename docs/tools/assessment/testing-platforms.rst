@@ -1,4 +1,9 @@
-Testing Platforms
---------------------
+.. _tool-testing-platforms:
 
-:doc:`FAIR Champion <../fair-champion>`
+Testing Platforms
+^^^^^^^^^^^^^^^^^
+
+:ref: `tools-fair-tests`
+:ref: `tools-dmp-tests`
+:ref: `tools-testing-platforms`
+
