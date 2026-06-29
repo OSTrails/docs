@@ -2,27 +2,10 @@
 
 ## What was being worked on
 
-Two separate repos were in progress this session. Neither has been committed yet.
-
 ---
 
-## 1. FAIR-Champion (API server) — `/home/osboxes/CODE/FAIR-Champion`
 
-**Branch:** `master`
-
-### Changes made (all unstaged):
-- `app/controllers/routes.rb` — added CORS headers: `before` block sets `Access-Control-Allow-Origin: *`, `Access-Control-Allow-Methods`, and `Access-Control-Allow-Headers` on every response; added `options '*'` handler for preflight requests.
-- `lib/output.rb` — bumped `OUTPUT_VERSION` from `1.1.0` to `1.1.7`
-- `docker-compose.yml` — updated image tag from `0.3.0` to `1.1.7`
-- `VERSION` — updated to `1.1.7`
-- `CHANGELOG.md` — created (new file); documents `1.1.7` and reconstructs prior release history from git log
-
-### Next step:
-Commit all five files and rebuild/push the Docker image as `markw/fair-champion:1.1.7`.
-
----
-
-## 2. OSTrails Docs — `/home/osboxes/CODE/docs`
+## 1. OSTrails Docs — `/home/osboxes/CODE/docs`
 
 **Branch:** `FAIR-tutorial-guidelines`  
 **PR target:** `next`

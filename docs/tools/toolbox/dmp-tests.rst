@@ -2,6 +2,7 @@
 
 DMP Tests
 ^^^^^^^^^^
+.. raw:: html
 
-The catalogue of DMP tests is maintained separately. Please refer to the
-`Catalogue of DMP Tests <commons/dmp/dmp-catalogue-of-tests.html>`_.
+    <a href="/commons/dmp/dmp-evaluation-tests.html" target="_blank" rel="noopener">Open the catalogue of DMP Tests</a>
+

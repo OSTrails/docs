@@ -2,6 +2,7 @@
 
 DMP Metrics
 ^^^^^^^^^^
+.. raw:: html
 
-The catalogue of DMP tests is maintained separately. Please refer to the
-`Catalogue of DMP Tests <commons/dmp/dmp-evaluation-metrics.html>`_.
+    <a href="../../commons/dmp/dmp-evaluation-metrics.html" target="_blank" rel="noopener">Open the catalogue of DMP Metrics</a>
+
