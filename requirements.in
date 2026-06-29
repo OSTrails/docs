@@ -2,6 +2,7 @@
 # This file lists the direct dependencies for the project:
 Sphinx
 sphinx-copybutton
+sphinx-togglebutton
 sphinxcontrib-bibtex
 sphinxcontrib-openapi
 
