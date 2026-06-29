@@ -1,25 +1,7 @@
 FAIR Test Results (FTR) Developer Tutorial
 ==========================================
 
-.. contents::
-   :depth: 2
-   :local:
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-
-   others-use-my-metrics
-   create-metric
-   create-benchmark
-   create-test-following-ftr
-   define-run-scoring-algorithm
-   run-existing-test
-
-Overview
---------
-
-The FAIR Test Results (FTR) specification provides a standard way to define, 
+The FAIR Test Results (FTR) specification provides a standard way to define,
 execute, and expose FAIR assessments in a machine-readable and interoperable way.
 
 FTR is built around four core entities:
@@ -36,29 +18,29 @@ https://docs.ostrails.eu/en/latest/commons/fair/fair-test-results-vocabulary-ftr
 Step 1 - Identification of Metrics
 ----------------------------------
 
-Most FAIR assessment tools already include a set of tests. The first step is to 
+Most FAIR assessment tools already include a set of tests. The first step is to
 analyse those tests and determine whether they correspond to existing FAIR metrics. These metrics can exist or not
 
-The first step 
-is to analyse these tests and determine whether they correspond to existing 
+The first step
+is to analyse these tests and determine whether they correspond to existing
 metrics defined in the FAIR Sharing framework.
 
-- If a test can be mapped to an existing metric, follow this tutorial :doc:`others-use-my-metrics`
+.. - If a test can be mapped to an existing metric, follow this tutorial :doc:`others-use-my-metrics`
 
-- If no suitable metric exists, you will need to create new ones by following :doc:`create-metric`
+- If no suitable metric exists, you will need to create new ones by following :doc:`register-metric`
 
 This step is essential to ensure interoperability and reuse of existing  community standards whenever possible.
 
 Guidelines:
 
-- Prefer **reusing existing metrics** to ensure interoperability. 
+- Prefer **reusing existing metrics** to ensure interoperability.
 - Only create new metrics when necessary
 - Ensure each metric is clearly defined and documented
 
 Resources:
 
-- Reuse metrics :doc:`others-use-my-metrics` 
-- Create new metrics :doc:`create-metric`
+.. - Reuse metrics :doc:`others-use-my-metrics`
+- Create new metrics :doc:`register-metric`
 
 Step 2 - Grouping Metrics into a Benchmark
 ------------------------------------------
@@ -79,7 +61,7 @@ Resource:
 - :doc:`create-benchmark`
 
 Step 3 - API Creation
---------------------
+---------------------
 
 FTR requires a standardised API to expose:
 
@@ -103,7 +85,7 @@ Key requirements:
 - Machine-readable outputs (e.g., JSON-LD)
 
 Step 4 - Test Creation
----------------------
+----------------------
 
 Each metric must have at least one corresponding **test**.
 
@@ -124,7 +106,7 @@ Resource:
 - :doc:`create-test-following-ftr`
 
 Step 5 - Scoring Algorithm Implementation
-----------------------------------------
+-----------------------------------------
 
 The **scoring algorithm** aggregates test results into a final score.
 
@@ -146,14 +128,14 @@ Resource:
 - :doc:`define-run-scoring-algorithm`
 
 Step 6 - Deployment
-------------------
+-------------------
 
 Once all components are implemented, deploy your FTR-compliant service.
 
 
 Checklist:
 
-- API is publicly accessible 
+- API is publicly accessible
 - Endpoints follow FTR specification
 - Tests execute correctly
 - Scores are computed consistently

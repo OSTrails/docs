@@ -18,8 +18,6 @@ The following list in this section are part of the tutorials documentation.
     How to define and run a scoring algorithm <define-run-scoring-algorithm>
     How to register a benchmark <register-benchmark>
     How to register a metric <register-metric>
-    How to know what are the tests in the CESSDA benchmark <discover-test-cessda-benchmark>
     How to Create and Register a Test following the FTR API <create-test-following-ftr>
     How host/deploy a test <host-deploy-test>
-    As a fair assessment developer, how comply to FTR spec to interoperate with others <how-comply-ftr>
-    How have others use my metrics <others-use-my-metrics>
+    As a fair assessment developer, how comply to FTR spec <how-comply-ftr>
