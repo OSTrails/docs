@@ -37,6 +37,7 @@ The documentation is structured as follows:
     :maxdepth: 4
     :caption: Tools
 
+    Toolbox of Testing Services <tools/toolbox>
     FAIR Tools <tools/fair>
     DMP Tools <tools/dmp>
     SKG Tools <tools/skg>

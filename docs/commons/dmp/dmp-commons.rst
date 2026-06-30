@@ -47,3 +47,5 @@ For the time being, the Commons consist of the following resources:
     OSTrails Application Profile for maDMPs <application-profile>
     OSTrails maDMP API Specification <madmp-api-specification>
     maDMP mappings <mappings/index>
+    DMP Evaluation Metrics <dmp-evaluation-metrics>
+    DMP Catalogue of Tests <dmp-catalogue-of-tests>

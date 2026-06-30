@@ -109,13 +109,20 @@ Andres Tabima:
   orcid: 0009-0002-4848-5089
   affiliation: TU Wien
 
-Menzo Windhower:
+Menzo Windhouwer:
   first_name: Menzo
-  last_name: Windhowe
+  last_name: Windhouwer
   orcid: 0000-0002-2204-4018
   affiliation: KNAW
 
-Daan Broader:
+Daan Broeder:
   first_name: Daan
-  last_name: Broader
-  affiliation: KNAW
+  last_name: Broeder
+  orcid: 0000-0002-8446-3410
+  affiliation: CLARIN
+
+Wilko Steinhoff:
+  first_name: Wilko
+  last_name: Steinhoff
+  orcid: 0000-0003-1106-8441
+  affiliation: KNAW-DANS
