@@ -1,3 +1,4 @@
+.. _tool-fair-assessment:
 OSTrails FAIR Tools
 ====================
 

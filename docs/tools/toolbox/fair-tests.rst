@@ -5,7 +5,8 @@ FAIR Tests
 ^^^^^^^^^^
 
 The tests below are maintained as live endpoints by the OSTrails project and catalogued in the OSTrails testing infrastructure.
-All tests are compliant with the `FTR Vocabulary <https://w3id.org/ftr>`_ and can be executed through the platforms described in :doc:`testing-platforms`.
+All tests are compliant with the `FTR Vocabulary <https://w3id.org/ftr>`_ and can be executed through the platforms described in :ref:`here <tool-fair-assessment>`
+
 
 Use the search box to filter by test name or description.
 
