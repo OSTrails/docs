@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.0] - 2026-06-30
+
+### Added
+- `docs/tools/toolbox/fair-algorithms.rst`: new page documenting the FAIR Algorithms artefact type.
+- `docs/tools/toolbox/fair-benchmarks.rst`: new page documenting the FAIR Benchmarks artefact type.
+- `docs/tools/authoring-and-registering/ostrails-index.rst`: OSTrails index page for the authoring-and-registering section.
+- `docs/tools/authoring.rst`: top-level section page for authoring tools.
+- `docs/tools/fair-assessment.rst`: top-level section page for FAIR assessment tools.
+- `docs/tools/quality-control.rst`: top-level section page for quality-control tools.
+
+### Changed
+- Restructured the `docs/tools/` hierarchy: assessment tools (`fair-champion.rst`, `fairos.rst`, `foops.rst`, `rsfc.rst`) moved from `fair/` into `assessment/`; `fair-validator.rst` moved into `quality-control/`; authoring tools consolidated under `authoring-and-registering/`.
+- `docs/tools/toolbox.rst`: updated to reflect the new deliverable-centric structure.
+- `docs/index.rst`: updated top-level navigation to match the new hierarchy.
+
+### Removed
+- `docs/tools/toolbox/testing-platforms.rst`: content superseded by the new section pages.
+
 ## [0.2.0] - 2026-06-29
 
 ### Added
