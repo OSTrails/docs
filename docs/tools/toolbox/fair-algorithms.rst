@@ -2,7 +2,7 @@
 .. _tool-fair-algorithms:
 
 FAIR Algorithms
-^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
 The Algorithms below are maintained as live endpoints by the OSTrails project and catalogued in the OSTrails testing infrastructure.
 All Algorithms are compliant with the `FTR Vocabulary <https://w3id.org/ftr>`_
