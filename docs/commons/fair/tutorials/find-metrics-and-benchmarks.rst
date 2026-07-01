@@ -23,6 +23,7 @@ ecosystem within its FAIRassist registry. This includes:
   be satisfied.
 - **Benchmarks** — curated sets of Metrics that together define what
   "FAIR" means in practice for a particular community, tool, or use case.
+
 For more background on the FAIRassist registry and how it aligns with
 the FAIR Testing Resource (FTR) vocabulary, see the
 `FAIRsharing documentation on registry types

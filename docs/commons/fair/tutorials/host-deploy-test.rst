@@ -22,26 +22,30 @@ Tests have two "modalities":
 
 The API for option 1 is to consume the following JSON data structure:
 
+.. code-block:: json
+
     { "resource_identifier": "GUID" }
 
 
 The API for option 2 is to follow this OpenAPI3 pattern for file upload:
 
-      requestBody:
-        required: true
-        content:
-          multipart/form-data:
-            schema:
-              type: object
-              required: [file]
-              properties:
-                file:
-                  type: string
-                  format: binary
-                  description: The uploaded metadata.
-            encoding:
+.. code-block:: yaml
+
+    requestBody:
+      required: true
+      content:
+        multipart/form-data:
+          schema:
+            type: object
+            required: [file]
+            properties:
               file:
-                contentType: application/json
+                type: string
+                format: binary
+                description: The uploaded metadata.
+          encoding:
+            file:
+              contentType: application/json
 
 
 Test outputs must follow the FTR schema, and at a minimim must include

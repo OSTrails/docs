@@ -40,6 +40,7 @@ Guidelines:
 Resources:
 
 .. - Reuse metrics :doc:`others-use-my-metrics`
+
 - Create new metrics :doc:`register-metric`
 
 Step 2 - Grouping Metrics into a Benchmark
@@ -58,7 +59,7 @@ Key considerations:
 
 Resource:
 
-- :doc:`create-benchmark`
+- :doc:`register-benchmark`
 
 Step 3 - API Creation
 ---------------------

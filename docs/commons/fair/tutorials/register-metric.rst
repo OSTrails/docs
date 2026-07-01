@@ -1,4 +1,5 @@
 .. _register-metric:
+
 How to register a Metric
 ========================
 
@@ -59,7 +60,7 @@ Note that there are questions that are *mandatory*, which will be required to be
 The mandatory fields that are required to define a FAIR Metric are:
 
 - ``Title``
-You should indicate the name of your Metric. To follow OSTrails best practices, consider using this Metric naming scheme:
+  You should indicate the name of your Metric. To follow OSTrails best practices, consider using this Metric naming scheme:
 
 [[Principle name]] Metric - [[Abbreviation of sub-principle]] - [[Metadata|Data depending on the focus of the metric]] - [[descriptive metric name]]
 
@@ -70,10 +71,10 @@ Examples:
   FAIR4RS Metric – F1 - Metadata - Software has persistent and unique identifier (https://doi.org/10.25504/FAIRsharing.87c9a8)
 
 - ``Description``
-You should indicate a description of your Metric.
+  You should indicate a description of your Metric.
 
 - ``Abbreviation``
-You should indicate a single-word abbreviation for your Metric. Note that FAIR Wizard does not allow the use of spaces or any of these special characters in Benchmark/Metric/Test name abbreviations: : / ? # [ ] @ ! $ & ' ( ) * + , ; = "< > \ ^ { < > : " / \
+  You should indicate a single-word abbreviation for your Metric. Note that FAIR Wizard does not allow the use of spaces or any of these special characters in Benchmark/Metric/Test name abbreviations: : / ? # [ ] @ ! $ & ' ( ) * + , ; = "< > \ ^ { < > : " / \
 
 To follow OSTrails best practices, consider using this Metric naming scheme:
 
@@ -88,28 +89,28 @@ Examples:
   FM_R1.2_M_CPI
 
 - ``License``
-You should include a license URL for this Metric.
+  You should include a license URL for this Metric.
 
 - ``Version``
-You should indicate the version number you are interested in using for defining your Metric.
+  You should indicate the version number you are interested in using for defining your Metric.
 
 - ``Responsable contact person``
-You should provide the name and email of a responsible contact person. You will find an ORCID-integrated browser to search for your personal information by either typing in your full name or your ORCID ID directly.
+  You should provide the name and email of a responsible contact person. You will find an ORCID-integrated browser to search for your personal information by either typing in your full name or your ORCID ID directly.
 
 - ``Country``
-You should indicate the country or geographical scope relevant to this Metric. If the Metric is not limited to a specific region, you can select *‘Worldwide’*.
+  You should indicate the country or geographical scope relevant to this Metric. If the Metric is not limited to a specific region, you can select *’Worldwide’*.
 
 - ``Subject``
-You should specify the application domain or area of knowledge to which the Metric applies. If the Metric is intended to be domain-independent, you can select *‘Subject Agnostic’*.
+  You should specify the application domain or area of knowledge to which the Metric applies. If the Metric is intended to be domain-independent, you can select *’Subject Agnostic’*.
 
 - ``Object type``
-You should indicate the type of digital object that the Metric evaluates (for example datasets, software, or workflows). If the Metric applies broadly, you can select Object type *’Agnostic’*.
+  You should indicate the type of digital object that the Metric evaluates (for example datasets, software, or workflows). If the Metric applies broadly, you can select Object type *’Agnostic’*.
 
 - ``Taxonomy``
-You should classify the Metric within a taxonomy. If no suitable classification is available or needed, you can select *’Not Applicable’*.
+  You should classify the Metric within a taxonomy. If no suitable classification is available or needed, you can select *’Not Applicable’*.
 
 - ``Link to a principle``
-You should link the Metric to at least one FAIR Principle. This defines which aspect of FAIRness the Metric evaluates and is essential for its interpretation and reuse.
+  You should link the Metric to at least one FAIR Principle. This defines which aspect of FAIRness the Metric evaluates and is essential for its interpretation and reuse.
 
 
 **Please complete all optional sections that it is possible for you to complete. The more complete your metric, the more re-usable and FAIR it is. Incomplete metadata may delay the publishing of your Metric in FAIRsharing.**

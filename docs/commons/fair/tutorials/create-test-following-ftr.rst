@@ -85,4 +85,4 @@ the OSTrails FAIR Champion tool.
 
 Continue with the tutorial:
 
-:doc:`Benchmark <./tutorial_fair_benchmark_algorithm>`
+:doc:`register-benchmark`
