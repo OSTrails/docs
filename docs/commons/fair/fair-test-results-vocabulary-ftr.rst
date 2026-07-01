@@ -47,4 +47,4 @@ Specification
 
 FAIR assessment validation
 --------------------------
-:doc:<../../tools/quality-control/ftr-validator>
+:doc:`FAIR assessment validation <tools/quality-control/ftr-validator>`
