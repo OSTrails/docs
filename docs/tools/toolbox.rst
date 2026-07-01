@@ -27,10 +27,10 @@ Both FAIR tests and DMP tests are compliant with the FTR Vocabulary, and are thu
     DMP Assessment Tools <dmp>
     SKG Tools <skg>
 
-In addition to testing and assessment tools, 
-the OSTrails project has also developed a number of other tools 
-that support the testing ecosystem.  
-These include:   
+In addition to testing and assessment tools,
+the OSTrails project has also developed a number of other tools
+that support the testing ecosystem.
+These include:
 
 
 .. toctree::
@@ -40,4 +40,3 @@ These include:
 
     Assessment Authoring and Registration Tools<authoring>
     Validation and Quality Control Tools<quality-control>
-
