@@ -21,6 +21,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed two "Title underline too short" warnings in `tools/code/fair-algorithms.rst` and `tools/conceptual/dmp-metrics.rst`.
 - `docs/conf.py`: `release` was stuck at `0.2.0`, a version behind the CHANGELOG; bumped to match.
 
+### Added
+
+- `docs/tools/core-components.rst`, `testing-platforms.rst`, `registries.rst`, `supporting-tools.rst`, `apis.rst`: five new section pages so the Toolbox sidebar renders as a genuine multi-level hierarchy instead of a flat list. Sphinx only turns a toctree `:caption:` into a visible sidebar branch when it belongs to a page that is itself linked from a parent toctree — captions on toctrees nested purely inside another page's body are dropped during sidebar generation. `docs/tools/toolbox.rst` now links to these five pages instead of embedding their toctrees directly.
+- `docs/tools/conceptual/metrics-and-benchmarks.rst` and `docs/tools/code/tests-and-algorithms.rst`: added missing page titles ("Conceptual Components" / "Code Components"). A toctree target with no title of its own doesn't get a sidebar node — Sphinx splices its children straight into the parent instead, which was silently flattening "Core Components" down to a single level.
+
+### Changed
+
+- `docs/tools/authoring.rst`: removed the duplicate `FAIR Validator` entry (already listed under `quality-control.rst`), fixing a "document referenced in multiple toctrees" ambiguity.
+- `docs/tools/authoring-and-registering/ostrails-index.rst`: expanded the description to mention Champion's use of the index and clarify it's a machine-readable index, not user-facing.
+- `docs/tools/conceptual/fair-benchmarks.rst`: fixed the FAIRassist registry search link, which was querying `recordType=metric_ids` instead of `recordType=benchmark_ids`.
+- `docs/tools/conceptual/fair-metrics.rst`: capitalization fixes ("FAIR Assist" → "FAIRassist", "FAIRSharing" → "FAIRsharing").
+- `docs/tools/quality-control/ftr-validator.rst`: retitled from "FAIR Assessment Record Validator" to "FAIR FTR Schema Validator" for clarity.
+
 Docs build is now fully clean (`sphinx-build -E`: 0 warnings, 0 errors).
 
 ## [0.3.0] - 2026-06-30
