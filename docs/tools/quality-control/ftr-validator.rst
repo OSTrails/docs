@@ -1,4 +1,4 @@
-FAIR Assessment Record Validator 
+FAIR FTR Schema Validator 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 FTR includes `ShEX and SHACL files <https://github.com/OSTrails/FAIR_testing_resource_vocabulary/tree/main/development>`_

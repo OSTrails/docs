@@ -1,5 +1,9 @@
+.. _tool-code-components:
+
+Code Components
+================
+
 .. toctree::
-    :caption: Code Components
     :maxdepth: 1
     :titlesonly:
 

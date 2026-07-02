@@ -1,5 +1,9 @@
+.. _tool-conceptual-components:
+
+Conceptual Components
+======================
+
 .. toctree::
-    :caption: Conceptual Components
     :maxdepth: 1
     :titlesonly:
 
