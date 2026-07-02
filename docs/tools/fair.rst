@@ -5,7 +5,7 @@ OSTrails FAIR Tools
 The following resources in this section are part of the FAIR Tools component.
 
 .. toctree::
-    :caption: All FAIR Tools
+    :caption: Assesment Platforms
     :maxdepth: 1
     :titlesonly:
 
@@ -13,8 +13,4 @@ The following resources in this section are part of the FAIR Tools component.
     FOOPS <assessment/foops>
     FAIROS <assessment/fairos>
     RSFC <assessment/rsfc>
-    FAIRassist (Conceptual Component Registry) <authoring-and-registering/fairassist>
-    Assessment Component Authoring Tool <authoring-and-registering/fair-assessment-authoring-tool>
-    FAIR Validator <quality-control/fair-validator>
-    OSTrails Software Tools Index <authoring-and-registering/ostrails-index>
 

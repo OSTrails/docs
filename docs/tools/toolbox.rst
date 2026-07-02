@@ -13,24 +13,35 @@ the lists of Tests below differs slightly between the DMP Tests (code) and the F
 Both FAIR tests and DMP tests are compliant with the FTR Vocabulary, and are thus interoperable.
 
 .. toctree::
-    :caption: Toolbox
+    :caption: Core Components
     :maxdepth: 1
     :titlesonly:
 
-    FAIR Metrics <toolbox/fair-metrics>
-    DMP Metrics <toolbox/dmp-metrics>
-    FAIR Tests <toolbox/fair-tests>
-    DMP Tests <toolbox/dmp-tests>
-    FAIR Benchmarks <toolbox/fair-benchmarks>
-    FAIR Algorithms <toolbox/fair-algorithms>
-    FAIR Testing Platforms <fair-assessment>
-    DMP Assessment Tools <dmp>
-    SKG Tools <skg>
+    Metrics and Benchmarks <conceptual/metrics-and-benchmarks>
+    Tests and Algorithms <code/tests-and-algorithms>
+
+.. toctree::
+    :caption: Testing Platforms
+    :maxdepth: 1
+    :titlesonly:
+
+    FAIR Testing Platforms <fair>
+    DMP Assessment Platforms <dmp>
+    SKG Assesment Platforms <skg>
+
 
 In addition to testing and assessment tools, 
 the OSTrails project has also developed a number of other tools 
 that support the testing ecosystem.  
 These include:   
+
+.. toctree::
+    :caption: Registries
+    :maxdepth: 1
+    :titlesonly:
+
+    FAIRassist (Conceptual Component Registry) <authoring-and-registering/fairassist>
+    OSTrails Software Tools Index <authoring-and-registering/ostrails-index>
 
 
 .. toctree::
@@ -40,4 +51,13 @@ These include:
 
     Assessment Authoring and Registration Tools<authoring>
     Validation and Quality Control Tools<quality-control>
+
+.. toctree::
+    :caption: APIs
+    :maxdepth: 1
+    :titlesonly:
+
+    CESSDA API<apis/cessda>
+    OpenAIRE API<apis/openaire>
+    RO-Hub API<apis/rohub>
 

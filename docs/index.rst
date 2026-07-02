@@ -36,16 +36,7 @@ The documentation is structured as follows:
     :maxdepth: 4
     :caption: Toolbox of Testing Services
 
-    Toolbox of Testing Services <tools/toolbox>
-
-
-.. toctree::
-    :maxdepth: 4
-    :caption: Tools
-
-    FAIR Tools <tools/fair>
-    DMP Tools <tools/dmp>
-    SKG Tools <tools/skg>
+    General Documentation <tools/toolbox>
 
 
 .. toctree::
