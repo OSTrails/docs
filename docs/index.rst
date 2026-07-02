@@ -32,6 +32,12 @@ The documentation is structured as follows:
     SKG Commons <commons/skg/skg-commons.rst>
     FAIR Commons <commons/fair/fair-commons.rst>
 
+.. toctree::
+    :maxdepth: 4
+    :caption: Toolbox of Testing Services
+
+    Toolbox of Testing Services <tools/toolbox>
+
 
 .. toctree::
     :maxdepth: 4
