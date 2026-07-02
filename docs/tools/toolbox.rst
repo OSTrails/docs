@@ -27,13 +27,12 @@ Both FAIR tests and DMP tests are compliant with the FTR Vocabulary, and are thu
 
     FAIR Testing Platforms <fair>
     DMP Assessment Platforms <dmp>
-    SKG Assesment Platforms <skg>
 
 
-In addition to testing and assessment tools, 
-the OSTrails project has also developed a number of other tools 
-that support the testing ecosystem.  
-These include:   
+In addition to testing and assessment tools,
+the OSTrails project has also developed a number of other tools
+that support the testing ecosystem.
+These include:
 
 .. toctree::
     :caption: Registries
@@ -58,6 +57,5 @@ These include:
     :titlesonly:
 
     CESSDA API<apis/cessda>
-    OpenAIRE API<apis/openaire>
+    OpenAIRE API<apis/openaire-graph>
     RO-Hub API<apis/rohub>
-

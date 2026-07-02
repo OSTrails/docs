@@ -1,4 +1,5 @@
 .. _register-benchmark:
+
 How to register a Benchmark
 ============================
 
@@ -12,18 +13,18 @@ There are two ways to register a Benchmark. The first is to use the `FAIR Wizard
 FAIR Wizard
 ------------
 
-.. _metric_prerequisites:
+.. _register_benchmark_prerequisites:
 
 Prerequisites
 -------------
 
 Before starting you should:
 
-* Have a defined set of **FAIR Metrics**, as well as any required **community-specific specialised Metrics**. You may find the tutorial at `define-benchmark-associated-metrics.rst <define-benchmark-associated-metrics.rst>`_ useful.
-* Have a completed **community FAIR Benchmark narrative** definition, aligned with the community or discipline for which it will apply. This can be done by following the tutorial at  `define-benchmark-associated-metrics.rst <define-benchmark-associated-metrics.rst>`_. This narrative definition of FAIR will contain a description of your benchmark
+* Have a defined set of **FAIR Metrics**, as well as any required **community-specific specialised Metrics**. You may find the tutorial at :doc:`define-benchmark-associated-metrics` useful.
+* Have a completed **community FAIR Benchmark narrative** definition, aligned with the community or discipline for which it will apply. This can be done by following the tutorial at :doc:`define-benchmark-associated-metrics`. This narrative definition of FAIR will contain a description of your benchmark
 * Have access to the `FAIR Wizard authoring tool <https://ostrails-fair.fair-wizard.com/wizard/dashboard>`_.
 
-.. _create_project:
+.. _create_benchmark_project:
 
 Step 1 – Create a Benchmark project in the FAIR Wizard authoring tool
 ---------------------------------------------------------------------
@@ -36,7 +37,7 @@ Step 1 – Create a Benchmark project in the FAIR Wizard authoring tool
 
 By doing this, the tool will create a Benchmark-tailored questionnaire.
 
-.. _fill_out_questionnaire:
+.. _fill_out_benchmark_questionnaire:
 
 Step 2 – Fill in the questionnaire
 --------------------------------------
@@ -48,7 +49,7 @@ Note that there are questions that are *mandatory*, which will be required to be
 The mandatory fields that are required to define a FAIR Benchmark are:
 
 - ``Title``
-You should indicate the title of your Benchmark. To follow OSTrails best practices, consider using this Benchmark naming scheme: [[Principles name]] Benchmark - [[descriptive benchmark name]]
+  You should indicate the title of your Benchmark. To follow OSTrails best practices, consider using this Benchmark naming scheme: [[Principles name]] Benchmark - [[descriptive benchmark name]]
 
 
 Examples:
@@ -60,12 +61,12 @@ Examples:
  FAIR Benchmark - CESSDA Data Catalogue (CDC)
 
 - ``Description``
-You should indicate a description of your Benchmark.
+  You should indicate a description of your Benchmark.
 
 - ``Abbreviation``
-You should indicate a single-word abbreviation for your Metric. Note that FAIR Wizard does not allow the use of spaces or any of these special characters in Benchmark/Metric/Test name abbreviations: : / ? # [ ] @ ! $ & ' ( ) * + , ; = "< > \ ^ { < > : " / \
-To follow OSTrails best practices, consider using this Metric naming scheme:
-[[Principle abbrev]]B - [[short name for the benchmark]]
+  You should indicate a single-word abbreviation for your Metric. Note that FAIR Wizard does not allow the use of spaces or any of these special characters in Benchmark/Metric/Test name abbreviations: : / ? # [ ] @ ! $ & ' ( ) * + , ; = "< > \ ^ { < > : " / \
+  To follow OSTrails best practices, consider using this Metric naming scheme:
+  [[Principle abbrev]]B - [[short name for the benchmark]]
 
 Examples:
 
@@ -76,34 +77,34 @@ Examples:
  FB - CESSDA
 
 - ``License``
-You should  include a license URL for this Benchmark. Please do not include angle brackets "<>" in your response.
+  You should include a license URL for this Benchmark. Please do not include angle brackets "<>" in your response.
 
 - ``Version``
-You should indicate the version number you are interested in using for defining your Benchmark.
+  You should indicate the version number you are interested in using for defining your Benchmark.
 
 - ``Organisation information``
-This question is mandatory for FAIRsharing submission. Your Benchmark might be associated with an institution as its creator or maintainer.
+  This question is mandatory for FAIRsharing submission. Your Benchmark might be associated with an institution as its creator or maintainer.
 
 - ``Responsable contact person``
-You should provide the name and email of a responsible contact person. You will find an ORCID-integrated browser to search for your personal information by either typing in your full name or your ORCID ID directly.
+  You should provide the name and email of a responsible contact person. You will find an ORCID-integrated browser to search for your personal information by either typing in your full name or your ORCID ID directly.
 
 - ``Country``
-You should indicate the country or geographical scope relevant to this Benchmark. If the Benchmark is not limited to a specific region, you can select *‘Worldwide’*.
+  You should indicate the country or geographical scope relevant to this Benchmark. If the Benchmark is not limited to a specific region, you can select *’Worldwide’*.
 
 - ``Subject``
-You should specify the application domain or area of knowledge to which the Benchmark applies. If the Metric is intended to be domain-independent, you can select *‘Subject Agnostic’*.
+  You should specify the application domain or area of knowledge to which the Benchmark applies. If the Metric is intended to be domain-independent, you can select *’Subject Agnostic’*.
 
 - ``Object type``
-You should indicate the type of digital object that the Benchmark evaluates (for example datasets, software, or workflows). If the Benchmark applies broadly, you can select Object type *’Agnostic’*.
+  You should indicate the type of digital object that the Benchmark evaluates (for example datasets, software, or workflows). If the Benchmark applies broadly, you can select Object type *’Agnostic’*.
 
 - ``Taxonomy``
-You should classify the Benchmark within a taxonomy. If no suitable classification is available or needed, you can select *’Not Applicable’*.
+  You should classify the Benchmark within a taxonomy. If no suitable classification is available or needed, you can select *’Not Applicable’*.
 
 - ``Link to a Metric``
-You should link the Benchmark to at least one Metric. Use this relationship to link to every Metric implemented by this Benchmark: `has_associated_metric <https://fairsharing.gitbook.io/fairsharing/associated-records/from-fairassist-records>`_.
+  You should link the Benchmark to at least one Metric. Use this relationship to link to every Metric implemented by this Benchmark: `has_associated_metric <https://fairsharing.gitbook.io/fairsharing/associated-records/from-fairassist-records>`_.
 
 - ``Other related FAIR assessment components``
-This question might be optional or mandatory depending on the FAIR assessment component you are authoring. For Benchmarks, this question is mandatory, as it needs to have associated Metrics.
+  This question might be optional or mandatory depending on the FAIR assessment component you are authoring. For Benchmarks, this question is mandatory, as it needs to have associated Metrics.
 
 
 
