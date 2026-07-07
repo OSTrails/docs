@@ -20,5 +20,4 @@ The following resources in this section are part of the FAIR Commons component.
     Catalogue of Tests <catalogue-of-tests>
     Catalogue of Benchmark Scoring Algorithms <catalogue-of-benchmark-scoring-algorithms>
     Code of Shared Tests <shared-tests>
-    Tutorials <tutorials/tutorial-index>
 
