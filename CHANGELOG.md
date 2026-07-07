@@ -5,6 +5,68 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2026-07-02
+
+### Merged
+
+- Merged `upstream/next` into `Deliverable3-3`, resolving conflicts in favor of this branch's `tools/` restructuring (`conceptual/`, `code/`, `apis/` split) while incorporating upstream's RST fixes to the FAIR tutorials (missing blank lines after labels, proper `code-block` directives, non-colliding cross-reference labels, corrected `:doc:` targets).
+- Resolved a rename/rename conflict on the OpenAIRE metadata validator page by keeping this branch's `quality-control/openaire-validator.rst` naming (disambiguates it from the newly added `ftr-validator.rst`).
+
+### Fixed
+
+- `docs/tools/toolbox.rst`: removed the stale `SKG Assesment Platforms <skg>` toctree entry (its three tools already live under the new `APIs` section) and fixed the `apis/openaire` target to `apis/openaire-graph`.
+- `docs/tools/code/fair-tests.rst`: fixed a broken `:doc:` reference to the FAIR testing platforms page.
+- `docs/commons/fair/fair-test-results-vocabulary-ftr.rst`: fixed a `:doc:` reference to `ftr-validator` that was resolving relative to the wrong directory.
+- Removed duplicate hyperlink-target warnings in `find-test-for-digital-object.rst` and `register-benchmark.rst` by converting repeated same-text links to `:doc:` roles or anonymous hyperlinks.
+- Fixed two "Title underline too short" warnings in `tools/code/fair-algorithms.rst` and `tools/conceptual/dmp-metrics.rst`.
+- `docs/conf.py`: `release` was stuck at `0.2.0`, a version behind the CHANGELOG; bumped to match.
+
+### Added
+
+- `docs/tools/core-components.rst`, `testing-platforms.rst`, `registries.rst`, `supporting-tools.rst`, `apis.rst`: five new section pages so the Toolbox sidebar renders as a genuine multi-level hierarchy instead of a flat list. Sphinx only turns a toctree `:caption:` into a visible sidebar branch when it belongs to a page that is itself linked from a parent toctree — captions on toctrees nested purely inside another page's body are dropped during sidebar generation. `docs/tools/toolbox.rst` now links to these five pages instead of embedding their toctrees directly.
+- `docs/tools/conceptual/metrics-and-benchmarks.rst` and `docs/tools/code/tests-and-algorithms.rst`: added missing page titles ("Conceptual Components" / "Code Components"). A toctree target with no title of its own doesn't get a sidebar node — Sphinx splices its children straight into the parent instead, which was silently flattening "Core Components" down to a single level.
+
+### Changed
+
+- `docs/tools/authoring.rst`: removed the duplicate `FAIR Validator` entry (already listed under `quality-control.rst`), fixing a "document referenced in multiple toctrees" ambiguity.
+- `docs/tools/authoring-and-registering/ostrails-index.rst`: expanded the description to mention Champion's use of the index and clarify it's a machine-readable index, not user-facing.
+- `docs/tools/conceptual/fair-benchmarks.rst`: fixed the FAIRassist registry search link, which was querying `recordType=metric_ids` instead of `recordType=benchmark_ids`.
+- `docs/tools/conceptual/fair-metrics.rst`: capitalization fixes ("FAIR Assist" → "FAIRassist", "FAIRSharing" → "FAIRsharing").
+- `docs/tools/quality-control/ftr-validator.rst`: retitled from "FAIR Assessment Record Validator" to "FAIR FTR Schema Validator" for clarity.
+
+Docs build is now fully clean (`sphinx-build -E`: 0 warnings, 0 errors).
+
+## 2026-07-02
+
+### Merged
+
+- Merged `upstream/next` into `Deliverable3-3`, resolving conflicts in favor of this branch's `tools/` restructuring (`conceptual/`, `code/`, `apis/` split) while incorporating upstream's RST fixes to the FAIR tutorials (missing blank lines after labels, proper `code-block` directives, non-colliding cross-reference labels, corrected `:doc:` targets).
+- Resolved a rename/rename conflict on the OpenAIRE metadata validator page by keeping this branch's `quality-control/openaire-validator.rst` naming (disambiguates it from the newly added `ftr-validator.rst`).
+
+### Fixed
+
+- `docs/tools/toolbox.rst`: removed the stale `SKG Assesment Platforms <skg>` toctree entry (its three tools already live under the new `APIs` section) and fixed the `apis/openaire` target to `apis/openaire-graph`.
+- `docs/tools/code/fair-tests.rst`: fixed a broken `:doc:` reference to the FAIR testing platforms page.
+- `docs/commons/fair/fair-test-results-vocabulary-ftr.rst`: fixed a `:doc:` reference to `ftr-validator` that was resolving relative to the wrong directory.
+- Removed duplicate hyperlink-target warnings in `find-test-for-digital-object.rst` and `register-benchmark.rst` by converting repeated same-text links to `:doc:` roles or anonymous hyperlinks.
+- Fixed two "Title underline too short" warnings in `tools/code/fair-algorithms.rst` and `tools/conceptual/dmp-metrics.rst`.
+- `docs/conf.py`: `release` was stuck at `0.2.0`, a version behind the CHANGELOG; bumped to match.
+
+### Added
+
+- `docs/tools/core-components.rst`, `testing-platforms.rst`, `registries.rst`, `supporting-tools.rst`, `apis.rst`: five new section pages so the Toolbox sidebar renders as a genuine multi-level hierarchy instead of a flat list. Sphinx only turns a toctree `:caption:` into a visible sidebar branch when it belongs to a page that is itself linked from a parent toctree — captions on toctrees nested purely inside another page's body are dropped during sidebar generation. `docs/tools/toolbox.rst` now links to these five pages instead of embedding their toctrees directly.
+- `docs/tools/conceptual/metrics-and-benchmarks.rst` and `docs/tools/code/tests-and-algorithms.rst`: added missing page titles ("Conceptual Components" / "Code Components"). A toctree target with no title of its own doesn't get a sidebar node — Sphinx splices its children straight into the parent instead, which was silently flattening "Core Components" down to a single level.
+
+### Changed
+
+- `docs/tools/authoring.rst`: removed the duplicate `FAIR Validator` entry (already listed under `quality-control.rst`), fixing a "document referenced in multiple toctrees" ambiguity.
+- `docs/tools/authoring-and-registering/ostrails-index.rst`: expanded the description to mention Champion's use of the index and clarify it's a machine-readable index, not user-facing.
+- `docs/tools/conceptual/fair-benchmarks.rst`: fixed the FAIRassist registry search link, which was querying `recordType=metric_ids` instead of `recordType=benchmark_ids`.
+- `docs/tools/conceptual/fair-metrics.rst`: capitalization fixes ("FAIR Assist" → "FAIRassist", "FAIRSharing" → "FAIRsharing").
+- `docs/tools/quality-control/ftr-validator.rst`: retitled from "FAIR Assessment Record Validator" to "FAIR FTR Schema Validator" for clarity.
+
+Docs build is now fully clean (`sphinx-build -E`: 0 warnings, 0 errors).
+
 ## 2026-06-30
 
 ### Added

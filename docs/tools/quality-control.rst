@@ -9,5 +9,6 @@ The following resources in this section are part of the FAIR Tools component.
     :maxdepth: 1
     :titlesonly:
 
-    FAIR Validator <quality-control/fair-validator>
+    OpenAIRE Validator <quality-control/openaire-validator>
+    FTR Schema Validator <quality-control/ftr-validator>
 
