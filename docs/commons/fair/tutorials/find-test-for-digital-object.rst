@@ -11,7 +11,7 @@ FAIRsharing: Finding a Test Linked to a Metric
 
 This section explains how to navigate to a metric record in FAIRsharing
 and locate any tests that implement it. If you have not yet found a
-metric of interest, see `find-metrics-and-benchmarks <find-metrics-and-benchmarks.rst>`_ first.
+metric of interest, see :doc:`find-metrics-and-benchmarks` first.
 
 Background: how tests relate to metrics
 -----------------------------------------
@@ -92,7 +92,7 @@ Via FAIRassist
 
 Navigate to the `FAIRassist registry <https://fairassist.org/registry>`_
 and use the filters to find a metric relevant to your needs, as
-described in `find-metrics-and-benchmarks <https://github.com/saracuriel/docs/blob/57bc2cded89188532a0244fda6a8bb131740d74a/docs/commons/fair/tutorials/find-metrics-and-benchmarks.rst>`_. Click on any metric
+described in :doc:`find-metrics-and-benchmarks`. Click on any metric
 in the results to open its full FAIRsharing record.
 
 
@@ -100,7 +100,7 @@ Via FAIRsharing directly
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Use the FAIRsharing search or advanced search to find a metric, as
-described in `find-metrics-and-benchmarks <https://github.com/saracuriel/docs/blob/57bc2cded89188532a0244fda6a8bb131740d74a/docs/commons/fair/tutorials/find-metrics-and-benchmarks.rst>`_. Alternatively, if
+described in :doc:`find-metrics-and-benchmarks`. Alternatively, if
 you already have the DOI or URL of a specific metric, navigate directly
 to that record. For example:
 
@@ -211,10 +211,10 @@ concrete implementations available.
 Further reading
 ---------------
 
-- `find-metrics-and-benchmarks <find-metrics-and-benchmarks.rst>`_ — how to discover metrics and
+- :doc:`find-metrics-and-benchmarks` — how to discover metrics and
   benchmarks via FAIRassist and FAIRsharing.
 - `FAIRsharing documentation on metric tests and examples
-  <https://fairsharing.gitbook.io/fairsharing/additional-information/metric-tests-and-examples>`_
+  <https://fairsharing.gitbook.io/fairsharing/additional-information/metric-tests-and-examples>`__
 - `FAIRassist registry <https://fairassist.org/registry>`_
 - `FAIR Champion test registry <https://tools.ostrails.eu/champion/tests/>`_
 
