@@ -32,14 +32,11 @@ The documentation is structured as follows:
     SKG Commons <commons/skg/skg-commons.rst>
     FAIR Commons <commons/fair/fair-commons.rst>
 
-
 .. toctree::
     :maxdepth: 4
-    :caption: Tools
+    :caption: Toolbox of Testing Services
 
-    FAIR Tools <tools/fair>
-    DMP Tools <tools/dmp>
-    SKG Tools <tools/skg>
+    General Documentation <tools/toolbox>
 
 
 .. toctree::
