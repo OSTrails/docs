@@ -19,7 +19,7 @@ The OpenAIRE Metadata Validator is a software tool that evaluates metadata recor
   - https://code-repo.d4science.org/MaDgIK/openaire-ostrails-api/releases/tag/1.2.0
   - https://code-repo.d4science.org/MaDgIK/uoa-validator-engine2/releases/tag/v3.0.0
 
-- API documentation (Swagger): `Swagger UI https://beta.services.openaire.eu/osTrails/swagger-ui/index.html#/`_
+- API documentation (Swagger): `Swagger UI <https://beta.services.openaire.eu/osTrails/swagger-ui/index.html#/>`_
 - API endpoints: 
 
   - https://beta.services.openaire.eu/osTrails/forms/benchmarks

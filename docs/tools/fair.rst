@@ -13,5 +13,5 @@ The following resources in this section are part of the FAIR Tools component.
     FOOPS <assessment/foops>
     FAIROS <assessment/fairos>
     RSFC <assessment/rsfc>
-    pyFAT <assessment/pyfat
+    pyFAT <assessment/pyfat>
 

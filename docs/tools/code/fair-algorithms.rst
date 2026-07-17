@@ -11,6 +11,10 @@ Use the search box to filter by Algorithm name or description.
 
 .. raw:: html
 
+   (A static JSON snapshot of the algorithm catalogue is <a href="https://github.com/OSTrails/docs/static_data_dumps/algos.json">here</a>: Dumped on July 17, 2026.)
+
+
+
    <style>
    #fair-tests-search {
      width: 100%;
