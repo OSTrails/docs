@@ -11,4 +11,5 @@ The following resources in this section are part of the FAIR Tools component.
 
     OpenAIRE Validator <quality-control/openaire-validator>
     FTR Schema Validator <quality-control/ftr-validator>
+    SKG API Implementation Validator <quality-control/skg-api-validator>
 

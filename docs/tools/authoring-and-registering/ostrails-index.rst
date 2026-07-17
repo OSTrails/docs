@@ -23,5 +23,5 @@ FAIRsharing provide human-readable information about the content of this registr
 .. raw:: html
 
     The homepage of the OSTrails Software Tools Index is available at:
-    <a href="https://tools.ostrails.eu/fdp-index" target="_blank" rel="noopener">
-    OSTrails Software Registry</a>.
+    <a href="https://w3id.org/fdp-index" target="_blank" rel="noopener">
+    OSTrails Software Tools Registry</a>.
