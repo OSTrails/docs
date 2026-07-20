@@ -1,0 +1,134 @@
+[
+    {
+        "identifier": "https://w3id.org/FAIR-Champion/algorithms/d/1GnUr6YiFaqGwoK2-RywnojlwGkgIsY7g1KR4eWCVdlM",
+        "title": "FAIR Assessment of Life Science Repositories and Knowledgebases",
+        "description": "The FAIR LS ARK Benchmark, combined with the FAIR LS ARK Alg scoring algorithm, is intended to assess any life science database registered in FAIRsharing for FAIRness. Such a score will be created from database-level metadata as stored within FAIRsharing. In order for your database to be assessed, you only need to have it registered in FAIRsharing.",
+        "endpoint": "https://w3id.org/FAIR-Champion/assess/algorithm/d/1GnUr6YiFaqGwoK2-RywnojlwGkgIsY7g1KR4eWCVdlM",
+        "calculation_uri": "https://docs.google.com/spreadsheets/d/1GnUr6YiFaqGwoK2-RywnojlwGkgIsY7g1KR4eWCVdlM",
+        "openapi": "https://w3id.org/FAIR-Champion/assess/algorithm/d/1GnUr6YiFaqGwoK2-RywnojlwGkgIsY7g1KR4eWCVdlM",
+        "objects": "https://vocabularies.coar-repositories.org/resource_types/c_1843/",
+        "domains": "http://aims.fao.org/aos/agrovoc/c_4318",
+        "benchmark": "https://fairsharing.org/7456"
+    },
+    {
+        "identifier": "https://w3id.org/FAIR-Champion/algorithms/d/16s2klErdtZck2b6i2Zp_PjrgpBBnnrBKaAvTwrnMB4w",
+        "title": "Demonstration Algorithm",
+        "description": "This algorithm does no useful calculaation but shows how a Google Sheet can be used to configure a \"generic\" algorithm to score a benchmark",
+        "endpoint": "https://w3id.org/FAIR-Champion/assess/algorithm/d/16s2klErdtZck2b6i2Zp_PjrgpBBnnrBKaAvTwrnMB4w",
+        "calculation_uri": "https://docs.google.com/spreadsheets/d/16s2klErdtZck2b6i2Zp_PjrgpBBnnrBKaAvTwrnMB4w",
+        "openapi": "https://w3id.org/FAIR-Champion/assess/algorithm/d/16s2klErdtZck2b6i2Zp_PjrgpBBnnrBKaAvTwrnMB4w",
+        "objects": "https://schema.org/Dataset",
+        "domains": "http://www.fairsharing.org/ontology/subject/SRAO_0000401",
+        "benchmark": "https://ostrails.github.io/sandbox/mockbenchmark1.ttl"
+    },
+    {
+        "identifier": "https://w3id.org/FAIR-Champion/algorithms/d/1VhizqEDrzFOzQAxlJpF95ZhbiLWWZyfOgJ-gUo1tQlI",
+        "title": "FOOPS Champion Interoperability Challenge",
+        "description": "runs tests from FOOPS and Champion and tries to assess them using an algorithm",
+        "endpoint": "https://w3id.org/FAIR-Champion/assess/algorithm/d/1VhizqEDrzFOzQAxlJpF95ZhbiLWWZyfOgJ-gUo1tQlI",
+        "calculation_uri": "https://docs.google.com/spreadsheets/d/1VhizqEDrzFOzQAxlJpF95ZhbiLWWZyfOgJ-gUo1tQlI",
+        "openapi": "https://w3id.org/FAIR-Champion/assess/algorithm/d/1VhizqEDrzFOzQAxlJpF95ZhbiLWWZyfOgJ-gUo1tQlI",
+        "objects": "https://schema.org/Dataset",
+        "domains": "http://www.fairsharing.org/ontology/subject/SRAO_0000401",
+        "benchmark": "https://ostrails.github.io/sandbox/mockbenchmark1.ttl"
+    },
+    {
+        "identifier": "https://w3id.org/FAIR-Champion/algorithms/d/1Nk0vM4yBpVQTo_UbB62NY_fz93aRZRHBZGh5fG-khOw",
+        "title": "CESSDA Benchmark Assessment Algorithm",
+        "description": "Used to assess the FAIRness of study-level metadata in the CESSDA Data Catalogue and Digital Objects that are being considered for inclusion.",
+        "endpoint": "https://w3id.org/FAIR-Champion/assess/algorithm/d/1Nk0vM4yBpVQTo_UbB62NY_fz93aRZRHBZGh5fG-khOw",
+        "calculation_uri": "https://docs.google.com/spreadsheets/d/1Nk0vM4yBpVQTo_UbB62NY_fz93aRZRHBZGh5fG-khOw",
+        "openapi": "https://w3id.org/FAIR-Champion/assess/algorithm/d/1Nk0vM4yBpVQTo_UbB62NY_fz93aRZRHBZGh5fG-khOw",
+        "objects": "https://schema.org/Dataset",
+        "domains": "http://www.fairsharing.org/ontology/subject/SRAO_0000002",
+        "benchmark": "https://fairsharing.org/7609"
+    },
+    {
+        "identifier": "https://w3id.org/FAIR-Champion/algorithms/d/1KVEtC7iT-Fl6-hy3QKsl9FBUNCBk40d121Cl-viake8",
+        "title": "Researchdata.se FAIR Test",
+        "description": "In development for researchdata.se",
+        "endpoint": "https://w3id.org/FAIR-Champion/assess/algorithm/d/1KVEtC7iT-Fl6-hy3QKsl9FBUNCBk40d121Cl-viake8",
+        "calculation_uri": "https://docs.google.com/spreadsheets/d/1KVEtC7iT-Fl6-hy3QKsl9FBUNCBk40d121Cl-viake8",
+        "openapi": "https://w3id.org/FAIR-Champion/assess/algorithm/d/1KVEtC7iT-Fl6-hy3QKsl9FBUNCBk40d121Cl-viake8",
+        "objects": "https://schema.org/Dataset",
+        "domains": "http://www.fairsharing.org/ontology/subject/SRAO_0000401",
+        "benchmark": "https://ostrails.github.io/sandbox/mockbenchmark1.ttl"
+    },
+    {
+        "identifier": "https://w3id.org/FAIR-Champion/algorithms/d/1fJOdNDLt2T5soevj3ijiCSdoXvC9-2DavgR8d9Q_wC8",
+        "title": "Testing Sheet",
+        "description": "This is only to validate the algorithm code",
+        "endpoint": "https://w3id.org/FAIR-Champion/assess/algorithm/d/1fJOdNDLt2T5soevj3ijiCSdoXvC9-2DavgR8d9Q_wC8",
+        "calculation_uri": "https://docs.google.com/spreadsheets/d/1fJOdNDLt2T5soevj3ijiCSdoXvC9-2DavgR8d9Q_wC8",
+        "openapi": "https://w3id.org/FAIR-Champion/assess/algorithm/d/1fJOdNDLt2T5soevj3ijiCSdoXvC9-2DavgR8d9Q_wC8",
+        "objects": "https://schema.org/Dataset",
+        "domains": "http://www.fairsharing.org/ontology/subject/SRAO_0000401",
+        "benchmark": "https://ostrails.github.io/sandbox/mockbenchmark1.ttl"
+    },
+    {
+        "identifier": "https://w3id.org/FAIR-Champion/algorithms/d/16F0HtG88qvXWM5TYza5PegpfQn_b_dr4lEeUTxEgbs8",
+        "title": "ERDERA VIrtual Platform Onboarding Benchmarks",
+        "description": "ERDERA has minimal metadata requirements for it's \"L1\" and \"L2\" onboarding.  This will test both, and provide helpful output.",
+        "endpoint": "https://w3id.org/FAIR-Champion/assess/algorithm/d/16F0HtG88qvXWM5TYza5PegpfQn_b_dr4lEeUTxEgbs8",
+        "calculation_uri": "https://docs.google.com/spreadsheets/d/16F0HtG88qvXWM5TYza5PegpfQn_b_dr4lEeUTxEgbs8",
+        "openapi": "https://w3id.org/FAIR-Champion/assess/algorithm/d/16F0HtG88qvXWM5TYza5PegpfQn_b_dr4lEeUTxEgbs8",
+        "objects": "https://schema.org/Dataset",
+        "domains": "http://www.fairsharing.org/ontology/subject/SRAO_0000401",
+        "benchmark": "https://ostrails.github.io/assessment-component-metadata-records/ERDERA_Onboard.ttl"
+    },
+    {
+        "identifier": "https://w3id.org/FAIR-Champion/algorithms/d/1rUAwqgOqZiQqCh2rZpLvlJ24xMYD3jHKeHhv6_c4C-A",
+        "title": "CESSDA Generic FAIR Benchmark Assessment Algorithm for CDC",
+        "description": "Used to assess the FAIRness of study-level metadata in the CESSDA Data Catalogue and Digital Objects that are being considered for inclusion. Uses generic Metrics and their associated generic FAIR Tests",
+        "endpoint": "https://w3id.org/FAIR-Champion/assess/algorithm/d/1rUAwqgOqZiQqCh2rZpLvlJ24xMYD3jHKeHhv6_c4C-A",
+        "calculation_uri": "https://docs.google.com/spreadsheets/d/1rUAwqgOqZiQqCh2rZpLvlJ24xMYD3jHKeHhv6_c4C-A",
+        "openapi": "https://w3id.org/FAIR-Champion/assess/algorithm/d/1rUAwqgOqZiQqCh2rZpLvlJ24xMYD3jHKeHhv6_c4C-A",
+        "objects": "https://schema.org/Dataset",
+        "domains": "http://www.fairsharing.org/ontology/subject/SRAO_0000002",
+        "benchmark": "https://fairsharing.org/7609"
+    },
+    {
+        "identifier": "https://w3id.org/FAIR-Champion/algorithms/d/1Lbo0KzlN-RPRJ5POqHKh8YE2GXSv0bnaKZzwkaCOP9M",
+        "title": "FAIR Scoring Algorithm - Institutional Repository Datasets",
+        "description": "This scoring algorithm instantiates the FAIR Benchmark - Institutional Repository Datasets to provide a structured framework for delivering FAIR assistance to metadata describing research datasets held within institutional repositories. It operationalises the FAIR principles in a practical way, supporting alignment with community-endorsed research standards and best practices. The algorithm is primarily intended for institutional repository teams, who implement and run the associated assessment tests as part of repository workflows. All repository types may wish to review this algorithm to help them build their own algorithms.",
+        "endpoint": "https://w3id.org/FAIR-Champion/assess/algorithm/d/1Lbo0KzlN-RPRJ5POqHKh8YE2GXSv0bnaKZzwkaCOP9M",
+        "calculation_uri": "https://docs.google.com/spreadsheets/d/1Lbo0KzlN-RPRJ5POqHKh8YE2GXSv0bnaKZzwkaCOP9M",
+        "openapi": "https://w3id.org/FAIR-Champion/assess/algorithm/d/1Lbo0KzlN-RPRJ5POqHKh8YE2GXSv0bnaKZzwkaCOP9M",
+        "objects": "https://schema.org/Dataset",
+        "domains": "http://www.fairsharing.org/ontology/subject/SRAO_0000401",
+        "benchmark": "https://fairsharing.org/7598"
+    },
+    {
+        "identifier": "https://w3id.org/FAIR-Champion/algorithms/d/1UvHnRkKy3KZMlWdIdB7rz0LrBZJXpPibAgmTXJwRO_0",
+        "title": "All Core OSTrails Tests using Gen3 Metrics and Tests",
+        "description": "Executes every test associated with the Generation3 Metrics authored by Allyson and Mark.  These represent the core FAIRness tests described in \"OSTrails FAIR Assessment - Conceptual Requirements\" (https://doi.org/10.5281/zenodo.18980543).  It does no special calculations beyond reporting pass/fail.  These should only be applied to Dataset type digital objects that resolve to a landing page from the GUID.",
+        "endpoint": "https://w3id.org/FAIR-Champion/assess/algorithm/d/1UvHnRkKy3KZMlWdIdB7rz0LrBZJXpPibAgmTXJwRO_0",
+        "calculation_uri": "https://docs.google.com/spreadsheets/d/1UvHnRkKy3KZMlWdIdB7rz0LrBZJXpPibAgmTXJwRO_0",
+        "openapi": "https://w3id.org/FAIR-Champion/assess/algorithm/d/1UvHnRkKy3KZMlWdIdB7rz0LrBZJXpPibAgmTXJwRO_0",
+        "objects": "https://schema.org/Dataset",
+        "domains": "http://www.fairsharing.org/ontology/subject/SRAO_0000401",
+        "benchmark": "https://doi.org/10.25504/FAIRsharing.935dc4"
+    },
+    {
+        "identifier": "https://w3id.org/FAIR-Champion/algorithms/d/1BMyN6qO5JIs25kMMhBjC-SqL96XC-JuJUNFCoxDlpwo",
+        "title": "FAIR Scoring Algorithm - Databases - Life Sciences",
+        "description": "The FAIR LS ARK Benchmark, combined with this scoring algorithm, is intended to assess any life science database registered in FAIRsharing according to its FAIR enabling qualities. Such a score will be created from database-level metadata as stored within FAIRsharing. In order for your database to be assessed, you only need to have it registered in FAIRsharing.",
+        "endpoint": "https://w3id.org/FAIR-Champion/assess/algorithm/d/1BMyN6qO5JIs25kMMhBjC-SqL96XC-JuJUNFCoxDlpwo",
+        "calculation_uri": "https://docs.google.com/spreadsheets/d/1BMyN6qO5JIs25kMMhBjC-SqL96XC-JuJUNFCoxDlpwo",
+        "openapi": "https://w3id.org/FAIR-Champion/assess/algorithm/d/1BMyN6qO5JIs25kMMhBjC-SqL96XC-JuJUNFCoxDlpwo",
+        "objects": "https://vocabularies.coar-repositories.org/resource_types/c_1843/",
+        "domains": "http://aims.fao.org/aos/agrovoc/c_4318",
+        "benchmark": "https://fairsharing.org/7456"
+    },
+    {
+        "identifier": "https://w3id.org/FAIR-Champion/algorithms/d/1bWAthKUhxVer61y9p4eKXD9pKxk1-ULajcQgTODNcc8",
+        "title": "FAIR Assessment of Dataset stored in ESRF Data Catalogue",
+        "description": "The FAIR ESRF Dataset Benchmark, combined with the FAIR ESRF Dataset Alg scoring algorithm, is intended to assess any ESRF Data Catalogue Dataset. The Benchmark is based on Core-Gen2 Metrics and a few specialized metrics. Associated tests are all implemented in Champion Test tool. Input example : 10.15151/esrf-es-2210534378 ( pass all tests)",
+        "endpoint": "https://w3id.org/FAIR-Champion/assess/algorithm/d/1bWAthKUhxVer61y9p4eKXD9pKxk1-ULajcQgTODNcc8",
+        "calculation_uri": "https://docs.google.com/spreadsheets/d/1bWAthKUhxVer61y9p4eKXD9pKxk1-ULajcQgTODNcc8",
+        "openapi": "https://w3id.org/FAIR-Champion/assess/algorithm/d/1bWAthKUhxVer61y9p4eKXD9pKxk1-ULajcQgTODNcc8",
+        "objects": "https://schema.org/Dataset",
+        "domains": "http://www.fairsharing.org/ontology/subject/SRAO_0000401",
+        "benchmark": "https://fairsharing.org/6477"
+    }
+]

@@ -15,13 +15,13 @@ or can write new information to the index about newly created tests or
 algorithms.  The index is used by the FAIR Validator to retrieve information about the available tests and their associated metrics and benchmarks.
 Finally, it is also used by the Champion to look-up and provide access to both Tests and Benchmark Scoring Algorithms.
 
-This is not intended to be a user-facing index, but rather a machine-readable index that can be queried
-by software agents. Other platforms and registries such as FAIR CHampion and
+This is not intended to be a user-facing index, but rather a machine-readable index that can be queried 
+by software agents. Other platforms and registries such as FAIR CHampion and 
 FAIRsharing provide human-readable information about the content of this registry.
 
 
 .. raw:: html
 
     The homepage of the OSTrails Software Tools Index is available at:
-    <a href="https://tools.ostrails.eu/fdp-index" target="_blank" rel="noopener">
-    OSTrails Software Registry</a>.
+    <a href="https://w3id.org/fdp-index" target="_blank" rel="noopener">
+    OSTrails Software Tools Registry</a>.
