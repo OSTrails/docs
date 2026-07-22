@@ -7,6 +7,6 @@ FAIR Champion is a general-purpose FAIR assessment tool intended to be used by a
 
     - **Persistent identifier**: https://w3id.org/FAIR-Champion
     - **Code repository**: https://github.com/OSTrails/FAIR-Champion
-    - **Version**: Release v1
+    - **Version**: Release v2.0.0
     - **Release**: https://github.com/OSTrails/FAIR-Champion/releases/tag/2.0.0
     - **License**: MIT
