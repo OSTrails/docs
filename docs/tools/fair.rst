@@ -2,7 +2,7 @@ OSTrails FAIR Tools
 ====================
 
 
-The following resources in this section are part of the FAIR Tools component.
+These are the assessment platforms that provide users with access to `Tests and Algorithms <code/tests-and-algorithms.html>`_
 
 .. toctree::
     :caption: Assesment Platforms
