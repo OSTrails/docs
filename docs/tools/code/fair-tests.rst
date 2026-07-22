@@ -4,7 +4,8 @@
 FAIR Tests
 ^^^^^^^^^^
 
-The tests below are maintained as live endpoints by the OSTrails project and catalogued in the OSTrails testing infrastructure.
+The tests below are maintained as live endpoints by the OSTrails project together with private partners who are committed to maintaining the testing infrastructure.  
+Tests are catalogued in the `OSTrails Software Tools Registry <../authoring-and-registering/ostrails-index.html>`_, which provides the listing below via an API call.
 All tests are compliant with the `FTR Vocabulary <https://w3id.org/ftr>`_ and can be executed through the platforms described in :doc:`../fair`.
 
 Use the search box to filter by test name or description.
