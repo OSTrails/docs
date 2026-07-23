@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.2] - 2026-07-23
+
+### Added
+
+- `docs/tools/core-components.rst`, `testing-platforms.rst`, `registries.rst`, `supporting-tools.rst`, `apis.rst`: added a local `.. contents::` table of contents ("On this page") near the top of each merged page, linking to its sections and subsections (`:depth: 2`). These pages now hold what used to be several separate pages' worth of content, so an in-page overview makes it easier to see what's there and jump straight to it.
+
 ## [0.5.1] - 2026-07-23
 
 ### Changed

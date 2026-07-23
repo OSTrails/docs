@@ -7,6 +7,10 @@ In addition to testing and assessment tools, the OSTrails project has also devel
 other tools that support the testing ecosystem, including registries of FAIR assessment
 components and software tools.
 
+.. contents:: On this page
+    :local:
+    :depth: 2
+
 .. _fairsharing-registry:
 
 FAIRsharing Registry

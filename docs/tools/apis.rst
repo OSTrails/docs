@@ -9,6 +9,10 @@ APIs that implement, expose, or interoperate with the SKG-IF data model and Open
 
     An ongoing, up-to-date list of SKG API-implementing tools is available at <a href='https://skg-if.github.io/api/docs/api-implementors.html'>SKG-IF API Tools</a>.
 
+.. contents:: On this page
+    :local:
+    :depth: 2
+
 .. _tool-cessda-api:
 
 CESSDA SKG-IF API

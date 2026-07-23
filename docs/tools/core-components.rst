@@ -6,6 +6,10 @@ Core Components
 The conceptual and code-level artefacts of the assessment space: Metrics and Benchmarks at the
 conceptual level, Tests and Algorithms at the code level.
 
+.. contents:: On this page
+    :local:
+    :depth: 2
+
 .. _tool-conceptual-components:
 
 Conceptual Components
@@ -81,7 +85,7 @@ The algorithms below are maintained as live endpoints by the OSTrails project to
 Algorithms are catalogued in the :ref:`OSTrails Software Tools Registry <software-registry>`, which provides the listing below via an API call.
 All algorithms are compliant with the `FTR Vocabulary <https://w3id.org/ftr>`_ and can be executed through the platforms described under :ref:`tool-testing-platforms`.
 
-The catalogue currently lists close to 200 algorithms, so it is kept on its own searchable page:
+The catalogue currently lists about a dozen algorithms, so it is kept on its own searchable page:
 :doc:`Browse the FAIR Algorithms catalogue <fair-algorithms>`.
 
 .. toctree::
