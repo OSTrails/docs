@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.4] - 2026-07-23
+
+### Fixed
+
+- `docs/tools/core-components.rst`: removed the `:hidden:` toctree pointing at `fair-tests` and `fair-algorithms`. A `:hidden:` toctree only suppresses the *inline* link list in the page body — the two documents were still structurally children of `core-components` in Sphinx's global toctree, so Furo's left-hand sidebar nav kept expanding "Core Components" into "FAIR Tests" / "FAIR Algorithms" sub-items, which was confusing since every other Toolbox page appears flat.
+- `docs/tools/fair-tests.rst`, `docs/tools/fair-algorithms.rst`: marked `:orphan:` instead, since they're no longer part of any toctree. They stay reachable only via the `:doc:` links already in `core-components.rst`'s prose and no longer appear in the sidebar at all, matching the flat one-click structure of the rest of the Toolbox.
+
+### Added
+
+- `docs/tools/core-components.rst`, `testing-platforms.rst`, `registries.rst`, `supporting-tools.rst`, `apis.rst`: added a one-line `.. tip::` under each page's intro pointing readers at Furo's right-hand "On this page" panel, since relying on it for in-page navigation isn't obvious on first visit.
+
 ## [0.5.3] - 2026-07-23
 
 ### Fixed

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _tool-fair-tests:
 
 FAIR Tests

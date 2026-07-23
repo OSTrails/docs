@@ -5,6 +5,11 @@ Testing Platforms
 
 The assessment platforms that execute FAIR and DMP tests against digital objects.
 
+.. tip::
+
+   This page covers several platforms. Use the **On this page** panel on the right to jump
+   straight to one.
+
 FAIR Assessment Platforms
 ---------------------------
 
