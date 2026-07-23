@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.1] - 2026-07-23
+
+### Changed
+
+- `docs/tools/core-components.rst`: split the FAIR Tests and FAIR Algorithms live-catalogue widgets (each rendering close to 200 entries) back out into their own pages, `docs/tools/fair-tests.rst` and `docs/tools/fair-algorithms.rst`. Stacking both ~200-entry search widgets on one page made it unusable; `core-components.rst` now carries only a short description of each and a `:doc:` link out to the dedicated catalogue page, registered via a `:hidden:` toctree so the sidebar stays flat while the pages remain reachable and warning-free.
+
 ## [0.5.0] - 2026-07-23
 
 ### Changed
