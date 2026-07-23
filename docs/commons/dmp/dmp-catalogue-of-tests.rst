@@ -340,7 +340,7 @@ Test 1: Check for reused dataset declaration
 
 :Test ID: T-DCSC-001
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-001
-:Implements: :ref:`Metric 1: Reused Dataset Declared in the DMP <dmp-metric-1>`
+:Implements: :ref:`Metric 1: Reused Dataset Declared in the DMP <data.reused.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -441,7 +441,7 @@ Test 2: Check License for Reused Datasets
 
 :Test ID: T-DCSC-002
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-002
-:Implements: :ref:`Metric 3: Reused Dataset Has a Declared License <dmp-metric-3>`
+:Implements: :ref:`Metric 3: Reused Dataset Has a Declared License <data.reused.co.3>`
 
 Description
 ^^^^^^^^^^^
@@ -545,7 +545,7 @@ Test 3: Check for reused dataset PID
 
 :Test ID: T-DCSC-003
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-003
-:Implements: :ref:`Metric 2: Reused Dataset Has a Persistent Identifier <dmp-metric-2>`
+:Implements: :ref:`Metric 2: Reused Dataset Has a Persistent Identifier <data.reused.co.2>`
 
 Description
 ^^^^^^^^^^^
@@ -649,7 +649,7 @@ Test 4: Check Distribution Entry is Present
 
 :Test ID: T-DCSC-004
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-004
-:Implements: :ref:`Metric 4: Reused Dataset Has Distribution Information <dmp-metric-4>`
+:Implements: :ref:`Metric 4: Reused Dataset Has Distribution Information <data.reused.co.4>`
 
 Description
 ^^^^^^^^^^^
@@ -751,7 +751,7 @@ Test 5: Check Distribution Access Information is Present
 
 :Test ID: T-DCSC-005
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-005
-:Implements: :ref:`Metric 4: Reused Dataset Has Distribution Information <dmp-metric-4>`
+:Implements: :ref:`Metric 4: Reused Dataset Has Distribution Information <data.reused.co.4>`
 
 Description
 ^^^^^^^^^^^
@@ -852,7 +852,7 @@ Test 6: Check Distribution Title is Present
 
 :Test ID: T-DCSC-006
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-006
-:Implements: :ref:`Metric 4: Reused Dataset Has Distribution Information <dmp-metric-4>`
+:Implements: :ref:`Metric 4: Reused Dataset Has Distribution Information <data.reused.co.4>`
 
 Description
 ^^^^^^^^^^^
@@ -953,7 +953,7 @@ Test 7: Check Access Rights for Reused Datasets
 
 :Test ID: T-DCSC-007
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-007
-:Implements: :ref:`Metric 5: Reused Dataset Has Declared Access Conditions <dmp-metric-5>`
+:Implements: :ref:`Metric 5: Reused Dataset Has Declared Access Conditions <data.reused.co.5>`
 
 Description
 ^^^^^^^^^^^
@@ -1056,7 +1056,7 @@ Test 8: Check Personal Data Flag for Reused Datasets
 
 :Test ID: T-DCSC-008
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-008
-:Implements: :ref:`Metric 6: Reused Dataset Contains Personal Data <dmp-metric-6>`
+:Implements: :ref:`Metric 6: Reused Dataset Contains Personal Data <data.reused.co.6>`
 
 Description
 ^^^^^^^^^^^
@@ -1159,7 +1159,7 @@ Test 9: Check Sensitive Data Flag for Reused Datasets
 
 :Test ID: T-DCSC-009
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-009
-:Implements: :ref:`Metric 7: Reused Dataset Contains Sensitive Data <dmp-metric-7>`
+:Implements: :ref:`Metric 7: Reused Dataset Contains Sensitive Data <data.reused.co.7>`
 
 Description
 ^^^^^^^^^^^
@@ -1262,7 +1262,7 @@ Test 10: Check Distribution URL is Present
 
 :Test ID: T-DCSC-010
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-010
-:Implements: :ref:`Metric 8: Reused Dataset Has an Access URL <dmp-metric-8>`
+:Implements: :ref:`Metric 8: Reused Dataset Has an Access URL <data.reused.co.8>`
 
 Description
 ^^^^^^^^^^^
@@ -1363,7 +1363,7 @@ Test 11: Check Access URL is Present and Non-empty
 
 :Test ID: T-DCSC-011
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-011
-:Implements: :ref:`Metric 8: Reused Dataset Has an Access URL <dmp-metric-8>`
+:Implements: :ref:`Metric 8: Reused Dataset Has an Access URL <data.reused.co.8>`
 
 Description
 ^^^^^^^^^^^
@@ -1464,7 +1464,7 @@ Test 12: Check PID Matches Destination Repository Record
 
 :Test ID: T-DCSC-012
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-012
-:Implements: :ref:`Metric 9: Reused Dataset PID Resolves in the Repository <dmp-metric-9>`
+:Implements: :ref:`Metric 9: Reused Dataset PID Resolves in the Repository <data.reused.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -1567,7 +1567,7 @@ Test 13: Check PID Resolves Successfully
 
 :Test ID: T-DCSC-013
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-013
-:Implements: :ref:`Metric 9: Reused Dataset PID Resolves in the Repository <dmp-metric-9>`
+:Implements: :ref:`Metric 9: Reused Dataset PID Resolves in the Repository <data.reused.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -1669,7 +1669,7 @@ Test 14: Check Reused Data Access Matches Destination
 
 :Test ID: T-DCSC-014
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-014
-:Implements: :ref:`Metric 10: Reused Dataset Access Conditions Match the Repository <dmp-metric-10>`
+:Implements: :ref:`Metric 10: Reused Dataset Access Conditions Match the Repository <data.reused.feas.2>`
 
 Description
 ^^^^^^^^^^^
@@ -1772,7 +1772,7 @@ Test 15: Check Reused Data License Matches Destination
 
 :Test ID: T-DCSC-015
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-015
-:Implements: :ref:`Metric 11: Reused Dataset License Matches the Repository <dmp-metric-11>`
+:Implements: :ref:`Metric 11: Reused Dataset License Matches the Repository <data.reused.feas.3>`
 
 Description
 ^^^^^^^^^^^
@@ -1875,7 +1875,7 @@ Test 16: Check for new data (no is_reused)
 
 :Test ID: T-DCSC-016
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-016
-:Implements: :ref:`Metric 12: New Dataset Declared in the DMP <dmp-metric-12>`
+:Implements: :ref:`Metric 12: New Dataset Declared in the DMP <data.new.1>`
 
 Description
 ^^^^^^^^^^^
@@ -1976,7 +1976,7 @@ Test 17: Check technical_resource for new data collection/creation
 
 :Test ID: T-DCSC-017
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-017
-:Implements: :ref:`Metric 13: New Dataset Collection or Creation Method Declared <dmp-metric-13>`
+:Implements: :ref:`Metric 13: New Dataset Collection or Creation Method Declared <data.new.2>`
 
 Description
 ^^^^^^^^^^^
@@ -2080,7 +2080,7 @@ Test 18: Check data_access for new datasets
 
 :Test ID: T-DCSC-018
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-018
-:Implements: :ref:`Metric 14: New Dataset Has Declared Access Conditions <dmp-metric-14>`
+:Implements: :ref:`Metric 14: New Dataset Has Declared Access Conditions <data.new.3>`
 
 Description
 ^^^^^^^^^^^
@@ -2183,7 +2183,7 @@ Test 19: Check rights of new dataset
 
 :Test ID: T-DCSC-019
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-019
-:Implements: :ref:`Metric 14: New Dataset Has Declared Access Conditions <dmp-metric-14>`
+:Implements: :ref:`Metric 14: New Dataset Has Declared Access Conditions <data.new.3>`
 
 Description
 ^^^^^^^^^^^
@@ -2286,7 +2286,7 @@ Test 20: Check metadata for new dataset
 
 :Test ID: T-DCSC-020
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-020
-:Implements: :ref:`Metric 15: New Dataset Has Sufficient Metadata <dmp-metric-15>`
+:Implements: :ref:`Metric 15: New Dataset Has Sufficient Metadata <data.new.4>`
 
 Description
 ^^^^^^^^^^^
@@ -2392,7 +2392,7 @@ Test 21: Check dataset_id exists
 
 :Test ID: T-DCSC-021
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-021
-:Implements: :ref:`Metric 16: New Dataset Persistent Identifier Resolves Successfully <dmp-metric-16>`
+:Implements: :ref:`Metric 16: New Dataset Persistent Identifier Resolves Successfully <data.new.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -2493,7 +2493,7 @@ Test 22: Check PID resolves for dataset_id
 
 :Test ID: T-DCSC-022
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-022
-:Implements: :ref:`Metric 16: New Dataset Persistent Identifier Resolves Successfully <dmp-metric-16>`
+:Implements: :ref:`Metric 16: New Dataset Persistent Identifier Resolves Successfully <data.new.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -2595,7 +2595,7 @@ Test 23: Check new data access matches destination
 
 :Test ID: T-DCSC-023
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-023
-:Implements: :ref:`Metric 17: New Dataset Access Conditions Match the Repository <dmp-metric-17>`
+:Implements: :ref:`Metric 17: New Dataset Access Conditions Match the Repository <data.new.feas.2>`
 
 Description
 ^^^^^^^^^^^
@@ -2699,7 +2699,7 @@ Test 24: Check new data license matches destination
 
 :Test ID: T-DCSC-024
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-024
-:Implements: :ref:`Metric 18: New Dataset License Matches the Repository <dmp-metric-18>`
+:Implements: :ref:`Metric 18: New Dataset License Matches the Repository <data.new.feas.3>`
 
 Description
 ^^^^^^^^^^^
@@ -2804,7 +2804,7 @@ Test 25: Check dataset.type is specified
 
 :Test ID: T-DCSC-025
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-025
-:Implements: :ref:`Metric 19: Dataset Type Specified <dmp-metric-19>`
+:Implements: :ref:`Metric 19: Dataset Type Specified <data.info.cov.1>`
 
 Description
 ^^^^^^^^^^^
@@ -2906,7 +2906,7 @@ Test 26: Check distribution.format is specified
 
 :Test ID: T-DCSC-026
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-026
-:Implements: :ref:`Metric 20: Dataset File Format Specified <dmp-metric-20>`
+:Implements: :ref:`Metric 20: Dataset File Format Specified <data.info.cov.2>`
 
 Description
 ^^^^^^^^^^^
@@ -3008,7 +3008,7 @@ Test 27: Check distribution.byte_size is specified
 
 :Test ID: T-DCSC-027
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-027
-:Implements: :ref:`Metric 21: Dataset Size Specified <dmp-metric-21>`
+:Implements: :ref:`Metric 21: Dataset Size Specified <data.info.cov.3>`
 
 Description
 ^^^^^^^^^^^
@@ -3110,7 +3110,7 @@ Test 28: Check dataset.type matches destination type
 
 :Test ID: T-DCSC-028
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-028
-:Implements: :ref:`Metric 22: Dataset Type Matches the Repository <dmp-metric-22>`
+:Implements: :ref:`Metric 22: Dataset Type Matches the Repository <data.info.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -3214,7 +3214,7 @@ Test 29: Check dataset.type aligns with destination subtype
 
 :Test ID: T-DCSC-029
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-029
-:Implements: :ref:`Metric 22: Dataset Type Matches the Repository <dmp-metric-22>`
+:Implements: :ref:`Metric 22: Dataset Type Matches the Repository <data.info.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -3318,7 +3318,7 @@ Test 30: Check final dataset format matches destination files
 
 :Test ID: T-DCSC-030
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-030
-:Implements: :ref:`Metric 23: Dataset File Format Matches the Repository <dmp-metric-23>`
+:Implements: :ref:`Metric 23: Dataset File Format Matches the Repository <data.info.feas.2>`
 
 Description
 ^^^^^^^^^^^
@@ -3422,7 +3422,7 @@ Test 31: Check final dataset size matches destination size
 
 :Test ID: T-DCSC-031
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-031
-:Implements: :ref:`Metric 24: Dataset Size Matches the Repository <dmp-metric-24>`
+:Implements: :ref:`Metric 24: Dataset Size Matches the Repository <data.info.feas.3>`
 
 Description
 ^^^^^^^^^^^
@@ -3526,7 +3526,7 @@ Test 32: Check maDMP JSON Validates Against DMP Common Standard Schema
 
 :Test ID: T-DCSC-032
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-032
-:Implements: :ref:`Metric 25: DMP Common Standard Field Compliance <dmp-metric-25>`
+:Implements: :ref:`Metric 25: DMP Common Standard Field Compliance <meta.comp.1>`
 
 Description
 ^^^^^^^^^^^
@@ -3628,7 +3628,7 @@ Test 33: Check dataset_methodology for controlled vocabularies
 
 :Test ID: T-DCSC-033
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-033
-:Implements: :ref:`Metric 26: Controlled Vocabularies Used in Methodology <dmp-metric-26>`
+:Implements: :ref:`Metric 26: Controlled Vocabularies Used in Methodology <meta.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -3731,7 +3731,7 @@ Test 34: Check technical_resource.name for electronic lab notebook reference
 
 :Test ID: T-DCSC-034
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-034
-:Implements: :ref:`Metric 31: Electronic Lab Notebook Referenced as a Technical Resource <dmp-metric-31>`
+:Implements: :ref:`Metric 31: Electronic Lab Notebook Referenced as a Technical Resource <meta.doc.qual.1>`
 
 Description
 ^^^^^^^^^^^
@@ -3833,7 +3833,7 @@ Test 35: Check related_identifier resource_type for ReadMe file
 
 :Test ID: T-DCSC-035
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-035
-:Implements: :ref:`Metric 28: ReadMe File Reference <dmp-metric-28>`
+:Implements: :ref:`Metric 28: ReadMe File Reference <meta.qual.2>`
 
 Description
 ^^^^^^^^^^^
@@ -3923,7 +3923,7 @@ Test 36: Check metadata_standard_id is registered in metadata registries
 
 :Test ID: T-DCSC-036
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-036
-:Implements: :ref:`Metric 29: Metadata Standards Used <dmp-metric-29>`
+:Implements: :ref:`Metric 29: Metadata Standards Used <meta.stand.comp.1>`
 
 Description
 ^^^^^^^^^^^
@@ -4014,7 +4014,7 @@ Test 37: Check distribution format is open
 
 :Test ID: T-DCSC-037
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-037
-:Implements: :ref:`Metric 30: Dataset Distributions Use Open File Formats <dmp-metric-30>`
+:Implements: :ref:`Metric 30: Dataset Distributions Use Open File Formats <meta.form.op.1>`
 
 Description
 ^^^^^^^^^^^
@@ -4104,7 +4104,7 @@ Test 38: Check ELN dataset linked via related_ids
 
 :Test ID: T-DCSC-038
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-038
-:Implements: :ref:`Metric 31: Electronic Lab Notebook Linked <dmp-metric-31>`
+:Implements: :ref:`Metric 31: Electronic Lab Notebook Linked <meta.doc.qual.1>`
 
 Description
 ^^^^^^^^^^^
@@ -4207,7 +4207,7 @@ Test 39: Check technical_resource for dataset documentation
 
 :Test ID: T-DCSC-039
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-039
-:Implements: :ref:`Metric 32: Existence of Dataset Documentation <dmp-metric-32>`
+:Implements: :ref:`Metric 32: Existence of Dataset Documentation <meta.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -4309,7 +4309,7 @@ Test 40: Check data_quality_assurance for quality control methods
 
 :Test ID: T-DCSC-040
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-040
-:Implements: :ref:`Metric 33: Quality Control Methods Stated <dmp-metric-33>`
+:Implements: :ref:`Metric 33: Quality Control Methods Stated <qc.qual.1>`
 
 Description
 ^^^^^^^^^^^
@@ -4411,7 +4411,7 @@ Test 41: Check host.title and host.url for storage location
 
 :Test ID: T-DCSC-041
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-041
-:Implements: :ref:`Metric 34: Data Storage Location mentioned in the DMP <dmp-metric-34>`
+:Implements: :ref:`Metric 34: Data Storage Location mentioned in the DMP <store.cov.1>`
 
 Description
 ^^^^^^^^^^^
@@ -4513,7 +4513,7 @@ Test 42: Check host for trusted repository storage
 
 :Test ID: T-DCSC-042
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-042
-:Implements: :ref:`Metric 35: Use of Secure Storage for the dataset in a trusted repository <dmp-metric-35>`
+:Implements: :ref:`Metric 35: Use of Secure Storage for the dataset in a trusted repository <store.cov.2>`
 
 Description
 ^^^^^^^^^^^
@@ -4616,7 +4616,7 @@ Test 43: Check sensitive_data classification is assigned
 
 :Test ID: T-DCSC-043
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-043
-:Implements: :ref:`Metric 36: Alignment of Storage and Backup with Information Sensitivity <dmp-metric-36>`
+:Implements: :ref:`Metric 36: Alignment of Storage and Backup with Information Sensitivity <store.comp.1>`
 
 Description
 ^^^^^^^^^^^
@@ -4718,7 +4718,7 @@ Test 44: Check host security and backup reflect sensitivity level
 
 :Test ID: T-DCSC-044
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-044
-:Implements: :ref:`Metric 36: Alignment of Storage and Backup with Information Sensitivity <dmp-metric-36>`
+:Implements: :ref:`Metric 36: Alignment of Storage and Backup with Information Sensitivity <store.comp.1>`
 
 Description
 ^^^^^^^^^^^
@@ -4822,7 +4822,7 @@ Test 45: Check contributor.role for backup responsibility
 
 :Test ID: T-DCSC-045
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-045
-:Implements: :ref:`Metric 37: Back up Responsibility <dmp-metric-37>`
+:Implements: :ref:`Metric 37: Back up Responsibility <store.cov.3>`
 
 Description
 ^^^^^^^^^^^
@@ -4924,7 +4924,7 @@ Test 46: Check backup_frequency is declared
 
 :Test ID: T-DCSC-046
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-046
-:Implements: :ref:`Metric 38: Back up Frequency <dmp-metric-38>`
+:Implements: :ref:`Metric 38: Back up Frequency <store.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -5026,7 +5026,7 @@ Test 47: Check host.id matches Zenodo deposit location
 
 :Test ID: T-DCSC-047
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-047
-:Implements: :ref:`Metric 40: Stored Dataset Location Confirmed <dmp-metric-40>`
+:Implements: :ref:`Metric 40: Stored Dataset Location Confirmed <stor.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -5129,7 +5129,7 @@ Test 48: Check security_and_privacy.title for security measures
 
 :Test ID: T-DCSC-048
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-048
-:Implements: :ref:`Metric 41: Security Measures Implementation <dmp-metric-41>`
+:Implements: :ref:`Metric 41: Security Measures Implementation <secur.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -5231,7 +5231,7 @@ Test 49: Check security_and_privacy.description for access rights management
 
 :Test ID: T-DCSC-049
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-049
-:Implements: :ref:`Metric 42: Sensitive Data Protection Description <dmp-metric-42>`
+:Implements: :ref:`Metric 42: Sensitive Data Protection Description <secur.co.2>`
 
 Description
 ^^^^^^^^^^^
@@ -5334,7 +5334,7 @@ Test 50: Check security_and_privacy.description for authorised access controls
 
 :Test ID: T-DCSC-050
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-050
-:Implements: :ref:`Metric 43: Authorised Access Control <dmp-metric-43>`
+:Implements: :ref:`Metric 43: Authorised Access Control <secur.co.3>`
 
 Description
 ^^^^^^^^^^^
@@ -5437,7 +5437,7 @@ Test 51: Check security_and_privacy.description for access control and user perm
 
 :Test ID: T-DCSC-051
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-051
-:Implements: :ref:`Metric 44: Access Control and User Management <dmp-metric-44>`
+:Implements: :ref:`Metric 44: Access Control and User Management <secur.co.4>`
 
 Description
 ^^^^^^^^^^^
@@ -5541,7 +5541,7 @@ Test 52: Check security_and_privacy.description for access procedures
 
 :Test ID: T-DCSC-052
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-052
-:Implements: :ref:`Metric 45: Required Access Procedures <dmp-metric-45>`
+:Implements: :ref:`Metric 45: Required Access Procedures <secur.co.5>`
 
 Description
 ^^^^^^^^^^^
@@ -5644,7 +5644,7 @@ Test 53: Check security_and_privacy.description and ethical_issues_report for GD
 
 :Test ID: T-DCSC-053
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-053
-:Implements: :ref:`Metric 46: GDPR and Ethics Compliance <dmp-metric-46>`
+:Implements: :ref:`Metric 46: GDPR and Ethics Compliance <secur.comp.1>`
 
 Description
 ^^^^^^^^^^^
@@ -5747,7 +5747,7 @@ Test 54: Check security_and_privacy.title for implemented security measures at d
 
 :Test ID: T-DCSC-054
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-054
-:Implements: :ref:`Metric 47: Final Security Measures Implementation <dmp-metric-47>`
+:Implements: :ref:`Metric 47: Final Security Measures Implementation <secur.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -5849,7 +5849,7 @@ Test 55: Check security_and_privacy.description for data protection method when 
 
 :Test ID: T-DCSC-055
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-055
-:Implements: :ref:`Metric 48: Sensitive Data Using Method <dmp-metric-48>`
+:Implements: :ref:`Metric 48: Sensitive Data Using Method <sens.secure.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -5953,7 +5953,7 @@ Test 56: Check security_and_privacy for anonymised synthetic data provision
 
 :Test ID: T-DCSC-056
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-056
-:Implements: :ref:`Metric 49: Provision of Anonymised Synthetic Data <dmp-metric-49>`
+:Implements: :ref:`Metric 49: Provision of Anonymised Synthetic Data <sens.secure.co.2>`
 
 Description
 ^^^^^^^^^^^
@@ -6055,7 +6055,7 @@ Test 57: Check rights for statement of no data restrictions
 
 :Test ID: T-DCSC-057
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-057
-:Implements: :ref:`Metric 50: Statement of No Data Restrictions <dmp-metric-50>`
+:Implements: :ref:`Metric 50: Statement of No Data Restrictions <data.restrict.co.3>`
 
 Description
 ^^^^^^^^^^^
@@ -6157,7 +6157,7 @@ Test 58: Check license_ref for dataset licence
 
 :Test ID: T-DCSC-058
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-058
-:Implements: :ref:`Metric 51: Dataset License Declared <dmp-metric-51>`
+:Implements: :ref:`Metric 51: Dataset License Declared <data.lice.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -6259,7 +6259,7 @@ Test 59: Check license_ref against SPDX for software datasets
 
 :Test ID: T-DCSC-059
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-059
-:Implements: :ref:`Metric 52: Software Dataset Has a Standardised Machine-Readable License <dmp-metric-52>`
+:Implements: :ref:`Metric 52: Software Dataset Has a Standardised Machine-Readable License <soft.lice.comp.1>`
 
 Description
 ^^^^^^^^^^^
@@ -6362,7 +6362,7 @@ Test 60: Check data_access and rights for access agreements or MoUs
 
 :Test ID: T-DCSC-060
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-060
-:Implements: :ref:`Metric 53: Data Access Agreements <dmp-metric-53>`
+:Implements: :ref:`Metric 53: Data Access Agreements <data.agree.comp.2>`
 
 Description
 ^^^^^^^^^^^
@@ -6464,7 +6464,7 @@ Test 61: Check contributor.role for data owner
 
 :Test ID: T-DCSC-061
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-061
-:Implements: :ref:`Metric 54: Data Ownership Role Declared <dmp-metric-54>`
+:Implements: :ref:`Metric 54: Data Ownership Role Declared <own.co.2>`
 
 Description
 ^^^^^^^^^^^
@@ -6567,7 +6567,7 @@ Test 62: Check contributor for author role when dataset type is software
 
 :Test ID: T-DCSC-062
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-062
-:Implements: :ref:`Metric 55: Software Dataset Author Declared <dmp-metric-55>`
+:Implements: :ref:`Metric 55: Software Dataset Author Declared <soft.auth.co.3>`
 
 Description
 ^^^^^^^^^^^
@@ -6670,7 +6670,7 @@ Test 63: Check ethical_issues_exist for valid value
 
 :Test ID: T-DCSC-063
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-063
-:Implements: :ref:`Metric 56: Ethical Issues Status Declared <dmp-metric-56>`
+:Implements: :ref:`Metric 56: Ethical Issues Status Declared <ethics.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -6772,7 +6772,7 @@ Test 64: Check ethical_issues_description is present when ethical_issues_exist i
 
 :Test ID: T-DCSC-064
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-064
-:Implements: :ref:`Metric 58: Justification for Absence of Ethical Issues <dmp-metric-58>`
+:Implements: :ref:`Metric 58: Justification for Absence of Ethical Issues <ethics.co.3>`
 
 Description
 ^^^^^^^^^^^
@@ -6874,7 +6874,7 @@ Test 65: Check data_access for open status
 
 :Test ID: T-DCSC-065
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-065
-:Implements: :ref:`Metric 59: Data Access Status Open for the Dataset <dmp-metric-59>`
+:Implements: :ref:`Metric 59: Data Access Status Open for the Dataset <data.shar.op.1>`
 
 Description
 ^^^^^^^^^^^
@@ -6976,7 +6976,7 @@ Test 66: Check distribution is present for dataset
 
 :Test ID: T-DCSC-066
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-066
-:Implements: :ref:`Metric 60: Data License is Present <dmp-metric-60>`
+:Implements: :ref:`Metric 60: Data License is Present <data.shar.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -7077,7 +7077,7 @@ Test 67: Check license_ref is present within distribution
 
 :Test ID: T-DCSC-067
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-067
-:Implements: :ref:`Metric 60: Data License is Present <dmp-metric-60>`
+:Implements: :ref:`Metric 60: Data License is Present <data.shar.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -7178,7 +7178,7 @@ Test 68: Check rights for data restrictions reference
 
 :Test ID: T-DCSC-068
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-068
-:Implements: :ref:`Metric 61: Data Restrictions Reference <dmp-metric-61>`
+:Implements: :ref:`Metric 61: Data Restrictions Reference <data.shar.co.2>`
 
 Description
 ^^^^^^^^^^^
@@ -7279,7 +7279,7 @@ Test 69: Check distribution license_ref for Horizon Europe CC-BY compliance
 
 :Test ID: T-DCSC-069
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-069
-:Implements: :ref:`Metric 62: Dataset License Complies with Funder Requirements <dmp-metric-62>`
+:Implements: :ref:`Metric 62: Dataset License Complies with Funder Requirements <data.shar.comp.1>`
 
 Description
 ^^^^^^^^^^^
@@ -7381,7 +7381,7 @@ Test 70: Check data_access matches destination host access policy
 
 :Test ID: T-DCSC-070
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-070
-:Implements: :ref:`Metric 63: Repository Access Rights Consistency Aligned <dmp-metric-63>`
+:Implements: :ref:`Metric 63: Repository Access Rights Consistency Aligned <data.shar.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -7484,7 +7484,7 @@ Test 71: Check distribution license_ref matches destination host licence policy
 
 :Test ID: T-DCSC-071
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-071
-:Implements: :ref:`Metric 64: Repository Data License Aligned with the DMP <dmp-metric-64>`
+:Implements: :ref:`Metric 64: Repository Data License Aligned with the DMP <data.shar.feas.2>`
 
 Description
 ^^^^^^^^^^^
@@ -7587,7 +7587,7 @@ Test 72: Check distribution license.start_date matches destination embargo polic
 
 :Test ID: T-DCSC-072
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-072
-:Implements: :ref:`Metric 65: Embargo Implementation Alignment <dmp-metric-65>`
+:Implements: :ref:`Metric 65: Embargo Implementation Alignment <data.shar.feas.3>`
 
 Description
 ^^^^^^^^^^^
@@ -7690,7 +7690,7 @@ Test 73: Check rights matches destination host restriction policy
 
 :Test ID: T-DCSC-073
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-073
-:Implements: :ref:`Metric 66: Repository Data Restrictions <dmp-metric-66>`
+:Implements: :ref:`Metric 66: Repository Data Restrictions <data.shar.feas.4>`
 
 Description
 ^^^^^^^^^^^
@@ -7793,7 +7793,7 @@ Test 74: Check repository host for absence of embargo date
 
 :Test ID: T-DCSC-074
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-074
-:Implements: :ref:`Metric 67: Embargo Declared in the DMP or Repository <dmp-metric-67>`
+:Implements: :ref:`Metric 67: Embargo Declared in the DMP or Repository <data.shar.comp.2>`
 
 Description
 ^^^^^^^^^^^
@@ -7895,7 +7895,7 @@ Test 75: Check distribution.license.start_date for absence in maDMP
 
 :Test ID: T-DCSC-075
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-075
-:Implements: :ref:`Metric 67: Embargo Declared in the DMP or Repository <dmp-metric-67>`
+:Implements: :ref:`Metric 67: Embargo Declared in the DMP or Repository <data.shar.comp.2>`
 
 Description
 ^^^^^^^^^^^
@@ -7996,7 +7996,7 @@ Test 76: Check host.title and host.url against thematic repository registries
 
 :Test ID: T-DCSC-076
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-076
-:Implements: :ref:`Metric 68: Thematic Data Repositories Referenced <dmp-metric-68>`
+:Implements: :ref:`Metric 68: Thematic Data Repositories Referenced <repo.co.3>`
 
 Description
 ^^^^^^^^^^^
@@ -8099,7 +8099,7 @@ Test 77: Check host against OpenAIRE and FAIRsharing FAIR benchmarks
 
 :Test ID: T-DCSC-077
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-077
-:Implements: :ref:`Metric 69: Repository Conforms with FAIR Data Principles <dmp-metric-69>`
+:Implements: :ref:`Metric 69: Repository Conforms with FAIR Data Principles <repo.comp.2>`
 
 Description
 ^^^^^^^^^^^
@@ -8202,7 +8202,7 @@ Test 78: Check host against trusted repository registry benchmark
 
 :Test ID: T-DCSC-078
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-078
-:Implements: :ref:`Metric 70: Trusted Repository is Used <dmp-metric-70>`
+:Implements: :ref:`Metric 70: Trusted Repository is Used <repo.comp.3>`
 
 Description
 ^^^^^^^^^^^
@@ -8305,7 +8305,7 @@ Test 79: Check host.backup_frequency and host.backup_type for back-up strategy
 
 :Test ID: T-DCSC-079
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-079
-:Implements: :ref:`Metric 71: Verification of Back-up Strategy <dmp-metric-71>`
+:Implements: :ref:`Metric 71: Verification of Back-up Strategy <repo.co.4>`
 
 Description
 ^^^^^^^^^^^
@@ -8408,7 +8408,7 @@ Test 80: Check certified_with exists in host
 
 :Test ID: T-DCSC-080
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-080
-:Implements: :ref:`Metric 72: Certification of Repository <dmp-metric-72>`
+:Implements: :ref:`Metric 72: Certification of Repository <repo.co.5>`
 
 Description
 ^^^^^^^^^^^
@@ -8510,7 +8510,7 @@ Test 81: Check cost title or description for preservation reference
 
 :Test ID: T-DCSC-081
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-081
-:Implements: :ref:`Metric 73: Used Resources for Preservation <dmp-metric-73>`
+:Implements: :ref:`Metric 73: Used Resources for Preservation <repo.co.7>`
 
 Description
 ^^^^^^^^^^^
@@ -8612,7 +8612,7 @@ Test 82: Check host_id against FAIRsharing for repository policy
 
 :Test ID: T-DCSC-082
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-082
-:Implements: :ref:`Metric 74: Repository Policy is Present <dmp-metric-74>`
+:Implements: :ref:`Metric 74: Repository Policy is Present <repo.co.6>`
 
 Description
 ^^^^^^^^^^^
@@ -8715,7 +8715,7 @@ Test 83: Check dataset_id resolves to declared destination via DOI URL
 
 :Test ID: T-DCSC-083
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-083
-:Implements: :ref:`Metric 75: Repository Identifier Accuracy <dmp-metric-75>`
+:Implements: :ref:`Metric 75: Repository Identifier Accuracy <repo.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -8818,7 +8818,7 @@ Test 84: Check preservation_statement and host for long-term storage intention
 
 :Test ID: T-DCSC-084
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-084
-:Implements: :ref:`Metric 76: Long-Term Preservation Dataset <dmp-metric-76>`
+:Implements: :ref:`Metric 76: Long-Term Preservation Dataset <repo.feas.2>`
 
 Description
 ^^^^^^^^^^^
@@ -8920,7 +8920,7 @@ Test 85: Check dataset.keyword against Zenodo keywords
 
 :Test ID: T-DCSC-085
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-085
-:Implements: :ref:`Metric 77: Dataset Characteristics Are Compatible with the Repository <dmp-metric-77>`
+:Implements: :ref:`Metric 77: Dataset Characteristics Are Compatible with the Repository <repo.feas.4>`
 
 Description
 ^^^^^^^^^^^
@@ -9022,7 +9022,7 @@ Test 86: Check dataset.language against Zenodo language support
 
 :Test ID: T-DCSC-086
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-086
-:Implements: :ref:`Metric 77: Dataset Characteristics Are Compatible with the Repository <dmp-metric-77>`
+:Implements: :ref:`Metric 77: Dataset Characteristics Are Compatible with the Repository <repo.feas.4>`
 
 Description
 ^^^^^^^^^^^
@@ -9124,7 +9124,7 @@ Test 87: Check host_id against Zenodo and FAIRsharing for policy compliance
 
 :Test ID: T-DCSC-087
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-087
-:Implements: :ref:`Metric 70: Trusted Repository is Used <dmp-metric-70>`
+:Implements: :ref:`Metric 70: Trusted Repository is Used <repo.comp.3>`
 
 Description
 ^^^^^^^^^^^
@@ -9227,7 +9227,7 @@ Test 88: Check related_identifier.identifier for external resources
 
 :Test ID: T-DCSC-088
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-088
-:Implements: :ref:`Metric 78: Data External Resources Included in the DMP <dmp-metric-78>`
+:Implements: :ref:`Metric 78: Data External Resources Included in the DMP <data.exteresource.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -9328,7 +9328,7 @@ Test 89: Check related_identifier for metadata standard fields
 
 :Test ID: T-DCSC-089
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-089
-:Implements: :ref:`Metric 79: Metadata Standard Specified in the DMP <dmp-metric-79>`
+:Implements: :ref:`Metric 79: Metadata Standard Specified in the DMP <data.exteresource.co.2>`
 
 Description
 ^^^^^^^^^^^
@@ -9429,7 +9429,7 @@ Test 90: Check URLs in maDMP are valid and resolvable
 
 :Test ID: T-DCSC-090
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-090
-:Implements: :ref:`Metric 80: Resolvable External Resources <dmp-metric-80>`
+:Implements: :ref:`Metric 80: Resolvable External Resources <data.exteresource.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -9531,7 +9531,7 @@ Test 91: Check dataset fields against OpenAIRE SKG-IF API
 
 :Test ID: T-DCSC-091
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-091
-:Implements: :ref:`Metric 81: OpenAIRE Mentioned Dataset Validation <dmp-metric-81>`
+:Implements: :ref:`Metric 81: OpenAIRE Mentioned Dataset Validation <data.exteresource.feas.2>`
 
 Description
 ^^^^^^^^^^^
@@ -9634,7 +9634,7 @@ Test 92: Check contributor roles against CRediT taxonomy
 
 :Test ID: T-DCSC-092
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-092
-:Implements: :ref:`Metric 82: Contributor Roles Follow CRediT Taxonomy <dmp-metric-82>`
+:Implements: :ref:`Metric 82: Contributor Roles Follow CRediT Taxonomy <data.exteresource.feas.3>`
 
 Description
 ^^^^^^^^^^^
@@ -9736,7 +9736,7 @@ Test 93: Check host.pid_system for PID declaration
 
 :Test ID: T-DCSC-093
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-093
-:Implements: :ref:`Metric 83: Repository Supports Persistent Identifiers for Datasets <dmp-metric-83>`
+:Implements: :ref:`Metric 83: Repository Supports Persistent Identifiers for Datasets <data.pid.cov.1>`
 
 Description
 ^^^^^^^^^^^
@@ -9838,7 +9838,7 @@ Test 94: Check certified_with against trusted registry
 
 :Test ID: T-DCSC-094
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-094
-:Implements: :ref:`Metric 84: Trusted Repository Referenced <dmp-metric-84>`
+:Implements: :ref:`Metric 84: Trusted Repository Referenced <data.pid.cov.2>`
 
 Description
 ^^^^^^^^^^^
@@ -9940,7 +9940,7 @@ Test 95: Check host_id.identifier and host_id.type for valid repository link
 
 :Test ID: T-DCSC-095
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-095
-:Implements: :ref:`Metric 84: Trusted Repository Referenced <dmp-metric-84>`
+:Implements: :ref:`Metric 84: Trusted Repository Referenced <data.pid.cov.2>`
 
 Description
 ^^^^^^^^^^^
@@ -10043,7 +10043,7 @@ Test 96: Check host.pid_system matches destination PID system in Zenodo
 
 :Test ID: T-DCSC-096
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-096
-:Implements: :ref:`Metric 85: Dataset PID System in the DMP Matches the Repository <dmp-metric-85>`
+:Implements: :ref:`Metric 85: Dataset PID System in the DMP Matches the Repository <data.pid.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -10146,7 +10146,7 @@ Test 97: Check dmp.contributor name, role, and contact
 
 :Test ID: T-DCSC-097
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-097
-:Implements: :ref:`Metric 87: Research Data Management Roles Declared <dmp-metric-87>`
+:Implements: :ref:`Metric 87: Research Data Management Roles Declared <role.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -10247,7 +10247,7 @@ Test 98: Check dmp.contributor.role for Data Steward
 
 :Test ID: T-DCSC-098
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-098
-:Implements: :ref:`Metric 88: DMP Validation by Data Steward <dmp-metric-88>`
+:Implements: :ref:`Metric 88: DMP Validation by Data Steward <dmp.valid.co.2>`
 
 Description
 ^^^^^^^^^^^
@@ -10349,7 +10349,7 @@ Test 99: Check contributor_id and affiliation.affiliation_id for PIDs
 
 :Test ID: T-DCSC-099
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-099
-:Implements: :ref:`Metric 89: Contributors and Organisations PIDs <dmp-metric-89>`
+:Implements: :ref:`Metric 89: Contributors and Organisations PIDs <role.pid.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -10451,7 +10451,7 @@ Test 100: Check dmp.contributor fields against destination contributors
 
 :Test ID: T-DCSC-100
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-100
-:Implements: :ref:`Metric 90: Referenced RDM Roles <dmp-metric-90>`
+:Implements: :ref:`Metric 90: Referenced RDM Roles <role.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -10554,7 +10554,7 @@ Test 101: Check Data Steward role in maDMP against contributors.type Other in de
 
 :Test ID: T-DCSC-101
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-101
-:Implements: :ref:`Metric 91: Data Steward Contribution Reflected in the Destination Repository <dmp-metric-91>`
+:Implements: :ref:`Metric 91: Data Steward Contribution Reflected in the Destination Repository <role.feas.2>`
 
 Description
 ^^^^^^^^^^^
@@ -10658,7 +10658,7 @@ Test 102: Check contributor PIDs in maDMP against Zenodo contributors
 
 :Test ID: T-DCSC-102
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-102
-:Implements: :ref:`Metric 92: Contributor and Organisation PIDs Match the Destination Repository <dmp-metric-92>`
+:Implements: :ref:`Metric 92: Contributor and Organisation PIDs Match the Destination Repository <role.feas.3>`
 
 Description
 ^^^^^^^^^^^
@@ -10761,7 +10761,7 @@ Test 103: Check cost in maDMP against repository cost
 
 :Test ID: T-DCSC-103
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-103
-:Implements: :ref:`Metric 92: Contributor and Organisation PIDs Match the Destination Repository <dmp-metric-92>`
+:Implements: :ref:`Metric 92: Contributor and Organisation PIDs Match the Destination Repository <role.feas.3>`
 
 Description
 ^^^^^^^^^^^
@@ -10865,7 +10865,7 @@ Test 104: Check cost fields for budget specification
 
 :Test ID: T-DCSC-104
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-104
-:Implements: :ref:`Metric 93: DMP Includes a Budget for Personnel and Monetary Resources <dmp-metric-93>`
+:Implements: :ref:`Metric 93: DMP Includes a Budget for Personnel and Monetary Resources <cost.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -10966,7 +10966,7 @@ Test 105: Check cost in maDMP for no additional resources statement
 
 :Test ID: T-DCSC-105
 :Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-105
-:Implements: :ref:`Metric 94: DMP States No Additional RDM Resources Are Required <dmp-metric-94>`
+:Implements: :ref:`Metric 94: DMP States No Additional RDM Resources Are Required <cost.co.2>`
 
 Description
 ^^^^^^^^^^^

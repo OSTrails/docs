@@ -16,292 +16,292 @@ The following catalogue lists the DMP Evaluation Metrics defined within the OSTr
      - Title
    * - 1
      - data.reused.co.1
-     - :ref:`Reused Dataset Declared in the DMP <dmp-metric-1>`
+     - :ref:`Reused Dataset Declared in the DMP <data.reused.co.1>`
    * - 2
      - data.reused.co.2
-     - :ref:`Reused Dataset Has a Persistent Identifier <dmp-metric-2>`
+     - :ref:`Reused Dataset Has a Persistent Identifier <data.reused.co.2>`
    * - 3
      - data.reused.co.3
-     - :ref:`Reused Dataset Has a Declared License <dmp-metric-3>`
+     - :ref:`Reused Dataset Has a Declared License <data.reused.co.3>`
    * - 4
      - data.reused.co.4
-     - :ref:`Reused Dataset Has Distribution Information <dmp-metric-4>`
+     - :ref:`Reused Dataset Has Distribution Information <data.reused.co.4>`
    * - 5
      - data.reused.co.5
-     - :ref:`Reused Dataset Has Declared Access Conditions <dmp-metric-5>`
+     - :ref:`Reused Dataset Has Declared Access Conditions <data.reused.co.5>`
    * - 6
      - data.reused.co.6
-     - :ref:`Reused Dataset Contains Personal Data <dmp-metric-6>`
+     - :ref:`Reused Dataset Contains Personal Data <data.reused.co.6>`
    * - 7
      - data.reused.co.7
-     - :ref:`Reused Dataset Contains Sensitive Data <dmp-metric-7>`
+     - :ref:`Reused Dataset Contains Sensitive Data <data.reused.co.7>`
    * - 8
      - data.reused.co.8
-     - :ref:`Reused Dataset Has an Access URL <dmp-metric-8>`
+     - :ref:`Reused Dataset Has an Access URL <data.reused.co.8>`
    * - 9
      - data.reused.feas.1
-     - :ref:`Reused Dataset PID Resolves in the Repository <dmp-metric-9>`
+     - :ref:`Reused Dataset PID Resolves in the Repository <data.reused.feas.1>`
    * - 10
      - data.reused.feas.2
-     - :ref:`Reused Dataset Access Conditions Match the Repository <dmp-metric-10>`
+     - :ref:`Reused Dataset Access Conditions Match the Repository <data.reused.feas.2>`
    * - 11
      - data.reused.feas.3
-     - :ref:`Reused Dataset License Matches the Repository <dmp-metric-11>`
+     - :ref:`Reused Dataset License Matches the Repository <data.reused.feas.3>`
    * - 12
      - data.new.1
-     - :ref:`New Dataset Declared in the DMP <dmp-metric-12>`
+     - :ref:`New Dataset Declared in the DMP <data.new.1>`
    * - 13
      - data.new.2
-     - :ref:`New Dataset Collection or Creation Method Declared <dmp-metric-13>`
+     - :ref:`New Dataset Collection or Creation Method Declared <data.new.2>`
    * - 14
      - data.new.3
-     - :ref:`New Dataset Has Declared Access Conditions <dmp-metric-14>`
+     - :ref:`New Dataset Has Declared Access Conditions <data.new.3>`
    * - 15
      - data.new.4
-     - :ref:`New Dataset Has Sufficient Metadata <dmp-metric-15>`
+     - :ref:`New Dataset Has Sufficient Metadata <data.new.4>`
    * - 16
      - data.new.feas.1
-     - :ref:`New Dataset Persistent Identifier Resolves Successfully <dmp-metric-16>`
+     - :ref:`New Dataset Persistent Identifier Resolves Successfully <data.new.feas.1>`
    * - 17
      - data.new.feas.2
-     - :ref:`New Dataset Access Conditions Match the Repository <dmp-metric-17>`
+     - :ref:`New Dataset Access Conditions Match the Repository <data.new.feas.2>`
    * - 18
      - data.new.feas.3
-     - :ref:`New Dataset License Matches the Repository <dmp-metric-18>`
+     - :ref:`New Dataset License Matches the Repository <data.new.feas.3>`
    * - 19
      - data.info.cov.1
-     - :ref:`Dataset Type Specified <dmp-metric-19>`
+     - :ref:`Dataset Type Specified <data.info.cov.1>`
    * - 20
      - data.info.cov.2
-     - :ref:`Dataset File Format Specified <dmp-metric-20>`
+     - :ref:`Dataset File Format Specified <data.info.cov.2>`
    * - 21
      - data.info.cov.3
-     - :ref:`Dataset Size Specified <dmp-metric-21>`
+     - :ref:`Dataset Size Specified <data.info.cov.3>`
    * - 22
      - data.info.feas.1
-     - :ref:`Dataset Type Matches the Repository <dmp-metric-22>`
+     - :ref:`Dataset Type Matches the Repository <data.info.feas.1>`
    * - 23
      - data.info.feas.2
-     - :ref:`Dataset File Format Matches the Repository <dmp-metric-23>`
+     - :ref:`Dataset File Format Matches the Repository <data.info.feas.2>`
    * - 24
      - data.info.feas.3
-     - :ref:`Dataset Size Matches the Repository <dmp-metric-24>`
+     - :ref:`Dataset Size Matches the Repository <data.info.feas.3>`
    * - 25
      - meta.comp.1
-     - :ref:`DMP Common Standard Field Compliance <dmp-metric-25>`
+     - :ref:`DMP Common Standard Field Compliance <meta.comp.1>`
    * - 26
      - meta.co.1
-     - :ref:`Controlled Vocabularies Used in Methodology <dmp-metric-26>`
+     - :ref:`Controlled Vocabularies Used in Methodology <meta.co.1>`
    * - 27
      - meta.co.2
-     - :ref:`Electronic Lab Notebook Referenced as a Technical Resource <dmp-metric-27>`
+     - :ref:`Electronic Lab Notebook Referenced as a Technical Resource <meta.co.2>`
    * - 28
      - meta.qual.2
-     - :ref:`ReadMe File Reference <dmp-metric-28>`
+     - :ref:`ReadMe File Reference <meta.qual.2>`
    * - 29
      - meta.stand.comp.1
-     - :ref:`Metadata Standards Used <dmp-metric-29>`
+     - :ref:`Metadata Standards Used <meta.stand.comp.1>`
    * - 30
      - meta.form.op.1
-     - :ref:`Dataset Distributions Use Open File Formats <dmp-metric-30>`
+     - :ref:`Dataset Distributions Use Open File Formats <meta.form.op.1>`
    * - 31
      - meta.doc.qual.1
-     - :ref:`Electronic Lab Notebook Linked <dmp-metric-31>`
+     - :ref:`Electronic Lab Notebook Linked <meta.doc.qual.1>`
    * - 32
      - meta.feas.1
-     - :ref:`Existence of Dataset Documentation <dmp-metric-32>`
+     - :ref:`Existence of Dataset Documentation <meta.feas.1>`
    * - 33
      - qc.qual.1
-     - :ref:`Quality Control Methods Stated <dmp-metric-33>`
+     - :ref:`Quality Control Methods Stated <qc.qual.1>`
    * - 34
      - store.cov.1
-     - :ref:`Data Storage Location mentioned in the DMP <dmp-metric-34>`
+     - :ref:`Data Storage Location mentioned in the DMP <store.cov.1>`
    * - 35
      - store.cov.2
-     - :ref:`Use of Secure Storage for the dataset in a trusted repository <dmp-metric-35>`
+     - :ref:`Use of Secure Storage for the dataset in a trusted repository <store.cov.2>`
    * - 36
      - store.comp.1
-     - :ref:`Alignment of Storage and Backup with Information Sensitivity <dmp-metric-36>`
+     - :ref:`Alignment of Storage and Backup with Information Sensitivity <store.comp.1>`
    * - 37
      - store.cov.3
-     - :ref:`Back up Responsibility <dmp-metric-37>`
+     - :ref:`Back up Responsibility <store.cov.3>`
    * - 38
      - store.co.1
-     - :ref:`Back up Frequency <dmp-metric-38>`
+     - :ref:`Back up Frequency <store.co.1>`
    * - 39
      - store.comp.3
-     - :ref:`Version Control Practices for Software <dmp-metric-39>`
+     - :ref:`Version Control Practices for Software <store.comp.3>`
    * - 40
      - stor.feas.1
-     - :ref:`Stored Dataset Location Confirmed <dmp-metric-40>`
+     - :ref:`Stored Dataset Location Confirmed <stor.feas.1>`
    * - 41
      - secur.co.1
-     - :ref:`Security Measures Implementation <dmp-metric-41>`
+     - :ref:`Security Measures Implementation <secur.co.1>`
    * - 42
      - secur.co.2
-     - :ref:`Sensitive Data Protection Description <dmp-metric-42>`
+     - :ref:`Sensitive Data Protection Description <secur.co.2>`
    * - 43
      - secur.co.3
-     - :ref:`Authorised Access Control <dmp-metric-43>`
+     - :ref:`Authorised Access Control <secur.co.3>`
    * - 44
      - secur.co.4
-     - :ref:`Access Control and User Management <dmp-metric-44>`
+     - :ref:`Access Control and User Management <secur.co.4>`
    * - 45
      - secur.co.5
-     - :ref:`Required Access Procedures <dmp-metric-45>`
+     - :ref:`Required Access Procedures <secur.co.5>`
    * - 46
      - secur.comp.1
-     - :ref:`GDPR and Ethics Compliance <dmp-metric-46>`
+     - :ref:`GDPR and Ethics Compliance <secur.comp.1>`
    * - 47
      - secur.feas.1
-     - :ref:`Final Security Measures Implementation <dmp-metric-47>`
+     - :ref:`Final Security Measures Implementation <secur.feas.1>`
    * - 48
      - sens.secure.co.1
-     - :ref:`Sensitive Data Using Method <dmp-metric-48>`
+     - :ref:`Sensitive Data Using Method <sens.secure.co.1>`
    * - 49
      - sens.secure.co.2
-     - :ref:`Provision of Anonymised Synthetic Data <dmp-metric-49>`
+     - :ref:`Provision of Anonymised Synthetic Data <sens.secure.co.2>`
    * - 50
      - data.restrict.co.3
-     - :ref:`Statement of No Data Restrictions <dmp-metric-50>`
+     - :ref:`Statement of No Data Restrictions <data.restrict.co.3>`
    * - 51
      - data.lice.co.1
-     - :ref:`Dataset License Declared <dmp-metric-51>`
+     - :ref:`Dataset License Declared <data.lice.co.1>`
    * - 52
      - soft.lice.comp.1
-     - :ref:`Software Dataset Has a Standardised Machine-Readable License <dmp-metric-52>`
+     - :ref:`Software Dataset Has a Standardised Machine-Readable License <soft.lice.comp.1>`
    * - 53
      - data.agree.comp.2
-     - :ref:`Data Access Agreements <dmp-metric-53>`
+     - :ref:`Data Access Agreements <data.agree.comp.2>`
    * - 54
      - own.co.2
-     - :ref:`Data Ownership Role Declared <dmp-metric-54>`
+     - :ref:`Data Ownership Role Declared <own.co.2>`
    * - 55
      - soft.auth.co.3
-     - :ref:`Software Dataset Author Declared <dmp-metric-55>`
+     - :ref:`Software Dataset Author Declared <soft.auth.co.3>`
    * - 56
      - ethics.co.1
-     - :ref:`Ethical Issues Status Declared <dmp-metric-56>`
+     - :ref:`Ethical Issues Status Declared <ethics.co.1>`
    * - 57
      - ethics.co.2
-     - :ref:`Ethical Issues and Review <dmp-metric-57>`
+     - :ref:`Ethical Issues and Review <ethics.co.2>`
    * - 58
      - ethics.co.3
-     - :ref:`Justification for Absence of Ethical Issues <dmp-metric-58>`
+     - :ref:`Justification for Absence of Ethical Issues <ethics.co.3>`
    * - 59
      - data.shar.op.1
-     - :ref:`Data Access Status Open for the Dataset <dmp-metric-59>`
+     - :ref:`Data Access Status Open for the Dataset <data.shar.op.1>`
    * - 60
      - data.shar.co.1
-     - :ref:`Data License is Present <dmp-metric-60>`
+     - :ref:`Data License is Present <data.shar.co.1>`
    * - 61
      - data.shar.co.2
-     - :ref:`Data Restrictions Reference <dmp-metric-61>`
+     - :ref:`Data Restrictions Reference <data.shar.co.2>`
    * - 62
      - data.shar.comp.1
-     - :ref:`Dataset License Complies with Funder Requirements <dmp-metric-62>`
+     - :ref:`Dataset License Complies with Funder Requirements <data.shar.comp.1>`
    * - 63
      - data.shar.feas.1
-     - :ref:`Repository Access Rights Consistency Aligned <dmp-metric-63>`
+     - :ref:`Repository Access Rights Consistency Aligned <data.shar.feas.1>`
    * - 64
      - data.shar.feas.2
-     - :ref:`Repository Data License Aligned with the DMP <dmp-metric-64>`
+     - :ref:`Repository Data License Aligned with the DMP <data.shar.feas.2>`
    * - 65
      - data.shar.feas.3
-     - :ref:`Embargo Implementation Alignment <dmp-metric-65>`
+     - :ref:`Embargo Implementation Alignment <data.shar.feas.3>`
    * - 66
      - data.shar.feas.4
-     - :ref:`Repository Data Restrictions <dmp-metric-66>`
+     - :ref:`Repository Data Restrictions <data.shar.feas.4>`
    * - 67
      - data.shar.comp.2
-     - :ref:`Embargo Declared in the DMP or Repository <dmp-metric-67>`
+     - :ref:`Embargo Declared in the DMP or Repository <data.shar.comp.2>`
    * - 68
      - repo.co.3
-     - :ref:`Thematic Data Repositories Referenced <dmp-metric-68>`
+     - :ref:`Thematic Data Repositories Referenced <repo.co.3>`
    * - 69
      - repo.comp.2
-     - :ref:`Repository Conforms with FAIR Data Principles <dmp-metric-69>`
+     - :ref:`Repository Conforms with FAIR Data Principles <repo.comp.2>`
    * - 70
      - repo.comp.3
-     - :ref:`Trusted Repository is Used <dmp-metric-70>`
+     - :ref:`Trusted Repository is Used <repo.comp.3>`
    * - 71
      - repo.co.4
-     - :ref:`Verification of Back-up Strategy <dmp-metric-71>`
+     - :ref:`Verification of Back-up Strategy <repo.co.4>`
    * - 72
      - repo.co.5
-     - :ref:`Certification of Repository <dmp-metric-72>`
+     - :ref:`Certification of Repository <repo.co.5>`
    * - 73
      - repo.co.7
-     - :ref:`Used Resources for Preservation <dmp-metric-73>`
+     - :ref:`Used Resources for Preservation <repo.co.7>`
    * - 74
      - repo.co.6
-     - :ref:`Repository Policy is Present <dmp-metric-74>`
+     - :ref:`Repository Policy is Present <repo.co.6>`
    * - 75
      - repo.feas.1
-     - :ref:`Repository Identifier Accuracy <dmp-metric-75>`
+     - :ref:`Repository Identifier Accuracy <repo.feas.1>`
    * - 76
      - repo.feas.2
-     - :ref:`Long-Term Preservation Dataset <dmp-metric-76>`
+     - :ref:`Long-Term Preservation Dataset <repo.feas.2>`
    * - 77
      - repo.feas.4
-     - :ref:`Dataset Characteristics Are Compatible with the Repository <dmp-metric-77>`
+     - :ref:`Dataset Characteristics Are Compatible with the Repository <repo.feas.4>`
    * - 78
      - data.exteresource.co.1
-     - :ref:`Data External Resources Included in the DMP <dmp-metric-78>`
+     - :ref:`Data External Resources Included in the DMP <data.exteresource.co.1>`
    * - 79
      - data.exteresource.co.2
-     - :ref:`Metadata Standard Specified in the DMP <dmp-metric-79>`
+     - :ref:`Metadata Standard Specified in the DMP <data.exteresource.co.2>`
    * - 80
      - data.exteresource.feas.1
-     - :ref:`Resolvable External Resources <dmp-metric-80>`
+     - :ref:`Resolvable External Resources <data.exteresource.feas.1>`
    * - 81
      - data.exteresource.feas.2
-     - :ref:`OpenAIRE Mentioned Dataset Validation <dmp-metric-81>`
+     - :ref:`OpenAIRE Mentioned Dataset Validation <data.exteresource.feas.2>`
    * - 82
      - data.exteresource.feas.3
-     - :ref:`Contributor Roles Follow CRediT Taxonomy <dmp-metric-82>`
+     - :ref:`Contributor Roles Follow CRediT Taxonomy <data.exteresource.feas.3>`
    * - 83
      - data.pid.cov.1
-     - :ref:`Repository Supports Persistent Identifiers for Datasets <dmp-metric-83>`
+     - :ref:`Repository Supports Persistent Identifiers for Datasets <data.pid.cov.1>`
    * - 84
      - data.pid.cov.2
-     - :ref:`Trusted Repository Referenced <dmp-metric-84>`
+     - :ref:`Trusted Repository Referenced <data.pid.cov.2>`
    * - 85
      - data.pid.feas.1
-     - :ref:`Dataset PID System in the DMP Matches the Repository <dmp-metric-85>`
+     - :ref:`Dataset PID System in the DMP Matches the Repository <data.pid.feas.1>`
    * - 86
      - data.pid.feas.3
-     - :ref:`Dataset Persistent Identifier Resolves Successfully <dmp-metric-86>`
+     - :ref:`Dataset Persistent Identifier Resolves Successfully <data.pid.feas.3>`
    * - 87
      - role.co.1
-     - :ref:`Research Data Management Roles Declared <dmp-metric-87>`
+     - :ref:`Research Data Management Roles Declared <role.co.1>`
    * - 88
      - dmp.valid.co.2
-     - :ref:`DMP Validation by Data Steward <dmp-metric-88>`
+     - :ref:`DMP Validation by Data Steward <dmp.valid.co.2>`
    * - 89
      - role.pid.co.1
-     - :ref:`Contributors and Organisations PIDs <dmp-metric-89>`
+     - :ref:`Contributors and Organisations PIDs <role.pid.co.1>`
    * - 90
      - role.feas.1
-     - :ref:`Referenced RDM Roles <dmp-metric-90>`
+     - :ref:`Referenced RDM Roles <role.feas.1>`
    * - 91
      - role.feas.2
-     - :ref:`Data Steward Contribution Reflected in the Destination Repository <dmp-metric-91>`
+     - :ref:`Data Steward Contribution Reflected in the Destination Repository <role.feas.2>`
    * - 92
      - role.feas.3
-     - :ref:`Contributor and Organisation PIDs Match the Destination Repository <dmp-metric-92>`
+     - :ref:`Contributor and Organisation PIDs Match the Destination Repository <role.feas.3>`
    * - 93
      - cost.co.1
-     - :ref:`DMP Includes a Budget for Personnel and Monetary Resources <dmp-metric-93>`
+     - :ref:`DMP Includes a Budget for Personnel and Monetary Resources <cost.co.1>`
    * - 94
      - cost.co.2
-     - :ref:`DMP States No Additional RDM Resources Are Required <dmp-metric-94>`
+     - :ref:`DMP States No Additional RDM Resources Are Required <cost.co.2>`
 
 
 ----
 
 
-.. _dmp-metric-1:
+.. _data.reused.co.1:
 
 Metric 1: Reused Dataset Declared in the DMP
 --------------------------------------------
@@ -419,7 +419,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-2:
+.. _data.reused.co.2:
 
 Metric 2: Reused Dataset Has a Persistent Identifier
 ----------------------------------------------------
@@ -538,7 +538,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-3:
+.. _data.reused.co.3:
 
 Metric 3: Reused Dataset Has a Declared License
 -----------------------------------------------
@@ -657,7 +657,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-4:
+.. _data.reused.co.4:
 
 Metric 4: Reused Dataset Has Distribution Information
 -----------------------------------------------------
@@ -786,7 +786,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-5:
+.. _data.reused.co.5:
 
 Metric 5: Reused Dataset Has Declared Access Conditions
 -------------------------------------------------------
@@ -905,7 +905,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-6:
+.. _data.reused.co.6:
 
 Metric 6: Reused Dataset Contains Personal Data
 -----------------------------------------------
@@ -1024,7 +1024,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-7:
+.. _data.reused.co.7:
 
 Metric 7: Reused Dataset Contains Sensitive Data
 ------------------------------------------------
@@ -1143,7 +1143,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-8:
+.. _data.reused.co.8:
 
 Metric 8: Reused Dataset Has an Access URL
 ------------------------------------------
@@ -1268,7 +1268,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-9:
+.. _data.reused.feas.1:
 
 Metric 9: Reused Dataset PID Resolves in the Repository
 -------------------------------------------------------
@@ -1403,7 +1403,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-10:
+.. _data.reused.feas.2:
 
 Metric 10: Reused Dataset Access Conditions Match the Repository
 ----------------------------------------------------------------
@@ -1527,7 +1527,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-11:
+.. _data.reused.feas.3:
 
 Metric 11: Reused Dataset License Matches the Repository
 --------------------------------------------------------
@@ -1651,7 +1651,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-12:
+.. _data.new.1:
 
 Metric 12: New Dataset Declared in the DMP
 ------------------------------------------
@@ -1770,7 +1770,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-13:
+.. _data.new.2:
 
 Metric 13: New Dataset Collection or Creation Method Declared
 -------------------------------------------------------------
@@ -1893,7 +1893,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-14:
+.. _data.new.3:
 
 Metric 14: New Dataset Has Declared Access Conditions
 -----------------------------------------------------
@@ -2020,7 +2020,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-15:
+.. _data.new.4:
 
 Metric 15: New Dataset Has Sufficient Metadata
 ----------------------------------------------
@@ -2143,7 +2143,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-16:
+.. _data.new.feas.1:
 
 Metric 16: New Dataset Persistent Identifier Resolves Successfully
 ------------------------------------------------------------------
@@ -2270,7 +2270,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-17:
+.. _data.new.feas.2:
 
 Metric 17: New Dataset Access Conditions Match the Repository
 -------------------------------------------------------------
@@ -2394,7 +2394,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-18:
+.. _data.new.feas.3:
 
 Metric 18: New Dataset License Matches the Repository
 -----------------------------------------------------
@@ -2518,7 +2518,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-19:
+.. _data.info.cov.1:
 
 Metric 19: Dataset Type Specified
 ---------------------------------
@@ -2637,7 +2637,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-20:
+.. _data.info.cov.2:
 
 Metric 20: Dataset File Format Specified
 ----------------------------------------
@@ -2756,7 +2756,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-21:
+.. _data.info.cov.3:
 
 Metric 21: Dataset Size Specified
 ---------------------------------
@@ -2875,7 +2875,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-22:
+.. _data.info.feas.1:
 
 Metric 22: Dataset Type Matches the Repository
 ----------------------------------------------
@@ -3003,7 +3003,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-23:
+.. _data.info.feas.2:
 
 Metric 23: Dataset File Format Matches the Repository
 -----------------------------------------------------
@@ -3123,7 +3123,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-24:
+.. _data.info.feas.3:
 
 Metric 24: Dataset Size Matches the Repository
 ----------------------------------------------
@@ -3243,7 +3243,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-25:
+.. _meta.comp.1:
 
 Metric 25: DMP Common Standard Field Compliance
 -----------------------------------------------
@@ -3362,7 +3362,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-26:
+.. _meta.co.1:
 
 Metric 26: Controlled Vocabularies Used in Methodology
 ------------------------------------------------------
@@ -3481,7 +3481,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-27:
+.. _meta.co.2:
 
 Metric 27: Electronic Lab Notebook Referenced as a Technical Resource
 ---------------------------------------------------------------------
@@ -3592,7 +3592,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-28:
+.. _meta.qual.2:
 
 Metric 28: ReadMe File Reference
 --------------------------------
@@ -3695,7 +3695,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-29:
+.. _meta.stand.comp.1:
 
 Metric 29: Metadata Standards Used
 ----------------------------------
@@ -3798,7 +3798,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-30:
+.. _meta.form.op.1:
 
 Metric 30: Dataset Distributions Use Open File Formats
 ------------------------------------------------------
@@ -3917,7 +3917,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-31:
+.. _meta.doc.qual.1:
 
 Metric 31: Electronic Lab Notebook Linked
 -----------------------------------------
@@ -4038,7 +4038,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-32:
+.. _meta.feas.1:
 
 Metric 32: Existence of Dataset Documentation
 ---------------------------------------------
@@ -4153,7 +4153,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-33:
+.. _qc.qual.1:
 
 Metric 33: Quality Control Methods Stated
 -----------------------------------------
@@ -4268,7 +4268,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-34:
+.. _store.cov.1:
 
 Metric 34: Data Storage Location mentioned in the DMP
 -----------------------------------------------------
@@ -4383,7 +4383,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-35:
+.. _store.cov.2:
 
 Metric 35: Use of Secure Storage for the dataset in a trusted repository
 ------------------------------------------------------------------------
@@ -4498,7 +4498,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-36:
+.. _store.comp.1:
 
 Metric 36: Alignment of Storage and Backup with Information Sensitivity
 -----------------------------------------------------------------------
@@ -4625,7 +4625,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-37:
+.. _store.cov.3:
 
 Metric 37: Back up Responsibility
 ---------------------------------
@@ -4740,7 +4740,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-38:
+.. _store.co.1:
 
 Metric 38: Back up Frequency
 ----------------------------
@@ -4855,7 +4855,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-39:
+.. _store.comp.3:
 
 Metric 39: Version Control Practices for Software
 -------------------------------------------------
@@ -4962,7 +4962,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-40:
+.. _stor.feas.1:
 
 Metric 40: Stored Dataset Location Confirmed
 --------------------------------------------
@@ -5077,7 +5077,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-41:
+.. _secur.co.1:
 
 Metric 41: Security Measures Implementation
 -------------------------------------------
@@ -5192,7 +5192,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-42:
+.. _secur.co.2:
 
 Metric 42: Sensitive Data Protection Description
 ------------------------------------------------
@@ -5307,7 +5307,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-43:
+.. _secur.co.3:
 
 Metric 43: Authorised Access Control
 ------------------------------------
@@ -5422,7 +5422,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-44:
+.. _secur.co.4:
 
 Metric 44: Access Control and User Management
 ---------------------------------------------
@@ -5537,7 +5537,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-45:
+.. _secur.co.5:
 
 Metric 45: Required Access Procedures
 -------------------------------------
@@ -5652,7 +5652,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-46:
+.. _secur.comp.1:
 
 Metric 46: GDPR and Ethics Compliance
 -------------------------------------
@@ -5767,7 +5767,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-47:
+.. _secur.feas.1:
 
 Metric 47: Final Security Measures Implementation
 -------------------------------------------------
@@ -5882,7 +5882,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-48:
+.. _sens.secure.co.1:
 
 Metric 48: Sensitive Data Using Method
 --------------------------------------
@@ -5997,7 +5997,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-49:
+.. _sens.secure.co.2:
 
 Metric 49: Provision of Anonymised Synthetic Data
 -------------------------------------------------
@@ -6112,7 +6112,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-50:
+.. _data.restrict.co.3:
 
 Metric 50: Statement of No Data Restrictions
 --------------------------------------------
@@ -6227,7 +6227,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-51:
+.. _data.lice.co.1:
 
 Metric 51: Dataset License Declared
 -----------------------------------
@@ -6342,7 +6342,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-52:
+.. _soft.lice.comp.1:
 
 Metric 52: Software Dataset Has a Standardised Machine-Readable License
 -----------------------------------------------------------------------
@@ -6457,7 +6457,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-53:
+.. _data.agree.comp.2:
 
 Metric 53: Data Access Agreements
 ---------------------------------
@@ -6572,7 +6572,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-54:
+.. _own.co.2:
 
 Metric 54: Data Ownership Role Declared
 ---------------------------------------
@@ -6687,7 +6687,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-55:
+.. _soft.auth.co.3:
 
 Metric 55: Software Dataset Author Declared
 -------------------------------------------
@@ -6802,7 +6802,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-56:
+.. _ethics.co.1:
 
 Metric 56: Ethical Issues Status Declared
 -----------------------------------------
@@ -6917,7 +6917,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-57:
+.. _ethics.co.2:
 
 Metric 57: Ethical Issues and Review
 ------------------------------------
@@ -7024,7 +7024,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-58:
+.. _ethics.co.3:
 
 Metric 58: Justification for Absence of Ethical Issues
 ------------------------------------------------------
@@ -7139,7 +7139,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-59:
+.. _data.shar.op.1:
 
 Metric 59: Data Access Status Open for the Dataset
 --------------------------------------------------
@@ -7254,7 +7254,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-60:
+.. _data.shar.co.1:
 
 Metric 60: Data License is Present
 ----------------------------------
@@ -7375,7 +7375,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-61:
+.. _data.shar.co.2:
 
 Metric 61: Data Restrictions Reference
 --------------------------------------
@@ -7490,7 +7490,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-62:
+.. _data.shar.comp.1:
 
 Metric 62: Dataset License Complies with Funder Requirements
 ------------------------------------------------------------
@@ -7605,7 +7605,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-63:
+.. _data.shar.feas.1:
 
 Metric 63: Repository Access Rights Consistency Aligned
 -------------------------------------------------------
@@ -7720,7 +7720,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-64:
+.. _data.shar.feas.2:
 
 Metric 64: Repository Data License Aligned with the DMP
 -------------------------------------------------------
@@ -7835,7 +7835,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-65:
+.. _data.shar.feas.3:
 
 Metric 65: Embargo Implementation Alignment
 -------------------------------------------
@@ -7950,7 +7950,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-66:
+.. _data.shar.feas.4:
 
 Metric 66: Repository Data Restrictions
 ---------------------------------------
@@ -8065,7 +8065,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-67:
+.. _data.shar.comp.2:
 
 Metric 67: Embargo Declared in the DMP or Repository
 ----------------------------------------------------
@@ -8186,7 +8186,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-68:
+.. _repo.co.3:
 
 Metric 68: Thematic Data Repositories Referenced
 ------------------------------------------------
@@ -8301,7 +8301,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-69:
+.. _repo.comp.2:
 
 Metric 69: Repository Conforms with FAIR Data Principles
 --------------------------------------------------------
@@ -8416,7 +8416,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-70:
+.. _repo.comp.3:
 
 Metric 70: Trusted Repository is Used
 -------------------------------------
@@ -8537,7 +8537,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-71:
+.. _repo.co.4:
 
 Metric 71: Verification of Back-up Strategy
 -------------------------------------------
@@ -8652,7 +8652,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-72:
+.. _repo.co.5:
 
 Metric 72: Certification of Repository
 --------------------------------------
@@ -8767,7 +8767,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-73:
+.. _repo.co.7:
 
 Metric 73: Used Resources for Preservation
 ------------------------------------------
@@ -8882,7 +8882,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-74:
+.. _repo.co.6:
 
 Metric 74: Repository Policy is Present
 ---------------------------------------
@@ -8997,7 +8997,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-75:
+.. _repo.feas.1:
 
 Metric 75: Repository Identifier Accuracy
 -----------------------------------------
@@ -9112,7 +9112,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-76:
+.. _repo.feas.2:
 
 Metric 76: Long-Term Preservation Dataset
 -----------------------------------------
@@ -9227,7 +9227,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-77:
+.. _repo.feas.4:
 
 Metric 77: Dataset Characteristics Are Compatible with the Repository
 ---------------------------------------------------------------------
@@ -9348,7 +9348,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-78:
+.. _data.exteresource.co.1:
 
 Metric 78: Data External Resources Included in the DMP
 ------------------------------------------------------
@@ -9463,7 +9463,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-79:
+.. _data.exteresource.co.2:
 
 Metric 79: Metadata Standard Specified in the DMP
 -------------------------------------------------
@@ -9578,7 +9578,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-80:
+.. _data.exteresource.feas.1:
 
 Metric 80: Resolvable External Resources
 ----------------------------------------
@@ -9693,7 +9693,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-81:
+.. _data.exteresource.feas.2:
 
 Metric 81: OpenAIRE Mentioned Dataset Validation
 ------------------------------------------------
@@ -9808,7 +9808,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-82:
+.. _data.exteresource.feas.3:
 
 Metric 82: Contributor Roles Follow CRediT Taxonomy
 ---------------------------------------------------
@@ -9923,7 +9923,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-83:
+.. _data.pid.cov.1:
 
 Metric 83: Repository Supports Persistent Identifiers for Datasets
 ------------------------------------------------------------------
@@ -10038,7 +10038,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-84:
+.. _data.pid.cov.2:
 
 Metric 84: Trusted Repository Referenced
 ----------------------------------------
@@ -10159,7 +10159,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-85:
+.. _data.pid.feas.1:
 
 Metric 85: Dataset PID System in the DMP Matches the Repository
 ---------------------------------------------------------------
@@ -10274,7 +10274,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-86:
+.. _data.pid.feas.3:
 
 Metric 86: Dataset Persistent Identifier Resolves Successfully
 --------------------------------------------------------------
@@ -10381,7 +10381,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-87:
+.. _role.co.1:
 
 Metric 87: Research Data Management Roles Declared
 --------------------------------------------------
@@ -10496,7 +10496,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-88:
+.. _dmp.valid.co.2:
 
 Metric 88: DMP Validation by Data Steward
 -----------------------------------------
@@ -10611,7 +10611,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-89:
+.. _role.pid.co.1:
 
 Metric 89: Contributors and Organisations PIDs
 ----------------------------------------------
@@ -10726,7 +10726,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-90:
+.. _role.feas.1:
 
 Metric 90: Referenced RDM Roles
 -------------------------------
@@ -10841,7 +10841,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-91:
+.. _role.feas.2:
 
 Metric 91: Data Steward Contribution Reflected in the Destination Repository
 ----------------------------------------------------------------------------
@@ -10956,7 +10956,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-92:
+.. _role.feas.3:
 
 Metric 92: Contributor and Organisation PIDs Match the Destination Repository
 -----------------------------------------------------------------------------
@@ -11077,7 +11077,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-93:
+.. _cost.co.1:
 
 Metric 93: DMP Includes a Budget for Personnel and Monetary Resources
 ---------------------------------------------------------------------
@@ -11192,7 +11192,7 @@ JSON-LD
 
 ----
 
-.. _dmp-metric-94:
+.. _cost.co.2:
 
 Metric 94: DMP States No Additional RDM Resources Are Required
 --------------------------------------------------------------
