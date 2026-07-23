@@ -6,10 +6,6 @@ Supporting Tools
 Tools that support authoring, registration, validation, and quality control of FAIR assessment
 components.
 
-.. contents:: On this page
-    :local:
-    :depth: 2
-
 Assessment Authoring and Registration Tools
 ----------------------------------------------
 

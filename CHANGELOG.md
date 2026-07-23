@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.3] - 2026-07-23
+
+### Fixed
+
+- `docs/tools/core-components.rst`, `testing-platforms.rst`, `registries.rst`, `supporting-tools.rst`, `apis.rst`: removed the manual `.. contents::` blocks added in 0.5.2. The Furo theme flags a bare `.. contents::` with a bright red "unnecessary, duplicates information" warning banner in the rendered page, because Furo already renders an equivalent "On this page" table of contents automatically in the right-hand sidebar (`toc-drawer`) from the page's own headings. Verified the sidebar TOC covers the same sections/subsections the manual directive did.
+
 ## [0.5.2] - 2026-07-23
 
 ### Added

@@ -6,10 +6,6 @@ Core Components
 The conceptual and code-level artefacts of the assessment space: Metrics and Benchmarks at the
 conceptual level, Tests and Algorithms at the code level.
 
-.. contents:: On this page
-    :local:
-    :depth: 2
-
 .. _tool-conceptual-components:
 
 Conceptual Components
