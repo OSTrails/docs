@@ -2,18 +2,16 @@ OSTrails FAIR Tools
 ====================
 
 
-The following resources in this section are part of the FAIR Tools component.
+These are the assessment platforms that provide users with access to `Tests and Algorithms <code/tests-and-algorithms.html>`_
 
 .. toctree::
-    :caption: Tools
+    :caption: Assesment Platforms
     :maxdepth: 1
     :titlesonly:
 
-    FAIR Champion <fair/fair-champion>
-    FOOPS <fair/foops>
-    FAIROS <fair/fairos>
-    FAIRsharing <fair/fairsharing>
-    FAIR Assessment Authoring Tool <fair/fair-assessment-authoring-tool>
-    FAIR Validator <fair/fair-validator>
-    RSFC <fair/rsfc>
+    FAIR Champion <assessment/fair-champion>
+    FOOPS <assessment/foops>
+    FAIROS <assessment/fairos>
+    RSFC <assessment/rsfc>
+    pyFAT <assessment/pyfat>
 

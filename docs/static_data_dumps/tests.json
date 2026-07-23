@@ -1,0 +1,2275 @@
+[
+    {
+        "identifier": "https://tests.ostrails.eu/tests/fc_data_authorization",
+        "title": "OSTrails Core: Data Authorization",
+        "description": "Test a discovered data GUID for the ability to implement authentication and authorization in its resolution protocol.  Currently passes InChI Keys, DOIs, Handles, and URLs.  It also searches the metadata for the Dublin Core 'accessRights' property, which may point to a document describing the data access process. Recognition of other identifiers will be added upon request by the community.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/fc_data_authorization",
+        "openapi": "https://tests.ostrails.eu/tests/fc_data_authorization/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_A1-2_M_Auth"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/fc_data_identifier_in_metadata",
+        "title": "OSTrails Core: Data Identifier in Metadata",
+        "description": "Test that the identifier of the data is an unambiguous element of the metadata. Tested options are schema:distribution, http://www.w3.org/ns/ldp#contains, iao:IAO_0000136, IAO:0000136,ldp:contains,foaf:primaryTopic,schema:distribution,schema:contentUrl,schema,mainEntity,schema:codeRepository,schema:distribution,schema:contentUrl, dcat:distribution, dcat:dataset,dcat:downloadURL,dcat:accessURL,sio:SIO_000332, sio:is-about, obo:IAO_0000136",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/fc_data_identifier_in_metadata",
+        "openapi": "https://tests.ostrails.eu/tests/fc_data_identifier_in_metadata/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_F3_M_MetaIdent"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/fc_data_kr_language_strong",
+        "title": "OSTrails Core: Data Knowlege Representation Language (Strict Test)",
+        "description": "Test if the data uses a formal language broadly applicable for knowledge representation.  This particular test takes a broad view of what defines a 'knowledge representation language'; in this evaluation, a knowledge representation language is interpreted as one in which terms are semantically-grounded in ontologies.  Any form of ontologically-grounded linked data will pass this test.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/fc_data_kr_language_strong",
+        "openapi": "https://tests.ostrails.eu/tests/fc_data_kr_language_strong/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_I1_M_FormLangSemantic"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/fc_data_kr_language_weak",
+        "title": "OSTrails Core: Data Knowlege Representation Language (Weak Test)",
+        "description": "Test if the data uses a formal language broadly applicable for knowledge representation.  This particular test takes a broad view of what defines a 'knowledge representation language'; in this evaluation, a knowledge representation language is interpreted as one in which terms are semantically-grounded in ontologies.  Any form of structured data will pass this test",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/fc_data_kr_language_weak",
+        "openapi": "https://tests.ostrails.eu/tests/fc_data_kr_language_weak/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_I1_M_FormLangSyntax"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/fc_data_protocol",
+        "title": "OSTrails Core: Data Protocol",
+        "description": "Data may be retrieved by an open and free protocol.  Tests data GUID for its resolution protocol.  Currently passes InChI Keys, DOIs, Handles, and URLs.  Recognition of other identifiers will be added upon request by the community.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/fc_data_protocol",
+        "openapi": "https://tests.ostrails.eu/tests/fc_data_protocol/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_A1-1_M_OpenProt"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/fc_grounded_metadata",
+        "title": "OSTrails Core: Grounded Metadata",
+        "description": "Tests whether a machine is able to find 'grounded' metadata.  i.e. metadata terms that are in a resolvable namespace, where resolution leads to a definition of the meaning of the term. Examples include JSON-LD, embedded schema, or any form of RDF. This test currently excludes XML, even when terms are namespaced.  Future versions of this test may be more flexible.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/fc_grounded_metadata",
+        "openapi": "https://tests.ostrails.eu/tests/fc_grounded_metadata/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_I2_M_FAIRVocab"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/fc_metadata_authorization",
+        "title": "OSTrails Core: Metadata Authorization",
+        "description": "Tests metadata GUID for the ability to implement authentication and authorization in its resolution protocol.  Currently passes InChI Keys, DOIs, Handles, and URLs.  Recognition of other identifiers will be added upon request by the community.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/fc_metadata_authorization",
+        "openapi": "https://tests.ostrails.eu/tests/fc_metadata_authorization/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_A1-2_M_Auth"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/fc_metadata_identifier_in_metadata",
+        "title": "FAIR Champion: Metadata Identifier Explicitly In Metadata",
+        "description": "Metric to test if the metadata contains the unique identifier to the metadata itself.  This is done using a variety of 'scraping' tools, including DOI metadata resolution, the use of the 'extruct' Python tool, and others.  The test is executed by searching for the predicates 'http[s]://purl.org/dc/terms/identifier','http[s]://schema.org/identifier.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/fc_metadata_identifier_in_metadata",
+        "openapi": "https://tests.ostrails.eu/tests/fc_metadata_identifier_in_metadata/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_F3_M_MetaIdent"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/fc_metadata_identifier_persistence",
+        "title": "OSTrails Core: Identifier Persistence",
+        "description": "Metric to test if the unique identifier of the metadata resource is likely to be persistent. Known schema are registered in FAIRSharing (https://fairsharing.org/standards/?q=&selected_facets=type_exact:identifier%20schema). For URLs that don't follow a schema in FAIRSharing we test known URL persistence schemas (purl, oclc, fdlp, purlz, w3id, ark).",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/fc_metadata_identifier_persistence",
+        "openapi": "https://tests.ostrails.eu/tests/fc_metadata_identifier_persistence/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_F1_M_IdentPersistent"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/fc_metadata_includes_license",
+        "title": "OSTrails Core: Metadata Includes License (strong)",
+        "description": "Maturity Indicator to test if the linked data metadata contains an explicit pointer to the license.  Tests: xhtml, dvia, dcterms, cc, data.gov.au, and Schema license predicates in linked data, and validates the value of those properties.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/fc_metadata_includes_license",
+        "openapi": "https://tests.ostrails.eu/tests/fc_metadata_includes_license/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_R1-1_M_StdLic"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/fc_metadata_includes_license_weak",
+        "title": "OSTrails Core: Metadata Includes License (weak)",
+        "description": "Maturity Indicator to test if the metadata contains an explicit pointer to the license.  This 'weak' test will use a case-insensitive regular expression, and scan both key/value style metadata, as well as linked data metadata.  Tests: xhtml, dvia, dcterms, cc, data.gov.au, and Schema license predicates in linked data, and validates the value of those properties.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/fc_metadata_includes_license_weak",
+        "openapi": "https://tests.ostrails.eu/tests/fc_metadata_includes_license_weak/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_R1-1_M_StdLic"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/fc_metadata_kr_language_weak",
+        "title": "OSTrails Core: Metadata Knowledge Representation Language (weak)",
+        "description": "Maturity Indicator to test if the metadata uses a formal language broadly applicable for knowledge representation.  This particular test takes a broad view of what defines a 'knowledge representation language'; in this evaluation, anything that can be represented as structured data will be accepted.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/fc_metadata_kr_language_weak",
+        "openapi": "https://tests.ostrails.eu/tests/fc_metadata_kr_language_weak/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_I1_M_FormLangSyntax"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/fc_metadata_outward_links",
+        "title": "OSTrails Core: Metadata Contains Outward Links",
+        "description": "Maturity Indicator to test if the metadata links outward to third-party resources.  It only tests metadata that can be represented as Linked Data.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/fc_metadata_outward_links",
+        "openapi": "https://tests.ostrails.eu/tests/fc_metadata_outward_links/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_I3_M_QualRef"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/fc_metadata_persistence",
+        "title": "OSTrails Core: Metadata Persistence",
+        "description": "Metric to test if the metadata contains a persistence policy, explicitly identified by a persistencePolicy key (in hashed data) or a http://www.w3.org/2000/10/swap/pim/doc#persistencePolicy predicate in Linked Data.  DOIs are assumed to have metadata persistence.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/fc_metadata_persistence",
+        "openapi": "https://tests.ostrails.eu/tests/fc_metadata_persistence/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://doi.org/10.25504/FAIRsharing.lEZbPK"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/fc_metadata_protocol",
+        "title": "OSTrails Core: Uses open free protocol for metadata retrieval",
+        "description": "Metadata may be retrieved by an open and free protocol.  Tests metadata GUID for its resolution protocol.  Currently passes InChI Keys, DOIs, Handles, and URLs.  Recognition of other identifiers will be added upon request by the community.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/fc_metadata_protocol",
+        "openapi": "https://tests.ostrails.eu/tests/fc_metadata_protocol/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_A1-1_M_OpenProt"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/fc_metadata_uses_fair_vocabularies",
+        "title": "OSTrails Core: Metadata uses FAIR vocabularies (strong)",
+        "description": "Maturity Indicator to test if the linked data metadata uses terms that resolve to linked (FAIR) data.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/fc_metadata_uses_fair_vocabularies",
+        "openapi": "https://tests.ostrails.eu/tests/fc_metadata_uses_fair_vocabularies/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_I2_M_FAIRVocab"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/fc_searchable",
+        "title": "OSTrails Core: Searchable in major search engine",
+        "description": "Tests whether a machine is able to discover the resource by search, using Microsoft Bing.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/fc_searchable",
+        "openapi": "https://tests.ostrails.eu/tests/fc_searchable/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_F4_M_MetaIndexed"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/fc_structured_metadata",
+        "title": "OSTrails Core: Structured Metadata",
+        "description": "Tests whether a machine is able to find structured metadata.  This could be (for example) RDFa, embedded json, json-ld, or content-negotiated structured metadata such as RDF Turtle.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/fc_structured_metadata",
+        "openapi": "https://tests.ostrails.eu/tests/fc_structured_metadata/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_I1_M_FormLangSyntax"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/fc_unique_identifier",
+        "title": "OSTrails Core: Unique Identifier",
+        "description": "Metric to test if the metadata resource has a unique identifier.  This is done by comparing the GUID to the patterns (by regexp) of known GUID schemas such as URLs and DOIs.  Known schema are registered in FAIRSharing (https://fairsharing.org/standards/?q=&selected_facets=type_exact:identifier%20schema)",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/fc_unique_identifier",
+        "openapi": "https://tests.ostrails.eu/tests/fc_unique_identifier/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_F1_M_IdentUnique"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/OM1",
+        "title": "Ontology minimum metadata is declared",
+        "description": "\nThis check verifies if the following  minimum metadata are present in the ontology metadata:\n\n * title: declared using [dc:title](http://purl.org/dc/elements/1.1/title), [dcterms:title](http://purl.org/dc/terms/title) or [schema:name](http://schema.org/name)\n * description: declared using [dc:abstract](http://purl.org/dc/elements/1.1/abstract), [dcterms:abstract](http://purl.org/dc/terms/abstract), [dc:description](http://purl.org/dc/elements/1.1/description), [dcterms:description](http://purl.org/dc/terms/description), [schema:description](http://schema.org/description), [rdfs:comment](http://www.w3.org/2000/01/rdf-schema#comment), [doap:description](http://usefulinc.com/ns/doap#description), [doap:shortdesc](http://usefulinc.com/ns/doap#shortdesc) or [skos:note](http://www.w3.org/2004/02/skos/core#note)\n * license: declared using [dcterms:license](http://purl.org/dc/terms/license), [schema:license](http://schema.org/licesne), [doap:license](http://usefulinc.com/ns/doap#license) or [cc:license](http://creativecommons.org/ns#license).\n * version iri: declared using [owl:versionIRI](http://www.w3.org/2002/07/owl#versionIRI)\n * creator: declared using [dc:creator](http://purl.org/dc/elements/1.1/creator), [dcterms:creator](http://purl.org/dc/terms/creator), [pav:createdBy](http://purl.org/pav/createdBy), [pav:authoredBy](http://purl.org/pav/authoredBy), [schema:creator](http://schema.org/creator), [prov:wasAttributedTo](http://www.w3.org/ns/prov#wasAttributedTo) or [doap:developer](http://usefulinc.com/ns/doap#developer)\n * namespace URI: declared using  [vann:preferredNamespaceUri](https://purl.org/vocab/vann/)\n\nThe test will pass if all ontology metadata are present. The test will fail otherwise, indicating the properties that are missing.\n\t",
+        "endpoint": "https://foops.linkeddata.es/assess/test/OM1",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/OM1"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/PURL1",
+        "title": "Ontology has a persistent URL",
+        "description": "\nThis test verifies if the ontology has a persistent URL. We do so by checking if the ontology URI follows any of the following URI schemes:\n\n * w3id.org\n * doi.org\n * purl.org (or purl.something.org)  \n * linked.data.gov.au\n * dbpedia.org\n * www.w3.org\n * perma.cc\n * data.europa.eu\n\t",
+        "endpoint": "https://foops.linkeddata.es/assess/test/PURL1",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/PURL1"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/HTTP1",
+        "title": "Ontology uses an open protocol",
+        "description": " This check verifies if the ontology uses an open protocol (HTTP or HTTPS). The test will pass if the ontology URI starts with http or https. It will fail otherwise.",
+        "endpoint": "https://foops.linkeddata.es/assess/test/HTTP1",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/HTTP1"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/VER1",
+        "title": "A version IRI is declared in the ontology metadata",
+        "description": "\nThis test verifies whether there is an id for this ontology version, and whether the id is unique (i.e., different from the ontology URI). The test will pass if: \n\n 1. The ontology has a versionIRI ([owl:versionIRI](http://www.w3.org/2002/07/owl#versionIRI)) and \n 2. The versionIRI used is different from the ontology URI.\n\nOtherwise the test will fail. The test will also verify whether version information is present (through [owl:versionInfo](http://www.w3.org/2002/07/owl#versionInfo)), but this is optional.\n\t",
+        "endpoint": "https://foops.linkeddata.es/assess/test/VER1",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/VER1"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/URI1",
+        "title": "Ontology URI is resolvable",
+        "description": "\nThis test verifies if the ontology URI that was found within the ontology document is resolvable. \nNote that the ontology URI found in the ontology may be different from the URI used in the assessment.\nThe test will pass if the vocabulary is resolvable in any of the following RDF serializations: RDF/XML, TTL, N-Triples, JSON-LD. The test will fail if no known RDF serialization is returned, or the serialization returned is not among one of the aforementioned. ",
+        "endpoint": "https://foops.linkeddata.es/assess/test/URL1",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/URI1"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/OM4.1",
+        "title": "Ontology has a license available",
+        "description": " \nThis test verifies if a license (or rights) are associated with the ontology.\nThe test will pass if a license is declared using any of the following properties: [dcterms:license](http://purl.org/dc/terms/license), [schema:license](https://schema.org/license), [doap:license](http://usefulinc.com/ns/doap#license) or [cc:license](http://creativecommons.org/ns#license).\n\nIf a license is not found, but rights are declared (using [dc:rights](http://purl.org/dc/elements/1.1/rights), [dcterms:rights](http://purl.org/dc/terms/rights) or [dcterms:accessRights](http://purl.org/dc/terms/accessRights)), the test will pass as well.\n\nOtherwise, the test will fail (i.e., no license or rights are declared).\n\t",
+        "endpoint": "https://foops.linkeddata.es/assess/test/OM1",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/OM4.1"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/VOC1",
+        "title": " Ontology reuses existing vocabularies for metadata annotations",
+        "description": " \nThis test verifies if the ontology reuses other vocabularies for declaring metadata terms (see tests OM1... OM5).\nThe test will pass if metadata annotations using properties from any of the following vocabularies are used:\n\n * [Dublin Core](http://purl.org/dc/elements/1.1/) (dc, dcterms)\n * [Schema.org](https://schema.org/) (schema)\n * [Vocabulary for annotating vocabulary descriptions](http://purl.org/vocab/vann/) (vann)\n * [W3C Provenance standard](http://www.w3.org/ns/prov#) (prov)\n * [Bibliographic Ontology](http://purl.org/ontology/bibo/) (bibo)\n * [Provenance, Authoring and Versioning](http://purl.org/pav/) (pav)\n * [Firend of a friend](http://xmlns.com/foaf/0.1/) (foaf)\n * [Description of a project](http://usefulinc.com/ns/doap#) (doap)\n * [Metadata vocabulary for ontology descriptions](https://w3id.org/mod#) (mod)\n * [Web Ontology Language](http://www.w3.org/2002/07/owl#) (owl)\n * [Resource description framework schema](http://www.w3.org/2000/01/rdf-schema#) (rdfs)\n \nThe test will also return the vocabularies that were found. If none are found, the test will fail.\n\t",
+        "endpoint": "https://foops.linkeddata.es/assess/test/VOC1",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/VOC1"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/FIND2",
+        "title": "Ontology prefix is found in prefix.cc or LOV",
+        "description": "\nThis test verifies whether the ontology prefix is available in [prefix.cc]((https://prefix.cc/)) or the [Linked Open Vocabularies (LOV)]((https://lov.linkeddata.es/)) registries. \nThe test will pass if: \n\n 1. there is a prefix declared in the assessed ontology, \n 2. the prefix is found in [LOV](https://lov.linkeddata.es/) or [prefix.cc](https://prefix.cc/) \n 3. if found in [LOV](https://lov.linkeddata.es/) or [prefix.cc](https://prefix.cc/) , the namespace URI associated with the prefix is the same as the assessed ontology URI (or preferred namespace URI)\n\nOtherwise, the test will fail. \n\t",
+        "endpoint": "https://foops.linkeddata.es/assess/test/FIND2",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/FIND2"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/FIND3",
+        "title": "Ontology found in community registry",
+        "description": "\nThis test verifies if the ontology can be found in a public registry like the Linked Open Vocabularies (LOV) public registry.\nThe test will pass if the assessed ontology URI is found in the list of vocabularies returned by LOV.\nAlternatively, if there is a [schema:includedInDataCatalog](https://schema.org/includedInDataCatalog) annotation, the test will pass.\nThe test will fail otherwise.   \n\t",
+        "endpoint": "https://foops.linkeddata.es/assess/test/FIND3",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/FIND3"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/RDF1",
+        "title": "Ontology is available in RDF (TTL, N3, RDF/XML or JSON-LD)",
+        "description": "\nThis test verifies if the ontology has a valid RDF serialization (TTL, N3, RDF/XML or JSON-LD are supported).\nThe test will fail if no RDF serialization could be loaded for analysis (e.g., the ontology has typos that prevent its parsing).\nThe test uses the OWLAPI to load ontologies or vocabularies.\n    ",
+        "endpoint": "https://foops.linkeddata.es/assess/test/RDF1",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/RDF1"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/OM5.2",
+        "title": "Ontology declares detailed provenance metadata",
+        "description": " \nThis check verifies if detailed provenance information is available for the ontology: \n\n * issued date: declared using [dcterms:issued](http://purl.org/dc/terms/issued), [dcterms:submitted](http://purl.org/dc/terms/submitted) or [schema:datePublished](https://schema.org/datePublished)\n * publisher: declared using [dc:publisher](http://purl.org/dc/elements/1.1/publisher), [dcterms:publisher](http://purl.org/dc/terms/publisher) or [schema:publisher](https://schema.org/publisher)\n \nThe test will pass if both metadata fields are present. The test will fail otherwise, indicating the properties that are missing.\n\t",
+        "endpoint": "https://foops.linkeddata.es/assess/test/OM5.2",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/OM5.2"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/DOC1",
+        "title": "Ontology has HTML documentation",
+        "description": "\nThis test verifies if the ontology has an HTML documentation. The test will attempt to download an HTML representation using the ontology URI, with content negotiation ",
+        "endpoint": "https://foops.linkeddata.es/assess/test/DOC1",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/DOC1"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/OM2",
+        "title": "Ontology declares recommended metadata",
+        "description": " \nThis test verifies if the following recommended metadata are present in the ontology metadata: \n\n * Namespace prefix: declared using [vann:preferredNamespacePrefix](https://purl.org/vocab/vann/)\n * Version info: declared using [owl:versionInfo](http://www.w3.org/2002/07/owl#versionInfo) or [schema:schemaVersion](http://schema.org/schemaVersion)\n * Creation date: declared using [dcterms:created](http://purl.org/dc/terms/created), [schema:dateCreated](http://schema.org/dateCreated), [doap:created](http://usefulinc.com/ns/doap#created), [prov:generatedAtTime](http://www.w3.org/ns/prov#generatedAtTime) or [pav:createdOn](http://purl.org/pav/)\n * Citation: declared using [dcterms:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation)\n * Contributor (optional): declared using [dc:contributor](http://purl.org/dc/elements/1.1/contributor), [dcterms:contributor](http://purl.org/dc/terms/contributor), schema:contributor, [doap:documenter](http://usefulinc.com/ns/doap#documenter), [doap:maintainer](http://usefulinc.com/ns/doap#maintainer), [doap:helper](http://usefulinc.com/ns/doap#helper), [doap:translator](http://usefulinc.com/ns/doap#translator) or [pav:contributedBy](http://purl.org/pav/).\n \nThe test will pass if all the recommended metadata properties are available in the ontology metadata (using any of the vocabularies listed above). The test will also check if contributor is present, but with no penalty (as not all ontologies have a contributor).\n\t",
+        "endpoint": "https://foops.linkeddata.es/assess/test/OM2",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/OM2"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/CN1",
+        "title": "Ontology has content negotiation for RDF in RDF/XML, TTL, NTriples or JSON-LD serializations",
+        "description": "\nThis test verifies whether HTML and an RDF representation is available for the target vocabulary by doing content negotiation on the ontology URI. The test will pass if the vocabulary is available in HTML and in any of the following RDF serializations: \n\n * RDF/XML (application/rdf+xml), \n * TTL (text/turtle), \n * N-Triples (text/n3), \n * JSON-LD (application/ld+json)\n \nThe test will fail if no HTML is returned, if no known RDF serialization is returned, or the serialization returned is not among one of the aforementioned.",
+        "endpoint": "https://foops.linkeddata.es/assess/test/CN1",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/CN1"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/OM3",
+        "title": "Ontology declares detailed metadata",
+        "description": "\nThis test verifies if the ontology includes the following detailed metadata:\n\n * Digital Object Identifier (DOI): declared using  [bibo:doi](http://purl.org/ontology/bibo/doi), [schema:identifier](https://schema.org/identifier) (if a doi is provided) or [dcterms:identifier](http://purl.org/dc/terms/identifier) (if a doi is provided)\n * publisher: declared using [dc:publisher](http://purl.org/dc/elements/1.1/publisher), [dcterms:publisher](http://purl.org/dc/terms/publisher) or [schema:publisher](https://schema.org/publisher)\n * logo: declared using [foaf:logo](http://xmlns.com/foaf/0.1/logo) or [schema:logo](https://schema.org/logo)\n * status: declared using [bibo:status](http://purl.org/ontology/bibo/status) or [mod:status](https://w3id.org/mod#status)\n * source: declared using [dcterms:source](http://purl.org/dc/terms/source) or [prov:hadOriginalSource](http://www.w3.org/ns/prov#hadOriginalSource)\n * issued date: declared using [dcterms:issued](http://purl.org/dc/terms/issued)\n * previous version (optional): declared using  [dc:replaces](http://purl.org/dc/elements/1.1/replaces), [dcterms:replaces](http://purl.org/dc/terms/replaces), [prov:wasRevisionOf](http://www.w3.org/ns/prov#wasRevisionOf), [owl:priorVersion](http://www.w3.org/2002/07/owl#priorVersion) or [pav:previousVersion](http://purl.org/pav/previousVersion)\n * backward compatibility (optional): declared using [owl:backwardCompatibleWith](http://www.w3.org/2002/07/owl#backwardCompatibleWith)\n * modified date (optional): declared using [dcterms:modified](http://purl.org/dc/terms/modified) or [schema:dateModified](https://schema.org/dateModified)\n\nThe test will pass if all the detailed metadata properties are available in the ontology metadata (using any of the vocabularies listed above). The test will also check if previosu version, backward compatibility and modified date are present, but with no penalty (as not all ontologies have a previous version). \n ",
+        "endpoint": "https://foops.linkeddata.es/assess/test/OM3",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/OM3"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/VER2",
+        "title": "Ontology version IRI resolves",
+        "description": "\nThis test verifies if the version IRI resolves. The test will pass if there is a version IRI for the ontology/vocabulary (detected using [owl:versionIRI](http://www.w3.org/2002/07/owl#versionIRI) in the ontology metadata) and whether doing a request to said IRI returns a resource. \nThe test will fail if the resource is not found (404 response) or returns an error.",
+        "endpoint": "https://foops.linkeddata.es/assess/test/VER2",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/VER2"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/VOC3",
+        "title": "Ontology documentation: all terms have labels",
+        "description": " \nThis test verifies the extent to which all ontology terms have labels.\nThe test will pass if all classes, properties and data properties have either an [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label) or [skos:prefLabel](http://www.w3.org/2004/02/skos/core#prefLabel).\nFor skos vocabularies, only the skos:Concepts are assessed.\nOtherwise, the test will fail, indicating the level of completeness found (i.e., percentage of documented terms) ",
+        "endpoint": "https://foops.linkeddata.es/assess/test/VOC3",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/VOC3"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/VOC4",
+        "title": "Ontology documentation: all terms have definitions",
+        "description": "\nThis check verifies whether all ontology terms have descriptions. \nThe test will pass if all classes, properties and data properties have at least one [rdfs:comment](http://www.w3.org/2000/01/rdf-schema#comment), [skos:definition](http://www.w3.org/2004/02/skos/core#definition) or [obo:IAO_0000118](http://purl.obolibrary.org/obo/IAO_0000118) annotation.\nFor skos vocabularies, only the skos:Concepts are assessed.\n\nThe test will fail otherwise, showing the level of completeness obtained (i.e. the percentage of documented terms).\n\t",
+        "endpoint": "https://foops.linkeddata.es/assess/test/VOC4",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/VOC4"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/OM4.2",
+        "title": "Ontology license is resolvable",
+        "description": "\nThis test verifies if the ontology license is resolvable. The test will pass if the license available in the ontology metadata resolves to a resource. The test will fail if no license is declared (OM4.1), if the license is not a URI/URL, or if the response when requesting is 404 or an error. \n\t",
+        "endpoint": "https://foops.linkeddata.es/assess/test/OM4.2",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/OM4.2"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/URI2",
+        "title": "Consistent ontology IDs are employed",
+        "description": "\nThis check verifies if the ontology URI is equal to the ontology ID. The test passes if the ontology URI used to load the ontology document is the same as the ontology id found in the document itself. Otherwise the test will fail.",
+        "endpoint": "https://foops.linkeddata.es/assess/test/URL2",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/URI2"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/VOC2",
+        "title": "Ontology imports or reuses well established vocabularies",
+        "description": "\nThis test verifies if the ontology imports/extends other vocabularies (besides RDF, OWL and RDFS).\nThe test will pass if other vocabularies are imported ([owl:imports](http://www.w3.org/2002/07/owl#imports)), or if classes, properties or data properties \noutside the ontology URI or namespace URI are used.\nThe test wil fail if no terms are reused.\n\t",
+        "endpoint": "https://foops.linkeddata.es/assess/test/VOC2",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/VOC2"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/FIND_3_BIS",
+        "title": "Ontology metadata are accessible, even when the ontology is not",
+        "description": "\nMetadata are accessible even when the ontology is no longer available. Since the metadata is usually included in the ontology, this test verifies if the ontology can be found in the [Linked Open Vocabularies (LOV) public registry](https://lov.linkeddata.es).\nThe test will pass if the assessed ontology/vocabulary URI is found in the LOV list of vocabularies.\nAlternatively, if there is a [schema:includedInDataCatalog](https://schema.org/includedInDataCatalog) annotation, the test will pass.\nThe test will fail otherwise. ",
+        "endpoint": "https://foops.linkeddata.es/assess/test/FIND_3_BIS",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/FIND_3_BIS"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/FIND1",
+        "title": "Ontology prefix is declared",
+        "description": "\nThis check verifies if an ontology prefix is declared in the ontology metadata. \nThe test will pass if a [vann:preferredNamespacePrefix](http://purl.org/vocab/vann/) is declared.\nOtherwise, the test will fail. ",
+        "endpoint": "https://foops.linkeddata.es/assess/test/FIND1",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/FIND1"
+    },
+    {
+        "identifier": "https://w3id.org/foops/test/OM5.1",
+        "title": "Ontology declares basic provenance metadata",
+        "description": " \nThis check verifies if basic provenance metadata is available for the ontology:  \n\n * creator: declared using [dc:creator](http://purl.org/dc/elements/1.1/creator), [dcterms:creator](http://purl.org/dc/terms/creator), [pav:createdBy](http://purl.org/pav/createdBy), [pav:authoredBy](http://purl.org/pav/authoredBy), [schema:creator](https://schema.org/creator) or [doap:developer](http://usefulinc.com/ns/doap#developer)\n * creation date: declared using [dcterms:created](http://purl.org/dc/terms/created), [schema:dateCreated](https://schema.org/dateCreated), [doap:created](http://usefulinc.com/ns/doap#created), [prov:generatedAtTime](http://www.w3.org/ns/prov#generatedAtTime) or [pav:createdOn](http://purl.org/pav/createdOn)\n * contributor (optional): declared using [dc:contributor](http://purl.org/dc/elements/1.1/contributor), [dcterms:contributor](http://purl.org/dc/terms/contributor), [schema:contributor](https://schema.org/contributor), [doap:documenter](http://usefulinc.com/ns/doap#documenter), [doap:maintainer](http://usefulinc.com/ns/doap#maintainer), [doap:helper](http://usefulinc.com/ns/doap#helper), [doap:translator](http://usefulinc.com/ns/doap#translator) or [pav:contributedBy](http://purl.org/pav/contributedBy).\n * previous version (optional): declared using  [dc:replaces](http://purl.org/dc/elements/1.1/replaces), [dcterms:replaces](http://purl.org/dc/terms/replaces), [prov:wasRevisionOf](http://www.w3.org/ns/prov#wasRevisionOf), [owl:priorVersion](http://www.w3.org/2002/07/owl#previousVersion), [pav:previousVersion](http://purl.org/pav/previousVersion)\n\nThe test will pass if creator and creation date are present. The test will fail otherwise, indicating the properties that are missing.\n\t",
+        "endpoint": "https://foops.linkeddata.es/assess/test/OM5.1",
+        "openapi": "https://w3id.org/foops/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/DefinedTermSet"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/foops/metric/OM5.1"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/fc_metadata_kr_language_strong",
+        "title": "OSTrails Core: Metadata Knowledge Representation Language (strong)",
+        "description": "Maturity Indicator to test if the metadata uses a formal language broadly applicable for knowledge representation.  This particular test takes a broad view of what defines a 'knowledge representation language'; in this evaluation, a knowledge representation language is interpreted as one in which terms are semantically-grounded in ontologies.  Any form of RDF will pass this test (including RDF that is automatically extracted by third-party parsers such as Apache Tika).",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/fc_metadata_kr_language_strong",
+        "openapi": "https://tests.ostrails.eu/tests/fc_metadata_kr_language_strong/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_I1_M_FormLangSemantic"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-01-3",
+        "title": "Software identifier follows a common schema",
+        "description": "This test checks that the identifier associated with a software (if there’s one) follows a common schema such as URN, URL, DOI, etc. This is achieved by looking for identifiers in the README file and checking if they follow one of these schemas: URN, SWHID, DOI and URL.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-01-3",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/persistent_and_unique_identifier"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-07-1",
+        "title": "There is an identifier in README or CITATION.cff",
+        "description": "This test checks if an identifier is found in the README or CITATION.cff files. This is done by looking for an identifier in the CITATION.cff and README files in the root of the repository.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-07-1",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/persistent_and_unique_identifier"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-05-2",
+        "title": "Contact and/or support metadata exists",
+        "description": "This test checks if contact and/or support metadata is found in the repository. This is achieved by checking if there is contact or support information in the README file or any other package file ( (e.g., setup.py, setup.cfg, pom.xml, etc.).",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-05-2",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/software_documentation"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-01-2",
+        "title": " Software metadata refers to the software identifier",
+        "description": "This test checks if there is a  persistent identifier (i.e., Software Heritage ID, Zenodo DOI) associated with the software repository in files like CITATION.cff, codemeta.json and README. This is achieved by looking for an identifier in the files previously mentioned.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-01-2",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/persistent_and_unique_identifier"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-09-1",
+        "title": "Repository is from Github/Gitlab",
+        "description": "This test checks whether the provided URL points to a repository hosted on a source code repository such as GitHub or GitLab. It verifies both that the URL contains a known domain (e.g., \"github.com\" or \"gitlab.com\") and that it is reachable (i.e., the request returns a valid response).",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-09-1",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/version_control_use"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-03-1",
+        "title": "Software has releases",
+        "description": "This test checks if the software has any releases in the source code repository. This is achieved by checking if there’s any releases created in the repository.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-03-1",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/has_releases"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-05-3",
+        "title": "Software documentation",
+        "description": "This test checks if documentation is found in the repository. This is achieved by looking for a README file, a ReadTheDocs URL in the README file and wikis (in case of GitHub projects).",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-05-3",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/software_documentation"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-19-1",
+        "title": "Repository has continuous integration workflows",
+        "description": "This test checks if there are continuous integration workflows in the repository. This is done by looking for a .github.workflows directory in Github and .gitlab-ci.yml file in Gitlab.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-19-1",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/repository_workflows"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-13-1",
+        "title": "Dependencies are declared",
+        "description": "This test checks if dependencies are declared in the repository. This is achieved by checking if there are dependencies listed in the README file or other files like requirements.txt and pom.xml.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-13-1",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/requirements_specified"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-15-2",
+        "title": "License is SPDX compliant",
+        "description": "This test checks if the repository license is SPDX compliant. This is done by checking if all licenses found in the repository match any of the licenses supported by SPDX.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-15-2",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/software_has_license"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-04-1",
+        "title": "Software metadata exists",
+        "description": "This test checks if a codemeta.json, CITATION.cff file or package file that includes metadata about a software component exists. This is done by looking for CITATION.cff, codemeta.json and package files (e.g., setup.py, setup.cfg, pom.xml, etc.) in the root of the repository.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-04-1",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/descriptive_metadata"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-06-2",
+        "title": "Contributors are declared",
+        "description": "This test checks if there are contributors found in the repository. This is done by looking for contributors in files like CONTRIBUTOR, codemeta.json and package files.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-06-2",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/software_documentation"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-06-3",
+        "title": "Authors have an ORCID",
+        "description": "This test checks if authors have an ORCID assigned. This is done by looking for authors in the codemeta.json or AUTHORS files and checking if all of them have an ORCID assigned.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-06-3",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/software_documentation"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-14-1",
+        "title": "Presence of tests in source code repository",
+        "description": "This test checks if there are tests present in the repository. This is done by checking if there are files or directories that mention “test” in their names in the root and one level deep in the repository tree.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-14-1",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/software_has_tests"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-07-2",
+        "title": "Software identifier resolves to software",
+        "description": "This test checks if the identifier found in the repository resolves back to the source code repository. This is done by checking if the landing page where the identifier resolves to links back to the source code repository using requests.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-07-2",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/persistent_and_unique_identifier"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-05-1",
+        "title": "A repostatus badge exists",
+        "description": "This test checks if the repository has a repo status badge in the README file.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-05-1",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/version_control_use"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-03-4",
+        "title": "Release identifiers follow the same scheme",
+        "description": "This test checks if all release identifiers follow the same scheme. This is achieved by checking if there’s any releases created in the repository and that their URLs follow the same pattern or scheme.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-03-4",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/versioning_standards_use"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-03-3",
+        "title": "Release versions follow a community established naming convention",
+        "description": "TThis test checks if a 80% of all version identifiers follow either SemVer or CalVer conventions. This is achieved by checking if there’s any releases created in the repository and that their version numbers (or tags) follow Semantic Versioning (SemVer) or Calendar Versioning (CalVer).",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-03-3",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/versioning_standards_use"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-01-1",
+        "title": "Software has a persistent identifier which resolves",
+        "description": "This test checks if there is at least one persistent identifier (i.e., Software Heritage ID, Zenodo DOI) in the README file of the source code repository and if said identifier resolves.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-01-1",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/persistent_and_unique_identifier"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-03-2",
+        "title": "Releases have an id and version number",
+        "description": "This test checks if each release has an identifier and version number. This is achieved by checking if there’s any releases created in the repository and that they have a tag and a URL.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-03-2",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/has_releases"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-03-5",
+        "title": "Last release consistency",
+        "description": "This test checks if the last release tag version number in the source code repository (if there is one) corresponds to the version number stated in the package file of the repository. This is achieved by checking if the version of the last release created in the repository corresponds to the version stated in the package file in the root of the repository.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-03-5",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/has_releases"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-13-2",
+        "title": "Installation instructions exist",
+        "description": "This test checks if the repository has installation instructions. This is achieved by checking in the README file of the repository if there is information about the installation of the software.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-13-2",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/software_documentation"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-15-1",
+        "title": "Software has license",
+        "description": "This test checks whether the software declares a license. It first looks for a LICENSE (or similarly named) file in the root directory of the repository. If not found, it searches for license information in other common locations such as the README file, metadata files like codemeta.json or CITATION.cff, or configuration files such as setup.py.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-15-1",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/software_has_license"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-13-4",
+        "title": "Dependencies are machine-readable",
+        "description": "This test checks if dependencies are in a machine-readable file (not just in README). This is done by checking if dependencies are available in a machine-readable format like requirements.txt or pom.xml in the root of the repository.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-13-4",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/requirements_specified"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-13-3",
+        "title": "Dependencies have version numbers",
+        "description": "This test checks if dependencies have version numbers. This is achieved by checking if all dependencies listed in machine-readable files and in the README file have a version number.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-13-3",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/requirements_specified"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-04-2",
+        "title": "A README file exists",
+        "description": "This test checks if there is a README file in the repository.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-04-2",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/software_documentation"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-04-5",
+        "title": "There is a codemeta file",
+        "description": "This test checks if a codemeta.json file exists in the repository. This is done by looking for a codemeta.json file in the root of the repository.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-04-5",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/descriptive_metadata"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-06-1",
+        "title": "Authors are declared",
+        "description": "This test checks if there are authors found in the repository. This is done by looking for authors in files like AUTHORS, codemeta.json and CITATION.cff.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-06-1",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/software_documentation"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-08-1",
+        "title": "Metadata record in Software Heritage or Zenodo",
+        "description": "This test checks if a metadata record is found on Zenodo and/or Software Heritage. This is done by searching in the README file for a Zenodo or Software Heritage badge.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-08-1",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/archived_in_software_heritage"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-04-4",
+        "title": "Software has descriptive metadata",
+        "description": "This test checks if descriptive metadata within the repository includes description, programming language, date created and keywords. This is done by looking for those fields in codemeta.json, README, CITATION.cff or any package metadata file ( (e.g., setup.py, setup.cfg, pom.xml, etc.).",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-04-4",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/descriptive_metadata"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-04-3",
+        "title": "Title and description are declared",
+        "description": "This test checks if the repository has title and description of the software available within any metadata file. This is achieved by checking if description and title are in the README file, codemeta.json file or any other package file  (e.g., setup.py, setup.cfg, pom.xml, etc.).",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-04-3",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/descriptive_metadata"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-12-1",
+        "title": "There is an article citation or reference publication",
+        "description": "This test checks if there is a referencePublication or a citation file to a paper. This is done by looking for an article citation in the README file, for a CITATION.cff file or a referencePublication field in the codemeta.json file.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-12-1",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/software_has_citation"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-18-1",
+        "title": "Repository has citation",
+        "description": "This test checks if there is a CITATION.cff file or citations made in the README file. This is done by looking in the root of the repository for a CITATION.cff file and by checking if the README file contains citations in a bibtex format.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-18-1",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/software_has_citation"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-14-2",
+        "title": "There are actions to automate tests",
+        "description": "This test checks if there are actions or workflows that automate tests. This is done by checking if there are workflows that mention “test” in their names in .github.workflows directory for Github and .gitlab-ci.yml file for Gitlab.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-14-2",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/software_has_tests"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-16-1",
+        "title": "License referenced in metadata files",
+        "description": "This test checks if metadata files like codemeta.json, CITATION.cff and package file mention the repository license. This is done by looking if a license field is within said files.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-16-1",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/software_has_license"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FTARKTA2Preservation.ttl",
+        "title": "FAIR Test - ARK T-A2 - Database has a preservation policy",
+        "description": "The 'FAIR Test - ARK T-A2 - Database has a preservation policy' is a database-level test that requires the presence of a data preservation policy for the database being evaluated. FM ARK A2-Preservation expects a FAIRsharing URL or DOI as its input and evaluates the database described by the FAIRsharing record: the record must have a URL in the data preservation policy field and may optionally also have a non-empty value in the name field. As described by the GFF, there should at least be access to high quality and machine actionable metadata that describes those resources sufficiently to minimally understand their nature and their provenance, even when the relevant data are not available anymore. There are a number of ways to implement this, however this metric deals with preservation of information relating to an identifier by determining if there is a preservation policy in place with the database being evaluated.\nThe test will return as follows:\nPass: URL/DOI must point to an existing FAIRsharing database record; the record must have a value in the URL section of the data preservation policy field that resolves (i.e. does not give an error code).\nIndeterminate: URL/DOI is non-existent, returns an error code of some kind, or is malformed.\nFail: if any of the conditions in 'pass' fail; specifically, if the URL/DOI is not a database record, OR if there is an empty URL value for the data preservation policy field. ",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_ark_a2preservation",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_ark_a2preservation/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://github.com/FAIRMetrics/Metrics/blob/master/MaturityIndicators/Gen2/Gen2_MI_A2.md"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-03-6",
+        "title": "Version number in metadata",
+        "description": "This test checks if there is a version stated for the software in metadata files. This is done by looking for a version number in metadata files like package files, codemeta.json and CITATION.cff.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-03-6",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/descriptive_metadata"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-20-1",
+        "title": "Repository has an issue tracker",
+        "description": "This test checks if the repository has an issue tracker. This is done by checking if the URL for the issues resolves.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-20-1",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/support_issue_tracking"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-17-3",
+        "title": "Commits are linked to issues",
+        "description": "This test checks if the repository has commits that are linked to open and closed issues. This is done by cross-checking if issue identifiers within the issue list are present in the commit history’s messages within a 90 day timeframe (i.e. “closes #123”).",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-17-3",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/version_control_use"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-17-2",
+        "title": "Commit history",
+        "description": "This test checks if the repository has a commit history within a 90 day timeframe. This is done by looking for commits in the software’s repository.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-17-2",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/version_control_use"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_R1-2_M_CPI.ttl",
+        "title": "FAIR Test - Metadata Contains CESSDA Provenance Information",
+        "description": "Verifies that a record contains provenance metadata elements. The test examines three elements:\ndistrbtr (distributor/publisher) in the distribution statement (/codeBook/stdyDscr/citation/distStmt/distrbtr)\nAuthEnty (author/authoring entity) in the responsibility statement (/codeBook/stdyDscr/citation/rspStmt/AuthEnty)\ngrantNo (grant number) in the production statement (/codeBook/stdyDscr/citation/prodStmt/grantNo) of DDI 2.5 metadata.",
+        "endpoint": "https://fair-tests.cessda.eu/assess/test/provenance",
+        "openapi": "https://fair-tests.cessda.eu/api/provenance.ttl",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000002",
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000002"
+        ],
+        "benchmark_or_metric": "https://purl.org/fair-metrics/FM_R1.2"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_Gen2-MI-I2A_M_DTMV.ttl",
+        "title": "FAIR Test - Metadata Uses DDI Time Method Vocabulary",
+        "description": "Validates that a record uses DDI Time Method controlled vocabulary. The test examines timeMeth (time method) elements in the data collection method section (/codeBook/stdyDscr/method/dataColl/timeMeth)  of DDI 2.5 metadata.",
+        "endpoint": "https://fair-tests.cessda.eu/assess/test/ddi-time-method",
+        "openapi": "https://fair-tests.cessda.eu/api/ddi-time-method.ttl",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000002",
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000002"
+        ],
+        "benchmark_or_metric": "https://github.com/FAIRMetrics/Metrics/blob/master/MaturityIndicators/Gen2/Gen2_MI_F1B.md"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_Gen2-MI-I2A_M_DMOCV.ttl",
+        "title": "FAIR Test - Metadata Uses DDI Mode Of Collection Vocabulary",
+        "description": "Confirms that a record uses DDI Mode of Collection controlled vocabulary. The test examines collMode (collection mode) elements in the data collection method section (/codeBook/stdyDscr/method/dataColl/collMode) of DDI 2.5 metadata.",
+        "endpoint": "https://fair-tests.cessda.eu/assess/test/ddi-collection-mode",
+        "openapi": "https://fair-tests.cessda.eu/api/ddi-collection-mode.ttl",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000002",
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000002"
+        ],
+        "benchmark_or_metric": "https://doi.org/10.25504/FAIRsharing.96d4af"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FM_Gen2-MI-I2A_M_DSPV.ttl",
+        "title": "FAIR Test - Metadata Uses DDI Sampling Procedure Vocabulary",
+        "description": "Checks whether a record uses DDI Sampling Procedure controlled vocabulary. The test examines sampProc (sampling procedure) elements in the data collection method section (/codeBook/stdyDscr/method/dataColl/sampProc) of DDI 2.5 metadata.",
+        "endpoint": "https://fair-tests.cessda.eu/assess/test/ddi-sampleproc",
+        "openapi": "https://fair-tests.cessda.eu/api/ddi-sampleproc.ttl",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000002",
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000002"
+        ],
+        "benchmark_or_metric": "https://github.com/FAIRMetrics/Metrics/blob/master/MaturityIndicators/Gen2/Gen2_MI_F1B.md"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_Gen2-MI-I2A_M_DAUV.ttl",
+        "title": "FAIR Test – Metadata Uses DDI Analysis Unit Vocabulary",
+        "description": "Verifies that a record uses DDI Analysis Unit controlled vocabulary. The test examines anlyUnit (analysis unit) elements in the study description's summary description section (/codeBook/stdyDscr/stdyInfo/sumDscr/anlyUnit) of DDI 2.5 metadata.",
+        "endpoint": "https://fair-tests.cessda.eu/assess/test/ddi-analysis-unit",
+        "openapi": "https://fair-tests.cessda.eu/api/ddi-analysis-unit.ttl",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000002",
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000002"
+        ],
+        "benchmark_or_metric": "https://github.com/FAIRMetrics/Metrics/blob/master/MaturityIndicators/Gen2/Gen2_MI_I2A.md"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_Gen2-MI-I2A_M_CTV.ttl",
+        "title": "FAIR Test - Metadata Uses CESSDA Topic Vocabulary",
+        "description": "Checks whether a record uses CESSDA Topic Classification controlled vocabulary. The test examines topcClas (topic classification) elements in the study information subject section (/codeBook/stdyDscr/stdyInfo/subject/topcClas) of DDI 2.5 metadata.",
+        "endpoint": "https://fair-tests.cessda.eu/assess/test/topic-class",
+        "openapi": "https://fair-tests.cessda.eu/api/topic-class.ttl",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000002",
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000002"
+        ],
+        "benchmark_or_metric": "https://github.com/FAIRMetrics/Metrics/blob/master/MaturityIndicators/Gen2/Gen2_MI_I2A.md"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_I2_M_CEK.ttl",
+        "title": "FAIR Test - Metadata Uses CESSDA ELSST Keywords",
+        "description": "Validates that a record contains properly attributed ELSST (European Language Social Science Thesaurus) keywords. The test examines keyword elements in the study information subject section (/codeBook/stdyDscr/stdyInfo/subject/keyword) of DDI 2.5 metadata.",
+        "endpoint": "https://fair-tests.cessda.eu/assess/test/elsst-keywords",
+        "openapi": "https://fair-tests.cessda.eu/api/elsst-keywords.ttl",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000002",
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000002"
+        ],
+        "benchmark_or_metric": "https://purl.org/fair-metrics/FM_R1.3"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FM_Gen2-MI-A1.2_M_CARV.ttl",
+        "title": "FAIR Test - Metadata Uses CESSDA Access Rights Vocabulary",
+        "description": "Verifies that a record contains approved access rights terminology. The test examines the conditions element within the data access section (/codeBook/stdyDscr/dataAccs/useStmt/conditions) of DDI 2.5 metadata.",
+        "endpoint": "https://fair-tests.cessda.eu/assess/test/access-rights",
+        "openapi": "https://fair-tests.cessda.eu/api/access-rights.ttl",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000002",
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000002"
+        ],
+        "benchmark_or_metric": "https://github.com/FAIRMetrics/Metrics/blob/master/MaturityIndicators/Gen2/Gen2_MI_A1.2.md"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT-F1-PID_M_CESSDA.ttl",
+        "title": "FAIR Test – Identifiers use ARK, DOI, HANDLE or URN PID schemas",
+        "description": "Confirms that a DDI 2.5 metadata record uses an approved persistent identifier scheme. The test examines IDNo elements with agency attributes in the citation's title statement section (/codeBook/stdyDscr/citation/titlStmt/IDNo) of DDI 2.5 metadata.\n",
+        "endpoint": "https://fair-tests.cessda.eu/assess/test/pid",
+        "openapi": "https://fair-tests.cessda.eu/api/pid.ttl",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401",
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://github.com/FAIRMetrics/Metrics/blob/master/MaturityIndicators/Gen2/Gen2_MI_F1B.md"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/community-tests/community_funding_information_registered",
+        "title": "Funding information registered in DOI metadata",
+        "description": "Test a DOI to determine if funder information is available in the datacite or crossref metadata",
+        "endpoint": "https://tests.ostrails.eu/community-tests/assess/test/community_funding_information_registered",
+        "openapi": "https://tests.ostrails.eu/community-tests/community_funding_information_registered/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/esrf/FM_R1-2_M_Fund_ESRF"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/community-tests/community_license_information",
+        "title": "License information found in DOI metadata",
+        "description": "Test a DOI to determine if license information is available in the datacite or crossref metadata",
+        "endpoint": "https://tests.ostrails.eu/community-tests/assess/test/community_license_information",
+        "openapi": "https://tests.ostrails.eu/community-tests/community_license_information/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/esrf/FM_R1-1_M_DOI_Lic_ESRF"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/community-tests/community_metadata_includes_author_affiliation",
+        "title": "Metadata includes author affiliation",
+        "description": "Use Crossref and Datacite APIs to scan a metadata record for author affiliation. Also check landing page for citation_author_institution meta property",
+        "endpoint": "https://tests.ostrails.eu/community-tests/assess/test/community_metadata_includes_author_affiliation",
+        "openapi": "https://tests.ostrails.eu/community-tests/community_metadata_includes_author_affiliation/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/esrf/FM_R1-2_M_Affil_ESRF"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/community-tests/community_open_access_publication",
+        "title": "Resource is Open-Access output",
+        "description": "Test a DOI against OpenAlex to determine if the resource output is open-access",
+        "endpoint": "https://tests.ostrails.eu/community-tests/assess/test/community_open_access_publication",
+        "openapi": "https://tests.ostrails.eu/community-tests/community_open_access_publication/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/esrf/FM_F4_M_DOI_OA_ESRF"
+    },
+    {
+        "identifier": "https://beta.services.openaire.eu/osTrails/tests/F1_data",
+        "title": "OpenAIRE Test data F1 – (Meta)data are assigned a globally unique and persistent identifier.",
+        "description": "F1 – (Meta)data are assigned a globally unique and persistent identifier. Evidenced by: Identifier (datacite:identifier with a persistent identifier type such as DOI, Handle, ARK, PURL, URL, or URN). A missing or malformed identifier means the dataset cannot be reliably located or cited.",
+        "endpoint": "https://beta.services.openaire.eu/osTrails/tests/F1_data",
+        "openapi": "https://beta.services.openaire.eu/osTrails/tests/F1_data/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [],
+        "benchmark_or_metric": "https://beta.services.openaire.eu/osTrails/metrics/F1_data"
+    },
+    {
+        "identifier": "https://beta.services.openaire.eu/osTrails/tests/I1_data",
+        "title": "OpenAIRE Test data I1 – (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.",
+        "description": "I1 – (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation. Evidenced at schema level: the record conforms to the DataCite Metadata Schema or an equivalent published standard (DataCite JSON, Schema.org, DCAT-AP). This principle always passes; it is not assessed through individual field checks.",
+        "endpoint": "https://beta.services.openaire.eu/osTrails/tests/I1_data",
+        "openapi": "https://beta.services.openaire.eu/osTrails/tests/I1_data/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [],
+        "benchmark_or_metric": "https://beta.services.openaire.eu/osTrails/metrics/I1_data"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_F1_M_IdGloballyUnique.ttl",
+        "title": "FAIR Test – F1 – Metadata - Identifier is globally unique",
+        "description": "F1 requires that metadata be assigned a globally unique, persistent and resolvable identifier. This metric is particularly concerned with the globally uniqueness aspect of GUPRIs; global uniqueness is required to prevent identifier collision across institutions, systems and domains. Otherwise, an identifier shared by multiple resources will confound efforts to describe that resource, or to use the identifier to retrieve it. In this metric, the definition of global uniqueness follows the FAIRsharing guidance on Globally Unique, Persistent and Resolvable Identifier (GUPRI) schemas. The identifier being evaluated is checked for a match (using regular expressions) to an existing id schema within FAIRsharing.\n\nPass: The id_schema record must have the globally unique field set to 'true'. Indeterminate: URL/DOI is non-existent or malformed. Fail: if the globally unique field is set to 'false'.",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_f1_m_idgloballyunique",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_f1_m_idgloballyunique/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_F1_M_IdentUnique"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/community-tests/erdera_core_vp_metadata",
+        "title": "ERDERA: Minimal VP Metadata for Level 1 Compliance",
+        "description": "The ERDERA Project has strict requirements for minimal metadata to onboard their Virtual Platform.\n                            These include: Migration away from deprecated EJP purl properties to the w3id equivalents.  Presence of the VPDiscoverable prpoperty. Properties: dcat:theme dcat:contactPoint dct:description\n                            dcat:keyword dct:language dct:license\n                            dct:publisher dct:title dcat:contactPoint dcat:landingPage.\n                        It does not test the substructure of the dct:publisher, but it must be a foaf:Agent with a foaf:name.",
+        "endpoint": "https://tests.ostrails.eu/community-tests/assess/test/erdera_core_vp_metadata",
+        "openapi": "https://tests.ostrails.eu/community-tests/erdera_core_vp_metadata/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/erdera/FM_R1-3_M_VP_L1"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/community-tests/erdera_vp_l2_metadata",
+        "title": "ERDERA: Minimal VP Metadata for Level 2 Compliance",
+        "description": "The ERDERA Project has strict requirements for minimal metadata to onboard their Virtual Platform.\n                            For Level 2, you must first be Level 1 compliant (see https://w3id.org/fair-metrics/erdera/FM_R1-3_M_VP_L1).\n                            In addition, you must declare yourself as a dcat Data Service, and have a landingPage at a minimimum.",
+        "endpoint": "https://tests.ostrails.eu/community-tests/assess/test/erdera_vp_l2_metadata",
+        "openapi": "https://tests.ostrails.eu/community-tests/erdera_vp_l2_metadata/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/erdera/FM_R1-3_M_VP_L2"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FTA2MDbPersistencepolicy.ttl",
+        "title": "FAIR Test – A2 – Metadata - Database persistence policy",
+        "description": "A2 requires that metadata remain accessible even if the digital object is no longer available. The purpose of this principle is to ensure that information about a resource persists over time, independent of the continued availability of the research object itself. As per FAIR Principle F3, when this metadata remains discoverable, even in the absence of the research object, it will also contain an explicit reference to the identifier of the research object. This test evaluates whether the hosting database or repository declares a formal data preservation policy. The evaluation retrieves the FAIRsharing record for the database and checks for the presence of a value in the “Data Preservation Policy” field, as defined in the FAIRsharing database conditions documentation. The presence of a declared preservation policy in the FAIRsharing record is interpreted as evidence that the database has articulated commitments to long-term metadata availability. If a preservation policy is listed in the FAIRsharing record, the resource passes this test; if not, it fails. This metric measures database-level persistence policies as persistence information is rarely included in record-level metadata.\n",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_a2_m_dbpersistencepolicy",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_a2_m_dbpersistencepolicy/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_A2_M_DbMetaLong"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_F1_M_IdResolvable.ttl",
+        "title": "FAIR Test – F1 – Metadata - Identifier is resolvable",
+        "description": "F1 requires that metadata be assigned a globally unique, persistent and resolvable identifier. This metric is particularly concerned with the resolvability aspect of GUPRIs. Resolvability is required so that identifiers are actionable for both humans and machines. In this metric, the definition of resolvability follows the FAIRsharing guidance on Globally Unique, Persistent and Resolvable Identifier (GUPRI) schemas. The identifier being evaluated is checked for a match (using regular expressions) to an existing id schema within FAIRsharing.\n\nPass: The id_schema record must have the resolvability field set to 'true'. Indeterminate: URL/DOI is non-existent or malformed. Fail: if the resolvability field is set to 'false'.",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_f1_m_idresolvable",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_f1_m_idresolvable/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_F1_M_IdentResolvable"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_I1_M_DbKnowledgeSemantic.ttl",
+        "title": "FAIR Test - I1 - Metadata - Database-level knowledge representation languages (semantic)",
+        "description": "The 'FAIR Test - I1 - Metadata - Database-level knowledge representation languages (semantic)' is a database-level test that checks for relationships between the FAIRSharing metadata record and any model/format records with a semantic format. If a FAIRsharing database record is found and is linked to a semantic model/format record then this test will pass. If the record submitted is not a database or is not so linked then the test will fail. An indeterminate value will be returned if no FAIRsharing record metadata is found.",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_i1_m_db_knowledge_semantic",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_i1_m_db_knowledge_semantic/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_I1_M_DbFormalLangSemantic.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_I1_M_DbKnowledgeSyntactic.ttl",
+        "title": "FAIR Test - I1 - Metadata - Database-level knowledge representation languages (syntactic)",
+        "description": "The 'FAIR Test - I1 - Metadata - Database-level knowledge representation languages (syntactic)' is a database-level test that checks for relationships between the FAIRSharing metadata record and any model/format records with a syntactic format. If a FAIRsharing database record is found and is linked to a syntactic model/format record then this test will pass. If the record submitted is not a database or is not so linked then the test will fail. An indeterminate value will be returned if no FAIRsharing record metadata is found.",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_i1_m_db_knowledge_syntactic",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_i1_m_db_knowledge_syntactic/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_I1_M_DbFormalLangSyntax.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_F2_M_Discoveryfields.ttl",
+        "title": "FAIR Test - F2 - Metadata - Discovery-Oriented Metadata Fields",
+        "description": "FAIR Test - F2 - Metadata - Discovery-Oriented Metadata Fields evaluates whether a metadata record includes a core set of mandatory descriptive elements that are essential for basic discovery. Specifically, it checks the resolved metadata for the presence of the following four fields: title, contributor names, summary/abstract/description, and publication date (defined as the date the record was first made publicly available). To pass, all of these fields must be present and populated within a structured, common format such as schema.org JSON-LD, DataCite XML, or Dublin Core XML. If any of these fields are empty, the evaluation is expected to fail.\n",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_f2_m_discoveryfields",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_f2_m_discoveryfields/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_F2_M_DiscoveryFields.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_F2_M_Discoverytags.ttl",
+        "title": "FAIR Test - F2 - Metadata - Tagging To Aid Discovery",
+        "description": "FAIR Test - F2 - Metadata - Tagging To Aid Discovery evaluates the metadata for the presence of at least one keyword or tag of any kind (free-text or controlled). With regards to Findability (as opposed to e.g., Interoperability), the presence of any type of tag (irrespective of whether that tag is part of a controlled vocabulary) is the key feature for this metric. The metric expects the identifier to point to structured metadata (e.g., schema.org, DataCite, or DC) and verifies that the keyword/subject property is not empty. The metric passes if at least one tag is identified and fails if the keyword attribute is missing or null.\n",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_f2_m_discoverytags",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_f2_m_discoverytags/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_F2_M_DiscoveryTags.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_F2_M_Discoverypublisher.ttl",
+        "title": "FAIR Test - F2 - Metadata - Has Publisher Information",
+        "description": "FAIR Test - F2 - Metadata - Has Publisher Information evaluates whether the metadata includes explicit information regarding the organisation responsible for publishing the metadata record. It looks for a structured “publisher” field within the record. In the context of an institutional repository, this is typically the institution itself, or an external repository (like Zenodo) if the record is registering an object hosted elsewhere. The test will fail if this value is not present.\n",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_f2_m_discoverypublisher",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_f2_m_discoverypublisher/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_F2_M_DiscoveryPublisher.ttl"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/community-tests/community_data_cited_in_pub",
+        "title": "FAIR Test - R1.2 - Dataset - The dataset is cited in a publication",
+        "description": "## What is being measured?\n\nThis Test evaluates whether the research object provided by the supplied DOI has been formally recognised and cited within the scholarly literature. The assessment uses the DOI to query global citation indexes and aggregation services, such as OpenAlex (searching both full-text data availability sections and reference lists) and OpenCitations. The metric passes if the dataset identifier is found within the citation network of at least one external publication (in the reference section or in text).\n\n## Why should we measure it?\n\nUnder FAIR Principle R1.2, metadata must be associated with detailed provenance to support its evaluation and reuse. Formal citation in a peer-reviewed publication is a robust indicator of a research object’s provenance.",
+        "endpoint": "https://tests.ostrails.eu/community-tests/assess/test/community_data_cited_in_pub",
+        "openapi": "https://tests.ostrails.eu/community-tests/community_data_cited_in_pub/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/esrf/FM_R1.2_D_CITED-BY-PUB_ESRF"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/community-tests/community_panet_vocabulary_in_metadata",
+        "title": "FAIR Test - I2 - Dataset - DOI metadata contains a link to a community ontology term - PaNET",
+        "description": "This metric ensures that the research object provided by the supplied URL is associated with a DataCite DOI whose metadata contains a PaNET subject term. This means that the DataCite metadata for the research object’s DOI must define a subject from PaNET using schemeUri or subjectScheme. The supplied URL can be one of: a doi.org domain URL or a DOI target repository domain URL.",
+        "endpoint": "https://tests.ostrails.eu/community-tests/assess/test/community_panet_vocabulary_in_metadata",
+        "openapi": "https://tests.ostrails.eu/community-tests/community_panet_vocabulary_in_metadata/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/esrf/FM_I2_M_VOC-PANET_DOI_ESRF"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_F1_M_IdPersistent.ttl",
+        "title": "FAIR Test – F1 – Metadata - Identifier is persistent ",
+        "description": "F1 requires that metadata be assigned a globally unique, persistent and resolvable identifier. This metric is particularly concerned with the persistence aspect of GUPRIs; persistence is required to guarantee long-term continuity of reference. In this metric, the definition of persistence follows the FAIRsharing guidance on Globally Unique, Persistent and Resolvable Identifier (GUPRI) schemas. The identifier being evaluated is checked for a match (using regular expressions) to an existing id schema within FAIRsharing.\n\nPass: The id_schema record must have the persistence field set to 'true'. Indeterminate: URL/DOI is non-existent or malformed. Fail: if the persistence field is set to 'false'.",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_f1_m_idpersistent",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_f1_m_idpersistent/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_F1_M_IdentPersistent"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/fc_harvest_only",
+        "title": "OSTrails Core: Expose Harvester Raw Output",
+        "description": "This test is designed to expose the raw output of the FAIR Champion Harvester.  It is not designed to be a FAIR test, but rather a debugging tool for developers of the harvester and the FAIR tests that depend on it.  The test will return the raw output of the harvester, including any comments generated during the harvesting process.  The test will not attempt to interpret the output or assign a score, but will simply return the raw output for inspection by developers.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/fc_harvest_only",
+        "openapi": "https://tests.ostrails.eu/tests/fc_harvest_only/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://doi.org/10.25504/FAIRsharing.VRo9Dl"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/test_FM_A1_1_M_OpenProt",
+        "title": "OSTrails Core: Uses open free protocol for metadata retrieval",
+        "description": "Metadata may be retrieved by an open and free protocol.  Tests metadata GUID for its resolution protocol.  Currently passes InChI Keys, DOIs, Handles, and URLs.  Recognition of other identifiers will be added upon request by the community.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/test_FM_A1_1_M_OpenProt",
+        "openapi": "https://tests.ostrails.eu/tests/test_FM_A1_1_M_OpenProt/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_A1-1_M_OpenProt"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/test_FM_A1_1_M_OpenProt_Data",
+        "title": "OSTrails Core: Data Protocol",
+        "description": "Data may be retrieved by an open and free protocol.\n      Tests Data GUID (the identifier of the data that is being described by the metadata record)\n      for its resolution protocol.\n      Currently passes InChI Keys, DOIs, Handles, and URLs.\n      Recognition of other identifiers will be added upon request by the community.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/test_FM_A1_1_M_OpenProt_Data",
+        "openapi": "https://tests.ostrails.eu/tests/test_FM_A1_1_M_OpenProt_Data/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_A1-1_M_OpenProt"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/test_FM_A1_2_M_Auth",
+        "title": "OSTrails Core: Data Authorization",
+        "description": "If the resolution protocol for the Metadata supports authentication and authorization for access to restricted content.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/test_FM_A1_2_M_Auth",
+        "openapi": "https://tests.ostrails.eu/tests/test_FM_A1_2_M_Auth/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_A1-2_M_Auth"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/test_FM_A1_2_M_DataAuth",
+        "title": "OSTrails Core: Data Authorization",
+        "description": "If the resolution protocol for the Data supports authentication and authorization for access to restricted content.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/test_FM_A1_2_M_DataAuth",
+        "openapi": "https://tests.ostrails.eu/tests/test_FM_A1_2_M_DataAuth/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_A1-2_M_Auth"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/test_FM_A2_M_MetaLong",
+        "title": "OSTrails Core: Metadata Persistence",
+        "description": "Metric to test if the metadata contains a persistence policy, explicitly identified by a persistencePolicy key (in hashed data) or a http://www.w3.org/2000/10/swap/pim/doc#persistencePolicy predicate in Linked Data.  DOIs are assumed to have metadata persistence.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/test_FM_A2_M_MetaLong",
+        "openapi": "https://tests.ostrails.eu/tests/test_FM_A2_M_MetaLong/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_A2_M_MetaLong"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/test_FM_F1_M_IdentPersistent",
+        "title": "OSTrails Core: Identifier Persistence",
+        "description": "Metric to test if the unique identifier of the metadata resource\n      is likely to be persistent. Known schema are registered in\n      FAIRSharing (https://fairsharing.org/standards/?q=&selected_facets=type_exact:identifier%20schema).\n      For URLs that don't follow a schema in FAIRSharing we test\n      known URL persistence schemas (purl, oclc, fdlp, purlz, w3id, ark).",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/test_FM_F1_M_IdentPersistent",
+        "openapi": "https://tests.ostrails.eu/tests/test_FM_F1_M_IdentPersistent/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_F1_M_IdentPersistent"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/test_FM_F1_M_IdentUnique",
+        "title": "OSTrails Core: Unique Identifier",
+        "description": "Metric to test if the metadata resource has a unique identifier.\n      This is done by comparing the GUID to the patterns (by regexp)\n      of known GUID schemas such as URLs and DOIs.\n      Known schema are registered in FAIRSharing\n      (https://fairsharing.org/standards/?q=&selected_facets=type_exact:identifier%20schema)",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/test_FM_F1_M_IdentUnique",
+        "openapi": "https://tests.ostrails.eu/tests/test_FM_F1_M_IdentUnique/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_F1_M_IdentUnique"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/test_FM_F3_M_DataIdent",
+        "title": "OSTrails Core: Data Identifier in Metadata",
+        "description": "Test that the identifier of the data is an unambiguous element of the metadata.\n       Only Linked Data is considered - other non-grounded metadata is ignored.\n       Tested predicates that likely point to a data record are:<p/>\n        iao:IAO_0000136, IAO:0000136,\n       ldp:contains,foaf:primaryTopic,schema:distribution,schema:contentUrl,\n       schema,mainEntity,schema:codeRepository,\n       dcat:distribution, dcat:dataset,dcat:downloadURL,dcat:accessURL,\n       sio:SIO_000332, sio:is-about, obo:IAO_0000136",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/test_FM_F3_M_DataIdent",
+        "openapi": "https://tests.ostrails.eu/tests/test_FM_F3_M_DataIdent/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_F3_M_DataIdent"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/test_FM_F3_M_MetaIdent",
+        "title": "OSTrails Core: Data Identifier in Metadata",
+        "description": "Test that the identifier of the metadata is an unambiguous element of the metadata.\n      Tested options are [\"http://purl.org/dc/elements/1.1/identifier\", \"https://purl.org/dc/elements/1.1/identifier\", \"http://purl.org/dc/terms/identifier\", \"http://schema.org/identifier\", \"https://purl.org/dc/terms/identifier\", \"https://schema.org/identifier\"]",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/test_FM_F3_M_MetaIdent",
+        "openapi": "https://tests.ostrails.eu/tests/test_FM_F3_M_MetaIdent/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_F3_M_MetaIdent"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/test_FM_F4_M_MetaIndexed",
+        "title": "OSTrails Core: Searchable in major search engine",
+        "description": "Tests whether a machine is able to discover the\n      resource by search, using Microsoft Bing.  The process is to first\n      identify the title of the resource in the metadata, then search for\n      that title in Bing, and then check whether any of the results from\n      Bing include a reference to the resource.  This test is designed to\n      check whether the metadata is indexed in a major search engine, which\n      is an important aspect of findability.  The test will also check for\n      keywords in the metadata and use those as search terms as well.  The properties\n      used to identify titles in linked data are dc:title, dcterms:title,\n      dcterms:alternative, schema:name, schema:headline, schema:alternateName,\n      schemah:name, schemah:headline, schemah:alternateName, rdfs:label,\n      skos:prefLabel, skos:altLabel, foaf:name and bibo:title.\n      The properties used to identify\n      keywords in linked data are any property containing 'keyword' in the name.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/test_FM_F4_M_MetaIndexed",
+        "openapi": "https://tests.ostrails.eu/tests/test_FM_F4_M_MetaIndexed/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_F4_M_MetaIndexed"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/test_FM_I1_M_FormLangSemantic_Data",
+        "title": "OSTrails Core: Data record is represented as Linked Data",
+        "description": "Test if the Data record referred to by the metadata uses an RDF syntax in which terms are\n      semantically-grounded in ontologies.  Any syntax of ontologically-grounded linked data will pass\n      this test.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/test_FM_I1_M_FormLangSemantic_Data",
+        "openapi": "https://tests.ostrails.eu/tests/test_FM_I1_M_FormLangSemantic_Data/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_I1_M_FormLangSemantic"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/test_FM_I1_M_FormalLangSyntax",
+        "title": "OSTrails Core: Data Knowlege Representation Language (Weak Test)",
+        "description": "Test if the data uses a formal language broadly applicable for knowledge\n      representation.  This particular test takes a broad view of what defines a\n      'knowledge representation language'; in this evaluation, a\n      knowledge representation language is interpreted any form of structured data (i.e. a purely syntactic test).  This test is a 'weak' test because it does not attempt to evaluate the semantics of the data, but only the syntax.  The presence of structured data in any form is sufficient to pass this test.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/test_FM_I1_M_FormalLangSyntax",
+        "openapi": "https://tests.ostrails.eu/tests/test_FM_I1_M_FormalLangSyntax/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_I1_M_FormLangSyntax"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/test_FM_I3_M_QualRef",
+        "title": "OSTrails Core: Metadata Contains Outward Links",
+        "description": "Maturity Indicator to test if the metadata links outward to third-party resources.\n      Note that this test only examines metadata that is represented as Linked Data.\n      The test passes if the object of any triple (non-structural triples only) is a URI that points to a host\n      other than the host of the metadata itself.  This is a very weak test,\n      but it is designed to encourage data stewards to link their metadata to external resources.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/test_FM_I3_M_QualRef",
+        "openapi": "https://tests.ostrails.eu/tests/test_FM_I3_M_QualRef/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_I3_M_QualRef"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/test_FM_R1_1_M_StdLic",
+        "title": "OSTrails Core: Metadata Includes License",
+        "description": "Maturity Indicator to test if the metadata contains an explicit pointer to the license.\n      This test will use a case-insensitive regular expression on key/value style metadata,\n      and predicate lookup on linked data metadata.  Tests: Tests for the presence of: [\"http://www.w3.org/1999/xhtml/vocab#license\", \"https://www.w3.org/1999/xhtml/vocab#license\", \"http://purl.org/ontology/dvia#hasLicense\", \"https://purl.org/ontology/dvia#hasLicense\", \"http://purl.org/dc/terms/license\", \"https://purl.org/dc/terms/license\", \"http://creativecommons.org/ns#license\", \"https://creativecommons.org/ns#license\", \"http://reference.data.gov.au/def/ont/dataset#hasLicense\", \"https://reference.data.gov.au/def/ont/dataset#hasLicense\"],\n      and Schema license predicates in linked data.  No further validation is done on the value of the license property, but the test will check if the value is a URL or not, and report that in the comments.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/test_FM_R1_1_M_StdLic",
+        "openapi": "https://tests.ostrails.eu/tests/test_FM_R1_1_M_StdLic/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_R1-1_M_StdLic"
+    },
+    {
+        "identifier": "https://tests.ostrails.eu/tests/test_FM_R1_1_M_StdLic_strong",
+        "title": "OSTrails Core: Metadata Includes License (strong)",
+        "description": "Maturity Indicator to test if the linked data metadata contains an explicit and correctly structured\n      pointer to the license.  Tests for the presence of: [\"http://www.w3.org/1999/xhtml/vocab#license\", \"https://www.w3.org/1999/xhtml/vocab#license\", \"http://purl.org/ontology/dvia#hasLicense\", \"https://purl.org/ontology/dvia#hasLicense\", \"http://purl.org/dc/terms/license\", \"https://purl.org/dc/terms/license\", \"http://creativecommons.org/ns#license\", \"https://creativecommons.org/ns#license\", \"http://reference.data.gov.au/def/ont/dataset#hasLicense\", \"https://reference.data.gov.au/def/ont/dataset#hasLicense\"]\n      and does some compliance testing on what is expected as the value of those properties.\n      Note that this test only operates on linked data.  JSON and XML metadata are not tested by this test,\n      but may be tested by the weaker version of this test.",
+        "endpoint": "https://tests.ostrails.eu/tests/assess/test/test_FM_R1_1_M_StdLic_strong",
+        "openapi": "https://tests.ostrails.eu/tests/test_FM_R1_1_M_StdLic_strong/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/Dataset"
+        ],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_R1-1_M_StdLic"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT-F2B_M_GM_CESSDA.ttl",
+        "title": "FAIR Test – record contains metadata that is grounded in a standard vocabulary",
+        "description": "Checks for the presence of grounded metadata by extracting all namespaces used in the document and checking if any of them are resolvable (i.e. can be accessed via HTTP). The method ignores common infrastructure namespaces (e.g. XML, RDF) and focuses on namespaces that are likely to represent the dataset's own metadata.",
+        "endpoint": "https://fair-tests.cessda.eu/assess/test/grounded-metadata",
+        "openapi": "https://fair-tests.cessda.eu/api/grounded-metadata.ttl",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://doi.org/10.25504/FAIRsharing.e05e98"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_F1_M_RID-ARK.ttl",
+        "title": "FAIR Test - F1 - Metadata - Resolvable identifiers for database content",
+        "description": "The 'FAIR Test - F1 - Metadata - Resolvable identifiers for database content' is a database-level test that requires the minting of community-relevant, publicly available resolvable identifiers for at least some of the content within the database being evaluated. ft_f1_m_ridark expects a FAIRsharing URL or DOI as its input and evaluates the database described by the FAIRsharing record for the guaranteed resolvability of the identifier schema as defined by the identifier schema record type in FAIRsharing. Resolvability of identifier makes it practically useful, with predictable identifier resolution behavior being key. This feature is key to the Findability of the database being evaluated. The test will return as follows: Pass: URL/DOI must point to an existing FAIRsharing database record; the record must have an 'implements' to an id_schema record; that id_schema record must have the resolvable field set to 'true'. Indeterminate: URL/DOI is non-existent or malformed. Fail: if any of the conditions in 'pass' fail; specifically, if the URL/DOI is not a database record, OR if there is no 'implements' relationship to an id_schema, OR if the resolvable field is set to 'false'.",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_f1_m_ridark",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_f1_m_ridark/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_F1_M_RID-ARK.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_F1_M_PID-ARK.ttl",
+        "title": "FAIR Test - F1-PID - Metadata - Persistent identifiers for database content",
+        "description": "The 'FAIR Test - F1-PID - Metadata - Persistent identifiers for database content' is a database-level test that requires the minting of community-relevant, publicly available persistent identifiers for at least some of the content within the database being evaluated. ft_f1_m_pidark expects a FAIRsharing URL or DOI as its input and evaluates the database described by the FAIRsharing record for the guaranteed persistence of the identifier schema as defined by the identifier schema record type in FAIRsharing. Persistence refers to the requirement that this globally unique identifier is never reused elsewhere and continues to identify the same resource over time. This feature is key to the Findability of the database being evaluated. The test will return as follows: Pass: URL/DOI must point to an existing FAIRsharing database record; the record must have an 'implements' to an id_schema record; that id_schema record must have the persistent field set to 'true'. Indeterminate: URL/DOI is non-existent or malformed. Fail: if any of the conditions in 'pass' fail; specifically, if the URL/DOI is not a database record, OR if there is no 'implements' relationship to an id_schema, OR if the persistent field is set to 'false'.",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_f1_m_pidark",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_f1_m_pidark/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_F1_M_PID-ARK.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_F1_M_GUID-ARK.ttl",
+        "title": "FAIR Test - F1 - Metadata - Globally unique identifiers for database content",
+        "description": "The 'FAIR Test - F1 - Metadata - Globally unique identifiers for database content' is a database-level test that requires the minting of community-relevant, publicly available globally unique identifiers for at least some of the content within the database being evaluated. ft_f1_m_guidark expects a FAIRsharing URL or DOI as its input and evaluates the database described by the FAIRsharing record for the guaranteed global uniqueness of the identifier schema as defined by the identifier schema record type in FAIRsharing. As described by the GFF, global uniqueness guarantees the unambiguous referencing of the described resource; it is insufficient for it to be unique only locally. This feature is key to the Findability of the database being evaluated. The test will return as follows: Pass: URL/DOI must point to an existing FAIRsharing database record; the record must have an 'implements' to an id_schema record; that id_schema record must have the globally unique field set to 'true'. Indeterminate: URL/DOI is non-existent or malformed. Fail: if any of the conditions in 'pass' fail; specifically, if the URL/DOI is not a database record, OR if there is no 'implements' relationship to an id_schema, OR if the globally unique field is set to 'false'.",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_f1_m_guidark",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_f1_m_guidark/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_F1_M_GUID-ARK.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT-F4_M_SE.ttl",
+        "title": "FAIR Test – records contain metadata that is indexed in a searchable catalogue",
+        "description": "Checks for the presence of grounded metadata by extracting all namespaces used in the document and checking if any of them are resolvable (i.e. can be accessed via HTTP). The method ignores common infrastructure namespaces (e.g. XML, RDF) and focuses on namespaces that are likely to represent the dataset's own metadata.",
+        "endpoint": "https://fair-tests.cessda.eu/assess/test/searchable",
+        "openapi": "https://fair-tests.cessda.eu/api/searchable.ttl",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://doi.org/10.25504/FAIRsharing.0c0d21"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT-F2A_M_SM.ttl",
+        "title": "FAIR Test – record contains structured metadata",
+        "description": "Checks if the document uses a supported namespace by examining the namespace URI of the root element.",
+        "endpoint": "https://fair-tests.cessda.eu/assess/test/structured-metadata",
+        "openapi": "https://fair-tests.cessda.eu/api/structured-metadata.ttl",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://doi.org/10.25504/FAIRsharing.e05e98"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_Gen2_MI_A1.1_M_RP.ttl",
+        "title": "FAIR Test – record contains a retrievable protocol",
+        "description": "Checks for the presence of retrievable open protocol identifiers in the document by looking for known elements and attempting to resolve them using known PID resolution services.",
+        "endpoint": "https://fair-tests.cessda.eu/assess/test/retrievable-protocol",
+        "openapi": "https://fair-tests.cessda.eu/api/retrievable-protocol.ttl",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://doi.org/10.25504/FAIRsharing.7612c1"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_I2A_M_FV.ttl",
+        "title": "FAIR Test - record contains resolvable semantic vocabulary URIs",
+        "description": "Checks for the presence of resolvable FAIR vocabulary linkages in the document. The test finds all elements that have a specified attribute, then iterates through those elements to check if they have both a declared vocabulary name and a linked vocabulary URI.",
+        "endpoint": "https://fair-tests.cessda.eu/assess/test/fair-vocabulary",
+        "openapi": "https://fair-tests.cessda.eu/api/fair-vocabulary.ttl",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://doi.org/10.25504/FAIRsharing.96d4af"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_I1A_M_FKRL.ttl",
+        "title": "FAIR Test - record contains metadata that is expressed in a formal language (weak variant).",
+        "description": "Checks for the presence of a formal KR language in the document. The test first checks if the document uses a supported namespace, which is a strong indicator that it is using a formal language.",
+        "endpoint": "https://fair-tests.cessda.eu/assess/test/formal-kr-language",
+        "openapi": "https://fair-tests.cessda.eu/api/formal-kr-language.ttl",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://doi.org/10.25504/FAIRsharing.ec5648"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_F1_M_MetadataIdPersistent.ttl",
+        "title": "FAIR Test – F1 – Metadata - Metadata contains identifier that is guaranteed persistent",
+        "description": "This metric evaluates whether the metadata retrieved from the provided URI contains an identifier that satisfies the FAIRsharing definition of guaranteed persistence, as aligned with the EOSC PID Policy. Note that it assesses the metadata retrieved from the URI rather than the URI itself. During assessment, the provided URI is resolved in accordance with FAIRsharing’s identifier resolution best practices. If the record contains DOI or ARK identifiers it will pass. If any identifier URLs can be determined as persistent via FAIRsharing data the test will also pass. Otherwise, it will fail.\n",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_f1_m_metadata_id_persistent",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_f1_m_metadata_id_persistent/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_F1_M_MetadataIdPersistent.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_F1_M_MetadataIdResolvable.ttl",
+        "title": "FAIR Test – F1 – Metadata - Metadata contains identifier that is guaranteed resolvable",
+        "description": "This metric evaluates whether the metadata retrieved from the provided URI contains an identifier that satisfies the FAIRsharing definition of guaranteed resolvability, as aligned with the EOSC PID Policy. Note that it assesses the metadata retrieved from the URI rather than the URI itself. During assessment, the provided URI is resolved in accordance with FAIRsharing’s identifier resolution best practices. If the record contains DOI or ARK identifiers it will pass. If any identifier URLs can be determined as resolvable via FAIRsharing data the test will also pass. Otherwise, it will fail.\n",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_f1_m_metadata_id_resolvable",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_f1_m_metadata_id_resolvable/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_F1_M_MetadataIdResolvable.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_F1_M_MetadataIdUnique.ttl",
+        "title": "FAIR Test – F1 – Metadata - Metadata contains identifier that is guaranteed globally unique",
+        "description": "This metric evaluates whether the metadata retrieved from the provided URI contains an identifier that satisfies the FAIRsharing definition of guaranteed global uniqueness, as aligned with the EOSC PID Policy. Note that it assesses the metadata retrieved from the URI rather than the URI itself. During assessment, the provided URI is resolved in accordance with FAIRsharing’s identifier resolution best practices. If the record contains DOI or ARK identifiers it will pass. If any identifier URLs can be determined as globally unique via FAIRsharing data the test will also pass. Otherwise, it will fail.\n",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_f1_m_metadata_id_unique",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_f1_m_metadata_id_unique/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_F1_M_MetadataIdUnique.ttl"
+    },
+    {
+        "identifier": "http://88.197.87.183:65192/osTrails/tests/F1_data",
+        "title": "OpenAIRE Test data F1 – (Meta)data are assigned a globally unique and persistent identifier.",
+        "description": "F1 – (Meta)data are assigned a globally unique and persistent identifier. Evidenced by: Identifier (datacite:identifier with a persistent identifier type such as DOI, Handle, ARK, PURL, URL, or URN). A missing or malformed identifier means the dataset cannot be reliably located or cited.",
+        "endpoint": "http://88.197.87.183:65192/osTrails/tests/F1_data",
+        "openapi": "http://88.197.87.183:65192/osTrails/tests/F1_data/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [],
+        "benchmark_or_metric": "http://88.197.87.183:65192/osTrails/metrics/F1_data"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_R1_2_M_FundROR.ttl",
+        "title": "FAIR Test - R1.2 - Metadata - ROR ID for funder",
+        "description": "FAIR Test - R1.2 - Metadata - ROR ID for funder evaluates whether the metadata includes at least one ROR ID for a funder associated with the research object. The assessment checks for structured funding references within both the landing page metadata and the central records held by DOI registration agencies (such as DataCite or Crossref). Specifically, it verifies that fields such as fundingReferences (DataCite) or funder (Crossref) are populated with at least one funder ROR ID. It checks the record’s landing page for embedded or linked structured data that can be successfully parsed against the declared community schema. If the record contains ROR identifiers it will pass; otherwise, the test will fail",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_r1_2_m_ror_id_for_funder",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_r1_2_m_ror_id_for_funder/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://github.com/OSTrails/assessment-component-metadata-records/blob/main/metric/FM_R1-2_M_Fund_ROR.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_R1_3_M_UseStuctGenericFormat.ttl",
+        "title": "FAIR Test - R1.3 - Metadata – use of recognised and structured generic metadata format",
+        "description": "FAIR Test - R1.3 - Metadata – use of recognised and structured generic metadata format evaluates whether the dataset metadata is structured according to predefined, widely adopted metadata schemas appropriate to institutional repositories and other generalist contexts, such as schema.org (JSON-LD) or DataCite. It checks the record’s landing page for embedded or linked structured data that can be successfully parsed against the declared community schema. Finding JSON+LD or XML formats will result in a pass; otherwise, the test will fail.",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_r1_3_m_recognised_structured_metadata",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_r1_3_m_recognised_structured_metadata/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_R1.3_M_UseStuctGenericFormat.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_R1_2_M_CreatorORCID.ttl",
+        "title": "FAIR Test - R1.2 - Metadata - Creator ORCIDs",
+        "description": "FAIR Test - R1.2 - Metadata - Creator ORCIDs evaluates whether the metadata includes at least one qualified reference to ORCID for a contributor with a ‘creator’ role. The presence of ORCIDs linked to individuals, together with the defined ‘creator’ role, constitutes a qualified provenance reference. If the record contains a creator and this creator has an ORCID ID it will pass; otherwise, the test will fail.",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_r1_2_m_creator_orcid",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_r1_2_m_creator_orcid/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_R1.2_M_creatorORCID.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_A1.1_M_HTTPSRetrievalProtocol.ttl",
+        "title": "FAIR Test - A1.1 - Metadata - HTTP(S) retrieval protocol",
+        "description": "This metric evaluates whether the protocol used to retrieve metadata referenced by the provided identifier is either HTTP or HTTPS and therefore openly specified, free to implement, and universally implementable.\n",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_a1_1_m_https_retrieval_protocol",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_a1_1_m_https_retrieval_protocol",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_A1-1_M_HTTPSProt.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_R1.3_M_UsesISO639.ttl",
+        "title": "FAIR Test – R1.3 - Metadata – use of ISO 639 language",
+        "description": "This test evaluates whether the metadata for the digital object includes at least one resolvable language attribute defined by the ISO 639 standard. It evaluates the value held in the language field against the official ISO 639 registry, searching for a valid, standardised code (specifically 639-2 / 639:2023) or a URI pointing to an ISO term.\n",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_r1_3_m_uses_iso639_language",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_r1_3_m_uses_iso639_language",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": null
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_A1-2_M_Auth.ttl",
+        "title": "FAIR Test – A1.2 – Metadata - retrieval protocol supports auth",
+        "description": "A1.2 requires that the protocol used to retrieve research objects clearly describes any necessary authentication and authorisation procedures. This ensures that access conditions are transparent and that restricted content is accessed in a defined and controlled way. Optionally, if a FAIRsharing record for the hosting database is available, the evaluation first checks the declared data access conditions. If the access condition is “open” then no authentication or authorisation is required for any content within that database, and the evaluation is complete. Otherwise, the test currently fails. [https://tests.ostrails.eu/tests/test_FM_A1_2_M_Auth](https://tests.ostrails.eu/tests/test_FM_A1_2_M_Auth) should also be run.\n\n",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_a1_2_m_retrieval_protocol_supports_auth",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_a1_2_m_retrieval_protocol_supports_auth/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_A1-2_M_Auth"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_R1_2_M_LinkedPublications.ttl",
+        "title": "FAIR Test - R1.2 - Metadata - Linked Publications",
+        "description": "This test evaluates whether the metadata includes at least one qualified reference to linked publications: where a metadata record includes at least one linked publication that explicitly supports the metadata record (rather than just providing context), this constitutes a qualified provenance reference. Where this information is present, at least one declaration is sufficient to pass this metric. The overall level of FAIRness under R1.2 increases as additional provenance dimensions are satisfied; using multiple metrics for R1.2 can help create a detailed picture of reusability. If the record is linked to an object of any of these types: ScholarlyArticle, Thesis, Book, Chapter or CreativeWork; it will pass; otherwise, the test will fail.\n\n",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_r1_2_m_linked_publications",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_r1_2_m_linked_publications/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_R1.2_M_LinkedPubs.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/ft_f1_m_metadata_id_unique.ttl",
+        "title": "FAIR Test – F1 – Metadata - Metadata contains identifier that is guaranteed globally unique",
+        "description": "This metric evaluates whether the metadata retrieved from the provided URI contains an identifier that satisfies the FAIRsharing definition of guaranteed global uniqueness, as aligned with the EOSC PID Policy. Note that it assesses the metadata retrieved from the URI rather than the URI itself. During assessment, the provided URI is resolved in accordance with FAIRsharing’s identifier resolution best practices. If the record contains DOI or ARK identifiers it will pass. If any identifier URLs can be determined as globally unique via FAIRsharing data the test will also pass. Otherwise, it will fail.\n",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_f1_m_metadata_id_unique",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_f1_m_metadata_id_unique/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_F1_M_MetadataIdUnique.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_R1_1_M_DatabaseLevelLicenses.ttl",
+        "title": "FAIR Test - R1.1 - Metadata - Database-level licenses",
+        "description": "R1.1 requires that metadata be released with a clear and accessible data usage licence. The purpose of this principle is to ensure that reuse conditions are explicitly stated and legally unambiguous. This test evaluates whether there is at least one licence declared at the database level in the FAIRsharing registry record associated with the identifier under evaluation.\n\n",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_r1_1_m_database_level_licenses",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_r1_1_m_database_level_licenses/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/general/FM_R1-1_M_DbStdLic"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_I3_M_ReferenceResearchObjects.ttl",
+        "title": "FAIR Test - I3 - Metadata - Qualified References to Related Research Objects",
+        "description": "This test evaluates whether the metadata retrieved upon identifier resolution contains at least one qualified, semantically defined link to another research object that provides contextual information and shows connectivity to the wider research ecosystem. Implementations of this metric should test for a qualified (labelled) relationship to a related research object, such as a publication or other research output, expressed using a defined relationship type(s) (e.g., related to). A record will pass this metric if at least one such qualified, contextual reference to another research object is present in the metadata.\n\n",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_i3_m_reference_research_objects",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_i3_m_reference_research_objects/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_I3_M_RRO.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/Ft_F2_M_FsLsDiscoveryFields.ttl",
+        "title": "FAIR Test - F2 - FAIRsharing metadata fields for life sciences resource discovery",
+        "description": "This metric assesses whether the FAIRsharing record contains values for the following fields: resource name, description, country, at least one subject, and at least one object type. At least one subject assigned to the record must belong to the Life Sciences hierarchy of the FAIRsharing Subject Resource Application Ontology (SRAO).\n\n",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_f2_m_fs_ls_discovery_fields",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_f2_m_fs_ls_discovery_fields/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://aims.fao.org/aos/agrovoc/c_4318"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_F2_M_FS-LS_DiscoveryFields.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/Ft_F2_M_FsDiscoveryFields.ttl",
+        "title": "FAIR Test - F2 - FAIRsharing metadata fields for resource discovery",
+        "description": "This test assesses whether the FAIRsharing record contains values for the following fields: resource name, description, country, at least one subject, and at least one object type.\n\n",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_f2_m_fs_discovery_fields",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_f2_m_fs_discovery_fields/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_F2_M_FS_DiscoveryFields.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_F3_M_FsIdentifierUse.ttl",
+        "title": "FAIR Test - F3 - resource identifiers in FAIRsharing metadata",
+        "description": "This test assesses whether the FAIRsharing record under evaluation contains both a FAIRsharing identifier (DOI or URL) and a homepage URL for the resource it describes. This test expects as input the FAIRsharing DOI or URL for the FAIRsharing record under evaluation.\n\n",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_f3_m_fs_identifier_use",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_f3_m_fs_identifier_use/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_F3_M_FS_IdentifierUse.ttl"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-22-1",
+        "title": "Software is containerized",
+        "description": "This test checks if there is a container file in the repository. This is done by checking if there is any container build type file (i.e Dockerfile, Podman, Apptainer)  in the repository’s root.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-22-1",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/software_is_containerized"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_F4_M_FS_providesUserSearch.ttl",
+        "title": "FAIR Test - F4 - provides user search",
+        "description": "This test assesses whether the FAIRsharing record contains at least one Data Process that includes a Search or Browse function (as identified by “Search” or “Browse” within the Name field of a Data Process), uses a User Interface access method, and supports Read or Read/Write operations. The test expects as input the FAIRsharing DOI or URL for the FAIRsharing record under evaluation.",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_f4_m_fs_provides_user_search",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_f4_m_fs_provides_user_search/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_F4_M_FS_providesUserSearch.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_F4_M_FS_providesMachineSearch.ttl",
+        "title": "FAIR Test - F4 - provides machine search",
+        "description": "This test assesses whether the FAIRsharing record contains at least one Data Process that includes a Search or Browse function (as identified by “Search” or “Browse” within the Name field of Data Processes), uses a non-User Interface access method, and supports Read or Read/Write operations. The test expects as input the FAIRsharing DOI or URL for the FAIRsharing record under evaluation.\n\n",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_f4_m_fs_provides_machine_search",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_f4_m_fs_provides_machine_search/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_F4_M_FS_providesMachineSearch.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_F4_M_FS_hasFSrecord.ttl",
+        "title": "FAIR Test - F4 - has FAIRsharing record",
+        "description": "This test assesses whether the identifier being evaluated corresponds to a valid FAIRsharing record. This test expects as input the FAIRsharing DOI or URL for the FAIRsharing record under evaluation.\n\n",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_f4_m_fs_has_fs_record",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_f4_m_fs_has_fs_record/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_F4_M_FS_hasFSrecord.ttl"
+    },
+    {
+        "identifier": "https://w3id.org/rsfc/test/RSFC-21-1",
+        "title": "Repository has contribution guidelines",
+        "description": "This test checks if there are contribution guidelines. This is done by checking if there are contribution guidelines linked in the repository, its README or CONTRIBUTING.md.",
+        "endpoint": "https://api.rsfc.linkeddata.es/assess/test/RSFC-21-1",
+        "openapi": "https://w3id.org/rsfc/api",
+        "dimension": null,
+        "objects": [
+            "https://schema.org/SoftwareSourceCode"
+        ],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/everse/i/indicators/has_contribution_guidelines"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_A2_M_FS_dbPreservation.ttl",
+        "title": "FAIR Test - A2 - database declares preservation policy",
+        "description": "This test uses the structured metadata provided by FAIRsharing database records to determine whether the database provides information describing its commitments to preservation. Preservation information is an important FAIR-enabling characteristic for understanding how a database intends to preserve its records over time. This supports FAIR Principle A2 by making preservation commitments discoverable through FAIRsharing. The presence of a Preservation Policy URL does not imply that the underlying policy is adequate, implemented, or effective; it only demonstrates that preservation information has been provided. This metric assesses whether the FAIRsharing database record contains a non-empty Preservation Policy URL. This test should expect as input the FAIRsharing DOI or URL for the FAIRsharing record under evaluation. The evaluation retrieves the FAIRsharing record for the database and checks for the presence of a value in the \"Data Preservation Policy\" field, as defined in the FAIRsharing database conditions documentation. The presence of a declared preservation policy in the FAIRsharing record is interpreted as evidence that the database has articulated commitments to long-term metadata availability. If a preservation policy is listed in the FAIRsharing record, the resource passes this metric; if not, it fails.",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_a2_m_fs_dbpreservation",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_a2_m_fs_dbpreservation/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_A2_M_FS_dbPreservation.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_A2_M_FS_dbSustainability.ttl",
+        "title": "FAIR Test - A2 - database declares sustainability plan",
+        "description": "This test assesses whether the FAIRsharing database record contains a non-empty Resource Sustainability URL. This test uses the structured metadata provided by FAIRsharing database records to determine whether the database provides information describing its long-term sustainability. Sustainability information is an important FAIR-enabling characteristic because users, funders, database managers, and assessment services need to understand how a database plans to remain available over time. This supports FAIR Principle A2 by making sustainability commitments discoverable through FAIRsharing. The presence of a Resource Sustainability URL does not imply that the underlying sustainability information is adequate, implemented, or effective; it only demonstrates that sustainability information has been provided. This test should expect as input the FAIRsharing DOI or URL for the FAIRsharing record under evaluation.",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_a2_m_fs_dbsustainability",
+        "openapi": "https://fair-tests.fairsharing.org/test_descriptions/ft_a2_m_fs_dbsustainability/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_A2_M_FS_dbSustainability.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_I3_M_FS_DbVersionedContent.ttl",
+        "title": "FAIR Test - I3 - database supports versioned content",
+        "description": "This test uses the structured metadata provided by FAIRsharing database records to determine whether the database supports versioned content. Versioning is an important FAIR-enabling characteristic because it provides explicit relationships between different states of content over time, helping users and systems understand how content changes and evolves.  This test assesses whether the FAIRsharing database record has Data Versioning set to \"yes\". This test expects as input the FAIRsharing DOI or URL for the FAIRsharing record under evaluation.",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_i3_m_fs_db_versioned_content",
+        "openapi": "https://fair-tests.fairsharing.org/ft_i3_m_fs_db_versioned_content/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_I3_M_FS_DbVersionedContent.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_I3_M_FS_HumanDownload.ttl",
+        "title": "FAIR Test - I3 - allows content download by humans",
+        "description": "This test uses the structured metadata provided by FAIRsharing records to determine whether the resource under evaluation allows content to be downloaded through human-accessible interfaces. Human-mediated download mechanisms are important FAIR-enabling characteristics because they support the exchange of information between resources and users. This test assesses whether the FAIRsharing database record contains at least one Data Process whose label contains \"Download\" or \"Export\", whose type is Read or Read/Write, and whose access method is User Interface. The test expects as input the FAIRsharing DOI or URL for the FAIRsharing record under evaluation.",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_i3_m_fs_human_download",
+        "openapi": "https://fair-tests.fairsharing.org/ft_i3_m_fs_human_download/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_I3_M_FS_HumanDownload.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_I3_M_FS_HumanSubmission.ttl",
+        "title": "FAIR Test - I3 - allows content submission by humans",
+        "description": "This test uses the structured metadata provided by FAIRsharing database records to determine whether users can submit content through human-accessible interfaces. Human-mediated content submission is an important FAIR-enabling characteristic because it supports the exchange of information between users and databases. This test assesses whether the FAIRsharing database record contains at least one Data Process with a type of Write or Read/Write that uses a User Interface access method. This test expects as input the FAIRsharing DOI or URL for the FAIRsharing record under evaluation.",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_i3_m_fs_human_submission",
+        "openapi": "https://fair-tests.fairsharing.org/ft_i3_m_fs_human_submission/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_I3_M_FS_HumanSubmission.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_I3_M_FS_MachineDownload.ttl",
+        "title": "FAIR Test - I3 - allows content download by machines",
+        "description": "This test uses the structured metadata provided by FAIRsharing records to determine whether the resource under evaluation allows content to be downloaded through computational interfaces. Machine-mediated download mechanisms are important FAIR-enabling characteristics because they support the automated exchange of information between resources and external systems. This test assesses whether the FAIRsharing record contains at least one Data Process whose label contains \"Download\" or \"Export\", whose type is Read or Read/Write, and whose access method is not User Interface. This test expects as input the FAIRsharing DOI or URL for the FAIRsharing record under evaluation.",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_i3_m_fs_machine_download",
+        "openapi": "https://fair-tests.fairsharing.org/ft_i3_m_fs_machine_download/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_I3_M_FS_MachineDownload.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_I3_M_FS_MachineSubmission.ttl",
+        "title": "FAIR Test - I3 - allows content submission by machines",
+        "description": "This test uses the structured metadata provided by FAIRsharing records to determine whether machines can submit content through computational interfaces. Machine-mediated content submission is an important FAIR-enabling characteristic because it supports the automated exchange of information between resources and external systems. This test assesses whether the FAIRsharing record contains at least one Data Process with a type of Write or Read/Write that uses a non-User Interface access method. This test expects as input the FAIRsharing DOI or URL for the FAIRsharing record under evaluation.'",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_i3_m_fs_machine_submission",
+        "openapi": "https://fair-tests.fairsharing.org/ft_i3_m_fs_machine_submission/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_I3_M_FS_MachineSubmission.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FT_I3_M_FS_relatedDBs.ttl",
+        "title": "FAIR Test - I3 - Metadata - I3 - references related databases",
+        "description": "This test assesses whether the FAIRsharing database record contains at least one shares_data_with or related_to relationship linking it to another FAIRsharing database record. Tests implementing this metric should expect as input the FAIRsharing DOI or URL for the FAIRsharing record under evaluation. To pass, a relationship with shares_data_with or related_to label with other database should exist, else the test will fail. This test expects as input the FAIRsharing DOI or URL for the FAIRsharing record under evaluation.",
+        "endpoint": "https://fair-tests.fairsharing.org/test/ft_i3_m_fs_related_dbs",
+        "openapi": "https://fair-tests.fairsharing.org/ft_i3_m_fs_related_dbs/api",
+        "dimension": null,
+        "objects": [],
+        "domain": [
+            "http://www.fairsharing.org/ontology/subject/SRAO_0000401"
+        ],
+        "benchmark_or_metric": "https://ostrails.github.io/assessment-component-metadata-records/metric/FM_I3_M_FS_relatedDBs.ttl"
+    },
+    {
+        "identifier": "https://ostrails.github.io/assessment-component-metadata-records/test/FDP_structural_completeness.ttl",
+        "title": "FDP Test - Structural Completeness",
+        "description": "This test checks FDPs in an FDP Index for a structural completeness of their metadata structured as a DCAT-2 profile (FDP-&gt; Catalog-&gt;Dataset-&gt;Distribution-&gt; Data Service)",
+        "endpoint": null,
+        "openapi": null,
+        "dimension": null,
+        "objects": [],
+        "domain": [],
+        "benchmark_or_metric": "https://w3id.org/fair-metrics/erdera/FM_R1-3_M_VP_L1"
+    }
+]
