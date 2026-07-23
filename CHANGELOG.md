@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.0] - 2026-07-23
+
+### Changed
+
+- `docs/tools/`: flattened the Toolbox navigation. `core-components.rst`, `testing-platforms.rst`, `registries.rst`, `supporting-tools.rst`, and `apis.rst` no longer embed nested `toctree`s pointing at wrapper pages; the wrapper pages' content (previously spread across `conceptual/`, `code/`, `assessment/`, `authoring-and-registering/`, `quality-control/`, and `apis/` subdirectories) is now inlined as sections on the five top-level pages themselves. Reviewers reported that reaching a tool's page took three or four clicks through single-entry sub-menus; every Toolbox page is now one click from `toolbox.rst`.
+- `docs/tools/core-components.rst`: merged the FAIR Tests and FAIR Algorithms live-catalogue widgets onto one page; de-duplicated their shared CSS under `.catalog-*` classes and renamed their DOM ids (`fair-tests-*` / `fair-algorithms-*`) so both `<details>` search widgets can coexist without id collisions.
+- Proofread and corrected grammar, spelling, and punctuation across all `docs/tools/` content (e.g. "may differs" → "may differ", "FAIROs" → "FAIROS", "controbuting" → "contributing", "leverated" → "leveraged", "eproducible" → "reproducible", "directy" → "directly", "the over FAIR score" → "the overall FAIR score", missing spaces after `**field**:` labels, and inconsistent heading capitalization).
+
+### Fixed
+
+- `docs/commons/fair/fair-test-results-vocabulary-ftr.rst`: updated the `FAIR assessment validation` link from a `:doc:` path into the now-removed `quality-control/ftr-validator` page to a `:ref:` targeting the `tool-ftr-validator` label on the merged `supporting-tools.rst` page.
+- `docs/conf.py`: `release` was behind the changelog; bumped to match.
+
+### Removed
+
+- `docs/tools/conceptual/`, `docs/tools/code/`, `docs/tools/assessment/`, `docs/tools/authoring-and-registering/`, `docs/tools/quality-control/`, `docs/tools/apis/`, `docs/tools/fair.rst`, `docs/tools/dmp.rst`, `docs/tools/authoring.rst`, `docs/tools/quality-control.rst`: content merged into the five top-level Toolbox pages (see Changed); all `:ref:` labels these files defined (e.g. `tool-fair-champion`, `tool-foops`, `tool-fair-assessment-authoring-tool`, `tool-fair-tests`, `tool-ftr-validator`) were preserved on their new pages so existing cross-references keep resolving.
+
 ## [0.4.0] - 2026-07-02
 
 ### Merged
