@@ -339,8 +339,8 @@ Test 1: Check for reused dataset declaration
 --------------------------------------------
 
 :Test ID: T-DCSC-001
-:Persistent URI: https://example.org/test/madmp-reused-datasets-declared-json
-:Implements: :ref:`Metric 1: Reused Dataset Declared in the DMP <dmp-metric-1>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-001
+:Implements: :ref:`Metric 1: Reused Dataset Declared in the DMP <data.reused.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -374,7 +374,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/madmp-reused-datasets-declared-json",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-001",
         "@type": "ftr:Test",
         "dcterms:identifier": "madmp-reused-datasets-declared-json",
         "dcterms:title": {
@@ -406,23 +406,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/madmp-reused-datasets-declared-json/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -435,22 +420,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/madmp-reused-datasets-declared"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -466,8 +440,8 @@ Test 2: Check License for Reused Datasets
 -----------------------------------------
 
 :Test ID: T-DCSC-002
-:Persistent URI: https://example.org/test/T-DCSC-license
-:Implements: :ref:`Metric 3: Reused Dataset Has a Declared License <dmp-metric-3>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-002
+:Implements: :ref:`Metric 3: Reused Dataset Has a Declared License <data.reused.co.3>`
 
 Description
 ^^^^^^^^^^^
@@ -504,7 +478,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-license",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-002",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -536,23 +510,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-license/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -565,22 +524,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.reused.co.3"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.3"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -596,8 +544,8 @@ Test 3: Check for reused dataset PID
 ------------------------------------
 
 :Test ID: T-DCSC-003
-:Persistent URI: https://example.org/test/T-DCSC-reused-dataset-pid
-:Implements: :ref:`Metric 2: Reused Dataset Has a Persistent Identifier <dmp-metric-2>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-003
+:Implements: :ref:`Metric 2: Reused Dataset Has a Persistent Identifier <data.reused.co.2>`
 
 Description
 ^^^^^^^^^^^
@@ -634,7 +582,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-reused-dataset-pid",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-003",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -666,23 +614,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-reused-dataset-pid/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -695,22 +628,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.reused.co.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -726,8 +648,8 @@ Test 4: Check Distribution Entry is Present
 -------------------------------------------
 
 :Test ID: T-DCSC-004
-:Persistent URI: https://example.org/test/T-DCSC-distribution-present
-:Implements: :ref:`Metric 4: Reused Dataset Has Distribution Information <dmp-metric-4>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-004
+:Implements: :ref:`Metric 4: Reused Dataset Has Distribution Information <data.reused.co.4>`
 
 Description
 ^^^^^^^^^^^
@@ -762,7 +684,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-distribution-present",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-004",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -794,23 +716,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-distribution-present/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -823,22 +730,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.reused.co.4"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.4"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -854,8 +750,8 @@ Test 5: Check Distribution Access Information is Present
 --------------------------------------------------------
 
 :Test ID: T-DCSC-005
-:Persistent URI: https://example.org/test/T-DCSC-distribution-access
-:Implements: :ref:`Metric 4: Reused Dataset Has Distribution Information <dmp-metric-4>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-005
+:Implements: :ref:`Metric 4: Reused Dataset Has Distribution Information <data.reused.co.4>`
 
 Description
 ^^^^^^^^^^^
@@ -889,7 +785,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-distribution-access",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-005",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -921,23 +817,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-distribution-access/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -950,22 +831,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.reused.co.4"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.4"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -981,8 +851,8 @@ Test 6: Check Distribution Title is Present
 -------------------------------------------
 
 :Test ID: T-DCSC-006
-:Persistent URI: https://example.org/test/T-DCSC-distribution-title
-:Implements: :ref:`Metric 4: Reused Dataset Has Distribution Information <dmp-metric-4>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-006
+:Implements: :ref:`Metric 4: Reused Dataset Has Distribution Information <data.reused.co.4>`
 
 Description
 ^^^^^^^^^^^
@@ -1016,7 +886,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-distribution-title",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-006",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -1048,23 +918,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-distribution-title/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -1077,22 +932,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.reused.co.4"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.4"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -1108,8 +952,8 @@ Test 7: Check Access Rights for Reused Datasets
 -----------------------------------------------
 
 :Test ID: T-DCSC-007
-:Persistent URI: https://example.org/test/T-DCSC-access
-:Implements: :ref:`Metric 5: Reused Dataset Has Declared Access Conditions <dmp-metric-5>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-007
+:Implements: :ref:`Metric 5: Reused Dataset Has Declared Access Conditions <data.reused.co.5>`
 
 Description
 ^^^^^^^^^^^
@@ -1145,7 +989,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-access",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-007",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -1177,23 +1021,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-access/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -1206,22 +1035,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.reused.co.5"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.5"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -1237,8 +1055,8 @@ Test 8: Check Personal Data Flag for Reused Datasets
 ----------------------------------------------------
 
 :Test ID: T-DCSC-008
-:Persistent URI: https://example.org/test/T-DCSC-personal-data
-:Implements: :ref:`Metric 6: Reused Dataset Contains Personal Data <dmp-metric-6>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-008
+:Implements: :ref:`Metric 6: Reused Dataset Contains Personal Data <data.reused.co.6>`
 
 Description
 ^^^^^^^^^^^
@@ -1274,7 +1092,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-personal-data",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-008",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -1306,23 +1124,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-personal-data/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -1335,22 +1138,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.reused.co.6"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.6"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -1366,8 +1158,8 @@ Test 9: Check Sensitive Data Flag for Reused Datasets
 -----------------------------------------------------
 
 :Test ID: T-DCSC-009
-:Persistent URI: https://example.org/test/T-DCSC-sensitive-data
-:Implements: :ref:`Metric 7: Reused Dataset Contains Sensitive Data <dmp-metric-7>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-009
+:Implements: :ref:`Metric 7: Reused Dataset Contains Sensitive Data <data.reused.co.7>`
 
 Description
 ^^^^^^^^^^^
@@ -1403,7 +1195,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-sensitive-data",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-009",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -1435,23 +1227,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-sensitive-data/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -1464,22 +1241,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.reused.co.7"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.7"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -1495,8 +1261,8 @@ Test 10: Check Distribution URL is Present
 ------------------------------------------
 
 :Test ID: T-DCSC-010
-:Persistent URI: https://example.org/test/T-DCSC-distribution-url-present
-:Implements: :ref:`Metric 8: Reused Dataset Has an Access URL <dmp-metric-8>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-010
+:Implements: :ref:`Metric 8: Reused Dataset Has an Access URL <data.reused.co.8>`
 
 Description
 ^^^^^^^^^^^
@@ -1530,7 +1296,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-distribution-url-present",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-010",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -1562,23 +1328,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-distribution-url-present/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -1591,22 +1342,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.reused.co.8"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.8"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -1622,8 +1362,8 @@ Test 11: Check Access URL is Present and Non-empty
 --------------------------------------------------
 
 :Test ID: T-DCSC-011
-:Persistent URI: https://example.org/test/T-DCSC-access-url
-:Implements: :ref:`Metric 8: Reused Dataset Has an Access URL <dmp-metric-8>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-011
+:Implements: :ref:`Metric 8: Reused Dataset Has an Access URL <data.reused.co.8>`
 
 Description
 ^^^^^^^^^^^
@@ -1657,7 +1397,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-access-url",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-011",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -1689,23 +1429,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-access-url/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -1718,22 +1443,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.reused.co.8"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.8"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -1749,8 +1463,8 @@ Test 12: Check PID Matches Destination Repository Record
 --------------------------------------------------------
 
 :Test ID: T-DCSC-012
-:Persistent URI: https://example.org/test/T-DCSC-repo-match
-:Implements: :ref:`Metric 9: Reused Dataset PID Resolves in the Repository <dmp-metric-9>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-012
+:Implements: :ref:`Metric 9: Reused Dataset PID Resolves in the Repository <data.reused.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -1786,7 +1500,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-repo-match",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-012",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -1818,23 +1532,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-repo-match/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -1847,22 +1546,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.reused.feas.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.feas.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -1878,8 +1566,8 @@ Test 13: Check PID Resolves Successfully
 ----------------------------------------
 
 :Test ID: T-DCSC-013
-:Persistent URI: https://example.org/test/T-DCSC-pid-resolves
-:Implements: :ref:`Metric 9: Reused Dataset PID Resolves in the Repository <dmp-metric-9>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-013
+:Implements: :ref:`Metric 9: Reused Dataset PID Resolves in the Repository <data.reused.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -1914,7 +1602,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-pid-resolves",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-013",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -1946,23 +1634,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-pid-resolves/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -1975,22 +1648,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.reused.feas.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.feas.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -2006,8 +1668,8 @@ Test 14: Check Reused Data Access Matches Destination
 -----------------------------------------------------
 
 :Test ID: T-DCSC-014
-:Persistent URI: https://example.org/test/T-DCSC-access-match
-:Implements: :ref:`Metric 10: Reused Dataset Access Conditions Match the Repository <dmp-metric-10>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-014
+:Implements: :ref:`Metric 10: Reused Dataset Access Conditions Match the Repository <data.reused.feas.2>`
 
 Description
 ^^^^^^^^^^^
@@ -2043,7 +1705,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-access-match",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-014",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -2075,23 +1737,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-access-match/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -2104,22 +1751,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.reused.feas.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.feas.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -2135,8 +1771,8 @@ Test 15: Check Reused Data License Matches Destination
 ------------------------------------------------------
 
 :Test ID: T-DCSC-015
-:Persistent URI: https://example.org/test/T-DCSC-license-match
-:Implements: :ref:`Metric 11: Reused Dataset License Matches the Repository <dmp-metric-11>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-015
+:Implements: :ref:`Metric 11: Reused Dataset License Matches the Repository <data.reused.feas.3>`
 
 Description
 ^^^^^^^^^^^
@@ -2172,7 +1808,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-license-match",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-015",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -2204,23 +1840,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-license-match/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -2233,22 +1854,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.reused.feas.3"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.feas.3"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -2264,8 +1874,8 @@ Test 16: Check for new data (no is_reused)
 ------------------------------------------
 
 :Test ID: T-DCSC-016
-:Persistent URI: https://example.org/test/T-DCSC-new-data
-:Implements: :ref:`Metric 12: New Dataset Declared in the DMP <dmp-metric-12>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-016
+:Implements: :ref:`Metric 12: New Dataset Declared in the DMP <data.new.1>`
 
 Description
 ^^^^^^^^^^^
@@ -2299,7 +1909,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-new-data",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-016",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -2331,23 +1941,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-new-data/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -2360,22 +1955,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.new.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.new.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -2391,8 +1975,8 @@ Test 17: Check technical_resource for new data collection/creation
 ------------------------------------------------------------------
 
 :Test ID: T-DCSC-017
-:Persistent URI: https://example.org/test/T-DCSC-new-data-technical-resource
-:Implements: :ref:`Metric 13: New Dataset Collection or Creation Method Declared <dmp-metric-13>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-017
+:Implements: :ref:`Metric 13: New Dataset Collection or Creation Method Declared <data.new.2>`
 
 Description
 ^^^^^^^^^^^
@@ -2429,7 +2013,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-new-data-technical-resource",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-017",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -2461,23 +2045,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-new-data-technical-resource/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -2490,22 +2059,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.new.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.new.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -2521,8 +2079,8 @@ Test 18: Check data_access for new datasets
 -------------------------------------------
 
 :Test ID: T-DCSC-018
-:Persistent URI: https://example.org/test/T-DCSC-new-data-access
-:Implements: :ref:`Metric 14: New Dataset Has Declared Access Conditions <dmp-metric-14>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-018
+:Implements: :ref:`Metric 14: New Dataset Has Declared Access Conditions <data.new.3>`
 
 Description
 ^^^^^^^^^^^
@@ -2558,7 +2116,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-new-data-access",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-018",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -2590,23 +2148,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-new-data-access/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -2619,22 +2162,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.new.3"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.new.3"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -2650,8 +2182,8 @@ Test 19: Check rights of new dataset
 ------------------------------------
 
 :Test ID: T-DCSC-019
-:Persistent URI: https://example.org/test/T-DCSC-new-data-rights
-:Implements: :ref:`Metric 14: New Dataset Has Declared Access Conditions <dmp-metric-14>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-019
+:Implements: :ref:`Metric 14: New Dataset Has Declared Access Conditions <data.new.3>`
 
 Description
 ^^^^^^^^^^^
@@ -2687,7 +2219,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-new-data-rights",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-019",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -2719,23 +2251,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-new-data-rights/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -2748,22 +2265,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.new.3"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.new.3"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -2779,8 +2285,8 @@ Test 20: Check metadata for new dataset
 ---------------------------------------
 
 :Test ID: T-DCSC-020
-:Persistent URI: https://example.org/test/T-DCSC-new-data-metadata
-:Implements: :ref:`Metric 15: New Dataset Has Sufficient Metadata <dmp-metric-15>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-020
+:Implements: :ref:`Metric 15: New Dataset Has Sufficient Metadata <data.new.4>`
 
 Description
 ^^^^^^^^^^^
@@ -2819,7 +2325,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-new-data-metadata",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-020",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -2851,23 +2357,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-new-data-metadata/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -2880,22 +2371,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.new.4"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.new.4"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -2911,8 +2391,8 @@ Test 21: Check dataset_id exists
 --------------------------------
 
 :Test ID: T-DCSC-021
-:Persistent URI: https://example.org/test/T-DCSC-dataset-id-exists
-:Implements: :ref:`Metric 16: New Dataset Persistent Identifier Resolves Successfully <dmp-metric-16>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-021
+:Implements: :ref:`Metric 16: New Dataset Persistent Identifier Resolves Successfully <data.new.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -2946,7 +2426,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-dataset-id-exists",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-021",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -2978,23 +2458,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-dataset-id-exists/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -3007,22 +2472,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.new.feas.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.new.feas.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -3038,8 +2492,8 @@ Test 22: Check PID resolves for dataset_id
 ------------------------------------------
 
 :Test ID: T-DCSC-022
-:Persistent URI: https://example.org/test/T-DCSC-dataset-id-resolves
-:Implements: :ref:`Metric 16: New Dataset Persistent Identifier Resolves Successfully <dmp-metric-16>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-022
+:Implements: :ref:`Metric 16: New Dataset Persistent Identifier Resolves Successfully <data.new.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -3074,7 +2528,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-dataset-id-resolves",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-022",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -3106,23 +2560,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-dataset-id-resolves/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -3135,22 +2574,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.new.feas.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.new.feas.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -3166,8 +2594,8 @@ Test 23: Check new data access matches destination
 --------------------------------------------------
 
 :Test ID: T-DCSC-023
-:Persistent URI: https://example.org/test/T-DCSC-new-data-access-match-destination
-:Implements: :ref:`Metric 17: New Dataset Access Conditions Match the Repository <dmp-metric-17>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-023
+:Implements: :ref:`Metric 17: New Dataset Access Conditions Match the Repository <data.new.feas.2>`
 
 Description
 ^^^^^^^^^^^
@@ -3204,7 +2632,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-new-data-access-match-destination",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-023",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -3236,23 +2664,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-new-data-access-match-destination/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -3265,22 +2678,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.new.feas.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.new.feas.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -3296,8 +2698,8 @@ Test 24: Check new data license matches destination
 ---------------------------------------------------
 
 :Test ID: T-DCSC-024
-:Persistent URI: https://example.org/test/T-DCSC-new-data-license-match-destination
-:Implements: :ref:`Metric 18: New Dataset License Matches the Repository <dmp-metric-18>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-024
+:Implements: :ref:`Metric 18: New Dataset License Matches the Repository <data.new.feas.3>`
 
 Description
 ^^^^^^^^^^^
@@ -3335,7 +2737,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-new-data-license-match-destination",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-024",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -3367,23 +2769,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-new-data-license-match-destination/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -3396,22 +2783,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.new.feas.3"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.new.feas.3"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -3427,8 +2803,8 @@ Test 25: Check dataset.type is specified
 ----------------------------------------
 
 :Test ID: T-DCSC-025
-:Persistent URI: https://example.org/test/T-DCSC-dataset-type
-:Implements: :ref:`Metric 19: Dataset Type Specified <dmp-metric-19>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-025
+:Implements: :ref:`Metric 19: Dataset Type Specified <data.info.cov.1>`
 
 Description
 ^^^^^^^^^^^
@@ -3463,7 +2839,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-dataset-type",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-025",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -3495,23 +2871,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-dataset-type/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -3524,22 +2885,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.info.cov.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.info.cov.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -3555,8 +2905,8 @@ Test 26: Check distribution.format is specified
 -----------------------------------------------
 
 :Test ID: T-DCSC-026
-:Persistent URI: https://example.org/test/T-DCSC-distribution-format
-:Implements: :ref:`Metric 20: Dataset File Format Specified <dmp-metric-20>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-026
+:Implements: :ref:`Metric 20: Dataset File Format Specified <data.info.cov.2>`
 
 Description
 ^^^^^^^^^^^
@@ -3591,7 +2941,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-distribution-format",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-026",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -3623,23 +2973,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-distribution-format/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -3652,22 +2987,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.info.cov.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.info.cov.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -3683,8 +3007,8 @@ Test 27: Check distribution.byte_size is specified
 --------------------------------------------------
 
 :Test ID: T-DCSC-027
-:Persistent URI: https://example.org/test/T-DCSC-distribution-byte-size
-:Implements: :ref:`Metric 21: Dataset Size Specified <dmp-metric-21>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-027
+:Implements: :ref:`Metric 21: Dataset Size Specified <data.info.cov.3>`
 
 Description
 ^^^^^^^^^^^
@@ -3719,7 +3043,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-distribution-byte-size",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-027",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -3751,23 +3075,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-distribution-byte-size/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -3780,22 +3089,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.info.cov.3"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.info.cov.3"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -3811,8 +3109,8 @@ Test 28: Check dataset.type matches destination type
 ----------------------------------------------------
 
 :Test ID: T-DCSC-028
-:Persistent URI: https://example.org/test/T-DCSC-dataset-type-match-destination-type
-:Implements: :ref:`Metric 22: Dataset Type Matches the Repository <dmp-metric-22>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-028
+:Implements: :ref:`Metric 22: Dataset Type Matches the Repository <data.info.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -3849,7 +3147,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-dataset-type-match-destination-type",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-028",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -3881,23 +3179,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-dataset-type-match-destination-type/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -3910,22 +3193,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.info.feas.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.info.feas.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -3941,8 +3213,8 @@ Test 29: Check dataset.type aligns with destination subtype
 -----------------------------------------------------------
 
 :Test ID: T-DCSC-029
-:Persistent URI: https://example.org/test/T-DCSC-dataset-type-align-destination-subtype
-:Implements: :ref:`Metric 22: Dataset Type Matches the Repository <dmp-metric-22>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-029
+:Implements: :ref:`Metric 22: Dataset Type Matches the Repository <data.info.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -3979,7 +3251,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-dataset-type-align-destination-subtype",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-029",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -4011,23 +3283,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-dataset-type-align-destination-subtype/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -4040,22 +3297,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.info.feas.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.info.feas.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -4071,8 +3317,8 @@ Test 30: Check final dataset format matches destination files
 -------------------------------------------------------------
 
 :Test ID: T-DCSC-030
-:Persistent URI: https://example.org/test/T-DCSC-dataset-format-match-destination-files
-:Implements: :ref:`Metric 23: Dataset File Format Matches the Repository <dmp-metric-23>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-030
+:Implements: :ref:`Metric 23: Dataset File Format Matches the Repository <data.info.feas.2>`
 
 Description
 ^^^^^^^^^^^
@@ -4109,7 +3355,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-dataset-format-match-destination-files",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-030",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -4141,23 +3387,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-dataset-format-match-destination-files/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -4170,22 +3401,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.info.feas.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.info.feas.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -4201,8 +3421,8 @@ Test 31: Check final dataset size matches destination size
 ----------------------------------------------------------
 
 :Test ID: T-DCSC-031
-:Persistent URI: https://example.org/test/T-DCSC-dataset-size-match-destination-size
-:Implements: :ref:`Metric 24: Dataset Size Matches the Repository <dmp-metric-24>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-031
+:Implements: :ref:`Metric 24: Dataset Size Matches the Repository <data.info.feas.3>`
 
 Description
 ^^^^^^^^^^^
@@ -4239,7 +3459,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-dataset-size-match-destination-size",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-031",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -4271,23 +3491,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-dataset-size-match-destination-size/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -4300,22 +3505,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.info.feas.3"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.info.feas.3"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -4331,8 +3525,8 @@ Test 32: Check maDMP JSON Validates Against DMP Common Standard Schema
 ----------------------------------------------------------------------
 
 :Test ID: T-DCSC-032
-:Persistent URI: https://example.org/test/T-DCSC-dmp-cs-schema-validation
-:Implements: :ref:`Metric 25: DMP Common Standard Field Compliance <dmp-metric-25>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-032
+:Implements: :ref:`Metric 25: DMP Common Standard Field Compliance <meta.comp.1>`
 
 Description
 ^^^^^^^^^^^
@@ -4367,7 +3561,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-dmp-cs-schema-validation",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-032",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -4399,23 +3593,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-dmp-cs-schema-validation/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -4428,22 +3607,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/meta.comp.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/meta.comp.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -4459,8 +3627,8 @@ Test 33: Check dataset_methodology for controlled vocabularies
 --------------------------------------------------------------
 
 :Test ID: T-DCSC-033
-:Persistent URI: https://example.org/test/T-DCSC-dataset-methodology-controlled-vocabularies
-:Implements: :ref:`Metric 26: Controlled Vocabularies Used in Methodology <dmp-metric-26>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-033
+:Implements: :ref:`Metric 26: Controlled Vocabularies Used in Methodology <meta.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -4496,7 +3664,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-dataset-methodology-controlled-vocabularies",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-033",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -4528,23 +3696,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-dataset-methodology-controlled-vocabularies/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -4557,22 +3710,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/meta.co.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/meta.co.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -4588,8 +3730,8 @@ Test 34: Check technical_resource.name for electronic lab notebook reference
 ----------------------------------------------------------------------------
 
 :Test ID: T-DCSC-034
-:Persistent URI: https://example.org/test/T-DCSC-technical-resource-eln-reference
-:Implements: :ref:`Metric 31: Electronic Lab Notebook Referenced as a Technical Resource <dmp-metric-31>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-034
+:Implements: :ref:`Metric 31: Electronic Lab Notebook Referenced as a Technical Resource <meta.doc.qual.1>`
 
 Description
 ^^^^^^^^^^^
@@ -4624,7 +3766,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-technical-resource-eln-reference",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-034",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -4656,23 +3798,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-technical-resource-eln-reference/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -4685,22 +3812,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/meta.co.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/meta.doc.qual.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -4716,8 +3832,8 @@ Test 35: Check related_identifier resource_type for ReadMe file
 ---------------------------------------------------------------
 
 :Test ID: T-DCSC-035
-:Persistent URI: https://example.org/test/T-DCSC-related-identifier-readme-file
-:Implements: :ref:`Metric 28: ReadMe File Reference <dmp-metric-28>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-035
+:Implements: :ref:`Metric 28: ReadMe File Reference <meta.qual.2>`
 
 Description
 ^^^^^^^^^^^
@@ -4752,7 +3868,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-related-identifier-readme-file",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-035",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -4772,23 +3888,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-related-identifier-readme-file/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -4801,22 +3902,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/meta.qual.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/meta.qual.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -4832,8 +3922,8 @@ Test 36: Check metadata_standard_id is registered in metadata registries
 ------------------------------------------------------------------------
 
 :Test ID: T-DCSC-036
-:Persistent URI: https://example.org/test/T-DCSC-metadata-standard-registered
-:Implements: :ref:`Metric 29: Metadata Standards Used <dmp-metric-29>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-036
+:Implements: :ref:`Metric 29: Metadata Standards Used <meta.stand.comp.1>`
 
 Description
 ^^^^^^^^^^^
@@ -4869,7 +3959,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-metadata-standard-registered",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-036",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -4889,23 +3979,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-metadata-standard-registered/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -4918,22 +3993,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/meta.stand.comp.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/meta.stand.comp.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -4949,8 +4013,8 @@ Test 37: Check distribution format is open
 ------------------------------------------
 
 :Test ID: T-DCSC-037
-:Persistent URI: https://example.org/test/T-DCSC-distribution-format-open
-:Implements: :ref:`Metric 30: Dataset Distributions Use Open File Formats <dmp-metric-30>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-037
+:Implements: :ref:`Metric 30: Dataset Distributions Use Open File Formats <meta.form.op.1>`
 
 Description
 ^^^^^^^^^^^
@@ -4985,7 +4049,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-distribution-format-open",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-037",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -5005,23 +4069,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-distribution-format-open/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -5034,22 +4083,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/meta.form.op.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/meta.form.op.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -5065,8 +4103,8 @@ Test 38: Check ELN dataset linked via related_ids
 -------------------------------------------------
 
 :Test ID: T-DCSC-038
-:Persistent URI: https://example.org/test/T-DCSC-eln-dataset-linked-related-ids
-:Implements: :ref:`Metric 31: Electronic Lab Notebook Linked <dmp-metric-31>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-038
+:Implements: :ref:`Metric 31: Electronic Lab Notebook Linked <meta.doc.qual.1>`
 
 Description
 ^^^^^^^^^^^
@@ -5102,7 +4140,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-eln-dataset-linked-related-ids",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-038",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -5134,23 +4172,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-eln-dataset-linked-related-ids/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -5163,22 +4186,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/meta.doc.qual.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/meta.doc.qual.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -5194,8 +4206,8 @@ Test 39: Check technical_resource for dataset documentation
 -----------------------------------------------------------
 
 :Test ID: T-DCSC-039
-:Persistent URI: https://example.org/test/T-DCSC-technical-resource-dataset-documentation
-:Implements: :ref:`Metric 32: Existence of Dataset Documentation <dmp-metric-32>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-039
+:Implements: :ref:`Metric 32: Existence of Dataset Documentation <meta.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -5230,7 +4242,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-technical-resource-dataset-documentation",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-039",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -5262,23 +4274,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-technical-resource-dataset-documentation/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -5291,22 +4288,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/meta.feas.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/meta.feas.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -5322,8 +4308,8 @@ Test 40: Check data_quality_assurance for quality control methods
 -----------------------------------------------------------------
 
 :Test ID: T-DCSC-040
-:Persistent URI: https://example.org/test/T-DCSC-data-quality-assurance
-:Implements: :ref:`Metric 33: Quality Control Methods Stated <dmp-metric-33>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-040
+:Implements: :ref:`Metric 33: Quality Control Methods Stated <qc.qual.1>`
 
 Description
 ^^^^^^^^^^^
@@ -5358,7 +4344,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-data-quality-assurance",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-040",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -5390,23 +4376,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-data-quality-assurance/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -5419,22 +4390,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/qc.qual.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/qc.qual.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -5450,8 +4410,8 @@ Test 41: Check host.title and host.url for storage location
 -----------------------------------------------------------
 
 :Test ID: T-DCSC-041
-:Persistent URI: https://example.org/test/T-DCSC-host-storage-location
-:Implements: :ref:`Metric 34: Data Storage Location mentioned in the DMP <dmp-metric-34>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-041
+:Implements: :ref:`Metric 34: Data Storage Location mentioned in the DMP <store.cov.1>`
 
 Description
 ^^^^^^^^^^^
@@ -5486,7 +4446,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-host-storage-location",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-041",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -5518,23 +4478,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-host-storage-location/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -5547,22 +4492,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/store.cov.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/store.cov.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -5578,8 +4512,8 @@ Test 42: Check host for trusted repository storage
 --------------------------------------------------
 
 :Test ID: T-DCSC-042
-:Persistent URI: https://example.org/test/T-DCSC-host-trusted-repository
-:Implements: :ref:`Metric 35: Use of Secure Storage for the dataset in a trusted repository <dmp-metric-35>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-042
+:Implements: :ref:`Metric 35: Use of Secure Storage for the dataset in a trusted repository <store.cov.2>`
 
 Description
 ^^^^^^^^^^^
@@ -5615,7 +4549,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-host-trusted-repository",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-042",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -5647,23 +4581,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-host-trusted-repository/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -5676,22 +4595,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/store.cov.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/store.cov.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -5707,8 +4615,8 @@ Test 43: Check sensitive_data classification is assigned
 --------------------------------------------------------
 
 :Test ID: T-DCSC-043
-:Persistent URI: https://example.org/test/T-DCSC-sensitive-data-classification
-:Implements: :ref:`Metric 36: Alignment of Storage and Backup with Information Sensitivity <dmp-metric-36>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-043
+:Implements: :ref:`Metric 36: Alignment of Storage and Backup with Information Sensitivity <store.comp.1>`
 
 Description
 ^^^^^^^^^^^
@@ -5743,7 +4651,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-sensitive-data-classification",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-043",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -5775,23 +4683,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-sensitive-data-classification/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -5804,22 +4697,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/store.comp.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/store.comp.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -5835,8 +4717,8 @@ Test 44: Check host security and backup reflect sensitivity level
 -----------------------------------------------------------------
 
 :Test ID: T-DCSC-044
-:Persistent URI: https://example.org/test/T-DCSC-host-security-backup-sensitivity
-:Implements: :ref:`Metric 36: Alignment of Storage and Backup with Information Sensitivity <dmp-metric-36>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-044
+:Implements: :ref:`Metric 36: Alignment of Storage and Backup with Information Sensitivity <store.comp.1>`
 
 Description
 ^^^^^^^^^^^
@@ -5873,7 +4755,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-host-security-backup-sensitivity",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-044",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -5905,23 +4787,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-host-security-backup-sensitivity/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -5934,22 +4801,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/store.comp.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/store.comp.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -5965,8 +4821,8 @@ Test 45: Check contributor.role for backup responsibility
 ---------------------------------------------------------
 
 :Test ID: T-DCSC-045
-:Persistent URI: https://example.org/test/T-DCSC-contributor-role-backup
-:Implements: :ref:`Metric 37: Back up Responsibility <dmp-metric-37>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-045
+:Implements: :ref:`Metric 37: Back up Responsibility <store.cov.3>`
 
 Description
 ^^^^^^^^^^^
@@ -6001,7 +4857,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-contributor-role-backup",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-045",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -6033,23 +4889,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-contributor-role-backup/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -6062,22 +4903,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/store.cov.3"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/store.cov.3"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -6093,8 +4923,8 @@ Test 46: Check backup_frequency is declared
 -------------------------------------------
 
 :Test ID: T-DCSC-046
-:Persistent URI: https://example.org/test/T-DCSC-backup-frequency
-:Implements: :ref:`Metric 38: Back up Frequency <dmp-metric-38>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-046
+:Implements: :ref:`Metric 38: Back up Frequency <store.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -6129,7 +4959,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-backup-frequency",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-046",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -6161,23 +4991,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-backup-frequency/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -6190,22 +5005,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/store.co.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/store.co.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -6221,8 +5025,8 @@ Test 47: Check host.id matches Zenodo deposit location
 ------------------------------------------------------
 
 :Test ID: T-DCSC-047
-:Persistent URI: https://example.org/test/T-DCSC-host-id-matches-zenodo
-:Implements: :ref:`Metric 40: Stored Dataset Location Confirmed <dmp-metric-40>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-047
+:Implements: :ref:`Metric 40: Stored Dataset Location Confirmed <stor.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -6258,7 +5062,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-host-id-matches-zenodo",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-047",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -6290,23 +5094,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-host-id-matches-zenodo/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -6319,22 +5108,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/stor.feas.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/stor.feas.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -6350,8 +5128,8 @@ Test 48: Check security_and_privacy.title for security measures
 ---------------------------------------------------------------
 
 :Test ID: T-DCSC-048
-:Persistent URI: https://example.org/test/T-DCSC-security-and-privacy-title
-:Implements: :ref:`Metric 41: Security Measures Implementation <dmp-metric-41>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-048
+:Implements: :ref:`Metric 41: Security Measures Implementation <secur.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -6386,7 +5164,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-security-and-privacy-title",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-048",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -6418,23 +5196,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-security-and-privacy-title/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -6447,22 +5210,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/secur.co.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/secur.co.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -6478,8 +5230,8 @@ Test 49: Check security_and_privacy.description for access rights management
 ----------------------------------------------------------------------------
 
 :Test ID: T-DCSC-049
-:Persistent URI: https://example.org/test/T-DCSC-security-and-privacy-description
-:Implements: :ref:`Metric 42: Sensitive Data Protection Description <dmp-metric-42>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-049
+:Implements: :ref:`Metric 42: Sensitive Data Protection Description <secur.co.2>`
 
 Description
 ^^^^^^^^^^^
@@ -6515,7 +5267,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-security-and-privacy-description",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-049",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -6547,23 +5299,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-security-and-privacy-description/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -6576,22 +5313,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/secur.co.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/secur.co.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -6607,8 +5333,8 @@ Test 50: Check security_and_privacy.description for authorised access controls
 ------------------------------------------------------------------------------
 
 :Test ID: T-DCSC-050
-:Persistent URI: https://example.org/test/T-DCSC-security-and-privacy-authorised-access
-:Implements: :ref:`Metric 43: Authorised Access Control <dmp-metric-43>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-050
+:Implements: :ref:`Metric 43: Authorised Access Control <secur.co.3>`
 
 Description
 ^^^^^^^^^^^
@@ -6644,7 +5370,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-security-and-privacy-authorised-access",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-050",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -6676,23 +5402,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-security-and-privacy-authorised-access/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -6705,22 +5416,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/secur.co.3"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/secur.co.3"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -6736,8 +5436,8 @@ Test 51: Check security_and_privacy.description for access control and user perm
 ---------------------------------------------------------------------------------------
 
 :Test ID: T-DCSC-051
-:Persistent URI: https://example.org/test/T-DCSC-security-and-privacy-user-management
-:Implements: :ref:`Metric 44: Access Control and User Management <dmp-metric-44>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-051
+:Implements: :ref:`Metric 44: Access Control and User Management <secur.co.4>`
 
 Description
 ^^^^^^^^^^^
@@ -6774,7 +5474,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-security-and-privacy-user-management",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-051",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -6806,23 +5506,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-security-and-privacy-user-management/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -6835,22 +5520,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/secur.co.4"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/secur.co.4"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -6866,8 +5540,8 @@ Test 52: Check security_and_privacy.description for access procedures
 ---------------------------------------------------------------------
 
 :Test ID: T-DCSC-052
-:Persistent URI: https://example.org/test/T-DCSC-security-and-privacy-access-procedures
-:Implements: :ref:`Metric 45: Required Access Procedures <dmp-metric-45>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-052
+:Implements: :ref:`Metric 45: Required Access Procedures <secur.co.5>`
 
 Description
 ^^^^^^^^^^^
@@ -6903,7 +5577,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-security-and-privacy-access-procedures",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-052",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -6935,23 +5609,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-security-and-privacy-access-procedures/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -6964,22 +5623,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/secur.co.5"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/secur.co.5"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -6995,8 +5643,8 @@ Test 53: Check security_and_privacy.description and ethical_issues_report for GD
 --------------------------------------------------------------------------------------------------------
 
 :Test ID: T-DCSC-053
-:Persistent URI: https://example.org/test/T-DCSC-gdpr-ethics-compliance
-:Implements: :ref:`Metric 46: GDPR and Ethics Compliance <dmp-metric-46>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-053
+:Implements: :ref:`Metric 46: GDPR and Ethics Compliance <secur.comp.1>`
 
 Description
 ^^^^^^^^^^^
@@ -7032,7 +5680,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-gdpr-ethics-compliance",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-053",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -7064,23 +5712,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-gdpr-ethics-compliance/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -7093,22 +5726,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/secur.comp.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/secur.comp.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -7124,8 +5746,8 @@ Test 54: Check security_and_privacy.title for implemented security measures at d
 ------------------------------------------------------------------------------------------
 
 :Test ID: T-DCSC-054
-:Persistent URI: https://example.org/test/T-DCSC-security-and-privacy-title-destination
-:Implements: :ref:`Metric 47: Final Security Measures Implementation <dmp-metric-47>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-054
+:Implements: :ref:`Metric 47: Final Security Measures Implementation <secur.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -7160,7 +5782,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-security-and-privacy-title-destination",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-054",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -7192,23 +5814,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-security-and-privacy-title-destination/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -7221,22 +5828,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/secur.feas.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/secur.feas.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -7252,8 +5848,8 @@ Test 55: Check security_and_privacy.description for data protection method when 
 ------------------------------------------------------------------------------------------------------
 
 :Test ID: T-DCSC-055
-:Persistent URI: https://example.org/test/T-DCSC-sensitive-data-protection-method
-:Implements: :ref:`Metric 48: Sensitive Data Using Method <dmp-metric-48>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-055
+:Implements: :ref:`Metric 48: Sensitive Data Using Method <sens.secure.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -7290,7 +5886,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-sensitive-data-protection-method",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-055",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -7322,23 +5918,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-sensitive-data-protection-method/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -7351,22 +5932,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/sens.secure.co.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/sens.secure.co.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -7382,8 +5952,8 @@ Test 56: Check security_and_privacy for anonymised synthetic data provision
 ---------------------------------------------------------------------------
 
 :Test ID: T-DCSC-056
-:Persistent URI: https://example.org/test/T-DCSC-anonymised-synthetic-data
-:Implements: :ref:`Metric 49: Provision of Anonymised Synthetic Data <dmp-metric-49>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-056
+:Implements: :ref:`Metric 49: Provision of Anonymised Synthetic Data <sens.secure.co.2>`
 
 Description
 ^^^^^^^^^^^
@@ -7418,7 +5988,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-anonymised-synthetic-data",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-056",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -7450,23 +6020,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-anonymised-synthetic-data/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -7479,22 +6034,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/sens.secure.co.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/sens.secure.co.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -7510,8 +6054,8 @@ Test 57: Check rights for statement of no data restrictions
 -----------------------------------------------------------
 
 :Test ID: T-DCSC-057
-:Persistent URI: https://example.org/test/T-DCSC-rights-no-restrictions
-:Implements: :ref:`Metric 50: Statement of No Data Restrictions <dmp-metric-50>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-057
+:Implements: :ref:`Metric 50: Statement of No Data Restrictions <data.restrict.co.3>`
 
 Description
 ^^^^^^^^^^^
@@ -7546,7 +6090,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-rights-no-restrictions",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-057",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -7578,23 +6122,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-rights-no-restrictions/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -7607,22 +6136,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.restrict.co.3"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.restrict.co.3"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -7638,8 +6156,8 @@ Test 58: Check license_ref for dataset licence
 ----------------------------------------------
 
 :Test ID: T-DCSC-058
-:Persistent URI: https://example.org/test/T-DCSC-license-ref
-:Implements: :ref:`Metric 51: Dataset License Declared <dmp-metric-51>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-058
+:Implements: :ref:`Metric 51: Dataset License Declared <data.lice.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -7674,7 +6192,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-license-ref",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-058",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -7706,23 +6224,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-license-ref/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -7735,22 +6238,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.lice.co.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.lice.co.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -7766,8 +6258,8 @@ Test 59: Check license_ref against SPDX for software datasets
 -------------------------------------------------------------
 
 :Test ID: T-DCSC-059
-:Persistent URI: https://example.org/test/T-DCSC-license-ref-spdx-software
-:Implements: :ref:`Metric 52: Software Dataset Has a Standardised Machine-Readable License <dmp-metric-52>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-059
+:Implements: :ref:`Metric 52: Software Dataset Has a Standardised Machine-Readable License <soft.lice.comp.1>`
 
 Description
 ^^^^^^^^^^^
@@ -7803,7 +6295,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-license-ref-spdx-software",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-059",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -7835,23 +6327,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-license-ref-spdx-software/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -7864,22 +6341,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/soft.lice.comp.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/soft.lice.comp.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -7895,8 +6361,8 @@ Test 60: Check data_access and rights for access agreements or MoUs
 -------------------------------------------------------------------
 
 :Test ID: T-DCSC-060
-:Persistent URI: https://example.org/test/T-DCSC-data-access-agreements
-:Implements: :ref:`Metric 53: Data Access Agreements <dmp-metric-53>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-060
+:Implements: :ref:`Metric 53: Data Access Agreements <data.agree.comp.2>`
 
 Description
 ^^^^^^^^^^^
@@ -7931,7 +6397,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-data-access-agreements",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-060",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -7963,23 +6429,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-data-access-agreements/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -7992,22 +6443,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.agree.comp.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.agree.comp.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -8023,8 +6463,8 @@ Test 61: Check contributor.role for data owner
 ----------------------------------------------
 
 :Test ID: T-DCSC-061
-:Persistent URI: https://example.org/test/T-DCSC-contributor-role-owner
-:Implements: :ref:`Metric 54: Data Ownership Role Declared <dmp-metric-54>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-061
+:Implements: :ref:`Metric 54: Data Ownership Role Declared <own.co.2>`
 
 Description
 ^^^^^^^^^^^
@@ -8060,7 +6500,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-contributor-role-owner",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-061",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -8092,23 +6532,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-contributor-role-owner/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -8121,22 +6546,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/own.co.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/own.co.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -8152,8 +6566,8 @@ Test 62: Check contributor for author role when dataset type is software
 ------------------------------------------------------------------------
 
 :Test ID: T-DCSC-062
-:Persistent URI: https://example.org/test/T-DCSC-contributor-author-software
-:Implements: :ref:`Metric 55: Software Dataset Author Declared <dmp-metric-55>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-062
+:Implements: :ref:`Metric 55: Software Dataset Author Declared <soft.auth.co.3>`
 
 Description
 ^^^^^^^^^^^
@@ -8189,7 +6603,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-contributor-author-software",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-062",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -8221,23 +6635,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-contributor-author-software/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -8250,22 +6649,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/soft.auth.co.3"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/soft.auth.co.3"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -8281,8 +6669,8 @@ Test 63: Check ethical_issues_exist for valid value
 ---------------------------------------------------
 
 :Test ID: T-DCSC-063
-:Persistent URI: https://example.org/test/T-DCSC-ethical-issues-exist
-:Implements: :ref:`Metric 56: Ethical Issues Status Declared <dmp-metric-56>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-063
+:Implements: :ref:`Metric 56: Ethical Issues Status Declared <ethics.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -8317,7 +6705,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-ethical-issues-exist",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-063",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -8349,23 +6737,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-ethical-issues-exist/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -8378,22 +6751,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/ethics.co.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/ethics.co.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -8409,8 +6771,8 @@ Test 64: Check ethical_issues_description is present when ethical_issues_exist i
 ------------------------------------------------------------------------------------
 
 :Test ID: T-DCSC-064
-:Persistent URI: https://example.org/test/T-DCSC-ethical-issues-description-no
-:Implements: :ref:`Metric 58: Justification for Absence of Ethical Issues <dmp-metric-58>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-064
+:Implements: :ref:`Metric 58: Justification for Absence of Ethical Issues <ethics.co.3>`
 
 Description
 ^^^^^^^^^^^
@@ -8445,7 +6807,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-ethical-issues-description-no",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-064",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -8477,23 +6839,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-ethical-issues-description-no/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -8506,22 +6853,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/ethics.co.3"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/ethics.co.3"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -8537,8 +6873,8 @@ Test 65: Check data_access for open status
 ------------------------------------------
 
 :Test ID: T-DCSC-065
-:Persistent URI: https://example.org/test/T-DCSC-data-access-open
-:Implements: :ref:`Metric 59: Data Access Status Open for the Dataset <dmp-metric-59>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-065
+:Implements: :ref:`Metric 59: Data Access Status Open for the Dataset <data.shar.op.1>`
 
 Description
 ^^^^^^^^^^^
@@ -8573,7 +6909,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-data-access-open",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-065",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -8605,23 +6941,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-data-access-open/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -8634,22 +6955,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.shar.op.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.op.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -8665,8 +6975,8 @@ Test 66: Check distribution is present for dataset
 --------------------------------------------------
 
 :Test ID: T-DCSC-066
-:Persistent URI: https://example.org/test/T-DCSC-distribution-present
-:Implements: :ref:`Metric 60: Data License is Present <dmp-metric-60>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-066
+:Implements: :ref:`Metric 60: Data License is Present <data.shar.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -8700,7 +7010,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-distribution-present",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-066",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -8732,23 +7042,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-distribution-present/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -8761,22 +7056,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.shar.co.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.co.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -8792,8 +7076,8 @@ Test 67: Check license_ref is present within distribution
 ---------------------------------------------------------
 
 :Test ID: T-DCSC-067
-:Persistent URI: https://example.org/test/T-DCSC-distribution-license-ref
-:Implements: :ref:`Metric 60: Data License is Present <dmp-metric-60>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-067
+:Implements: :ref:`Metric 60: Data License is Present <data.shar.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -8827,7 +7111,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-distribution-license-ref",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-067",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -8859,23 +7143,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-distribution-license-ref/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -8888,22 +7157,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.shar.co.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.co.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -8919,8 +7177,8 @@ Test 68: Check rights for data restrictions reference
 -----------------------------------------------------
 
 :Test ID: T-DCSC-068
-:Persistent URI: https://example.org/test/T-DCSC-rights-restrictions-reference
-:Implements: :ref:`Metric 61: Data Restrictions Reference <dmp-metric-61>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-068
+:Implements: :ref:`Metric 61: Data Restrictions Reference <data.shar.co.2>`
 
 Description
 ^^^^^^^^^^^
@@ -8954,7 +7212,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-rights-restrictions-reference",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-068",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -8986,23 +7244,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-rights-restrictions-reference/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -9015,22 +7258,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.shar.co.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.co.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -9046,8 +7278,8 @@ Test 69: Check distribution license_ref for Horizon Europe CC-BY compliance
 ---------------------------------------------------------------------------
 
 :Test ID: T-DCSC-069
-:Persistent URI: https://example.org/test/T-DCSC-distribution-license-cc-by
-:Implements: :ref:`Metric 62: Dataset License Complies with Funder Requirements <dmp-metric-62>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-069
+:Implements: :ref:`Metric 62: Dataset License Complies with Funder Requirements <data.shar.comp.1>`
 
 Description
 ^^^^^^^^^^^
@@ -9082,7 +7314,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-distribution-license-cc-by",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-069",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -9114,23 +7346,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-distribution-license-cc-by/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -9143,22 +7360,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.shar.comp.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.comp.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -9174,8 +7380,8 @@ Test 70: Check data_access matches destination host access policy
 -----------------------------------------------------------------
 
 :Test ID: T-DCSC-070
-:Persistent URI: https://example.org/test/T-DCSC-data-access-host-consistency
-:Implements: :ref:`Metric 63: Repository Access Rights Consistency Aligned <dmp-metric-63>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-070
+:Implements: :ref:`Metric 63: Repository Access Rights Consistency Aligned <data.shar.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -9211,7 +7417,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-data-access-host-consistency",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-070",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -9243,23 +7449,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-data-access-host-consistency/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -9272,22 +7463,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.shar.feas.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.feas.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -9303,8 +7483,8 @@ Test 71: Check distribution license_ref matches destination host licence policy
 -------------------------------------------------------------------------------
 
 :Test ID: T-DCSC-071
-:Persistent URI: https://example.org/test/T-DCSC-distribution-license-host-alignment
-:Implements: :ref:`Metric 64: Repository Data License Aligned with the DMP <dmp-metric-64>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-071
+:Implements: :ref:`Metric 64: Repository Data License Aligned with the DMP <data.shar.feas.2>`
 
 Description
 ^^^^^^^^^^^
@@ -9340,7 +7520,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-distribution-license-host-alignment",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-071",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -9372,23 +7552,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-distribution-license-host-alignment/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -9401,22 +7566,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.shar.feas.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.feas.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -9432,8 +7586,8 @@ Test 72: Check distribution license.start_date matches destination embargo polic
 ---------------------------------------------------------------------------------
 
 :Test ID: T-DCSC-072
-:Persistent URI: https://example.org/test/T-DCSC-distribution-license-start-date-embargo
-:Implements: :ref:`Metric 65: Embargo Implementation Alignment <dmp-metric-65>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-072
+:Implements: :ref:`Metric 65: Embargo Implementation Alignment <data.shar.feas.3>`
 
 Description
 ^^^^^^^^^^^
@@ -9469,7 +7623,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-distribution-license-start-date-embargo",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-072",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -9501,23 +7655,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-distribution-license-start-date-embargo/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -9530,22 +7669,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.shar.feas.3"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.feas.3"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -9561,8 +7689,8 @@ Test 73: Check rights matches destination host restriction policy
 -----------------------------------------------------------------
 
 :Test ID: T-DCSC-073
-:Persistent URI: https://example.org/test/T-DCSC-rights-destination-restriction-alignment
-:Implements: :ref:`Metric 66: Repository Data Restrictions <dmp-metric-66>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-073
+:Implements: :ref:`Metric 66: Repository Data Restrictions <data.shar.feas.4>`
 
 Description
 ^^^^^^^^^^^
@@ -9598,7 +7726,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-rights-destination-restriction-alignment",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-073",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -9630,23 +7758,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-rights-destination-restriction-alignment/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -9659,22 +7772,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.shar.feas.4"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.feas.4"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -9690,8 +7792,8 @@ Test 74: Check repository host for absence of embargo date
 ----------------------------------------------------------
 
 :Test ID: T-DCSC-074
-:Persistent URI: https://example.org/test/T-DCSC-host-embargo-date-absent
-:Implements: :ref:`Metric 67: Embargo Declared in the DMP or Repository <dmp-metric-67>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-074
+:Implements: :ref:`Metric 67: Embargo Declared in the DMP or Repository <data.shar.comp.2>`
 
 Description
 ^^^^^^^^^^^
@@ -9726,7 +7828,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-host-embargo-date-absent",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-074",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -9758,23 +7860,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-host-embargo-date-absent/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -9787,22 +7874,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.shar.comp.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.comp.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -9818,8 +7894,8 @@ Test 75: Check distribution.license.start_date for absence in maDMP
 -------------------------------------------------------------------
 
 :Test ID: T-DCSC-075
-:Persistent URI: https://example.org/test/T-DCSC-distribution-license-start-date-absent
-:Implements: :ref:`Metric 67: Embargo Declared in the DMP or Repository <dmp-metric-67>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-075
+:Implements: :ref:`Metric 67: Embargo Declared in the DMP or Repository <data.shar.comp.2>`
 
 Description
 ^^^^^^^^^^^
@@ -9853,7 +7929,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-distribution-license-start-date-absent",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-075",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -9885,23 +7961,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-distribution-license-start-date-absent/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -9914,22 +7975,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.shar.comp.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.comp.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -9945,8 +7995,8 @@ Test 76: Check host.title and host.url against thematic repository registries
 -----------------------------------------------------------------------------
 
 :Test ID: T-DCSC-076
-:Persistent URI: https://example.org/test/T-DCSC-host-thematic-registry-match
-:Implements: :ref:`Metric 68: Thematic Data Repositories Referenced <dmp-metric-68>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-076
+:Implements: :ref:`Metric 68: Thematic Data Repositories Referenced <repo.co.3>`
 
 Description
 ^^^^^^^^^^^
@@ -9982,7 +8032,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-host-thematic-registry-match",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-076",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -10014,23 +8064,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-host-thematic-registry-match/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -10043,22 +8078,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/repo.co.3"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.co.3"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -10074,8 +8098,8 @@ Test 77: Check host against OpenAIRE and FAIRsharing FAIR benchmarks
 --------------------------------------------------------------------
 
 :Test ID: T-DCSC-077
-:Persistent URI: https://example.org/test/T-DCSC-host-fair-benchmark
-:Implements: :ref:`Metric 69: Repository Conforms with FAIR Data Principles <dmp-metric-69>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-077
+:Implements: :ref:`Metric 69: Repository Conforms with FAIR Data Principles <repo.comp.2>`
 
 Description
 ^^^^^^^^^^^
@@ -10111,7 +8135,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-host-fair-benchmark",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-077",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -10143,23 +8167,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-host-fair-benchmark/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -10172,22 +8181,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/repo.comp.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.comp.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -10203,8 +8201,8 @@ Test 78: Check host against trusted repository registry benchmark
 -----------------------------------------------------------------
 
 :Test ID: T-DCSC-078
-:Persistent URI: https://example.org/test/T-DCSC-host-trusted-registry
-:Implements: :ref:`Metric 70: Trusted Repository is Used <dmp-metric-70>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-078
+:Implements: :ref:`Metric 70: Trusted Repository is Used <repo.comp.3>`
 
 Description
 ^^^^^^^^^^^
@@ -10240,7 +8238,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-host-trusted-registry",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-078",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -10272,23 +8270,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-host-trusted-registry/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -10301,22 +8284,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/repo.comp.3"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.comp.3"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -10332,8 +8304,8 @@ Test 79: Check host.backup_frequency and host.backup_type for back-up strategy
 ------------------------------------------------------------------------------
 
 :Test ID: T-DCSC-079
-:Persistent URI: https://example.org/test/T-DCSC-host-backup-strategy
-:Implements: :ref:`Metric 71: Verification of Back-up Strategy <dmp-metric-71>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-079
+:Implements: :ref:`Metric 71: Verification of Back-up Strategy <repo.co.4>`
 
 Description
 ^^^^^^^^^^^
@@ -10369,7 +8341,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-host-backup-strategy",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-079",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -10401,23 +8373,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-host-backup-strategy/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -10430,22 +8387,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/repo.co.4"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.co.4"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -10461,8 +8407,8 @@ Test 80: Check certified_with exists in host
 --------------------------------------------
 
 :Test ID: T-DCSC-080
-:Persistent URI: https://example.org/test/T-DCSC-host-certified-with
-:Implements: :ref:`Metric 72: Certification of Repository <dmp-metric-72>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-080
+:Implements: :ref:`Metric 72: Certification of Repository <repo.co.5>`
 
 Description
 ^^^^^^^^^^^
@@ -10497,7 +8443,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-host-certified-with",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-080",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -10529,23 +8475,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-host-certified-with/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -10558,22 +8489,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/repo.co.5"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.co.5"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -10589,8 +8509,8 @@ Test 81: Check cost title or description for preservation reference
 -------------------------------------------------------------------
 
 :Test ID: T-DCSC-081
-:Persistent URI: https://example.org/test/T-DCSC-cost-preservation-reference
-:Implements: :ref:`Metric 73: Used Resources for Preservation <dmp-metric-73>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-081
+:Implements: :ref:`Metric 73: Used Resources for Preservation <repo.co.7>`
 
 Description
 ^^^^^^^^^^^
@@ -10625,7 +8545,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-cost-preservation-reference",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-081",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -10657,23 +8577,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-cost-preservation-reference/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -10686,22 +8591,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/repo.co.7"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.co.7"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -10717,8 +8611,8 @@ Test 82: Check host_id against FAIRsharing for repository policy
 ----------------------------------------------------------------
 
 :Test ID: T-DCSC-082
-:Persistent URI: https://example.org/test/T-DCSC-host-id-fairsharing-policy
-:Implements: :ref:`Metric 74: Repository Policy is Present <dmp-metric-74>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-082
+:Implements: :ref:`Metric 74: Repository Policy is Present <repo.co.6>`
 
 Description
 ^^^^^^^^^^^
@@ -10754,7 +8648,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-host-id-fairsharing-policy",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-082",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -10786,23 +8680,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-host-id-fairsharing-policy/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -10815,22 +8694,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/repo.co.6"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.co.6"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -10846,8 +8714,8 @@ Test 83: Check dataset_id resolves to declared destination via DOI URL
 ----------------------------------------------------------------------
 
 :Test ID: T-DCSC-083
-:Persistent URI: https://example.org/test/T-DCSC-dataset-id-doi-destination
-:Implements: :ref:`Metric 75: Repository Identifier Accuracy <dmp-metric-75>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-083
+:Implements: :ref:`Metric 75: Repository Identifier Accuracy <repo.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -10883,7 +8751,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-dataset-id-doi-destination",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-083",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -10915,23 +8783,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-dataset-id-doi-destination/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -10944,22 +8797,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/repo.feas.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.feas.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -10975,8 +8817,8 @@ Test 84: Check preservation_statement and host for long-term storage intention
 ------------------------------------------------------------------------------
 
 :Test ID: T-DCSC-084
-:Persistent URI: https://example.org/test/T-DCSC-preservation-statement-host
-:Implements: :ref:`Metric 76: Long-Term Preservation Dataset <dmp-metric-76>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-084
+:Implements: :ref:`Metric 76: Long-Term Preservation Dataset <repo.feas.2>`
 
 Description
 ^^^^^^^^^^^
@@ -11011,7 +8853,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-preservation-statement-host",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-084",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -11043,23 +8885,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-preservation-statement-host/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -11072,22 +8899,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/repo.feas.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.feas.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -11103,8 +8919,8 @@ Test 85: Check dataset.keyword against Zenodo keywords
 ------------------------------------------------------
 
 :Test ID: T-DCSC-085
-:Persistent URI: https://example.org/test/T-DCSC-dataset-keyword-zenodo
-:Implements: :ref:`Metric 77: Dataset Characteristics Are Compatible with the Repository <dmp-metric-77>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-085
+:Implements: :ref:`Metric 77: Dataset Characteristics Are Compatible with the Repository <repo.feas.4>`
 
 Description
 ^^^^^^^^^^^
@@ -11139,7 +8955,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-dataset-keyword-zenodo",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-085",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -11171,23 +8987,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-dataset-keyword-zenodo/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -11200,22 +9001,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/repo.feas.4"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.feas.4"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -11231,8 +9021,8 @@ Test 86: Check dataset.language against Zenodo language support
 ---------------------------------------------------------------
 
 :Test ID: T-DCSC-086
-:Persistent URI: https://example.org/test/T-DCSC-dataset-language-zenodo
-:Implements: :ref:`Metric 77: Dataset Characteristics Are Compatible with the Repository <dmp-metric-77>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-086
+:Implements: :ref:`Metric 77: Dataset Characteristics Are Compatible with the Repository <repo.feas.4>`
 
 Description
 ^^^^^^^^^^^
@@ -11267,7 +9057,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-dataset-language-zenodo",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-086",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -11299,23 +9089,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-dataset-language-zenodo/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -11328,22 +9103,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/repo.feas.4"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.feas.4"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -11359,8 +9123,8 @@ Test 87: Check host_id against Zenodo and FAIRsharing for policy compliance
 ---------------------------------------------------------------------------
 
 :Test ID: T-DCSC-087
-:Persistent URI: https://example.org/test/T-DCSC-host-id-zenodo-fairsharing-policy
-:Implements: :ref:`Metric 70: Trusted Repository is Used <dmp-metric-70>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-087
+:Implements: :ref:`Metric 70: Trusted Repository is Used <repo.comp.3>`
 
 Description
 ^^^^^^^^^^^
@@ -11396,7 +9160,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-host-id-zenodo-fairsharing-policy",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-087",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -11428,23 +9192,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-host-id-zenodo-fairsharing-policy/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -11457,22 +9206,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/repo.comp.3"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.comp.3"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -11488,8 +9226,8 @@ Test 88: Check related_identifier.identifier for external resources
 -------------------------------------------------------------------
 
 :Test ID: T-DCSC-088
-:Persistent URI: https://example.org/test/T-DCSC-related-identifier-external-resources
-:Implements: :ref:`Metric 78: Data External Resources Included in the DMP <dmp-metric-78>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-088
+:Implements: :ref:`Metric 78: Data External Resources Included in the DMP <data.exteresource.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -11523,7 +9261,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-related-identifier-external-resources",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-088",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -11555,23 +9293,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-related-identifier-external-resources/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -11584,22 +9307,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.exteresource.co.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.exteresource.co.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -11615,8 +9327,8 @@ Test 89: Check related_identifier for metadata standard fields
 --------------------------------------------------------------
 
 :Test ID: T-DCSC-089
-:Persistent URI: https://example.org/test/T-DCSC-related-identifier-metadata-standard
-:Implements: :ref:`Metric 79: Metadata Standard Specified in the DMP <dmp-metric-79>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-089
+:Implements: :ref:`Metric 79: Metadata Standard Specified in the DMP <data.exteresource.co.2>`
 
 Description
 ^^^^^^^^^^^
@@ -11650,7 +9362,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-related-identifier-metadata-standard",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-089",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -11682,23 +9394,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-related-identifier-metadata-standard/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -11711,22 +9408,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.exteresource.co.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.exteresource.co.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -11742,8 +9428,8 @@ Test 90: Check URLs in maDMP are valid and resolvable
 -----------------------------------------------------
 
 :Test ID: T-DCSC-090
-:Persistent URI: https://example.org/test/T-DCSC-url-resolvable
-:Implements: :ref:`Metric 80: Resolvable External Resources <dmp-metric-80>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-090
+:Implements: :ref:`Metric 80: Resolvable External Resources <data.exteresource.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -11778,7 +9464,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-url-resolvable",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-090",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -11810,23 +9496,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-url-resolvable/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -11839,22 +9510,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.exteresource.feas.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.exteresource.feas.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -11870,8 +9530,8 @@ Test 91: Check dataset fields against OpenAIRE SKG-IF API
 ---------------------------------------------------------
 
 :Test ID: T-DCSC-091
-:Persistent URI: https://example.org/test/T-DCSC-dataset-openaire-skg-if
-:Implements: :ref:`Metric 81: OpenAIRE Mentioned Dataset Validation <dmp-metric-81>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-091
+:Implements: :ref:`Metric 81: OpenAIRE Mentioned Dataset Validation <data.exteresource.feas.2>`
 
 Description
 ^^^^^^^^^^^
@@ -11907,7 +9567,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-dataset-openaire-skg-if",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-091",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -11939,23 +9599,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-dataset-openaire-skg-if/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -11968,22 +9613,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.exteresource.feas.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.exteresource.feas.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -11999,8 +9633,8 @@ Test 92: Check contributor roles against CRediT taxonomy
 --------------------------------------------------------
 
 :Test ID: T-DCSC-092
-:Persistent URI: https://example.org/test/T-DCSC-contributor-credit-taxonomy
-:Implements: :ref:`Metric 82: Contributor Roles Follow CRediT Taxonomy <dmp-metric-82>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-092
+:Implements: :ref:`Metric 82: Contributor Roles Follow CRediT Taxonomy <data.exteresource.feas.3>`
 
 Description
 ^^^^^^^^^^^
@@ -12035,7 +9669,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-contributor-credit-taxonomy",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-092",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -12067,23 +9701,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-contributor-credit-taxonomy/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -12096,22 +9715,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.exteresource.feas.3"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.exteresource.feas.3"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -12127,8 +9735,8 @@ Test 93: Check host.pid_system for PID declaration
 --------------------------------------------------
 
 :Test ID: T-DCSC-093
-:Persistent URI: https://example.org/test/T-DCSC-host-pid-system
-:Implements: :ref:`Metric 83: Repository Supports Persistent Identifiers for Datasets <dmp-metric-83>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-093
+:Implements: :ref:`Metric 83: Repository Supports Persistent Identifiers for Datasets <data.pid.cov.1>`
 
 Description
 ^^^^^^^^^^^
@@ -12163,7 +9771,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-host-pid-system",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-093",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -12195,23 +9803,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-host-pid-system/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -12224,22 +9817,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.pid.cov.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.pid.cov.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -12255,8 +9837,8 @@ Test 94: Check certified_with against trusted registry
 ------------------------------------------------------
 
 :Test ID: T-DCSC-094
-:Persistent URI: https://example.org/test/T-DCSC-certified-with-trusted-registry
-:Implements: :ref:`Metric 84: Trusted Repository Referenced <dmp-metric-84>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-094
+:Implements: :ref:`Metric 84: Trusted Repository Referenced <data.pid.cov.2>`
 
 Description
 ^^^^^^^^^^^
@@ -12291,7 +9873,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-certified-with-trusted-registry",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-094",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -12323,23 +9905,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-certified-with-trusted-registry/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -12352,22 +9919,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.pid.cov.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.pid.cov.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -12383,8 +9939,8 @@ Test 95: Check host_id.identifier and host_id.type for valid repository link
 ----------------------------------------------------------------------------
 
 :Test ID: T-DCSC-095
-:Persistent URI: https://example.org/test/T-DCSC-host-id-valid-link
-:Implements: :ref:`Metric 84: Trusted Repository Referenced <dmp-metric-84>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-095
+:Implements: :ref:`Metric 84: Trusted Repository Referenced <data.pid.cov.2>`
 
 Description
 ^^^^^^^^^^^
@@ -12420,7 +9976,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-host-id-valid-link",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-095",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -12452,23 +10008,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-host-id-valid-link/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -12481,22 +10022,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.pid.cov.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.pid.cov.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -12512,8 +10042,8 @@ Test 96: Check host.pid_system matches destination PID system in Zenodo
 -----------------------------------------------------------------------
 
 :Test ID: T-DCSC-096
-:Persistent URI: https://example.org/test/T-DCSC-host-pid-system-zenodo
-:Implements: :ref:`Metric 85: Dataset PID System in the DMP Matches the Repository <dmp-metric-85>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-096
+:Implements: :ref:`Metric 85: Dataset PID System in the DMP Matches the Repository <data.pid.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -12549,7 +10079,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-host-pid-system-zenodo",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-096",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -12581,23 +10111,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-host-pid-system-zenodo/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -12610,22 +10125,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/data.pid.feas.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.pid.feas.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -12641,8 +10145,8 @@ Test 97: Check dmp.contributor name, role, and contact
 ------------------------------------------------------
 
 :Test ID: T-DCSC-097
-:Persistent URI: https://example.org/test/T-DCSC-contributor-name-role-contact
-:Implements: :ref:`Metric 87: Research Data Management Roles Declared <dmp-metric-87>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-097
+:Implements: :ref:`Metric 87: Research Data Management Roles Declared <role.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -12676,7 +10180,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-contributor-name-role-contact",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-097",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -12708,23 +10212,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-contributor-name-role-contact/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -12737,22 +10226,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/role.co.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/role.co.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -12768,8 +10246,8 @@ Test 98: Check dmp.contributor.role for Data Steward
 ----------------------------------------------------
 
 :Test ID: T-DCSC-098
-:Persistent URI: https://example.org/test/T-DCSC-contributor-role-data-steward
-:Implements: :ref:`Metric 88: DMP Validation by Data Steward <dmp-metric-88>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-098
+:Implements: :ref:`Metric 88: DMP Validation by Data Steward <dmp.valid.co.2>`
 
 Description
 ^^^^^^^^^^^
@@ -12804,7 +10282,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-contributor-role-data-steward",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-098",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -12836,23 +10314,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-contributor-role-data-steward/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -12865,22 +10328,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/dmp.valid.co.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/dmp.valid.co.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -12896,8 +10348,8 @@ Test 99: Check contributor_id and affiliation.affiliation_id for PIDs
 ---------------------------------------------------------------------
 
 :Test ID: T-DCSC-099
-:Persistent URI: https://example.org/test/T-DCSC-contributor-id-affiliation-id
-:Implements: :ref:`Metric 89: Contributors and Organisations PIDs <dmp-metric-89>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-099
+:Implements: :ref:`Metric 89: Contributors and Organisations PIDs <role.pid.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -12932,7 +10384,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-contributor-id-affiliation-id",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-099",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -12964,23 +10416,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-contributor-id-affiliation-id/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -12993,22 +10430,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/role.pid.co.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/role.pid.co.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -13024,8 +10450,8 @@ Test 100: Check dmp.contributor fields against destination contributors
 -----------------------------------------------------------------------
 
 :Test ID: T-DCSC-100
-:Persistent URI: https://example.org/test/T-DCSC-contributor-fields-destination
-:Implements: :ref:`Metric 90: Referenced RDM Roles <dmp-metric-90>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-100
+:Implements: :ref:`Metric 90: Referenced RDM Roles <role.feas.1>`
 
 Description
 ^^^^^^^^^^^
@@ -13061,7 +10487,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-contributor-fields-destination",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-100",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -13093,23 +10519,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-contributor-fields-destination/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -13122,22 +10533,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/role.feas.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/role.feas.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -13153,8 +10553,8 @@ Test 101: Check Data Steward role in maDMP against contributors.type Other in de
 -----------------------------------------------------------------------------------------
 
 :Test ID: T-DCSC-101
-:Persistent URI: https://example.org/test/T-DCSC-data-steward-role-destination-other
-:Implements: :ref:`Metric 91: Data Steward Contribution Reflected in the Destination Repository <dmp-metric-91>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-101
+:Implements: :ref:`Metric 91: Data Steward Contribution Reflected in the Destination Repository <role.feas.2>`
 
 Description
 ^^^^^^^^^^^
@@ -13191,7 +10591,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-data-steward-role-destination-other",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-101",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -13223,23 +10623,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-data-steward-role-destination-other/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -13252,22 +10637,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/role.feas.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/role.feas.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -13283,8 +10657,8 @@ Test 102: Check contributor PIDs in maDMP against Zenodo contributors
 ---------------------------------------------------------------------
 
 :Test ID: T-DCSC-102
-:Persistent URI: https://example.org/test/T-DCSC-contributor-pids-zenodo
-:Implements: :ref:`Metric 92: Contributor and Organisation PIDs Match the Destination Repository <dmp-metric-92>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-102
+:Implements: :ref:`Metric 92: Contributor and Organisation PIDs Match the Destination Repository <role.feas.3>`
 
 Description
 ^^^^^^^^^^^
@@ -13320,7 +10694,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-contributor-pids-zenodo",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-102",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -13352,23 +10726,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-contributor-pids-zenodo/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -13381,22 +10740,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/role.feas.3"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/role.feas.3"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -13412,8 +10760,8 @@ Test 103: Check cost in maDMP against repository cost
 -----------------------------------------------------
 
 :Test ID: T-DCSC-103
-:Persistent URI: https://example.org/test/T-DCSC-cost-repository
-:Implements: :ref:`Metric 92: Contributor and Organisation PIDs Match the Destination Repository <dmp-metric-92>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-103
+:Implements: :ref:`Metric 92: Contributor and Organisation PIDs Match the Destination Repository <role.feas.3>`
 
 Description
 ^^^^^^^^^^^
@@ -13450,7 +10798,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-cost-repository",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-103",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -13482,23 +10830,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-cost-repository/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -13511,22 +10844,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/cost.comp.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/cost.comp.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -13542,8 +10864,8 @@ Test 104: Check cost fields for budget specification
 ----------------------------------------------------
 
 :Test ID: T-DCSC-104
-:Persistent URI: https://example.org/test/T-DCSC-cost-budget-specification
-:Implements: :ref:`Metric 93: DMP Includes a Budget for Personnel and Monetary Resources <dmp-metric-93>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-104
+:Implements: :ref:`Metric 93: DMP Includes a Budget for Personnel and Monetary Resources <cost.co.1>`
 
 Description
 ^^^^^^^^^^^
@@ -13577,7 +10899,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-cost-budget-specification",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-104",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -13609,23 +10931,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-cost-budget-specification/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -13638,22 +10945,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/cost.co.1"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/cost.co.1"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"
@@ -13669,8 +10965,8 @@ Test 105: Check cost in maDMP for no additional resources statement
 -------------------------------------------------------------------
 
 :Test ID: T-DCSC-105
-:Persistent URI: https://example.org/test/T-DCSC-cost-no-additional-resources
-:Implements: :ref:`Metric 94: DMP States No Additional RDM Resources Are Required <dmp-metric-94>`
+:Persistent URI: https://w3id.org/dmp/evaluation/test/T-DCSC-105
+:Implements: :ref:`Metric 94: DMP States No Additional RDM Resources Are Required <cost.co.2>`
 
 Description
 ^^^^^^^^^^^
@@ -13705,7 +11001,7 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/test/T-DCSC-cost-no-additional-resources",
+        "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-105",
         "@type": "ftr:Test",
         "dcterms:identifier": "T-DCSC",
         "dcterms:title": {
@@ -13737,23 +11033,8 @@ JSON-LD
         "vivo:abbreviation": {
           "@value": "T-DCSC-T"
         },
-        "dcat:endpointDescription": {
-          "@id": "https://example.org/api"
-        },
-        "dcat:endpointURL": {
-          "@id": "https://example.org/test/T-DCSC-cost-no-additional-resources/run"
-        },
-        "doap:repository": {
-          "@id": "https://example.org/repository"
-        },
-        "dcterms:type": {
-          "@id": "https://example.org/test-type/default"
-        },
         "dcterms:license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "ftr:applicationArea": {
-          "@id": "https://example.org/application-area/default"
         },
         "dcat:version": {
           "@value": "0.0.1"
@@ -13766,22 +11047,11 @@ JSON-LD
           "@language": "en",
           "@value": "Draft"
         },
-        "dcat:contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcat:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "sio:SIO_000233": {
-          "@id": "https://example.org/metric/cost.co.2"
-        },
-        "ftr:supportedBy": {
-          "@id": "https://example.org/project"
+          "@id": "https://w3id.org/dmp/evaluation/metric/cost.co.2"
         },
         "dpv:isApplicableFor": {
           "@id": "https://schema.org/Dataset"

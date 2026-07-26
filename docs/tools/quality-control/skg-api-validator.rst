@@ -1,7 +1,7 @@
 SKG API Validator
 ^^^^^^^^^^^^^^^^^
 
-To validate an implementation alignment with an OpenAPI specification contract,  API implementers can use the tool PRISM https://docs.stoplight.io/docs/prism/ ( Validation Proxy). The SKG-IF API documentation provides guidance to use this tool  ( see https://skg-if.github.io/api/ ) 
+To validate an implementation alignment with an OpenAPI specification contract,  API implementers can use the tool PRISM https://docs.stoplight.io/docs/prism/ ( Validation Proxy). The SKG-IF API documentation provides guidance to use this tool  ( see https://skg-if.github.io/api/ )
 
     - **Persistent identifier**: not available yet
     - **Code repository**: https://github.com/stoplightio/prism

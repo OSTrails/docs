@@ -16,298 +16,298 @@ The following catalogue lists the DMP Evaluation Metrics defined within the OSTr
      - Title
    * - 1
      - data.reused.co.1
-     - :ref:`Reused Dataset Declared in the DMP <dmp-metric-1>`
+     - :ref:`Reused Dataset Declared in the DMP <data.reused.co.1>`
    * - 2
      - data.reused.co.2
-     - :ref:`Reused Dataset Has a Persistent Identifier <dmp-metric-2>`
+     - :ref:`Reused Dataset Has a Persistent Identifier <data.reused.co.2>`
    * - 3
      - data.reused.co.3
-     - :ref:`Reused Dataset Has a Declared License <dmp-metric-3>`
+     - :ref:`Reused Dataset Has a Declared License <data.reused.co.3>`
    * - 4
      - data.reused.co.4
-     - :ref:`Reused Dataset Has Distribution Information <dmp-metric-4>`
+     - :ref:`Reused Dataset Has Distribution Information <data.reused.co.4>`
    * - 5
      - data.reused.co.5
-     - :ref:`Reused Dataset Has Declared Access Conditions <dmp-metric-5>`
+     - :ref:`Reused Dataset Has Declared Access Conditions <data.reused.co.5>`
    * - 6
      - data.reused.co.6
-     - :ref:`Reused Dataset Contains Personal Data <dmp-metric-6>`
+     - :ref:`Reused Dataset Contains Personal Data <data.reused.co.6>`
    * - 7
      - data.reused.co.7
-     - :ref:`Reused Dataset Contains Sensitive Data <dmp-metric-7>`
+     - :ref:`Reused Dataset Contains Sensitive Data <data.reused.co.7>`
    * - 8
      - data.reused.co.8
-     - :ref:`Reused Dataset Has an Access URL <dmp-metric-8>`
+     - :ref:`Reused Dataset Has an Access URL <data.reused.co.8>`
    * - 9
      - data.reused.feas.1
-     - :ref:`Reused Dataset PID Resolves in the Repository <dmp-metric-9>`
+     - :ref:`Reused Dataset PID Resolves in the Repository <data.reused.feas.1>`
    * - 10
      - data.reused.feas.2
-     - :ref:`Reused Dataset Access Conditions Match the Repository <dmp-metric-10>`
+     - :ref:`Reused Dataset Access Conditions Match the Repository <data.reused.feas.2>`
    * - 11
      - data.reused.feas.3
-     - :ref:`Reused Dataset License Matches the Repository <dmp-metric-11>`
+     - :ref:`Reused Dataset License Matches the Repository <data.reused.feas.3>`
    * - 12
      - data.new.1
-     - :ref:`New Dataset Declared in the DMP <dmp-metric-12>`
+     - :ref:`New Dataset Declared in the DMP <data.new.1>`
    * - 13
      - data.new.2
-     - :ref:`New Dataset Collection or Creation Method Declared <dmp-metric-13>`
+     - :ref:`New Dataset Collection or Creation Method Declared <data.new.2>`
    * - 14
      - data.new.3
-     - :ref:`New Dataset Has Declared Access Conditions <dmp-metric-14>`
+     - :ref:`New Dataset Has Declared Access Conditions <data.new.3>`
    * - 15
      - data.new.4
-     - :ref:`New Dataset Has Sufficient Metadata <dmp-metric-15>`
+     - :ref:`New Dataset Has Sufficient Metadata <data.new.4>`
    * - 16
      - data.new.feas.1
-     - :ref:`New Dataset Persistent Identifier Resolves Successfully <dmp-metric-16>`
+     - :ref:`New Dataset Persistent Identifier Resolves Successfully <data.new.feas.1>`
    * - 17
      - data.new.feas.2
-     - :ref:`New Dataset Access Conditions Match the Repository <dmp-metric-17>`
+     - :ref:`New Dataset Access Conditions Match the Repository <data.new.feas.2>`
    * - 18
      - data.new.feas.3
-     - :ref:`New Dataset License Matches the Repository <dmp-metric-18>`
+     - :ref:`New Dataset License Matches the Repository <data.new.feas.3>`
    * - 19
      - data.info.cov.1
-     - :ref:`Dataset Type Specified <dmp-metric-19>`
+     - :ref:`Dataset Type Specified <data.info.cov.1>`
    * - 20
      - data.info.cov.2
-     - :ref:`Dataset File Format Specified <dmp-metric-20>`
+     - :ref:`Dataset File Format Specified <data.info.cov.2>`
    * - 21
      - data.info.cov.3
-     - :ref:`Dataset Size Specified <dmp-metric-21>`
+     - :ref:`Dataset Size Specified <data.info.cov.3>`
    * - 22
      - data.info.feas.1
-     - :ref:`Dataset Type Matches the Repository <dmp-metric-22>`
+     - :ref:`Dataset Type Matches the Repository <data.info.feas.1>`
    * - 23
      - data.info.feas.2
-     - :ref:`Dataset File Format Matches the Repository <dmp-metric-23>`
+     - :ref:`Dataset File Format Matches the Repository <data.info.feas.2>`
    * - 24
      - data.info.feas.3
-     - :ref:`Dataset Size Matches the Repository <dmp-metric-24>`
+     - :ref:`Dataset Size Matches the Repository <data.info.feas.3>`
    * - 25
      - meta.comp.1
-     - :ref:`DMP Common Standard Field Compliance <dmp-metric-25>`
+     - :ref:`DMP Common Standard Field Compliance <meta.comp.1>`
    * - 26
      - meta.co.1
-     - :ref:`Controlled Vocabularies Used in Methodology <dmp-metric-26>`
+     - :ref:`Controlled Vocabularies Used in Methodology <meta.co.1>`
    * - 27
      - meta.co.2
-     - :ref:`Electronic Lab Notebook Referenced as a Technical Resource <dmp-metric-27>`
+     - :ref:`Electronic Lab Notebook Referenced as a Technical Resource <meta.co.2>`
    * - 28
      - meta.qual.2
-     - :ref:`ReadMe File Reference <dmp-metric-28>`
+     - :ref:`ReadMe File Reference <meta.qual.2>`
    * - 29
      - meta.stand.comp.1
-     - :ref:`Metadata Standards Used <dmp-metric-29>`
+     - :ref:`Metadata Standards Used <meta.stand.comp.1>`
    * - 30
      - meta.form.op.1
-     - :ref:`Dataset Distributions Use Open File Formats <dmp-metric-30>`
+     - :ref:`Dataset Distributions Use Open File Formats <meta.form.op.1>`
    * - 31
      - meta.doc.qual.1
-     - :ref:`Electronic Lab Notebook Linked <dmp-metric-31>`
+     - :ref:`Electronic Lab Notebook Linked <meta.doc.qual.1>`
    * - 32
      - meta.feas.1
-     - :ref:`Existence of Dataset Documentation <dmp-metric-32>`
+     - :ref:`Existence of Dataset Documentation <meta.feas.1>`
    * - 33
      - qc.qual.1
-     - :ref:`Quality Control Methods Stated <dmp-metric-33>`
+     - :ref:`Quality Control Methods Stated <qc.qual.1>`
    * - 34
      - store.cov.1
-     - :ref:`Data Storage Location mentioned in the DMP <dmp-metric-34>`
+     - :ref:`Data Storage Location mentioned in the DMP <store.cov.1>`
    * - 35
      - store.cov.2
-     - :ref:`Use of Secure Storage for the dataset in a trusted repository <dmp-metric-35>`
+     - :ref:`Use of Secure Storage for the dataset in a trusted repository <store.cov.2>`
    * - 36
      - store.comp.1
-     - :ref:`Alignment of Storage and Backup with Information Sensitivity <dmp-metric-36>`
+     - :ref:`Alignment of Storage and Backup with Information Sensitivity <store.comp.1>`
    * - 37
      - store.cov.3
-     - :ref:`Back up Responsibility <dmp-metric-37>`
+     - :ref:`Back up Responsibility <store.cov.3>`
    * - 38
      - store.co.1
-     - :ref:`Back up Frequency <dmp-metric-38>`
+     - :ref:`Back up Frequency <store.co.1>`
    * - 39
      - store.comp.3
-     - :ref:`Version Control Practices for Software <dmp-metric-39>`
+     - :ref:`Version Control Practices for Software <store.comp.3>`
    * - 40
      - stor.feas.1
-     - :ref:`Stored Dataset Location Confirmed <dmp-metric-40>`
+     - :ref:`Stored Dataset Location Confirmed <stor.feas.1>`
    * - 41
      - secur.co.1
-     - :ref:`Security Measures Implementation <dmp-metric-41>`
+     - :ref:`Security Measures Implementation <secur.co.1>`
    * - 42
      - secur.co.2
-     - :ref:`Sensitive Data Protection Description <dmp-metric-42>`
+     - :ref:`Sensitive Data Protection Description <secur.co.2>`
    * - 43
      - secur.co.3
-     - :ref:`Authorised Access Control <dmp-metric-43>`
+     - :ref:`Authorised Access Control <secur.co.3>`
    * - 44
      - secur.co.4
-     - :ref:`Access Control and User Management <dmp-metric-44>`
+     - :ref:`Access Control and User Management <secur.co.4>`
    * - 45
      - secur.co.5
-     - :ref:`Required Access Procedures <dmp-metric-45>`
+     - :ref:`Required Access Procedures <secur.co.5>`
    * - 46
      - secur.comp.1
-     - :ref:`GDPR and Ethics Compliance <dmp-metric-46>`
+     - :ref:`GDPR and Ethics Compliance <secur.comp.1>`
    * - 47
      - secur.feas.1
-     - :ref:`Final Security Measures Implementation <dmp-metric-47>`
+     - :ref:`Final Security Measures Implementation <secur.feas.1>`
    * - 48
      - sens.secure.co.1
-     - :ref:`Sensitive Data Using Method <dmp-metric-48>`
+     - :ref:`Sensitive Data Using Method <sens.secure.co.1>`
    * - 49
      - sens.secure.co.2
-     - :ref:`Provision of Anonymised Synthetic Data <dmp-metric-49>`
+     - :ref:`Provision of Anonymised Synthetic Data <sens.secure.co.2>`
    * - 50
      - data.restrict.co.3
-     - :ref:`Statement of No Data Restrictions <dmp-metric-50>`
+     - :ref:`Statement of No Data Restrictions <data.restrict.co.3>`
    * - 51
      - data.lice.co.1
-     - :ref:`Dataset License Declared <dmp-metric-51>`
+     - :ref:`Dataset License Declared <data.lice.co.1>`
    * - 52
      - soft.lice.comp.1
-     - :ref:`Software Dataset Has a Standardised Machine-Readable License <dmp-metric-52>`
+     - :ref:`Software Dataset Has a Standardised Machine-Readable License <soft.lice.comp.1>`
    * - 53
      - data.agree.comp.2
-     - :ref:`Data Access Agreements <dmp-metric-53>`
+     - :ref:`Data Access Agreements <data.agree.comp.2>`
    * - 54
      - own.co.2
-     - :ref:`Data Ownership Role Declared <dmp-metric-54>`
+     - :ref:`Data Ownership Role Declared <own.co.2>`
    * - 55
      - soft.auth.co.3
-     - :ref:`Software Dataset Author Declared <dmp-metric-55>`
+     - :ref:`Software Dataset Author Declared <soft.auth.co.3>`
    * - 56
      - ethics.co.1
-     - :ref:`Ethical Issues Status Declared <dmp-metric-56>`
+     - :ref:`Ethical Issues Status Declared <ethics.co.1>`
    * - 57
      - ethics.co.2
-     - :ref:`Ethical Issues and Review <dmp-metric-57>`
+     - :ref:`Ethical Issues and Review <ethics.co.2>`
    * - 58
      - ethics.co.3
-     - :ref:`Justification for Absence of Ethical Issues <dmp-metric-58>`
+     - :ref:`Justification for Absence of Ethical Issues <ethics.co.3>`
    * - 59
      - data.shar.op.1
-     - :ref:`Data Access Status Open for the Dataset <dmp-metric-59>`
+     - :ref:`Data Access Status Open for the Dataset <data.shar.op.1>`
    * - 60
      - data.shar.co.1
-     - :ref:`Data License is Present <dmp-metric-60>`
+     - :ref:`Data License is Present <data.shar.co.1>`
    * - 61
      - data.shar.co.2
-     - :ref:`Data Restrictions Reference <dmp-metric-61>`
+     - :ref:`Data Restrictions Reference <data.shar.co.2>`
    * - 62
      - data.shar.comp.1
-     - :ref:`Dataset License Complies with Funder Requirements <dmp-metric-62>`
+     - :ref:`Dataset License Complies with Funder Requirements <data.shar.comp.1>`
    * - 63
      - data.shar.feas.1
-     - :ref:`Repository Access Rights Consistency Aligned <dmp-metric-63>`
+     - :ref:`Repository Access Rights Consistency Aligned <data.shar.feas.1>`
    * - 64
      - data.shar.feas.2
-     - :ref:`Repository Data License Aligned with the DMP <dmp-metric-64>`
+     - :ref:`Repository Data License Aligned with the DMP <data.shar.feas.2>`
    * - 65
      - data.shar.feas.3
-     - :ref:`Embargo Implementation Alignment <dmp-metric-65>`
+     - :ref:`Embargo Implementation Alignment <data.shar.feas.3>`
    * - 66
      - data.shar.feas.4
-     - :ref:`Repository Data Restrictions <dmp-metric-66>`
+     - :ref:`Repository Data Restrictions <data.shar.feas.4>`
    * - 67
      - data.shar.comp.2
-     - :ref:`Embargo Declared in the DMP or Repository <dmp-metric-67>`
+     - :ref:`Embargo Declared in the DMP or Repository <data.shar.comp.2>`
    * - 68
      - repo.co.3
-     - :ref:`Thematic Data Repositories Referenced <dmp-metric-68>`
+     - :ref:`Thematic Data Repositories Referenced <repo.co.3>`
    * - 69
      - repo.comp.2
-     - :ref:`Repository Conforms with FAIR Data Principles <dmp-metric-69>`
+     - :ref:`Repository Conforms with FAIR Data Principles <repo.comp.2>`
    * - 70
      - repo.comp.3
-     - :ref:`Trusted Repository is Used <dmp-metric-70>`
+     - :ref:`Trusted Repository is Used <repo.comp.3>`
    * - 71
      - repo.co.4
-     - :ref:`Verification of Back-up Strategy <dmp-metric-71>`
+     - :ref:`Verification of Back-up Strategy <repo.co.4>`
    * - 72
      - repo.co.5
-     - :ref:`Certification of Repository <dmp-metric-72>`
+     - :ref:`Certification of Repository <repo.co.5>`
    * - 73
      - repo.co.7
-     - :ref:`Used Resources for Preservation <dmp-metric-73>`
+     - :ref:`Used Resources for Preservation <repo.co.7>`
    * - 74
      - repo.co.6
-     - :ref:`Repository Policy is Present <dmp-metric-74>`
+     - :ref:`Repository Policy is Present <repo.co.6>`
    * - 75
      - repo.feas.1
-     - :ref:`Repository Identifier Accuracy <dmp-metric-75>`
+     - :ref:`Repository Identifier Accuracy <repo.feas.1>`
    * - 76
      - repo.feas.2
-     - :ref:`Long-Term Preservation Dataset <dmp-metric-76>`
+     - :ref:`Long-Term Preservation Dataset <repo.feas.2>`
    * - 77
      - repo.feas.4
-     - :ref:`Dataset Characteristics Are Compatible with the Repository <dmp-metric-77>`
+     - :ref:`Dataset Characteristics Are Compatible with the Repository <repo.feas.4>`
    * - 78
      - data.exteresource.co.1
-     - :ref:`Data External Resources Included in the DMP <dmp-metric-78>`
+     - :ref:`Data External Resources Included in the DMP <data.exteresource.co.1>`
    * - 79
      - data.exteresource.co.2
-     - :ref:`Metadata Standard Specified in the DMP <dmp-metric-79>`
+     - :ref:`Metadata Standard Specified in the DMP <data.exteresource.co.2>`
    * - 80
      - data.exteresource.feas.1
-     - :ref:`Resolvable External Resources <dmp-metric-80>`
+     - :ref:`Resolvable External Resources <data.exteresource.feas.1>`
    * - 81
      - data.exteresource.feas.2
-     - :ref:`OpenAIRE Mentioned Dataset Validation <dmp-metric-81>`
+     - :ref:`OpenAIRE Mentioned Dataset Validation <data.exteresource.feas.2>`
    * - 82
      - data.exteresource.feas.3
-     - :ref:`Contributor Roles Follow CRediT Taxonomy <dmp-metric-82>`
+     - :ref:`Contributor Roles Follow CRediT Taxonomy <data.exteresource.feas.3>`
    * - 83
      - data.pid.cov.1
-     - :ref:`Repository Supports Persistent Identifiers for Datasets <dmp-metric-83>`
+     - :ref:`Repository Supports Persistent Identifiers for Datasets <data.pid.cov.1>`
    * - 84
      - data.pid.cov.2
-     - :ref:`Trusted Repository Referenced <dmp-metric-84>`
+     - :ref:`Trusted Repository Referenced <data.pid.cov.2>`
    * - 85
      - data.pid.feas.1
-     - :ref:`Dataset PID System in the DMP Matches the Repository <dmp-metric-85>`
+     - :ref:`Dataset PID System in the DMP Matches the Repository <data.pid.feas.1>`
    * - 86
      - data.pid.feas.3
-     - :ref:`Dataset Persistent Identifier Resolves Successfully <dmp-metric-86>`
+     - :ref:`Dataset Persistent Identifier Resolves Successfully <data.pid.feas.3>`
    * - 87
      - role.co.1
-     - :ref:`Research Data Management Roles Declared <dmp-metric-87>`
+     - :ref:`Research Data Management Roles Declared <role.co.1>`
    * - 88
      - dmp.valid.co.2
-     - :ref:`DMP Validation by Data Steward <dmp-metric-88>`
+     - :ref:`DMP Validation by Data Steward <dmp.valid.co.2>`
    * - 89
      - role.pid.co.1
-     - :ref:`Contributors and Organisations PIDs <dmp-metric-89>`
+     - :ref:`Contributors and Organisations PIDs <role.pid.co.1>`
    * - 90
      - role.feas.1
-     - :ref:`Referenced RDM Roles <dmp-metric-90>`
+     - :ref:`Referenced RDM Roles <role.feas.1>`
    * - 91
      - role.feas.2
-     - :ref:`Data Steward Contribution Reflected in the Destination Repository <dmp-metric-91>`
+     - :ref:`Data Steward Contribution Reflected in the Destination Repository <role.feas.2>`
    * - 92
      - role.feas.3
-     - :ref:`Contributor and Organisation PIDs Match the Destination Repository <dmp-metric-92>`
+     - :ref:`Contributor and Organisation PIDs Match the Destination Repository <role.feas.3>`
    * - 93
      - cost.co.1
-     - :ref:`DMP Includes a Budget for Personnel and Monetary Resources <dmp-metric-93>`
+     - :ref:`DMP Includes a Budget for Personnel and Monetary Resources <cost.co.1>`
    * - 94
      - cost.co.2
-     - :ref:`DMP States No Additional RDM Resources Are Required <dmp-metric-94>`
+     - :ref:`DMP States No Additional RDM Resources Are Required <cost.co.2>`
 
 
 ----
 
 
-.. _dmp-metric-1:
+.. _data.reused.co.1:
 
 Metric 1: Reused Dataset Declared in the DMP
 --------------------------------------------
 
 :Metric ID: data.reused.co.1
-:Persistent URI: https://example.org/metric/data.reused.co.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.reused.co.1
 
 Title
 ^^^^^
@@ -353,9 +353,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.reused.co.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.reused.co.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.reused.co.1",
         "title": {
           "@language": "en",
           "@value": "Reused Dataset Declared in the DMP"
@@ -367,22 +367,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/madmp-reused-datasets-declared-json"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-001"
         },
         "abbreviation": {
           "@value": "data.reused.co.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -407,7 +399,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.reused.co.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -418,28 +410,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-2:
+.. _data.reused.co.2:
 
 Metric 2: Reused Dataset Has a Persistent Identifier
 ----------------------------------------------------
 
 :Metric ID: data.reused.co.2
-:Persistent URI: https://example.org/metric/data.reused.co.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.reused.co.2
 :Dimension: Completeness
 
 Title
@@ -486,9 +472,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.reused.co.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.reused.co.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.reused.co.2",
         "title": {
           "@language": "en",
           "@value": "Reused Dataset Has a Persistent Identifier"
@@ -500,22 +486,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-003"
         },
         "abbreviation": {
           "@value": "data.reused.co.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -540,7 +518,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.reused.co.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -551,28 +529,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-3:
+.. _data.reused.co.3:
 
 Metric 3: Reused Dataset Has a Declared License
 -----------------------------------------------
 
 :Metric ID: data.reused.co.3
-:Persistent URI: https://example.org/metric/data.reused.co.3
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.reused.co.3
 :Dimension: Completeness
 
 Title
@@ -619,9 +591,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.reused.co.3",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.3",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.reused.co.3",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.reused.co.3",
         "title": {
           "@language": "en",
           "@value": "Reused Dataset Has a Declared License"
@@ -633,22 +605,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-license"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-002"
         },
         "abbreviation": {
           "@value": "data.reused.co.3-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -673,7 +637,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.reused.co.3"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.3"
         },
         "version": {
           "@value": "0.0.1"
@@ -684,28 +648,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-4:
+.. _data.reused.co.4:
 
 Metric 4: Reused Dataset Has Distribution Information
 -----------------------------------------------------
 
 :Metric ID: data.reused.co.4
-:Persistent URI: https://example.org/metric/data.reused.co.4
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.reused.co.4
 :Dimension: Completeness
 
 Title
@@ -754,9 +712,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.reused.co.4",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.4",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.reused.co.4",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.reused.co.4",
         "title": {
           "@language": "en",
           "@value": "Reused Dataset Has Distribution Information"
@@ -768,22 +726,22 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
+        "dcterms:publisher": {
+          "@id": "https://ostrails.eu"
+        },
+        "hasImplementation": [
           {
-            "@id": "https://example.org/organization"
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-004"
+          },
+          {
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-005"
+          },
+          {
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-006"
           }
         ],
-        "dcterms:publisher": {
-          "@id": "https://example.org/organization"
-        },
-        "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-distribution-present"
-        },
         "abbreviation": {
           "@value": "data.reused.co.4-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -808,7 +766,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.reused.co.4"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.4"
         },
         "version": {
           "@value": "0.0.1"
@@ -819,28 +777,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-5:
+.. _data.reused.co.5:
 
 Metric 5: Reused Dataset Has Declared Access Conditions
 -------------------------------------------------------
 
 :Metric ID: data.reused.co.5
-:Persistent URI: https://example.org/metric/data.reused.co.5
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.reused.co.5
 :Dimension: Completeness
 
 Title
@@ -887,9 +839,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.reused.co.5",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.5",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.reused.co.5",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.reused.co.5",
         "title": {
           "@language": "en",
           "@value": "Reused Dataset Has Declared Access Conditions"
@@ -901,22 +853,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-access"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-007"
         },
         "abbreviation": {
           "@value": "data.reused.co.5-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -941,7 +885,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.reused.co.5"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.5"
         },
         "version": {
           "@value": "0.0.1"
@@ -952,28 +896,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-6:
+.. _data.reused.co.6:
 
 Metric 6: Reused Dataset Contains Personal Data
 -----------------------------------------------
 
 :Metric ID: data.reused.co.6
-:Persistent URI: https://example.org/metric/data.reused.co.6
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.reused.co.6
 :Dimension: Completeness
 
 Title
@@ -1020,9 +958,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.reused.co.6",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.6",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.reused.co.6",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.reused.co.6",
         "title": {
           "@language": "en",
           "@value": "Reused Dataset Contains Personal Data"
@@ -1034,22 +972,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-personal-data"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-008"
         },
         "abbreviation": {
           "@value": "data.reused.co.6-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -1074,7 +1004,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.reused.co.6"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.6"
         },
         "version": {
           "@value": "0.0.1"
@@ -1085,28 +1015,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-7:
+.. _data.reused.co.7:
 
 Metric 7: Reused Dataset Contains Sensitive Data
 ------------------------------------------------
 
 :Metric ID: data.reused.co.7
-:Persistent URI: https://example.org/metric/data.reused.co.7
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.reused.co.7
 :Dimension: Completeness
 
 Title
@@ -1153,9 +1077,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.reused.co.7",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.7",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.reused.co.7",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.reused.co.7",
         "title": {
           "@language": "en",
           "@value": "Reused Dataset Contains Sensitive Data"
@@ -1167,22 +1091,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-sensitive-data"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-009"
         },
         "abbreviation": {
           "@value": "data.reused.co.7-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -1207,7 +1123,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.reused.co.7"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.7"
         },
         "version": {
           "@value": "0.0.1"
@@ -1218,28 +1134,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-8:
+.. _data.reused.co.8:
 
 Metric 8: Reused Dataset Has an Access URL
 ------------------------------------------
 
 :Metric ID: data.reused.co.8
-:Persistent URI: https://example.org/metric/data.reused.co.8
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.reused.co.8
 :Dimension: Completeness
 
 Title
@@ -1287,9 +1197,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.reused.co.8",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.8",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.reused.co.8",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.reused.co.8",
         "title": {
           "@language": "en",
           "@value": "Reused Dataset Has an Access URL"
@@ -1301,22 +1211,19 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
+        "dcterms:publisher": {
+          "@id": "https://ostrails.eu"
+        },
+        "hasImplementation": [
           {
-            "@id": "https://example.org/organization"
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-010"
+          },
+          {
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-011"
           }
         ],
-        "dcterms:publisher": {
-          "@id": "https://example.org/organization"
-        },
-        "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-distribution-url-present"
-        },
         "abbreviation": {
           "@value": "data.reused.co.8-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -1341,7 +1248,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.reused.co.8"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.co.8"
         },
         "version": {
           "@value": "0.0.1"
@@ -1352,28 +1259,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-9:
+.. _data.reused.feas.1:
 
 Metric 9: Reused Dataset PID Resolves in the Repository
 -------------------------------------------------------
 
 :Metric ID: data.reused.feas.1
-:Persistent URI: https://example.org/metric/data.reused.feas.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.reused.feas.1
 :Dimension: Feasibility
 
 Title
@@ -1427,9 +1328,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.reused.feas.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.feas.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.reused.feas.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.reused.feas.1",
         "title": {
           "@language": "en",
           "@value": "Reused Dataset PID Resolves in the Repository"
@@ -1441,22 +1342,19 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
+        "dcterms:publisher": {
+          "@id": "https://ostrails.eu"
+        },
+        "hasImplementation": [
           {
-            "@id": "https://example.org/organization"
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-012"
+          },
+          {
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-013"
           }
         ],
-        "dcterms:publisher": {
-          "@id": "https://example.org/organization"
-        },
-        "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-repo-match"
-        },
         "abbreviation": {
           "@value": "data.reused.feas.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -1485,7 +1383,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.reused.feas.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.feas.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -1496,28 +1394,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-10:
+.. _data.reused.feas.2:
 
 Metric 10: Reused Dataset Access Conditions Match the Repository
 ----------------------------------------------------------------
 
 :Metric ID: data.reused.feas.2
-:Persistent URI: https://example.org/metric/data.reused.feas.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.reused.feas.2
 :Dimension: Feasibility
 
 Title
@@ -1565,9 +1457,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.reused.feas.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.feas.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.reused.feas.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.reused.feas.2",
         "title": {
           "@language": "en",
           "@value": "Reused Dataset Access Conditions Match the Repository"
@@ -1579,22 +1471,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-access-match"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-014"
         },
         "abbreviation": {
           "@value": "data.reused.feas.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -1623,7 +1507,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.reused.feas.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.feas.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -1634,28 +1518,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-11:
+.. _data.reused.feas.3:
 
 Metric 11: Reused Dataset License Matches the Repository
 --------------------------------------------------------
 
 :Metric ID: data.reused.feas.3
-:Persistent URI: https://example.org/metric/data.reused.feas.3
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.reused.feas.3
 :Dimension: Feasibility
 
 Title
@@ -1703,9 +1581,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.reused.feas.3",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.feas.3",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.reused.feas.3",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.reused.feas.3",
         "title": {
           "@language": "en",
           "@value": "Reused Dataset License Matches the Repository"
@@ -1717,22 +1595,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-license-match"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-015"
         },
         "abbreviation": {
           "@value": "data.reused.feas.3-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -1761,7 +1631,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.reused.feas.3"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.reused.feas.3"
         },
         "version": {
           "@value": "0.0.1"
@@ -1772,28 +1642,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-12:
+.. _data.new.1:
 
 Metric 12: New Dataset Declared in the DMP
 ------------------------------------------
 
 :Metric ID: data.new.1
-:Persistent URI: https://example.org/metric/data.new.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.new.1
 :Dimension: Completeness
 
 Title
@@ -1840,9 +1704,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.new.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.new.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.new.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.new.1",
         "title": {
           "@language": "en",
           "@value": "New Dataset Declared in the DMP"
@@ -1854,22 +1718,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-new-data"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-016"
         },
         "abbreviation": {
           "@value": "data.new.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -1894,7 +1750,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.new.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.new.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -1905,28 +1761,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-13:
+.. _data.new.2:
 
 Metric 13: New Dataset Collection or Creation Method Declared
 -------------------------------------------------------------
 
 :Metric ID: data.new.2
-:Persistent URI: https://example.org/metric/data.new.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.new.2
 :Sub-Dimension: RDM Coverage
 
 Title
@@ -1977,9 +1827,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.new.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.new.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.new.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.new.2",
         "title": {
           "@language": "en",
           "@value": "New Dataset Collection or Creation Method Declared"
@@ -1991,22 +1841,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-new-data-technical-resource"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-017"
         },
         "abbreviation": {
           "@value": "data.new.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -2031,7 +1873,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.new.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.new.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -2042,28 +1884,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-14:
+.. _data.new.3:
 
 Metric 14: New Dataset Has Declared Access Conditions
 -----------------------------------------------------
 
 :Metric ID: data.new.3
-:Persistent URI: https://example.org/metric/data.new.3
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.new.3
 :Dimension: Openness / Reuse
 
 Title
@@ -2113,9 +1949,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.new.3",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.new.3",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.new.3",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.new.3",
         "title": {
           "@language": "en",
           "@value": "New Dataset Has Declared Access Conditions"
@@ -2127,22 +1963,19 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
+        "dcterms:publisher": {
+          "@id": "https://ostrails.eu"
+        },
+        "hasImplementation": [
           {
-            "@id": "https://example.org/organization"
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-018"
+          },
+          {
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-019"
           }
         ],
-        "dcterms:publisher": {
-          "@id": "https://example.org/organization"
-        },
-        "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-new-data-access"
-        },
         "abbreviation": {
           "@value": "data.new.3-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -2167,7 +2000,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.new.3"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.new.3"
         },
         "version": {
           "@value": "0.0.1"
@@ -2178,28 +2011,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-15:
+.. _data.new.4:
 
 Metric 15: New Dataset Has Sufficient Metadata
 ----------------------------------------------
 
 :Metric ID: data.new.4
-:Persistent URI: https://example.org/metric/data.new.4
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.new.4
 :Dimension: Completeness
 
 Title
@@ -2250,9 +2077,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.new.4",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.new.4",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.new.4",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.new.4",
         "title": {
           "@language": "en",
           "@value": "New Dataset Has Sufficient Metadata"
@@ -2264,22 +2091,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-new-data-metadata"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-020"
         },
         "abbreviation": {
           "@value": "data.new.4-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -2304,7 +2123,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.new.4"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.new.4"
         },
         "version": {
           "@value": "0.0.1"
@@ -2315,28 +2134,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-16:
+.. _data.new.feas.1:
 
 Metric 16: New Dataset Persistent Identifier Resolves Successfully
 ------------------------------------------------------------------
 
 :Metric ID: data.new.feas.1
-:Persistent URI: https://example.org/metric/data.new.feas.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.new.feas.1
 :Dimension: Feasibility
 
 Title
@@ -2386,9 +2199,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.new.feas.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.new.feas.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.new.feas.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.new.feas.1",
         "title": {
           "@language": "en",
           "@value": "New Dataset Persistent Identifier Resolves Successfully"
@@ -2400,22 +2213,19 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
+        "dcterms:publisher": {
+          "@id": "https://ostrails.eu"
+        },
+        "hasImplementation": [
           {
-            "@id": "https://example.org/organization"
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-021"
+          },
+          {
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-022"
           }
         ],
-        "dcterms:publisher": {
-          "@id": "https://example.org/organization"
-        },
-        "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-dataset-id-exists"
-        },
         "abbreviation": {
           "@value": "data.new.feas.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -2440,7 +2250,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.new.feas.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.new.feas.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -2451,28 +2261,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-17:
+.. _data.new.feas.2:
 
 Metric 17: New Dataset Access Conditions Match the Repository
 -------------------------------------------------------------
 
 :Metric ID: data.new.feas.2
-:Persistent URI: https://example.org/metric/data.new.feas.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.new.feas.2
 :Dimension: Feasibility
 
 Title
@@ -2520,9 +2324,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.new.feas.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.new.feas.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.new.feas.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.new.feas.2",
         "title": {
           "@language": "en",
           "@value": "New Dataset Access Conditions Match the Repository"
@@ -2534,22 +2338,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-new-data-access-match-destination"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-023"
         },
         "abbreviation": {
           "@value": "data.new.feas.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -2578,7 +2374,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.new.feas.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.new.feas.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -2589,28 +2385,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-18:
+.. _data.new.feas.3:
 
 Metric 18: New Dataset License Matches the Repository
 -----------------------------------------------------
 
 :Metric ID: data.new.feas.3
-:Persistent URI: https://example.org/metric/data.new.feas.3
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.new.feas.3
 :Dimension: Feasibility
 
 Title
@@ -2658,9 +2448,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.new.feas.3",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.new.feas.3",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.new.feas.3",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.new.feas.3",
         "title": {
           "@language": "en",
           "@value": "New Dataset License Matches the Repository"
@@ -2672,22 +2462,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-new-data-license-match-destination"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-024"
         },
         "abbreviation": {
           "@value": "data.new.feas.3-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -2716,7 +2498,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.new.feas.3"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.new.feas.3"
         },
         "version": {
           "@value": "0.0.1"
@@ -2727,28 +2509,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-19:
+.. _data.info.cov.1:
 
 Metric 19: Dataset Type Specified
 ---------------------------------
 
 :Metric ID: data.info.cov.1
-:Persistent URI: https://example.org/metric/data.info.cov.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.info.cov.1
 :Dimension: Coverage
 
 Title
@@ -2795,9 +2571,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.info.cov.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.info.cov.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.info.cov.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.info.cov.1",
         "title": {
           "@language": "en",
           "@value": "Dataset Type Specified"
@@ -2809,22 +2585,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-dataset-type"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-025"
         },
         "abbreviation": {
           "@value": "data.info.cov.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -2849,7 +2617,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.info.cov.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.info.cov.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -2860,28 +2628,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-20:
+.. _data.info.cov.2:
 
 Metric 20: Dataset File Format Specified
 ----------------------------------------
 
 :Metric ID: data.info.cov.2
-:Persistent URI: https://example.org/metric/data.info.cov.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.info.cov.2
 :Dimension: Coverage
 
 Title
@@ -2928,9 +2690,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.info.cov.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.info.cov.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.info.cov.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.info.cov.2",
         "title": {
           "@language": "en",
           "@value": "Dataset File Format Specified"
@@ -2942,22 +2704,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-distribution-format"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-026"
         },
         "abbreviation": {
           "@value": "data.info.cov.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -2982,7 +2736,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.info.cov.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.info.cov.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -2993,28 +2747,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-21:
+.. _data.info.cov.3:
 
 Metric 21: Dataset Size Specified
 ---------------------------------
 
 :Metric ID: data.info.cov.3
-:Persistent URI: https://example.org/metric/data.info.cov.3
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.info.cov.3
 :Dimension: Coverage
 
 Title
@@ -3061,9 +2809,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.info.cov.3",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.info.cov.3",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.info.cov.3",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.info.cov.3",
         "title": {
           "@language": "en",
           "@value": "Dataset Size Specified"
@@ -3075,22 +2823,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-distribution-byte-size"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-027"
         },
         "abbreviation": {
           "@value": "data.info.cov.3-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -3115,7 +2855,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.info.cov.3"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.info.cov.3"
         },
         "version": {
           "@value": "0.0.1"
@@ -3126,28 +2866,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-22:
+.. _data.info.feas.1:
 
 Metric 22: Dataset Type Matches the Repository
 ----------------------------------------------
 
 :Metric ID: data.info.feas.1
-:Persistent URI: https://example.org/metric/data.info.feas.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.info.feas.1
 :Dimension: Feasibility
 
 Title
@@ -3198,9 +2932,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.info.feas.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.info.feas.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.info.feas.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.info.feas.1",
         "title": {
           "@language": "en",
           "@value": "Dataset Type Matches the Repository"
@@ -3212,22 +2946,19 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
+        "dcterms:publisher": {
+          "@id": "https://ostrails.eu"
+        },
+        "hasImplementation": [
           {
-            "@id": "https://example.org/organization"
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-028"
+          },
+          {
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-029"
           }
         ],
-        "dcterms:publisher": {
-          "@id": "https://example.org/organization"
-        },
-        "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-dataset-type-match-destination-type"
-        },
         "abbreviation": {
           "@value": "data.info.feas.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -3252,7 +2983,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.info.feas.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.info.feas.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -3263,28 +2994,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-23:
+.. _data.info.feas.2:
 
 Metric 23: Dataset File Format Matches the Repository
 -----------------------------------------------------
 
 :Metric ID: data.info.feas.2
-:Persistent URI: https://example.org/metric/data.info.feas.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.info.feas.2
 :Dimension: Feasibility
 
 Title
@@ -3332,9 +3057,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.info.feas.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.info.feas.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.info.feas.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.info.feas.2",
         "title": {
           "@language": "en",
           "@value": "Dataset File Format Matches the Repository"
@@ -3346,22 +3071,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-dataset-format-match-destination-files"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-030"
         },
         "abbreviation": {
           "@value": "data.info.feas.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -3386,7 +3103,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.info.feas.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.info.feas.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -3397,28 +3114,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-24:
+.. _data.info.feas.3:
 
 Metric 24: Dataset Size Matches the Repository
 ----------------------------------------------
 
 :Metric ID: data.info.feas.3
-:Persistent URI: https://example.org/metric/data.info.feas.3
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.info.feas.3
 :Dimension: Feasibility
 
 Title
@@ -3466,9 +3177,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.info.feas.3",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.info.feas.3",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.info.feas.3",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.info.feas.3",
         "title": {
           "@language": "en",
           "@value": "Dataset Size Matches the Repository"
@@ -3480,22 +3191,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-dataset-size-match-destination-size"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-031"
         },
         "abbreviation": {
           "@value": "data.info.feas.3-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -3520,7 +3223,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.info.feas.3"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.info.feas.3"
         },
         "version": {
           "@value": "0.0.1"
@@ -3531,28 +3234,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-25:
+.. _meta.comp.1:
 
 Metric 25: DMP Common Standard Field Compliance
 -----------------------------------------------
 
 :Metric ID: meta.comp.1
-:Persistent URI: https://example.org/metric/meta.comp.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/meta.comp.1
 :Dimension: Compliance
 
 Title
@@ -3599,9 +3296,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/meta.comp.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/meta.comp.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/meta.comp.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/meta.comp.1",
         "title": {
           "@language": "en",
           "@value": "DMP Common Standard Field Compliance"
@@ -3613,22 +3310,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-dmp-cs-schema-validation"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-032"
         },
         "abbreviation": {
           "@value": "meta.comp.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -3653,7 +3342,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/meta.comp.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/meta.comp.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -3664,28 +3353,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-26:
+.. _meta.co.1:
 
 Metric 26: Controlled Vocabularies Used in Methodology
 ------------------------------------------------------
 
 :Metric ID: meta.co.1
-:Persistent URI: https://example.org/metric/meta.co.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/meta.co.1
 :Dimension: Completeness
 
 Title
@@ -3732,9 +3415,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/meta.co.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/meta.co.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/meta.co.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/meta.co.1",
         "title": {
           "@language": "en",
           "@value": "Controlled Vocabularies Used in Methodology"
@@ -3746,22 +3429,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-dataset-methodology-controlled-vocabularies"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-033"
         },
         "abbreviation": {
           "@value": "meta.co.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -3786,7 +3461,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/meta.co.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/meta.co.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -3797,28 +3472,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-27:
+.. _meta.co.2:
 
 Metric 27: Electronic Lab Notebook Referenced as a Technical Resource
 ---------------------------------------------------------------------
 
 :Metric ID: meta.co.2
-:Persistent URI: https://example.org/metric/meta.co.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/meta.co.2
 :Dimension: Completeness
 
 Title
@@ -3860,9 +3529,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/meta.co.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/meta.co.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/meta.co.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/meta.co.2",
         "title": {
           "@language": "en",
           "@value": "Electronic Lab Notebook Referenced as a Technical Resource"
@@ -3874,22 +3543,11 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
-        },
-        "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-technical-resource-eln-reference"
+          "@id": "https://ostrails.eu"
         },
         "abbreviation": {
           "@value": "meta.co.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -3914,7 +3572,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/meta.co.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/meta.co.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -3925,28 +3583,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-28:
+.. _meta.qual.2:
 
 Metric 28: ReadMe File Reference
 --------------------------------
 
 :Metric ID: meta.qual.2
-:Persistent URI: https://example.org/metric/meta.qual.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/meta.qual.2
 :Dimension: Quality
 
 Title
@@ -3993,9 +3645,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/meta.qual.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/meta.qual.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/meta.qual.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/meta.qual.2",
         "title": {
           "@language": "en",
           "@value": "ReadMe File Reference"
@@ -4007,22 +3659,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-related-identifier-readme-file"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-035"
         },
         "abbreviation": {
           "@value": "meta.qual.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -4031,7 +3675,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/meta.qual.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/meta.qual.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -4042,28 +3686,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-29:
+.. _meta.stand.comp.1:
 
 Metric 29: Metadata Standards Used
 ----------------------------------
 
 :Metric ID: meta.stand.comp.1
-:Persistent URI: https://example.org/metric/meta.stand.comp.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/meta.stand.comp.1
 :Dimension: Compliance
 
 Title
@@ -4110,9 +3748,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/meta.stand.comp.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/meta.stand.comp.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/meta.stand.comp.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/meta.stand.comp.1",
         "title": {
           "@language": "en",
           "@value": "Metadata Standards Used"
@@ -4124,22 +3762,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-metadata-standard-registered"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-036"
         },
         "abbreviation": {
           "@value": "meta.stand.comp.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -4148,7 +3778,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/meta.stand.comp.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/meta.stand.comp.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -4159,28 +3789,141 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-31:
+.. _meta.form.op.1:
+
+Metric 30: Dataset Distributions Use Open File Formats
+------------------------------------------------------
+
+:Metric ID: meta.form.op.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/meta.form.op.1
+:Dimension: Openness
+
+Title
+^^^^^
+
+Use of Open File Formats for datasets
+
+Narrative
+^^^^^^^^^
+
+Validates that the file formats used for dataset distributions are open and non-proprietary, ensuring long-term accessibility and reducing barriers to data reuse.
+
+Intended Outcome
+^^^^^^^^^^^^^^^^
+
+Determine whether the dataset distributions declared in the maDMP use open file formats, supporting long-term accessibility and ensuring that the data can be read without proprietary software.
+
+Applies To
+^^^^^^^^^^
+
+Machine-actionable Data Management Plan (maDMP) in JSON format.
+
+Success Criterion
+^^^^^^^^^^^^^^^^^
+
+For each dataset distribution in scope, the declared `distribution_format` (or equivalent format field) is recognized as an open file format according to the rules or registry used by your project.
+
+Failure Criterion
+^^^^^^^^^^^^^^^^^
+
+At least one declared dataset format is not open, cannot be classified as open, or format information is missing where expected.
+
+Tests
+^^^^^
+
+- :ref:`Test 37: Check distribution format is open <dmp-test-37>`
+
+JSON-LD
+^^^^^^^
+
+.. toggle::
+
+   .. code-block:: json
+
+      {
+        "@context": "https://w3id.org/ftr/context",
+        "@id": "https://w3id.org/dmp/evaluation/metric/meta.form.op.1",
+        "@type": "dqv:Metric",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/meta.form.op.1",
+        "title": {
+          "@language": "en",
+          "@value": "Dataset Distributions Use Open File Formats"
+        },
+        "description": {
+          "@language": "en",
+          "@value": "Checks whether the file formats declared for dataset distributions in the maDMP are open and non-proprietary."
+        },
+        "license": {
+          "@id": "http://creativecommons.org/licenses/by/4.0/"
+        },
+        "dcterms:publisher": {
+          "@id": "https://ostrails.eu"
+        },
+        "hasImplementation": {
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-037"
+        },
+        "abbreviation": {
+          "@value": "meta.form.op.1-M"
+        },
+        "keyword": [
+          {
+            "@language": "en",
+            "@value": "open file format"
+          },
+          {
+            "@language": "en",
+            "@value": "interoperability"
+          },
+          {
+            "@language": "en",
+            "@value": "data accessibility"
+          },
+          {
+            "@language": "en",
+            "@value": "maDMP"
+          },
+          {
+            "@language": "en",
+            "@value": "openness"
+          }
+        ],
+        "landingPage": {
+          "@id": "https://w3id.org/dmp/evaluation/metric/meta.form.op.1"
+        },
+        "version": {
+          "@value": "0.0.1"
+        },
+        "inDimension": {
+          "@value": "Openness"
+        },
+        "isApplicableFor": {
+          "@id": "https://schema.org/Dataset"
+        },
+        "status": {
+          "@language": "en",
+          "@value": "Draft"
+        }
+      }
+
+
+----
+
+.. _meta.doc.qual.1:
 
 Metric 31: Electronic Lab Notebook Linked
 -----------------------------------------
 
 :Metric ID: meta.doc.qual.1
-:Persistent URI: https://example.org/metric/meta.doc.qual.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/meta.doc.qual.1
 :Dimension: Quality
 
 Title
@@ -4228,9 +3971,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/meta.doc.qual.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/meta.doc.qual.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/meta.doc.qual.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/meta.doc.qual.1",
         "title": {
           "@language": "en",
           "@value": "Electronic Lab Notebook Linked"
@@ -4242,22 +3985,19 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
+        "dcterms:publisher": {
+          "@id": "https://ostrails.eu"
+        },
+        "hasImplementation": [
           {
-            "@id": "https://example.org/organization"
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-034"
+          },
+          {
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-038"
           }
         ],
-        "dcterms:publisher": {
-          "@id": "https://example.org/organization"
-        },
-        "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-eln-dataset-linked-related-ids"
-        },
         "abbreviation": {
           "@value": "meta.doc.qual.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -4278,7 +4018,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/meta.doc.qual.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/meta.doc.qual.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -4289,161 +4029,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-30:
-
-Metric 30: Dataset Distributions Use Open File Formats
-------------------------------------------------------
-
-:Metric ID: meta.form.op.1
-:Persistent URI: https://example.org/metric/meta.form.op.1
-:Dimension: Openness
-
-Title
-^^^^^
-
-Use of Open File Formats for datasets
-
-Narrative
-^^^^^^^^^
-
-Validates that the file formats used for dataset distributions are open and non-proprietary, ensuring long-term accessibility and reducing barriers to data reuse.
-
-Intended Outcome
-^^^^^^^^^^^^^^^^
-
-Determine whether the dataset distributions declared in the maDMP use open file formats, supporting long-term accessibility and ensuring that the data can be read without proprietary software.
-
-Applies To
-^^^^^^^^^^
-
-Machine-actionable Data Management Plan (maDMP) in JSON format.
-
-Success Criterion
-^^^^^^^^^^^^^^^^^
-
-For each dataset distribution in scope, the declared `distribution_format` (or equivalent format field) is recognized as an open file format according to the rules or registry used by your project.
-
-Failure Criterion
-^^^^^^^^^^^^^^^^^
-
-At least one declared dataset format is not open, cannot be classified as open, or format information is missing where expected.
-
-Tests
-^^^^^
-
-- :ref:`Test 37: Check distribution format is open <dmp-test-37>`
-
-JSON-LD
-^^^^^^^
-
-.. toggle::
-
-   .. code-block:: json
-
-      {
-        "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/meta.form.op.1",
-        "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/meta.form.op.1",
-        "title": {
-          "@language": "en",
-          "@value": "Dataset Distributions Use Open File Formats"
-        },
-        "description": {
-          "@language": "en",
-          "@value": "Checks whether the file formats declared for dataset distributions in the maDMP are open and non-proprietary."
-        },
-        "license": {
-          "@id": "http://creativecommons.org/licenses/by/4.0/"
-        },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
-        "dcterms:publisher": {
-          "@id": "https://example.org/organization"
-        },
-        "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-distribution-format-open"
-        },
-        "abbreviation": {
-          "@value": "meta.form.op.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
-        },
-        "keyword": [
-          {
-            "@language": "en",
-            "@value": "open file format"
-          },
-          {
-            "@language": "en",
-            "@value": "interoperability"
-          },
-          {
-            "@language": "en",
-            "@value": "data accessibility"
-          },
-          {
-            "@language": "en",
-            "@value": "maDMP"
-          },
-          {
-            "@language": "en",
-            "@value": "openness"
-          }
-        ],
-        "landingPage": {
-          "@id": "https://example.org/metric/meta.form.op.1"
-        },
-        "version": {
-          "@value": "0.0.1"
-        },
-        "inDimension": {
-          "@value": "Openness"
-        },
-        "isApplicableFor": {
-          "@id": "https://schema.org/Dataset"
-        },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
-        "status": {
-          "@language": "en",
-          "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
-        }
-      }
-
-
-----
-
-.. _dmp-metric-32:
+.. _meta.feas.1:
 
 Metric 32: Existence of Dataset Documentation
 ---------------------------------------------
 
 :Metric ID: meta.feas.1
-:Persistent URI: https://example.org/metric/meta.feas.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/meta.feas.1
 :Dimension: Feasibility
 
 Title
@@ -4490,9 +4091,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/meta.feas.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/meta.feas.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/meta.feas.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/meta.feas.1",
         "title": {
           "@language": "en",
           "@value": "Existence of Dataset Documentation"
@@ -4504,22 +4105,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-technical-resource-dataset-documentation"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-039"
         },
         "abbreviation": {
           "@value": "meta.feas.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -4540,7 +4133,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/meta.feas.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/meta.feas.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -4551,28 +4144,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-33:
+.. _qc.qual.1:
 
 Metric 33: Quality Control Methods Stated
 -----------------------------------------
 
 :Metric ID: qc.qual.1
-:Persistent URI: https://example.org/metric/qc.qual.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/qc.qual.1
 :Dimension: Quality
 
 Title
@@ -4619,9 +4206,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/qc.qual.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/qc.qual.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/qc.qual.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/qc.qual.1",
         "title": {
           "@language": "en",
           "@value": "Quality Control Methods Stated"
@@ -4633,22 +4220,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-data-quality-assurance"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-040"
         },
         "abbreviation": {
           "@value": "qc.qual.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -4669,7 +4248,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/qc.qual.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/qc.qual.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -4680,28 +4259,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-34:
+.. _store.cov.1:
 
 Metric 34: Data Storage Location mentioned in the DMP
 -----------------------------------------------------
 
 :Metric ID: store.cov.1
-:Persistent URI: https://example.org/metric/store.cov.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/store.cov.1
 :Dimension: Coverage
 
 Title
@@ -4748,9 +4321,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/store.cov.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/store.cov.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/store.cov.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/store.cov.1",
         "title": {
           "@language": "en",
           "@value": "Data Storage Location mentioned in the DMP"
@@ -4762,22 +4335,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-host-storage-location"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-041"
         },
         "abbreviation": {
           "@value": "store.cov.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -4798,7 +4363,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/store.cov.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/store.cov.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -4809,28 +4374,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-35:
+.. _store.cov.2:
 
 Metric 35: Use of Secure Storage for the dataset in a trusted repository
 ------------------------------------------------------------------------
 
 :Metric ID: store.cov.2
-:Persistent URI: https://example.org/metric/store.cov.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/store.cov.2
 :Dimension: Coverage
 
 Title
@@ -4877,9 +4436,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/store.cov.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/store.cov.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/store.cov.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/store.cov.2",
         "title": {
           "@language": "en",
           "@value": "Use of Secure Storage for the dataset in a trusted repository"
@@ -4891,22 +4450,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-host-trusted-repository"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-042"
         },
         "abbreviation": {
           "@value": "store.cov.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -4927,7 +4478,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/store.cov.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/store.cov.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -4938,28 +4489,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-36:
+.. _store.comp.1:
 
 Metric 36: Alignment of Storage and Backup with Information Sensitivity
 -----------------------------------------------------------------------
 
 :Metric ID: store.comp.1
-:Persistent URI: https://example.org/metric/store.comp.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/store.comp.1
 :Dimension: Compliance
 
 Title
@@ -5009,9 +4554,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/store.comp.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/store.comp.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/store.comp.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/store.comp.1",
         "title": {
           "@language": "en",
           "@value": "Alignment of Storage and Backup with Information Sensitivity"
@@ -5023,22 +4568,19 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
+        "dcterms:publisher": {
+          "@id": "https://ostrails.eu"
+        },
+        "hasImplementation": [
           {
-            "@id": "https://example.org/organization"
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-043"
+          },
+          {
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-044"
           }
         ],
-        "dcterms:publisher": {
-          "@id": "https://example.org/organization"
-        },
-        "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-sensitive-data-classification"
-        },
         "abbreviation": {
           "@value": "store.comp.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -5063,7 +4605,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/store.comp.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/store.comp.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -5074,28 +4616,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-37:
+.. _store.cov.3:
 
 Metric 37: Back up Responsibility
 ---------------------------------
 
 :Metric ID: store.cov.3
-:Persistent URI: https://example.org/metric/store.cov.3
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/store.cov.3
 :Dimension: Coverage
 
 Title
@@ -5142,9 +4678,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/store.cov.3",
+        "@id": "https://w3id.org/dmp/evaluation/metric/store.cov.3",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/store.cov.3",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/store.cov.3",
         "title": {
           "@language": "en",
           "@value": "Back up Responsibility"
@@ -5156,22 +4692,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-contributor-role-backup"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-045"
         },
         "abbreviation": {
           "@value": "store.cov.3-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -5192,7 +4720,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/store.cov.3"
+          "@id": "https://w3id.org/dmp/evaluation/metric/store.cov.3"
         },
         "version": {
           "@value": "0.0.1"
@@ -5203,28 +4731,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-38:
+.. _store.co.1:
 
 Metric 38: Back up Frequency
 ----------------------------
 
 :Metric ID: store.co.1
-:Persistent URI: https://example.org/metric/store.co.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/store.co.1
 :Dimension: Completeness
 
 Title
@@ -5271,9 +4793,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/store.co.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/store.co.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/store.co.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/store.co.1",
         "title": {
           "@language": "en",
           "@value": "Back up Frequency"
@@ -5285,22 +4807,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-backup-frequency"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-046"
         },
         "abbreviation": {
           "@value": "store.co.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -5321,7 +4835,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/store.co.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/store.co.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -5332,28 +4846,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-39:
+.. _store.comp.3:
 
 Metric 39: Version Control Practices for Software
 -------------------------------------------------
 
 :Metric ID: store.comp.3
-:Persistent URI: https://example.org/metric/store.comp.3
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/store.comp.3
 :Dimension: Compliance
 
 Title
@@ -5395,9 +4903,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/store.comp.3",
+        "@id": "https://w3id.org/dmp/evaluation/metric/store.comp.3",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/store.comp.3",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/store.comp.3",
         "title": {
           "@language": "en",
           "@value": "Version Control Practices for Software"
@@ -5409,22 +4917,11 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
-        },
-        "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-version-control-system"
+          "@id": "https://ostrails.eu"
         },
         "abbreviation": {
           "@value": "store.comp.3-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -5445,7 +4942,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/store.comp.3"
+          "@id": "https://w3id.org/dmp/evaluation/metric/store.comp.3"
         },
         "version": {
           "@value": "0.0.1"
@@ -5456,28 +4953,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-40:
+.. _stor.feas.1:
 
 Metric 40: Stored Dataset Location Confirmed
 --------------------------------------------
 
 :Metric ID: stor.feas.1
-:Persistent URI: https://example.org/metric/stor.feas.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/stor.feas.1
 :Dimension: Feasibility
 
 Title
@@ -5524,9 +5015,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/stor.feas.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/stor.feas.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/stor.feas.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/stor.feas.1",
         "title": {
           "@language": "en",
           "@value": "Stored Dataset Location Confirmed"
@@ -5538,22 +5029,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-host-id-matches-zenodo"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-047"
         },
         "abbreviation": {
           "@value": "stor.feas.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -5574,7 +5057,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/stor.feas.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/stor.feas.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -5585,28 +5068,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-41:
+.. _secur.co.1:
 
 Metric 41: Security Measures Implementation
 -------------------------------------------
 
 :Metric ID: secur.co.1
-:Persistent URI: https://example.org/metric/secur.co.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/secur.co.1
 :Dimension: Completeness
 
 Title
@@ -5653,9 +5130,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/secur.co.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/secur.co.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/secur.co.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/secur.co.1",
         "title": {
           "@language": "en",
           "@value": "Security Measures Implementation"
@@ -5667,22 +5144,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-security-and-privacy-title"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-048"
         },
         "abbreviation": {
           "@value": "secur.co.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -5703,7 +5172,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/secur.co.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/secur.co.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -5714,28 +5183,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-42:
+.. _secur.co.2:
 
 Metric 42: Sensitive Data Protection Description
 ------------------------------------------------
 
 :Metric ID: secur.co.2
-:Persistent URI: https://example.org/metric/secur.co.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/secur.co.2
 :Dimension: Completeness
 
 Title
@@ -5782,9 +5245,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/secur.co.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/secur.co.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/secur.co.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/secur.co.2",
         "title": {
           "@language": "en",
           "@value": "Sensitive Data Protection Description"
@@ -5796,22 +5259,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-security-and-privacy-description"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-049"
         },
         "abbreviation": {
           "@value": "secur.co.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -5832,7 +5287,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/secur.co.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/secur.co.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -5843,28 +5298,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-43:
+.. _secur.co.3:
 
 Metric 43: Authorised Access Control
 ------------------------------------
 
 :Metric ID: secur.co.3
-:Persistent URI: https://example.org/metric/secur.co.3
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/secur.co.3
 :Dimension: Completeness
 
 Title
@@ -5911,9 +5360,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/secur.co.3",
+        "@id": "https://w3id.org/dmp/evaluation/metric/secur.co.3",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/secur.co.3",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/secur.co.3",
         "title": {
           "@language": "en",
           "@value": "Authorised Access Control"
@@ -5925,22 +5374,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-security-and-privacy-authorised-access"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-050"
         },
         "abbreviation": {
           "@value": "secur.co.3-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -5961,7 +5402,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/secur.co.3"
+          "@id": "https://w3id.org/dmp/evaluation/metric/secur.co.3"
         },
         "version": {
           "@value": "0.0.1"
@@ -5972,28 +5413,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-44:
+.. _secur.co.4:
 
 Metric 44: Access Control and User Management
 ---------------------------------------------
 
 :Metric ID: secur.co.4
-:Persistent URI: https://example.org/metric/secur.co.4
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/secur.co.4
 :Dimension: Completeness
 
 Title
@@ -6040,9 +5475,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/secur.co.4",
+        "@id": "https://w3id.org/dmp/evaluation/metric/secur.co.4",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/secur.co.4",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/secur.co.4",
         "title": {
           "@language": "en",
           "@value": "Access Control and User Management"
@@ -6054,22 +5489,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-security-and-privacy-user-management"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-051"
         },
         "abbreviation": {
           "@value": "secur.co.4-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -6090,7 +5517,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/secur.co.4"
+          "@id": "https://w3id.org/dmp/evaluation/metric/secur.co.4"
         },
         "version": {
           "@value": "0.0.1"
@@ -6101,28 +5528,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-45:
+.. _secur.co.5:
 
 Metric 45: Required Access Procedures
 -------------------------------------
 
 :Metric ID: secur.co.5
-:Persistent URI: https://example.org/metric/secur.co.5
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/secur.co.5
 :Dimension: Completeness
 
 Title
@@ -6169,9 +5590,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/secur.co.5",
+        "@id": "https://w3id.org/dmp/evaluation/metric/secur.co.5",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/secur.co.5",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/secur.co.5",
         "title": {
           "@language": "en",
           "@value": "Required Access Procedures"
@@ -6183,22 +5604,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-security-and-privacy-access-procedures"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-052"
         },
         "abbreviation": {
           "@value": "secur.co.5-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -6219,7 +5632,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/secur.co.5"
+          "@id": "https://w3id.org/dmp/evaluation/metric/secur.co.5"
         },
         "version": {
           "@value": "0.0.1"
@@ -6230,28 +5643,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-46:
+.. _secur.comp.1:
 
 Metric 46: GDPR and Ethics Compliance
 -------------------------------------
 
 :Metric ID: secur.comp.1
-:Persistent URI: https://example.org/metric/secur.comp.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/secur.comp.1
 :Dimension: Compliance
 
 Title
@@ -6298,9 +5705,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/secur.comp.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/secur.comp.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/secur.comp.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/secur.comp.1",
         "title": {
           "@language": "en",
           "@value": "GDPR and Ethics Compliance"
@@ -6312,22 +5719,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-gdpr-ethics-compliance"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-053"
         },
         "abbreviation": {
           "@value": "secur.comp.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -6348,7 +5747,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/secur.comp.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/secur.comp.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -6359,28 +5758,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-47:
+.. _secur.feas.1:
 
 Metric 47: Final Security Measures Implementation
 -------------------------------------------------
 
 :Metric ID: secur.feas.1
-:Persistent URI: https://example.org/metric/secur.feas.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/secur.feas.1
 :Dimension: Feasibility
 
 Title
@@ -6427,9 +5820,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/secur.feas.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/secur.feas.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/secur.feas.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/secur.feas.1",
         "title": {
           "@language": "en",
           "@value": "Final Security Measures Implementation"
@@ -6441,22 +5834,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-security-and-privacy-title-destination"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-054"
         },
         "abbreviation": {
           "@value": "secur.feas.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -6477,7 +5862,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/secur.feas.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/secur.feas.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -6488,28 +5873,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-48:
+.. _sens.secure.co.1:
 
 Metric 48: Sensitive Data Using Method
 --------------------------------------
 
 :Metric ID: sens.secure.co.1
-:Persistent URI: https://example.org/metric/sens.secure.co.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/sens.secure.co.1
 :Dimension: Completeness
 
 Title
@@ -6556,9 +5935,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/sens.secure.co.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/sens.secure.co.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/sens.secure.co.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/sens.secure.co.1",
         "title": {
           "@language": "en",
           "@value": "Sensitive Data Using Method"
@@ -6570,22 +5949,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-sensitive-data-protection-method"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-055"
         },
         "abbreviation": {
           "@value": "sens.secure.co.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -6606,7 +5977,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/sens.secure.co.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/sens.secure.co.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -6617,28 +5988,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-49:
+.. _sens.secure.co.2:
 
 Metric 49: Provision of Anonymised Synthetic Data
 -------------------------------------------------
 
 :Metric ID: sens.secure.co.2
-:Persistent URI: https://example.org/metric/sens.secure.co.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/sens.secure.co.2
 :Dimension: Completeness
 
 Title
@@ -6685,9 +6050,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/sens.secure.co.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/sens.secure.co.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/sens.secure.co.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/sens.secure.co.2",
         "title": {
           "@language": "en",
           "@value": "Provision of Anonymised Synthetic Data"
@@ -6699,22 +6064,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-anonymised-synthetic-data"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-056"
         },
         "abbreviation": {
           "@value": "sens.secure.co.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -6735,7 +6092,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/sens.secure.co.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/sens.secure.co.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -6746,28 +6103,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-50:
+.. _data.restrict.co.3:
 
 Metric 50: Statement of No Data Restrictions
 --------------------------------------------
 
 :Metric ID: data.restrict.co.3
-:Persistent URI: https://example.org/metric/data.restrict.co.3
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.restrict.co.3
 :Dimension: Completeness
 
 Title
@@ -6814,9 +6165,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.restrict.co.3",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.restrict.co.3",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.restrict.co.3",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.restrict.co.3",
         "title": {
           "@language": "en",
           "@value": "Statement of No Data Restrictions"
@@ -6828,22 +6179,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-rights-no-restrictions"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-057"
         },
         "abbreviation": {
           "@value": "data.restrict.co.3-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -6864,7 +6207,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.restrict.co.3"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.restrict.co.3"
         },
         "version": {
           "@value": "0.0.1"
@@ -6875,28 +6218,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-51:
+.. _data.lice.co.1:
 
 Metric 51: Dataset License Declared
 -----------------------------------
 
 :Metric ID: data.lice.co.1
-:Persistent URI: https://example.org/metric/data.lice.co.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.lice.co.1
 :Dimension: Completeness
 
 Title
@@ -6943,9 +6280,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.lice.co.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.lice.co.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.lice.co.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.lice.co.1",
         "title": {
           "@language": "en",
           "@value": "Dataset License Declared"
@@ -6957,22 +6294,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-license-ref"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-058"
         },
         "abbreviation": {
           "@value": "data.lice.co.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -6993,7 +6322,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.lice.co.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.lice.co.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -7004,28 +6333,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-52:
+.. _soft.lice.comp.1:
 
 Metric 52: Software Dataset Has a Standardised Machine-Readable License
 -----------------------------------------------------------------------
 
 :Metric ID: soft.lice.comp.1
-:Persistent URI: https://example.org/metric/soft.lice.comp.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/soft.lice.comp.1
 :Dimension: Compliance
 
 Title
@@ -7072,9 +6395,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/soft.lice.comp.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/soft.lice.comp.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/soft.lice.comp.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/soft.lice.comp.1",
         "title": {
           "@language": "en",
           "@value": "Software Dataset Has a Standardised Machine-Readable License"
@@ -7086,22 +6409,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-license-ref-spdx-software"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-059"
         },
         "abbreviation": {
           "@value": "soft.lice.comp.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -7122,7 +6437,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/soft.lice.comp.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/soft.lice.comp.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -7133,28 +6448,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-53:
+.. _data.agree.comp.2:
 
 Metric 53: Data Access Agreements
 ---------------------------------
 
 :Metric ID: data.agree.comp.2
-:Persistent URI: https://example.org/metric/data.agree.comp.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.agree.comp.2
 :Dimension: Compliance
 
 Title
@@ -7201,9 +6510,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.agree.comp.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.agree.comp.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.agree.comp.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.agree.comp.2",
         "title": {
           "@language": "en",
           "@value": "Data Access Agreements"
@@ -7215,22 +6524,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-data-access-agreements"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-060"
         },
         "abbreviation": {
           "@value": "data.agree.comp.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -7251,7 +6552,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.agree.comp.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.agree.comp.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -7262,28 +6563,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-54:
+.. _own.co.2:
 
 Metric 54: Data Ownership Role Declared
 ---------------------------------------
 
 :Metric ID: own.co.2
-:Persistent URI: https://example.org/metric/own.co.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/own.co.2
 :Dimension: Completeness
 
 Title
@@ -7330,9 +6625,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/own.co.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/own.co.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/own.co.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/own.co.2",
         "title": {
           "@language": "en",
           "@value": "Data Ownership Role Declared"
@@ -7344,22 +6639,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-contributor-role-owner"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-061"
         },
         "abbreviation": {
           "@value": "own.co.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -7380,7 +6667,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/own.co.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/own.co.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -7391,28 +6678,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-55:
+.. _soft.auth.co.3:
 
 Metric 55: Software Dataset Author Declared
 -------------------------------------------
 
 :Metric ID: soft.auth.co.3
-:Persistent URI: https://example.org/metric/soft.auth.co.3
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/soft.auth.co.3
 :Dimension: Completeness
 
 Title
@@ -7459,9 +6740,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/soft.auth.co.3",
+        "@id": "https://w3id.org/dmp/evaluation/metric/soft.auth.co.3",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/soft.auth.co.3",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/soft.auth.co.3",
         "title": {
           "@language": "en",
           "@value": "Software Dataset Author Declared"
@@ -7473,22 +6754,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-contributor-author-software"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-062"
         },
         "abbreviation": {
           "@value": "soft.auth.co.3-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -7509,7 +6782,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/soft.auth.co.3"
+          "@id": "https://w3id.org/dmp/evaluation/metric/soft.auth.co.3"
         },
         "version": {
           "@value": "0.0.1"
@@ -7520,28 +6793,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-56:
+.. _ethics.co.1:
 
 Metric 56: Ethical Issues Status Declared
 -----------------------------------------
 
 :Metric ID: ethics.co.1
-:Persistent URI: https://example.org/metric/ethics.co.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/ethics.co.1
 :Dimension: Completeness
 
 Title
@@ -7588,9 +6855,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/ethics.co.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/ethics.co.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/ethics.co.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/ethics.co.1",
         "title": {
           "@language": "en",
           "@value": "Ethical Issues Status Declared"
@@ -7602,22 +6869,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-ethical-issues-exist"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-063"
         },
         "abbreviation": {
           "@value": "ethics.co.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -7638,7 +6897,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/ethics.co.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/ethics.co.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -7649,28 +6908,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-57:
+.. _ethics.co.2:
 
 Metric 57: Ethical Issues and Review
 ------------------------------------
 
 :Metric ID: ethics.co.2
-:Persistent URI: https://example.org/metric/ethics.co.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/ethics.co.2
 :Dimension: Completeness
 
 Title
@@ -7712,9 +6965,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/ethics.co.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/ethics.co.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/ethics.co.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/ethics.co.2",
         "title": {
           "@language": "en",
           "@value": "Ethical Issues and Review"
@@ -7726,22 +6979,11 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
-        },
-        "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-ethical-issues-report"
+          "@id": "https://ostrails.eu"
         },
         "abbreviation": {
           "@value": "ethics.co.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -7762,7 +7004,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/ethics.co.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/ethics.co.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -7773,28 +7015,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-58:
+.. _ethics.co.3:
 
 Metric 58: Justification for Absence of Ethical Issues
 ------------------------------------------------------
 
 :Metric ID: ethics.co.3
-:Persistent URI: https://example.org/metric/ethics.co.3
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/ethics.co.3
 :Dimension: Completeness
 
 Title
@@ -7841,9 +7077,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/ethics.co.3",
+        "@id": "https://w3id.org/dmp/evaluation/metric/ethics.co.3",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/ethics.co.3",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/ethics.co.3",
         "title": {
           "@language": "en",
           "@value": "Justification for Absence of Ethical Issues"
@@ -7855,22 +7091,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-ethical-issues-description-no"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-064"
         },
         "abbreviation": {
           "@value": "ethics.co.3-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -7891,7 +7119,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/ethics.co.3"
+          "@id": "https://w3id.org/dmp/evaluation/metric/ethics.co.3"
         },
         "version": {
           "@value": "0.0.1"
@@ -7902,28 +7130,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-59:
+.. _data.shar.op.1:
 
 Metric 59: Data Access Status Open for the Dataset
 --------------------------------------------------
 
 :Metric ID: data.shar.op.1
-:Persistent URI: https://example.org/metric/data.shar.op.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.shar.op.1
 :Dimension: Openness
 
 Title
@@ -7970,9 +7192,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.shar.op.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.op.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.shar.op.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.shar.op.1",
         "title": {
           "@language": "en",
           "@value": "Data Access Status Open for the Dataset"
@@ -7984,22 +7206,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-data-access-open"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-065"
         },
         "abbreviation": {
           "@value": "data.shar.op.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -8020,7 +7234,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.shar.op.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.op.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -8031,28 +7245,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-60:
+.. _data.shar.co.1:
 
 Metric 60: Data License is Present
 ----------------------------------
 
 :Metric ID: data.shar.co.1
-:Persistent URI: https://example.org/metric/data.shar.co.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.shar.co.1
 :Dimension: Completeness
 
 Title
@@ -8100,9 +7308,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.shar.co.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.co.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.shar.co.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.shar.co.1",
         "title": {
           "@language": "en",
           "@value": "Data License is Present"
@@ -8114,27 +7322,19 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": [
           {
-            "@id": "https://example.org/test/T-DCSC-distribution-present"
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-066"
           },
           {
-            "@id": "https://example.org/test/T-DCSC-distribution-license-ref"
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-067"
           }
         ],
         "abbreviation": {
           "@value": "data.shar.co.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -8155,7 +7355,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.shar.co.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.co.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -8166,28 +7366,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-61:
+.. _data.shar.co.2:
 
 Metric 61: Data Restrictions Reference
 --------------------------------------
 
 :Metric ID: data.shar.co.2
-:Persistent URI: https://example.org/metric/data.shar.co.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.shar.co.2
 :Dimension: Completeness
 
 Title
@@ -8234,9 +7428,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.shar.co.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.co.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.shar.co.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.shar.co.2",
         "title": {
           "@language": "en",
           "@value": "Data Restrictions Reference"
@@ -8248,22 +7442,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-rights-restrictions-reference"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-068"
         },
         "abbreviation": {
           "@value": "data.shar.co.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -8284,7 +7470,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.shar.co.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.co.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -8295,28 +7481,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-62:
+.. _data.shar.comp.1:
 
 Metric 62: Dataset License Complies with Funder Requirements
 ------------------------------------------------------------
 
 :Metric ID: data.shar.comp.1
-:Persistent URI: https://example.org/metric/data.shar.comp.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.shar.comp.1
 :Dimension: Compliance
 
 Title
@@ -8363,9 +7543,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.shar.comp.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.comp.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.shar.comp.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.shar.comp.1",
         "title": {
           "@language": "en",
           "@value": "Dataset License Complies with Funder Requirements"
@@ -8377,22 +7557,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-distribution-license-cc-by"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-069"
         },
         "abbreviation": {
           "@value": "data.shar.comp.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -8413,7 +7585,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.shar.comp.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.comp.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -8424,28 +7596,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-63:
+.. _data.shar.feas.1:
 
 Metric 63: Repository Access Rights Consistency Aligned
 -------------------------------------------------------
 
 :Metric ID: data.shar.feas.1
-:Persistent URI: https://example.org/metric/data.shar.feas.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.shar.feas.1
 :Dimension: Feasibility
 
 Title
@@ -8492,9 +7658,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.shar.feas.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.feas.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.shar.feas.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.shar.feas.1",
         "title": {
           "@language": "en",
           "@value": "Repository Access Rights Consistency Aligned"
@@ -8506,22 +7672,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-data-access-host-consistency"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-070"
         },
         "abbreviation": {
           "@value": "data.shar.feas.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -8542,7 +7700,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.shar.feas.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.feas.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -8553,28 +7711,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-64:
+.. _data.shar.feas.2:
 
 Metric 64: Repository Data License Aligned with the DMP
 -------------------------------------------------------
 
 :Metric ID: data.shar.feas.2
-:Persistent URI: https://example.org/metric/data.shar.feas.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.shar.feas.2
 :Dimension: Feasibility
 
 Title
@@ -8621,9 +7773,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.shar.feas.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.feas.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.shar.feas.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.shar.feas.2",
         "title": {
           "@language": "en",
           "@value": "Repository Data License Aligned with the DMP"
@@ -8635,22 +7787,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-distribution-license-host-alignment"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-071"
         },
         "abbreviation": {
           "@value": "data.shar.feas.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -8671,7 +7815,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.shar.feas.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.feas.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -8682,28 +7826,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-65:
+.. _data.shar.feas.3:
 
 Metric 65: Embargo Implementation Alignment
 -------------------------------------------
 
 :Metric ID: data.shar.feas.3
-:Persistent URI: https://example.org/metric/data.shar.feas.3
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.shar.feas.3
 :Dimension: Feasibility
 
 Title
@@ -8750,9 +7888,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.shar.feas.3",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.feas.3",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.shar.feas.3",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.shar.feas.3",
         "title": {
           "@language": "en",
           "@value": "Embargo Implementation Alignment"
@@ -8764,22 +7902,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-distribution-license-start-date-embargo"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-072"
         },
         "abbreviation": {
           "@value": "data.shar.feas.3-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -8800,7 +7930,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.shar.feas.3"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.feas.3"
         },
         "version": {
           "@value": "0.0.1"
@@ -8811,28 +7941,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-66:
+.. _data.shar.feas.4:
 
 Metric 66: Repository Data Restrictions
 ---------------------------------------
 
 :Metric ID: data.shar.feas.4
-:Persistent URI: https://example.org/metric/data.shar.feas.4
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.shar.feas.4
 :Dimension: Feasibility
 
 Title
@@ -8879,9 +8003,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.shar.feas.4",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.feas.4",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.shar.feas.4",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.shar.feas.4",
         "title": {
           "@language": "en",
           "@value": "Repository Data Restrictions"
@@ -8893,22 +8017,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-rights-destination-restriction-alignment"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-073"
         },
         "abbreviation": {
           "@value": "data.shar.feas.4-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -8929,7 +8045,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.shar.feas.4"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.feas.4"
         },
         "version": {
           "@value": "0.0.1"
@@ -8940,28 +8056,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-67:
+.. _data.shar.comp.2:
 
 Metric 67: Embargo Declared in the DMP or Repository
 ----------------------------------------------------
 
 :Metric ID: data.shar.comp.2
-:Persistent URI: https://example.org/metric/data.shar.comp.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.shar.comp.2
 :Dimension: Compliance
 
 Title
@@ -9009,9 +8119,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.shar.comp.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.comp.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.shar.comp.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.shar.comp.2",
         "title": {
           "@language": "en",
           "@value": "Embargo Declared in the DMP or Repository"
@@ -9023,27 +8133,19 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": [
           {
-            "@id": "https://example.org/test/T-DCSC-host-embargo-date-absent"
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-074"
           },
           {
-            "@id": "https://example.org/test/T-DCSC-distribution-license-start-date-absent"
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-075"
           }
         ],
         "abbreviation": {
           "@value": "data.shar.comp.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -9064,7 +8166,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.shar.comp.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.shar.comp.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -9075,28 +8177,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-68:
+.. _repo.co.3:
 
 Metric 68: Thematic Data Repositories Referenced
 ------------------------------------------------
 
 :Metric ID: repo.co.3
-:Persistent URI: https://example.org/metric/repo.co.3
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/repo.co.3
 :Dimension: Completeness
 
 Title
@@ -9143,9 +8239,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/repo.co.3",
+        "@id": "https://w3id.org/dmp/evaluation/metric/repo.co.3",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/repo.co.3",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/repo.co.3",
         "title": {
           "@language": "en",
           "@value": "Thematic Data Repositories Referenced"
@@ -9157,22 +8253,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-host-thematic-registry-match"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-076"
         },
         "abbreviation": {
           "@value": "repo.co.3-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -9193,7 +8281,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/repo.co.3"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.co.3"
         },
         "version": {
           "@value": "0.0.1"
@@ -9204,28 +8292,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-69:
+.. _repo.comp.2:
 
 Metric 69: Repository Conforms with FAIR Data Principles
 --------------------------------------------------------
 
 :Metric ID: repo.comp.2
-:Persistent URI: https://example.org/metric/repo.comp.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/repo.comp.2
 :Dimension: Compliance
 
 Title
@@ -9272,9 +8354,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/repo.comp.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/repo.comp.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/repo.comp.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/repo.comp.2",
         "title": {
           "@language": "en",
           "@value": "Repository Conforms with FAIR Data Principles"
@@ -9286,22 +8368,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-host-fair-benchmark"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-077"
         },
         "abbreviation": {
           "@value": "repo.comp.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -9322,7 +8396,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/repo.comp.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.comp.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -9333,28 +8407,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-70:
+.. _repo.comp.3:
 
 Metric 70: Trusted Repository is Used
 -------------------------------------
 
 :Metric ID: repo.comp.3
-:Persistent URI: https://example.org/metric/repo.comp.3
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/repo.comp.3
 :Dimension: Compliance
 
 Title
@@ -9402,9 +8470,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/repo.comp.3",
+        "@id": "https://w3id.org/dmp/evaluation/metric/repo.comp.3",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/repo.comp.3",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/repo.comp.3",
         "title": {
           "@language": "en",
           "@value": "Trusted Repository is Used"
@@ -9416,22 +8484,19 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
+        "dcterms:publisher": {
+          "@id": "https://ostrails.eu"
+        },
+        "hasImplementation": [
           {
-            "@id": "https://example.org/organization"
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-078"
+          },
+          {
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-087"
           }
         ],
-        "dcterms:publisher": {
-          "@id": "https://example.org/organization"
-        },
-        "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-host-trusted-registry"
-        },
         "abbreviation": {
           "@value": "repo.comp.3-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -9452,7 +8517,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/repo.comp.3"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.comp.3"
         },
         "version": {
           "@value": "0.0.1"
@@ -9463,28 +8528,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-71:
+.. _repo.co.4:
 
 Metric 71: Verification of Back-up Strategy
 -------------------------------------------
 
 :Metric ID: repo.co.4
-:Persistent URI: https://example.org/metric/repo.co.4
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/repo.co.4
 :Dimension: Completeness
 
 Title
@@ -9531,9 +8590,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/repo.co.4",
+        "@id": "https://w3id.org/dmp/evaluation/metric/repo.co.4",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/repo.co.4",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/repo.co.4",
         "title": {
           "@language": "en",
           "@value": "Verification of Back-up Strategy"
@@ -9545,22 +8604,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-host-backup-strategy"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-079"
         },
         "abbreviation": {
           "@value": "repo.co.4-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -9581,7 +8632,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/repo.co.4"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.co.4"
         },
         "version": {
           "@value": "0.0.1"
@@ -9592,28 +8643,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-72:
+.. _repo.co.5:
 
 Metric 72: Certification of Repository
 --------------------------------------
 
 :Metric ID: repo.co.5
-:Persistent URI: https://example.org/metric/repo.co.5
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/repo.co.5
 :Dimension: Completeness
 
 Title
@@ -9660,9 +8705,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/repo.co.5",
+        "@id": "https://w3id.org/dmp/evaluation/metric/repo.co.5",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/repo.co.5",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/repo.co.5",
         "title": {
           "@language": "en",
           "@value": "Certification of Repository"
@@ -9674,22 +8719,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-host-certified-with"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-080"
         },
         "abbreviation": {
           "@value": "repo.co.5-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -9710,7 +8747,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/repo.co.5"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.co.5"
         },
         "version": {
           "@value": "0.0.1"
@@ -9721,28 +8758,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-73:
+.. _repo.co.7:
 
 Metric 73: Used Resources for Preservation
 ------------------------------------------
 
 :Metric ID: repo.co.7
-:Persistent URI: https://example.org/metric/repo.co.7
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/repo.co.7
 :Dimension: Completeness
 
 Title
@@ -9789,9 +8820,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/repo.co.7",
+        "@id": "https://w3id.org/dmp/evaluation/metric/repo.co.7",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/repo.co.7",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/repo.co.7",
         "title": {
           "@language": "en",
           "@value": "Used Resources for Preservation"
@@ -9803,22 +8834,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-cost-preservation-reference"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-081"
         },
         "abbreviation": {
           "@value": "repo.co.7-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -9839,7 +8862,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/repo.co.7"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.co.7"
         },
         "version": {
           "@value": "0.0.1"
@@ -9850,28 +8873,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-74:
+.. _repo.co.6:
 
 Metric 74: Repository Policy is Present
 ---------------------------------------
 
 :Metric ID: repo.co.6
-:Persistent URI: https://example.org/metric/repo.co.6
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/repo.co.6
 :Dimension: Completeness
 
 Title
@@ -9918,9 +8935,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/repo.co.6",
+        "@id": "https://w3id.org/dmp/evaluation/metric/repo.co.6",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/repo.co.6",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/repo.co.6",
         "title": {
           "@language": "en",
           "@value": "Repository Policy is Present"
@@ -9932,22 +8949,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-host-id-fairsharing-policy"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-082"
         },
         "abbreviation": {
           "@value": "repo.co.6-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -9968,7 +8977,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/repo.co.6"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.co.6"
         },
         "version": {
           "@value": "0.0.1"
@@ -9979,28 +8988,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-75:
+.. _repo.feas.1:
 
 Metric 75: Repository Identifier Accuracy
 -----------------------------------------
 
 :Metric ID: repo.feas.1
-:Persistent URI: https://example.org/metric/repo.feas.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/repo.feas.1
 :Dimension: Feasibility
 
 Title
@@ -10047,9 +9050,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/repo.feas.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/repo.feas.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/repo.feas.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/repo.feas.1",
         "title": {
           "@language": "en",
           "@value": "Repository Identifier Accuracy"
@@ -10061,22 +9064,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-dataset-id-doi-destination"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-083"
         },
         "abbreviation": {
           "@value": "repo.feas.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -10097,7 +9092,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/repo.feas.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.feas.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -10108,28 +9103,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-76:
+.. _repo.feas.2:
 
 Metric 76: Long-Term Preservation Dataset
 -----------------------------------------
 
 :Metric ID: repo.feas.2
-:Persistent URI: https://example.org/metric/repo.feas.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/repo.feas.2
 :Dimension: Feasibility
 
 Title
@@ -10176,9 +9165,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/repo.feas.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/repo.feas.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/repo.feas.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/repo.feas.2",
         "title": {
           "@language": "en",
           "@value": "Long-Term Preservation Dataset"
@@ -10190,22 +9179,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-preservation-statement-host"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-084"
         },
         "abbreviation": {
           "@value": "repo.feas.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -10226,7 +9207,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/repo.feas.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.feas.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -10237,28 +9218,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-77:
+.. _repo.feas.4:
 
 Metric 77: Dataset Characteristics Are Compatible with the Repository
 ---------------------------------------------------------------------
 
 :Metric ID: repo.feas.4
-:Persistent URI: https://example.org/metric/repo.feas.4
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/repo.feas.4
 :Dimension: Feasibility
 
 Title
@@ -10306,9 +9281,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/repo.feas.4",
+        "@id": "https://w3id.org/dmp/evaluation/metric/repo.feas.4",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/repo.feas.4",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/repo.feas.4",
         "title": {
           "@language": "en",
           "@value": "Dataset Characteristics Are Compatible with the Repository"
@@ -10320,27 +9295,19 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": [
           {
-            "@id": "https://example.org/test/T-DCSC-dataset-keyword-zenodo"
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-085"
           },
           {
-            "@id": "https://example.org/test/T-DCSC-dataset-language-zenodo"
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-086"
           }
         ],
         "abbreviation": {
           "@value": "repo.feas.4-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -10361,7 +9328,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/repo.feas.4"
+          "@id": "https://w3id.org/dmp/evaluation/metric/repo.feas.4"
         },
         "version": {
           "@value": "0.0.1"
@@ -10372,28 +9339,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-78:
+.. _data.exteresource.co.1:
 
 Metric 78: Data External Resources Included in the DMP
 ------------------------------------------------------
 
 :Metric ID: data.exteresource.co.1
-:Persistent URI: https://example.org/metric/data.exteresource.co.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.exteresource.co.1
 :Dimension: Completeness
 
 Title
@@ -10440,9 +9401,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.exteresource.co.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.exteresource.co.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.exteresource.co.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.exteresource.co.1",
         "title": {
           "@language": "en",
           "@value": "Data External Resources Included in the DMP"
@@ -10454,22 +9415,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-related-identifier-external-resources"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-088"
         },
         "abbreviation": {
           "@value": "data.exteresource.co.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -10490,7 +9443,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.exteresource.co.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.exteresource.co.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -10501,28 +9454,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-79:
+.. _data.exteresource.co.2:
 
 Metric 79: Metadata Standard Specified in the DMP
 -------------------------------------------------
 
 :Metric ID: data.exteresource.co.2
-:Persistent URI: https://example.org/metric/data.exteresource.co.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.exteresource.co.2
 :Dimension: Completeness
 
 Title
@@ -10569,9 +9516,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.exteresource.co.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.exteresource.co.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.exteresource.co.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.exteresource.co.2",
         "title": {
           "@language": "en",
           "@value": "Metadata Standard Specified in the DMP"
@@ -10583,22 +9530,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-related-identifier-metadata-standard"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-089"
         },
         "abbreviation": {
           "@value": "data.exteresource.co.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -10619,7 +9558,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.exteresource.co.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.exteresource.co.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -10630,28 +9569,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-80:
+.. _data.exteresource.feas.1:
 
 Metric 80: Resolvable External Resources
 ----------------------------------------
 
 :Metric ID: data.exteresource.feas.1
-:Persistent URI: https://example.org/metric/data.exteresource.feas.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.exteresource.feas.1
 :Dimension: Feasibility
 
 Title
@@ -10698,9 +9631,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.exteresource.feas.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.exteresource.feas.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.exteresource.feas.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.exteresource.feas.1",
         "title": {
           "@language": "en",
           "@value": "Resolvable External Resources"
@@ -10712,22 +9645,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-url-resolvable"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-090"
         },
         "abbreviation": {
           "@value": "data.exteresource.feas.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -10748,7 +9673,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.exteresource.feas.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.exteresource.feas.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -10759,28 +9684,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-81:
+.. _data.exteresource.feas.2:
 
 Metric 81: OpenAIRE Mentioned Dataset Validation
 ------------------------------------------------
 
 :Metric ID: data.exteresource.feas.2
-:Persistent URI: https://example.org/metric/data.exteresource.feas.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.exteresource.feas.2
 :Dimension: Feasibility
 
 Title
@@ -10827,9 +9746,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.exteresource.feas.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.exteresource.feas.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.exteresource.feas.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.exteresource.feas.2",
         "title": {
           "@language": "en",
           "@value": "OpenAIRE Mentioned Dataset Validation"
@@ -10841,22 +9760,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-dataset-openaire-skg-if"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-091"
         },
         "abbreviation": {
           "@value": "data.exteresource.feas.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -10877,7 +9788,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.exteresource.feas.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.exteresource.feas.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -10888,28 +9799,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-82:
+.. _data.exteresource.feas.3:
 
 Metric 82: Contributor Roles Follow CRediT Taxonomy
 ---------------------------------------------------
 
 :Metric ID: data.exteresource.feas.3
-:Persistent URI: https://example.org/metric/data.exteresource.feas.3
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.exteresource.feas.3
 :Dimension: Feasibility
 
 Title
@@ -10956,9 +9861,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.exteresource.feas.3",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.exteresource.feas.3",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.exteresource.feas.3",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.exteresource.feas.3",
         "title": {
           "@language": "en",
           "@value": "Contributor Roles Follow CRediT Taxonomy"
@@ -10970,22 +9875,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-contributor-credit-taxonomy"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-092"
         },
         "abbreviation": {
           "@value": "data.exteresource.feas.3-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -11006,7 +9903,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.exteresource.feas.3"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.exteresource.feas.3"
         },
         "version": {
           "@value": "0.0.1"
@@ -11017,28 +9914,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-83:
+.. _data.pid.cov.1:
 
 Metric 83: Repository Supports Persistent Identifiers for Datasets
 ------------------------------------------------------------------
 
 :Metric ID: data.pid.cov.1
-:Persistent URI: https://example.org/metric/data.pid.cov.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.pid.cov.1
 :Dimension: Coverage
 
 Title
@@ -11085,9 +9976,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.pid.cov.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.pid.cov.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.pid.cov.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.pid.cov.1",
         "title": {
           "@language": "en",
           "@value": "Repository Supports Persistent Identifiers for Datasets"
@@ -11099,22 +9990,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-host-pid-system"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-093"
         },
         "abbreviation": {
           "@value": "data.pid.cov.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -11135,7 +10018,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.pid.cov.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.pid.cov.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -11146,28 +10029,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-84:
+.. _data.pid.cov.2:
 
 Metric 84: Trusted Repository Referenced
 ----------------------------------------
 
 :Metric ID: data.pid.cov.2
-:Persistent URI: https://example.org/metric/data.pid.cov.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.pid.cov.2
 :Dimension: Coverage
 
 Title
@@ -11215,9 +10092,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.pid.cov.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.pid.cov.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.pid.cov.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.pid.cov.2",
         "title": {
           "@language": "en",
           "@value": "Trusted Repository Referenced"
@@ -11229,27 +10106,19 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": [
           {
-            "@id": "https://example.org/test/T-DCSC-certified-with-trusted-registry"
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-094"
           },
           {
-            "@id": "https://example.org/test/T-DCSC-host-id-valid-link"
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-095"
           }
         ],
         "abbreviation": {
           "@value": "data.pid.cov.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -11270,7 +10139,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.pid.cov.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.pid.cov.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -11281,28 +10150,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-85:
+.. _data.pid.feas.1:
 
 Metric 85: Dataset PID System in the DMP Matches the Repository
 ---------------------------------------------------------------
 
 :Metric ID: data.pid.feas.1
-:Persistent URI: https://example.org/metric/data.pid.feas.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.pid.feas.1
 :Dimension: Feasibility
 
 Title
@@ -11349,9 +10212,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.pid.feas.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.pid.feas.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.pid.feas.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.pid.feas.1",
         "title": {
           "@language": "en",
           "@value": "Dataset PID System in the DMP Matches the Repository"
@@ -11363,22 +10226,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-host-pid-system-zenodo"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-096"
         },
         "abbreviation": {
           "@value": "data.pid.feas.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -11399,7 +10254,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.pid.feas.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.pid.feas.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -11410,28 +10265,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-86:
+.. _data.pid.feas.3:
 
 Metric 86: Dataset Persistent Identifier Resolves Successfully
 --------------------------------------------------------------
 
 :Metric ID: data.pid.feas.3
-:Persistent URI: https://example.org/metric/data.pid.feas.3
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/data.pid.feas.3
 :Dimension: Feasibility
 
 Title
@@ -11473,9 +10322,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/data.pid.feas.3",
+        "@id": "https://w3id.org/dmp/evaluation/metric/data.pid.feas.3",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/data.pid.feas.3",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/data.pid.feas.3",
         "title": {
           "@language": "en",
           "@value": "Dataset Persistent Identifier Resolves Successfully"
@@ -11487,22 +10336,11 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
-        },
-        "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-dataset-id-doi-zenodo-resolve"
+          "@id": "https://ostrails.eu"
         },
         "abbreviation": {
           "@value": "data.pid.feas.3-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -11523,7 +10361,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/data.pid.feas.3"
+          "@id": "https://w3id.org/dmp/evaluation/metric/data.pid.feas.3"
         },
         "version": {
           "@value": "0.0.1"
@@ -11534,28 +10372,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-87:
+.. _role.co.1:
 
 Metric 87: Research Data Management Roles Declared
 --------------------------------------------------
 
 :Metric ID: role.co.1
-:Persistent URI: https://example.org/metric/role.co.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/role.co.1
 :Dimension: Completeness
 
 Title
@@ -11602,9 +10434,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/role.co.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/role.co.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/role.co.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/role.co.1",
         "title": {
           "@language": "en",
           "@value": "Research Data Management Roles Declared"
@@ -11616,22 +10448,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-contributor-name-role-contact"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-097"
         },
         "abbreviation": {
           "@value": "role.co.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -11652,7 +10476,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/role.co.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/role.co.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -11663,28 +10487,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-88:
+.. _dmp.valid.co.2:
 
 Metric 88: DMP Validation by Data Steward
 -----------------------------------------
 
 :Metric ID: dmp.valid.co.2
-:Persistent URI: https://example.org/metric/dmp.valid.co.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/dmp.valid.co.2
 :Dimension: Completeness
 
 Title
@@ -11731,9 +10549,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/dmp.valid.co.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/dmp.valid.co.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/dmp.valid.co.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/dmp.valid.co.2",
         "title": {
           "@language": "en",
           "@value": "DMP Validation by Data Steward"
@@ -11745,22 +10563,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-contributor-role-data-steward"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-098"
         },
         "abbreviation": {
           "@value": "dmp.valid.co.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -11781,7 +10591,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/dmp.valid.co.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/dmp.valid.co.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -11792,28 +10602,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-89:
+.. _role.pid.co.1:
 
 Metric 89: Contributors and Organisations PIDs
 ----------------------------------------------
 
 :Metric ID: role.pid.co.1
-:Persistent URI: https://example.org/metric/role.pid.co.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/role.pid.co.1
 :Dimension: Completeness
 
 Title
@@ -11860,9 +10664,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/role.pid.co.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/role.pid.co.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/role.pid.co.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/role.pid.co.1",
         "title": {
           "@language": "en",
           "@value": "Contributors and Organisations PIDs"
@@ -11874,22 +10678,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-contributor-id-affiliation-id"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-099"
         },
         "abbreviation": {
           "@value": "role.pid.co.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -11910,7 +10706,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/role.pid.co.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/role.pid.co.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -11921,28 +10717,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-90:
+.. _role.feas.1:
 
 Metric 90: Referenced RDM Roles
 -------------------------------
 
 :Metric ID: role.feas.1
-:Persistent URI: https://example.org/metric/role.feas.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/role.feas.1
 :Dimension: Feasibility
 
 Title
@@ -11989,9 +10779,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/role.feas.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/role.feas.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/role.feas.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/role.feas.1",
         "title": {
           "@language": "en",
           "@value": "Referenced RDM Roles"
@@ -12003,22 +10793,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-contributor-fields-destination"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-100"
         },
         "abbreviation": {
           "@value": "role.feas.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -12039,7 +10821,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/role.feas.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/role.feas.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -12050,28 +10832,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-91:
+.. _role.feas.2:
 
 Metric 91: Data Steward Contribution Reflected in the Destination Repository
 ----------------------------------------------------------------------------
 
 :Metric ID: role.feas.2
-:Persistent URI: https://example.org/metric/role.feas.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/role.feas.2
 :Dimension: Feasibility
 
 Title
@@ -12118,9 +10894,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/role.feas.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/role.feas.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/role.feas.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/role.feas.2",
         "title": {
           "@language": "en",
           "@value": "Data Steward Contribution Reflected in the Destination Repository"
@@ -12132,22 +10908,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-data-steward-role-destination-other"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-101"
         },
         "abbreviation": {
           "@value": "role.feas.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -12168,7 +10936,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/role.feas.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/role.feas.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -12179,28 +10947,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-92:
+.. _role.feas.3:
 
 Metric 92: Contributor and Organisation PIDs Match the Destination Repository
 -----------------------------------------------------------------------------
 
-:Metric ID: cost.comp.1
-:Persistent URI: https://example.org/metric/cost.comp.1
+:Metric ID: role.feas.3
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/role.feas.3
 :Dimension: Compliance
 
 Title
@@ -12248,9 +11010,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/cost.comp.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/cost.comp.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/cost.comp.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/cost.comp.1",
         "title": {
           "@language": "en",
           "@value": "Repository Cost Verified Against Actual Pricing"
@@ -12262,22 +11024,19 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
+        "dcterms:publisher": {
+          "@id": "https://ostrails.eu"
+        },
+        "hasImplementation": [
           {
-            "@id": "https://example.org/organization"
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-102"
+          },
+          {
+            "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-103"
           }
         ],
-        "dcterms:publisher": {
-          "@id": "https://example.org/organization"
-        },
-        "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-cost-repository"
-        },
         "abbreviation": {
           "@value": "cost.comp.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -12298,7 +11057,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/cost.comp.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/cost.comp.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -12309,28 +11068,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-93:
+.. _cost.co.1:
 
 Metric 93: DMP Includes a Budget for Personnel and Monetary Resources
 ---------------------------------------------------------------------
 
 :Metric ID: cost.co.1
-:Persistent URI: https://example.org/metric/cost.co.1
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/cost.co.1
 :Dimension: Completeness
 
 Title
@@ -12377,9 +11130,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/cost.co.1",
+        "@id": "https://w3id.org/dmp/evaluation/metric/cost.co.1",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/cost.co.1",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/cost.co.1",
         "title": {
           "@language": "en",
           "@value": "DMP Includes a Budget for Personnel and Monetary Resources"
@@ -12391,22 +11144,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-cost-budget-specification"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-104"
         },
         "abbreviation": {
           "@value": "cost.co.1-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -12427,7 +11172,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/cost.co.1"
+          "@id": "https://w3id.org/dmp/evaluation/metric/cost.co.1"
         },
         "version": {
           "@value": "0.0.1"
@@ -12438,28 +11183,22 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
 
 ----
 
-.. _dmp-metric-94:
+.. _cost.co.2:
 
 Metric 94: DMP States No Additional RDM Resources Are Required
 --------------------------------------------------------------
 
 :Metric ID: cost.co.2
-:Persistent URI: https://example.org/metric/cost.co.2
+:Persistent URI: https://w3id.org/dmp/evaluation/metric/cost.co.2
 :Dimension: Completeness
 
 Title
@@ -12506,9 +11245,9 @@ JSON-LD
 
       {
         "@context": "https://w3id.org/ftr/context",
-        "@id": "https://example.org/metric/cost.co.2",
+        "@id": "https://w3id.org/dmp/evaluation/metric/cost.co.2",
         "@type": "dqv:Metric",
-        "identifier": "https://example.org/metric/cost.co.2",
+        "identifier": "https://w3id.org/dmp/evaluation/metric/cost.co.2",
         "title": {
           "@language": "en",
           "@value": "DMP States No Additional RDM Resources Are Required"
@@ -12520,22 +11259,14 @@ JSON-LD
         "license": {
           "@id": "http://creativecommons.org/licenses/by/4.0/"
         },
-        "dcterms:creator": [
-          {
-            "@id": "https://example.org/organization"
-          }
-        ],
         "dcterms:publisher": {
-          "@id": "https://example.org/organization"
+          "@id": "https://ostrails.eu"
         },
         "hasImplementation": {
-          "@id": "https://example.org/test/T-DCSC-cost-no-additional-resources"
+          "@id": "https://w3id.org/dmp/evaluation/test/T-DCSC-105"
         },
         "abbreviation": {
           "@value": "cost.co.2-M"
-        },
-        "contactPoint": {
-          "@id": "https://example.org/contact"
         },
         "keyword": [
           {
@@ -12556,7 +11287,7 @@ JSON-LD
           }
         ],
         "landingPage": {
-          "@id": "https://example.org/metric/cost.co.2"
+          "@id": "https://w3id.org/dmp/evaluation/metric/cost.co.2"
         },
         "version": {
           "@value": "0.0.1"
@@ -12567,15 +11298,9 @@ JSON-LD
         "isApplicableFor": {
           "@id": "https://schema.org/Dataset"
         },
-        "hasBenchmark": {
-          "@id": "https://example.org/benchmark/default"
-        },
         "status": {
           "@language": "en",
           "@value": "Draft"
-        },
-        "supportedBy": {
-          "@id": "https://example.org/project"
         }
       }
 
