@@ -7,7 +7,7 @@
 
 ## 1. OSTrails Docs — `/home/osboxes/CODE/docs`
 
-**Branch:** `FAIR-tutorial-guidelines`  
+**Branch:** `FAIR-tutorial-guidelines`
 **PR target:** `next`
 
 ### Changes in progress (all unstaged):

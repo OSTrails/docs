@@ -3,7 +3,7 @@
 Conceptual Components
 ======================
 
-The conceptual components take the form of 
+The conceptual components take the form of
 
 * *Metrics*: features of a digital object that can/should be measured, and why it is useful to measure them. These are instantiated as `Tests <../code/tests-and-algorithms.html>`_
 

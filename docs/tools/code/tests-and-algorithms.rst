@@ -3,7 +3,7 @@
 Code Components
 ================
 
-The code components take the form of 
+The code components take the form of
 
 * *Tests*: Tests are the code-level instantiations of the objectives defined by a `Metric <../conceptual/metrics-and-benchmarks.html>`_
 
