@@ -412,7 +412,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -531,7 +531,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -650,7 +650,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -779,7 +779,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -898,7 +898,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -1017,7 +1017,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -1136,7 +1136,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -1261,7 +1261,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -1396,7 +1396,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -1520,7 +1520,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -1644,7 +1644,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -1763,7 +1763,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -1886,7 +1886,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -2013,7 +2013,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -2136,7 +2136,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -2263,7 +2263,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -2387,7 +2387,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -2511,7 +2511,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -2630,7 +2630,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -2749,7 +2749,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -2868,7 +2868,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -2996,7 +2996,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -3116,7 +3116,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -3236,7 +3236,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -3355,7 +3355,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -3474,7 +3474,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -3585,7 +3585,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -3688,7 +3688,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -3791,7 +3791,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -3910,7 +3910,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -4031,7 +4031,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -4146,7 +4146,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -4261,7 +4261,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -4376,7 +4376,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -4491,7 +4491,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -4618,7 +4618,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -4733,7 +4733,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -4848,7 +4848,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -4955,7 +4955,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -5070,7 +5070,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -5185,7 +5185,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -5300,7 +5300,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -5415,7 +5415,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -5530,7 +5530,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -5645,7 +5645,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -5760,7 +5760,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -5875,7 +5875,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -5990,7 +5990,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -6105,7 +6105,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -6220,7 +6220,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -6335,7 +6335,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -6450,7 +6450,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -6565,7 +6565,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -6680,7 +6680,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -6795,7 +6795,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -6910,7 +6910,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -7017,7 +7017,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -7132,7 +7132,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -7247,7 +7247,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -7368,7 +7368,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -7483,7 +7483,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -7598,7 +7598,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -7713,7 +7713,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -7828,7 +7828,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -7943,7 +7943,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -8058,7 +8058,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -8179,7 +8179,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -8294,7 +8294,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -8409,7 +8409,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -8530,7 +8530,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -8645,7 +8645,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -8760,7 +8760,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -8875,7 +8875,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -8990,7 +8990,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -9105,7 +9105,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -9220,7 +9220,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -9341,7 +9341,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -9456,7 +9456,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -9571,7 +9571,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -9686,7 +9686,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -9801,7 +9801,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -9916,7 +9916,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -10031,7 +10031,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -10152,7 +10152,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -10267,7 +10267,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -10374,7 +10374,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -10489,7 +10489,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -10604,7 +10604,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -10719,7 +10719,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -10834,7 +10834,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -10949,7 +10949,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -11070,7 +11070,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -11185,7 +11185,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
@@ -11300,7 +11300,7 @@ JSON-LD
         },
         "status": {
           "@language": "en",
-          "@value": "Draft"
+          "@value": "Ready"
         }
       }
 
