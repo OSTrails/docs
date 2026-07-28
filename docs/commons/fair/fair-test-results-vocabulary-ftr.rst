@@ -52,3 +52,4 @@ FTR also includes `ShEX and SHACL files <https://github.com/OSTrails/FAIR_testin
 for the different assessment components, allowing you to validate your
 FTR records against this representation using any RDF validator tool,
 such as `rudof <https://rudof-project.github.io/>`_.
+
