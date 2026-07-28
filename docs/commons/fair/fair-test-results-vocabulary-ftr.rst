@@ -47,4 +47,10 @@ Specification
 
 FAIR assessment validation
 --------------------------
-:ref:`FAIR assessment validation <tool-ftr-validator>`
+
+FTR also includes `ShEX and SHACL files <https://github.com/OSTrails/FAIR_testing_resource_vocabulary/tree/main/development>`_
+for the different assessment components, allowing you to validate your
+FTR records against this representation using any RDF validator tool,
+such as `rudof <https://rudof-project.github.io/>`_. See
+:ref:`FAIR assessment validation <tool-ftr-validator>` for the dedicated
+validation service built on top of this.
