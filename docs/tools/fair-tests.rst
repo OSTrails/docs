@@ -1,22 +1,22 @@
+:orphan:
 
 .. _tool-fair-tests:
 
 FAIR Tests
-^^^^^^^^^^
+==========
 
 The tests below are maintained as live endpoints by the OSTrails project together with private partners who are committed to maintaining the testing infrastructure.
-Tests are catalogued in the `OSTrails Software Tools Registry <../authoring-and-registering/ostrails-index.html>`_, which provides the listing below via an API call.
-All tests are compliant with the `FTR Vocabulary <https://w3id.org/ftr>`_ and can be executed through the platforms described in :doc:`../fair`.
+Tests are catalogued in the :ref:`OSTrails Software Tools Registry <software-registry>`, which provides the listing below via an API call.
+All tests are compliant with the `FTR Vocabulary <https://w3id.org/ftr>`_ and can be executed through the platforms described under :ref:`tool-testing-platforms`.
 
 Use the search box to filter by test name or description.
 
 .. raw:: html
 
-   (A static JSON snapshot of the test catalogue is <a href="https://github.com/OSTrails/docs/static_data_dumps/tests.json">here</a>: Dumped on July 17, 2026.)
-
+   (A static JSON snapshot of the test catalogue is <a href="https://github.com/OSTrails/docs/static_data_dumps/tests.json">here</a>: dumped on July 17, 2026.)
 
    <style>
-   #fair-tests-search {
+   .catalog-search {
      width: 100%;
      padding: 8px 12px;
      margin-bottom: 16px;
@@ -26,17 +26,17 @@ Use the search box to filter by test name or description.
      box-sizing: border-box;
      display: none;
    }
-   #fair-tests-count {
+   .catalog-count {
      font-size: 0.9em;
      color: #555;
      margin-bottom: 10px;
    }
-   .fair-test-card {
+   .catalog-card {
      border: 1px solid #dde0e4;
      border-radius: 4px;
      margin-bottom: 6px;
    }
-   .fair-test-card > summary {
+   .catalog-card > summary {
      padding: 9px 14px;
      cursor: pointer;
      background: #f5f7fa;
@@ -44,31 +44,31 @@ Use the search box to filter by test name or description.
      list-style: none;
      user-select: none;
    }
-   .fair-test-card > summary::-webkit-details-marker { display: none; }
-   .fair-test-card[open] > summary {
+   .catalog-card > summary::-webkit-details-marker { display: none; }
+   .catalog-card[open] > summary {
      background: #e8eef8;
      border-bottom: 1px solid #dde0e4;
      border-radius: 4px 4px 0 0;
    }
-   .fair-test-body {
+   .catalog-body {
      padding: 10px 16px 12px 16px;
    }
-   .fair-test-body p { margin: 0 0 8px 0; }
-   .fair-test-body dl { margin: 6px 0 0 0; }
-   .fair-test-body dt {
+   .catalog-body p { margin: 0 0 8px 0; }
+   .catalog-body dl { margin: 6px 0 0 0; }
+   .catalog-body dt {
      font-weight: 600;
      margin-top: 6px;
      color: #333;
    }
-   .fair-test-body dd {
+   .catalog-body dd {
      margin: 2px 0 0 0;
      word-break: break-all;
      font-size: 0.92em;
    }
    </style>
 
-   <input type="text" id="fair-tests-search" placeholder="Filter tests by name or description…">
-   <div id="fair-tests-count"></div>
+   <input type="text" id="fair-tests-search" class="catalog-search" placeholder="Filter tests by name or description…">
+   <div id="fair-tests-count" class="catalog-count"></div>
    <div id="fair-tests-container"><em>Loading FAIR test catalogue…</em></div>
 
    <script>
@@ -99,9 +99,9 @@ Use the search box to filter by test name or description.
 
        var cards = tests.map(function (t) {
          return [
-           '<details class="fair-test-card">',
+           '<details class="catalog-card">',
            '<summary><strong>' + esc(t.title) + '</strong></summary>',
-           '<div class="fair-test-body">',
+           '<div class="catalog-body">',
            '<p>' + esc(t.description) + '</p>',
            '<dl>',
            '<dt>Identifier</dt>',
@@ -122,7 +122,7 @@ Use the search box to filter by test name or description.
 
        searchBox.addEventListener('input', function () {
          var q = this.value.toLowerCase();
-         var all = container.querySelectorAll('.fair-test-card');
+         var all = container.querySelectorAll('.catalog-card');
          var visible = 0;
          all.forEach(function (card) {
            var match = !q || card.textContent.toLowerCase().indexOf(q) !== -1;
