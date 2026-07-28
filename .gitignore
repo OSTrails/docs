@@ -133,3 +133,6 @@ dmypy.json
 _build
 
 *~
+
+# Session hand-off scratch notes (not project docs)
+HANDOFF.md

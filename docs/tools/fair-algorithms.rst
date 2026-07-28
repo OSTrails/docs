@@ -1,25 +1,22 @@
+:orphan:
 
 .. _tool-fair-algorithms:
 
 FAIR Algorithms
-^^^^^^^^^^^^^^^
+===============
 
+The algorithms below are maintained as live endpoints by the OSTrails project together with private partners who are committed to maintaining the testing infrastructure.
+Algorithms are catalogued in the :ref:`OSTrails Software Tools Registry <software-registry>`, which provides the listing below via an API call.
+All algorithms are compliant with the `FTR Vocabulary <https://w3id.org/ftr>`_ and can be executed through the platforms described under :ref:`tool-testing-platforms`.
 
-The Algorithms below are maintained as live endpoints by the OSTrails project together with private partners who are committed to maintaining the testing infrastructure.
-Algorithms are catalogued in the `OSTrails Software Tools Registry <../authoring-and-registering/ostrails-index.html>`_, which provides the listing below via an API call.
-All Algorithms are compliant with the `FTR Vocabulary <https://w3id.org/ftr>`_ and can be executed through the platforms described in :doc:`../fair`.
-
-
-Use the search box to filter by Algorithm name or description.
+Use the search box to filter by algorithm name or description.
 
 .. raw:: html
 
-   (A static JSON snapshot of the algorithm catalogue is <a href="https://github.com/OSTrails/docs/static_data_dumps/algos.json">here</a>: Dumped on July 17, 2026.)
-
-
+   (A static JSON snapshot of the algorithm catalogue is <a href="https://github.com/OSTrails/docs/static_data_dumps/algos.json">here</a>: dumped on July 17, 2026.)
 
    <style>
-   #fair-tests-search {
+   .catalog-search {
      width: 100%;
      padding: 8px 12px;
      margin-bottom: 16px;
@@ -29,17 +26,17 @@ Use the search box to filter by Algorithm name or description.
      box-sizing: border-box;
      display: none;
    }
-   #fair-tests-count {
+   .catalog-count {
      font-size: 0.9em;
      color: #555;
      margin-bottom: 10px;
    }
-   .fair-test-card {
+   .catalog-card {
      border: 1px solid #dde0e4;
      border-radius: 4px;
      margin-bottom: 6px;
    }
-   .fair-test-card > summary {
+   .catalog-card > summary {
      padding: 9px 14px;
      cursor: pointer;
      background: #f5f7fa;
@@ -47,32 +44,32 @@ Use the search box to filter by Algorithm name or description.
      list-style: none;
      user-select: none;
    }
-   .fair-test-card > summary::-webkit-details-marker { display: none; }
-   .fair-test-card[open] > summary {
+   .catalog-card > summary::-webkit-details-marker { display: none; }
+   .catalog-card[open] > summary {
      background: #e8eef8;
      border-bottom: 1px solid #dde0e4;
      border-radius: 4px 4px 0 0;
    }
-   .fair-test-body {
+   .catalog-body {
      padding: 10px 16px 12px 16px;
    }
-   .fair-test-body p { margin: 0 0 8px 0; }
-   .fair-test-body dl { margin: 6px 0 0 0; }
-   .fair-test-body dt {
+   .catalog-body p { margin: 0 0 8px 0; }
+   .catalog-body dl { margin: 6px 0 0 0; }
+   .catalog-body dt {
      font-weight: 600;
      margin-top: 6px;
      color: #333;
    }
-   .fair-test-body dd {
+   .catalog-body dd {
      margin: 2px 0 0 0;
      word-break: break-all;
      font-size: 0.92em;
    }
    </style>
 
-   <input type="text" id="fair-tests-search" placeholder="Filter Algorithms by name or description…">
-   <div id="fair-tests-count"></div>
-   <div id="fair-tests-container"><em>Loading FAIR Algorithms catalogue…</em></div>
+   <input type="text" id="fair-algorithms-search" class="catalog-search" placeholder="Filter algorithms by name or description…">
+   <div id="fair-algorithms-count" class="catalog-count"></div>
+   <div id="fair-algorithms-container"><em>Loading FAIR algorithm catalogue…</em></div>
 
    <script>
    (function () {
@@ -84,9 +81,9 @@ Use the search box to filter by Algorithm name or description.
          .replace(/"/g, '&quot;');
      }
 
-     var container = document.getElementById('fair-tests-container');
-     var searchBox = document.getElementById('fair-tests-search');
-     var countEl  = document.getElementById('fair-tests-count');
+     var container = document.getElementById('fair-algorithms-container');
+     var searchBox = document.getElementById('fair-algorithms-search');
+     var countEl  = document.getElementById('fair-algorithms-count');
 
      fetch('https://w3id.org/FAIR-Champion/algorithms/', {
        headers: { 'Accept': 'application/json' }
@@ -102,9 +99,9 @@ Use the search box to filter by Algorithm name or description.
 
        var cards = tests.map(function (t) {
          return [
-           '<details class="fair-test-card">',
+           '<details class="catalog-card">',
            '<summary><strong>' + esc(t.title) + '</strong></summary>',
-           '<div class="fair-test-body">',
+           '<div class="catalog-body">',
            '<p>' + esc(t.description) + '</p>',
            '<dl>',
            '<dt>Identifier</dt>',
@@ -120,26 +117,26 @@ Use the search box to filter by Algorithm name or description.
        });
 
        container.innerHTML = cards.join('\n');
-       countEl.textContent = tests.length + ' Algorithms';
+       countEl.textContent = tests.length + ' algorithms';
        searchBox.style.display = '';
 
        searchBox.addEventListener('input', function () {
          var q = this.value.toLowerCase();
-         var all = container.querySelectorAll('.fair-test-card');
+         var all = container.querySelectorAll('.catalog-card');
          var visible = 0;
          all.forEach(function (card) {
            var match = !q || card.textContent.toLowerCase().indexOf(q) !== -1;
            card.style.display = match ? '' : 'none';
            if (match) visible++;
          });
-         countEl.textContent = (q ? visible + ' of ' + all.length : all.length) + ' tests';
+         countEl.textContent = (q ? visible + ' of ' + all.length : all.length) + ' algorithms';
        });
      })
      .catch(function (e) {
        container.innerHTML =
-         '<p><strong>Unable to load the live Algorithm catalogue.</strong> ' +
+         '<p><strong>Unable to load the live algorithm catalogue.</strong> ' +
          'You can <a href="https://tools.ostrails.eu/champion/algorithms/">browse the API directly</a>.</p>';
-       console.error('FAIR Algorithms fetch failed:', e);
+       console.error('FAIR algorithms fetch failed:', e);
      });
    })();
    </script>
