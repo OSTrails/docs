@@ -15,7 +15,7 @@ intended to trigger an activity (such as a test or assessment).
 The latter kinds of calls are prefixed with /assess/.
 
 Please refer to the paragraphs below for API calls or implementation.
-An OpenAPI yaml specification for FTR is available in the following [link](https://github.com/OSTrails/FAIR_testing_resource_vocabulary/blob/main/development/api/open_api_description.yaml) including examples and
+An OpenAPI yaml specification for FTR is available in the following `link <https://github.com/OSTrails/FAIR_testing_resource_vocabulary/blob/main/development/api/open_api_description.yaml>`_ including examples and
 method calls.
 
 
