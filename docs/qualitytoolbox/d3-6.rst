@@ -274,7 +274,7 @@ The Toolbox defines what to check: norms, and the tests that verify them. The Me
 
 -  **A rule engine on Apache Spark 4.0.2** (Java 17, about 2,400 lines of code, published as eu.dnetlib.dhp:qualitytagger in the D-Net repository) that evaluates any number of tags over the full graph in one run.
 -  **A declarative rule language.** Tags, their inputs, optional SQL joins and their constraints are written in JSON; a separate path map ties logical field names to locations in the record. Changing a policy requires no recompilation.
--  **A library of verbs organised by quantifier and predicate**, the building blocks of constraints: presence, membership of a list of values (all, any, none), string predicates (equality, prefix, containment, regular expression), date comparison, and three higher-order verbs that apply another verb to all, any or none of the elements of a list. Case sensitivity and negation are options of the constraint, not separate verbs. Earlier verb names remain available as deprecated aliases.
+-  **A library of verbs organised by quantifier and predicate**, the building blocks of constraints: presence, membership of a list of values (all, any, none), string predicates (equality, prefix, containment, regular expression), date comparison, and three higher-order verbs that apply another verb to all, any or none of the elements of a list. Case sensitivity and negation are options of the constraint, not separate verbs.
 -  **A catalogue of 20 tags** covering publications, datasets, software and other research products, in 51 tag definitions.
 
 Context: from quality criteria to tags
@@ -299,7 +299,8 @@ The tagger implements those tests as tags; the norm tables of the Toolbox name, 
 -  *related_products* / *is_supplemented_by* is the relation ``IsSupplementedBy`` of the ``relation`` table, from a publication to the product that supplements it;
 -  *funding* is the relation ``isProducedBy`` from a result to a ``project``, and the grant *duration* / *start* is the project's ``startDate``;
 -  *manifestations* / *dates* / *publication* is read at record level, from ``dateofacceptance``;
--  *manifestations* / *biblio* / *hosting_data_source* is the ``hostedby`` of each instance.
+-  *manifestations* / *biblio* / *hosting_data_source* is the ``hostedby`` of each instance;
+-  *manifestations* / *identifiers* with *scheme* ``url`` are the ``url`` values of each instance.
 
 Why a tagger and not a scorer
 """""""""""""""""""""""""""""
@@ -313,15 +314,15 @@ Quality assessment therefore has two layers, and the tagger covers only the firs
 
 Tags fall into three kinds of signal, which only acquire meaning in combination. The kind of signal says what a tag tells about a record; whether the tag marks a violation or a compliance is a separate matter, explained in `How to read a tag`_.
 
-+----------+---------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Kind     | Meaning                                                                                     | Examples                                                                                                                             |
-+==========+=============================================================================================+======================================================================================================================================+
-| Gap      | A piece of metadata expected by the criteria is missing or unusable                         | MA (no abstract), MTI (no title), NP (no recognised PID), AP (an author without identifier), MAU (software without authors)          |
-+----------+---------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Strength | The record goes beyond the minimum                                                          | MT and DMA (title or abstract written for the product), SWR (software in a code repository)                                          |
-+----------+---------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Context  | A property that describes what the record is, and changes how the other tags should be read | SM (dataset that is supplementary material), RL (dataset linked to an article), DWA (dataset with abstract and no linked literature) |
-+----------+---------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
++----------+---------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
+| Kind     | Meaning                                                                                     | Examples                                                                                                                                |
++==========+=============================================================================================+=========================================================================================================================================+
+| Gap      | A piece of metadata expected by the criteria is missing or unusable                         | MA (no abstract), MTI (no title), NP (no recognised PID), AP (an author without identifier), MAU (software without authors)             |
++----------+---------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
+| Strength | The record goes beyond the minimum                                                          | MT and DMA (title or abstract written for the product), SWR (software in a code repository)                                             |
++----------+---------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
+| Context  | A property that describes what the record is, and changes how the other tags should be read | SM (dataset that is supplementary material), RL (dataset linked to a publication), DWA (dataset with abstract and no linked literature) |
++----------+---------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 
 The same record can carry several tags of each kind.
 
@@ -390,7 +391,9 @@ Key             Type                                  Required Role
 ``selects``     array of ``{tableName, tableSelect}`` no       SQL statements run in order, each registered as a new view; used for joins and pre-filtering
 ``resultTable`` string                                yes      The view whose rows are evaluated (an input or a select)
 ``criteria``    array of constraint groups            no       The rule; if absent, every row of ``resultTable`` is tagged
-``entityToTag`` string                                no       Documents which entity type is tagged; not used by the engine
+``entityToTag`` string                                no       The entity type that is tagged; used by the statistics
+``marks``       string                                no       ``violation`` (default), ``compliance`` or ``diagnostic``: what the presence of the tag says about the norm (see `How to read a tag`_)
+``population``  string                                no       ``evaluated`` (default): the norm speaks about the rows of ``resultTable``; ``all``: about every record of ``entityToTag``. Used by the statistics
 =============== ===================================== ======== ============================================================================================
 
 When ``selects`` is present, the result table must expose a column named ``comparisonValue``. It carries the value taken from the related entity (a project start date, the title of the supplemented article). A select that needs no comparison still declares it, as ``CAST(NULL AS STRING) AS comparisonValue`` (see DWA).
@@ -404,7 +407,7 @@ Criteria, constraint groups and constraints
 
    tag(r) \Leftrightarrow \bigvee_{g \in criteria} \; \bigwedge_{a \in g} verb(a, r)
 
-This form is enough to express every check in the catalogue. Alternatives become separate groups (the ten title prefixes of SM are ten groups of one constraint); joint conditions share a group (MID and AP require two constraints at once).
+This form is enough to express every check in the catalogue. Alternatives become separate groups (HD: an instance without a hosting data source, or an instance hosted by "Unknown Repository"); joint conditions share a group (MID and AP require two constraints at once). Alternatives on a single value are usually one constraint whose verb takes a list or a regular expression: SM tests all its title patterns with one ``matches``.
 
 Each constraint (``Constraint``) has seven keys:
 
@@ -413,11 +416,11 @@ Key            Meaning
 ============== =================================================================================================================================================================================================================================
 ``verb``       Name of the test to apply, resolved in the verb library (e.g. ``forall_apply``)
 ``field``      Path-map key of the value to test in the record (e.g. ``description``). If null, the verb tests the comparison value from the joined entity instead
-``value``      Parameter of the verb: null, a string, or a list of strings (accepted PID schemes, a regular expression, title prefixes)
+``value``      Parameter of the verb: null, a string, or a list of strings (accepted PID schemes, a regular expression, URL prefixes)
 ``jsonPath``   Optional. Path-map key of a second path, applied inside each element of ``field`` when ``field`` is a list of objects (e.g. the PID schemes inside each author)
 ``applyVerb``  Only for ``forall_apply``, ``forany_apply`` and ``fornone_apply``: the verb to apply to each element
-``ignoreCase`` Optional, default false. Compare strings ignoring the case, for the verbs that support it (``equals``, ``contains``, ``starts_with``, ``all_in``, ``any_in``, ``none_in``, and the ``applyVerb`` of the three higher-order verbs)
-``negate``     Optional, default false. The constraint holds when the verb does not hold. A verb that cannot be applied (see `Errors and missing data`_) never holds, negated or not
+``ignoreCase`` Optional, default false. Compare strings ignoring the case; it applies to every verb that compares strings, and to the ``applyVerb`` of the three higher-order verbs
+``negate``     Optional, default false. The constraint holds when the verb does not hold. A verb that cannot be applied stops the job, negated or not (see `Errors and missing data`_)
 ============== =================================================================================================================================================================================================================================
 
 Three constraints from the tagging configuration show the range of the format:
@@ -427,8 +430,8 @@ Three constraints from the tagging configuration show the range of the format:
    {"verb": "not_exist", "field": "description", "value": null}
 
    {"verb": "forall_apply", "field": "authorWhole", "jsonPath": "authorPids",
-    "applyVerb": "any_in", "negate": true,
-    "value": ["orcid", "orcid_pending", "github", "lattes", "…", "zbmath"]}
+    "applyVerb": "any_in", "ignoreCase": true, "negate": true,
+    "value": ["orcid", "viaf"]}
 
    {"verb": "exist", "field": null, "value": null}
 
@@ -456,13 +459,12 @@ Name                                  JSONPath                                  
 ``instanceLicence``                   ``$['license']['value']``                                                    Applied inside an instance: its licence
 ``instanceUrl``                       ``$['url']``                                                                 Applied inside an instance: its URLs
 ``instanceHostedby``                  ``$['hostedby']['value']``                                                   Applied inside an instance: its hosting data source
-``hostedby``                          ``$['instance'][*]['hostedby']['value']``                                    Hosting data sources of all instances
 ``orcid``                             ``$['author'][*]['pid'][*][?(@['qualifier']['classid']=='orcid')]['value']`` ORCID iDs of all authors
 ===================================== ============================================================================ ===========================================================
 
 Some names are meant to be read on a whole record, others only inside an element reached through ``jsonPath`` (``authorPids``, ``instanceLicence``, ``instanceUrl``, ``instanceHostedby``). The engine does not distinguish them; the configuration author chooses which role a name plays.
 
-An entry may also declare an ``action`` (class, method, parameters), for example to cut a date down to its year. Actions are parsed but not executed in this version.
+An entry may also declare an ``action`` (class, method, parameters), for example to cut a date down to its year. Actions are parsed but not executed by the engine.
 
 Independence from the data model
 """"""""""""""""""""""""""""""""
@@ -490,7 +492,7 @@ Every verb implements the ``Selection`` interface, which has two methods:
 -  ``apply(value)`` tests the value read from the record against the verb's parameter.
 -  ``apply(value, otherEntityValue)`` tests it against a value taken from a related entity, through the ``comparisonValue`` column.
 
-Verbs carry an annotation, ``@VerbClass("any_in")``. When the configuration is loaded, ``VerbResolver`` scans the ``criteria`` package with ClassGraph, builds a map from names to classes, and instantiates each constraint's verb through its one-argument constructor, passing the constraint's ``value`` as parameter. Three optional interfaces extend a verb: ``JsonPathAware`` verbs receive the constraint's ``jsonPath``; ``ApplyOtherVerbAware`` verbs receive its ``applyVerb``; ``CaseAware`` verbs receive its ``ignoreCase``. The constraint itself applies ``negate`` to the outcome, so no verb implements a negation. Adding a verb therefore means writing one annotated class; no registry needs editing.
+Verbs carry an annotation, ``@VerbClass("any_in")``. When the configuration is loaded, ``VerbResolver`` scans the ``criteria`` package with ClassGraph, once for each JVM, builds a map from names to classes, and instantiates each constraint's verb through its one-argument constructor, passing the constraint's ``value`` as parameter. Three optional interfaces extend a verb: ``JsonPathAware`` verbs receive the constraint's ``jsonPath``; ``ApplyOtherVerbAware`` verbs receive its ``applyVerb``; ``CaseAware`` verbs receive its ``ignoreCase``. The constraint itself applies ``negate`` to the outcome, so no verb implements a negation. Adding a verb therefore means writing one annotated class; no registry needs editing.
 
 Verbs are organised so that the quantifier (all, any, none) and the predicate (what is tested) are separate choices. The three higher-order verbs share one implementation, which differs only in the quantifier and in the outcome on an empty list, and the three list-membership verbs share another.
 
@@ -503,7 +505,9 @@ A JSONPath read returns one of three shapes, and every verb is written to handle
 -  **A list**, for any path with a wildcard or a filter (``[*]``, ``[?(…)]``). It may be empty, and its elements may be strings or whole objects (authors, instances).
 -  **Null**, when the path does not exist in the record.
 
-A value counts as empty when it is null, an empty string, or a list whose elements are all null or empty strings. A string is treated as a list of one string by the list-membership verbs. Strings are compared exactly, and ignoring the case when the constraint sets ``ignoreCase``.
+A value counts as empty when it is null, blank (empty or only white space), or a list whose elements are all null or blank. A string is treated as a list of one string by the list-membership and the higher-order verbs.
+
+Every verb compares strings in the same way. The values read from the records, from the record and from the related entity, are compared without leading and trailing white space; the parameters of the constraint are used as written. Case counts, unless the constraint sets ``ignoreCase``: then equality, prefixes, containment, regular expressions and ordering all ignore it.
 
 Verb reference
 """"""""""""""
@@ -521,7 +525,7 @@ In the table, *v* is the value read from the record, *p* the constraint's parame
    * - Presence
      - ``exist``
      - null
-     - *v* is not empty. With ``c``: *v* (a string) equals *c*, or one element of *c*, after trimming, ignoring case
+     - *v* is not empty. With ``c``: *v* (a string) equals *c*, or one element of *c*
    * - Presence
      - ``not_exist``
      - null
@@ -565,31 +569,31 @@ In the table, *v* is the value read from the record, *p* the constraint's parame
    * - String predicates
      - ``matches``
      - regular expression
-     - *v*, or some element of *v*, matches *p* in full (use ``(?i)`` to ignore the case)
+     - *v*, or some element of *v*, matches *p* in full
    * - Dates
      - ``before``, ``after``
      - date ``yyyy-MM-dd`` or null
      - the date *v* is before or after *p*. With ``c``: before or after the date *c*; if *c* is null, falls back to *p*
 
-With a comparison value *c*, ``forall_apply``, ``forany_apply`` and ``fornone_apply`` apply ``applyVerb`` (``exist`` when not set) to each element of *v* against *c*. Every other verb, except those marked above, does not hold when a comparison value is present.
+With a comparison value *c*, ``forall_apply``, ``forany_apply`` and ``fornone_apply`` apply ``applyVerb`` (``exist`` when not set) to each element of *v* against *c*. Every other verb, except those marked above, does not hold when a comparison value is present (and, negated, holds). For the three higher-order verbs, a missing value (a path that does not exist in the record) is an empty list, and a single string is a list of one element.
 
-The list-membership verbs are the point of care. ``exist`` and ``not_exist`` were once used with a list of values, where ``exist`` meant that *every* value is in the list and ``not_exist`` that *some* value is outside it; a record with a DOI and one other identifier then violated "one of the identifiers should be a PID". The three list-membership verbs name the quantifier, and ``exist`` and ``not_exist`` are used only without a parameter.
+The list-membership verbs are the point of care. With a list parameter, ``exist`` holds when *every* value read from the record is in the list, and ``not_exist`` when *some* value read from the record is outside it; the record does not need to contain every value of the list. With the parameter ``["doi", "handle"]``, the schemes ``["doi"]`` satisfy ``exist`` and ``["doi", "mag"]`` do not, so ``not_exist`` on the schemes of a record with a DOI and one other identifier holds, although the record satisfies "one of the identifiers should be a PID". The tag catalogue therefore tests lists only with the three list-membership verbs, which name the quantifier, and uses ``exist`` and ``not_exist`` only without a parameter.
 
 Negation and case are options of the constraint. "Some instance has no licence" is written as ``forall_apply`` of ``exist``, with ``negate``; "title ignoring case starts with…" is ``starts_with`` with ``ignoreCase``.
 
-**Deprecated names.** Earlier configurations stay valid: ``exist_any`` (``any_in`` ignoring case), ``none_exist`` (``none_in`` ignoring case), ``exist_forall`` and ``not_exist_forall``, ``not_equals``, ``not_equals_caseinsensitive``, ``not_equals_forall``, ``equals_caseinsensitive``, ``contains_caseinsensitive``, ``not_contains``, ``not_contains_caseinsensitive``, ``starts_with_caseinsensitive``, ``apply_regexp`` (``matches``), ``greater_than`` and ``lesser_than``. None is used by the tag definitions. They keep their original semantics, including the ones that the families above replace: ``not_exist_forall`` means "not every element has", not "no element has".
+**Further verbs.** The library also resolves ``exist_any`` (``any_in`` ignoring case), ``none_exist`` (``none_in`` ignoring case), ``exist_forall`` and ``not_exist_forall``, ``not_equals``, ``not_equals_caseinsensitive``, ``not_equals_forall``, ``equals_caseinsensitive``, ``contains_caseinsensitive``, ``not_contains``, ``not_contains_caseinsensitive``, ``starts_with_caseinsensitive``, ``apply_regexp`` (``matches``), ``greater_than`` and ``lesser_than``. The tag catalogue does not use them. Note that ``not_exist_forall`` means "not every element has", not "no element has".
 
 Errors and missing data
 """""""""""""""""""""""
 
-A verb that receives a shape it cannot handle (a list of two where one value is expected, a date in another format, a missing ``applyVerb``) throws an exception. The ``Constraint`` wrapper catches every exception and returns false, without applying ``negate``. The consequences are worth knowing when writing rules:
+The tagger distinguishes a missing value, which is an ordinary condition of the data, from a value it cannot test, which is an error.
 
--  A **negated constraint** that fails does not become true: with ``negate``, an unusable value still gives false.
--  A **missing path** reaches the verb as null; ``not_exist`` and ``none_in`` treat it as empty and are satisfied, while ``before`` throws and is not.
+-  A **missing path** reaches the verb as null, and every verb has an outcome for it: ``exist`` is false and ``not_exist`` true, ``all_in`` and ``any_in`` are false and ``none_in`` true, the three higher-order verbs treat it as an empty list, the string predicates and the date verbs are false.
 -  A **sub-path missing inside one element** (an instance without licence) makes that element fail ``exist``; ``forall_apply`` of ``exist`` then fails for the whole list, so its negation tags the record.
 -  An **empty or missing list** makes ``forall_apply`` and ``forany_apply`` false, and ``fornone_apply`` true. Negated, ``forall_apply`` of ``exist`` therefore tags a record with no instance at all, which is the intended reading of the gap checks. MT and DMA use the same rule on titles and abstracts, where an empty list would wrongly count as a difference; their selects therefore exclude the products without a title or an abstract (see the notes on the catalogue).
+-  A **value the verb cannot test** (a number or an object where strings are expected, two values where ``equals`` expects one, a date that is not ``yyyy-MM-dd``) and a **parameter the verb cannot use** (an invalid regular expression, a missing ``applyVerb``) are errors. The verb throws, ``negate`` does not apply, and the job stops with a message naming the tag, the record, the verb and the field.
 
-The errors are silent: a mistyped verb parameter produces a tag that is never assigned. A configuration is therefore checked by running it on records whose tags are known, as the test suite does.
+Mistakes in the configuration are found before any data is read. The tagging configuration and the path map are checked when they are loaded, and the job stops listing all the problems found: an unknown key (for example ``ignorecase`` for ``ignoreCase``), an unknown verb or ``applyVerb``, a ``field`` or a ``jsonPath`` name that the path map does not define, a higher-order verb without ``applyVerb``, a date verb with nothing to compare with, a constraint with neither ``field`` nor selects. An input that is neither Parquet nor JSON lines also stops the job.
 
 Evaluation dynamics
 ^^^^^^^^^^^^^^^^^^^
@@ -600,7 +604,7 @@ On the driver
 """""""""""""
 
 #. **Arguments.** The command line is read as ``--name value`` pairs; ``pathMapPath``, ``taggingPath`` and ``outputPath`` are expected.
-#. **Configuration.** Both files are read through the file system and parsed with Gson.
+#. **Configuration.** Both files are read through the file system, parsed with Gson and checked (see `Errors and missing data`_).
 #. **Verb binding.** For each tag, a ``VerbResolver`` is created and every constraint receives its verb instance, built with the constraint's ``value`` and, where relevant, its ``jsonPath`` name, ``applyVerb`` and ``ignoreCase``.
 #. **Sequential tags.** Tags are processed in the order of the file. Each tag triggers its own Spark jobs; there is no state shared between tags other than the output directory.
 
@@ -627,7 +631,7 @@ For each constraint, the engine first resolves its ``jsonPath`` name through the
 
    Per-row evaluation of one constraint · 4 outcomes
 
-When ``field`` is set, the field value *v* is read from the record and the verb compares it either with the related entity's value *c* or, when there is none, with its own parameter. When ``field`` is null, the constraint is about the related entity only: the verb tests *c*. Two configuration errors stop the job rather than a single row: a ``field`` that the path map does not define, and a constraint with neither ``field`` nor comparison value.
+When ``field`` is set, the field value *v* is read from the record and the verb compares it either with the related entity's value *c* or, when there is none, with its own parameter. When ``field`` is null, the constraint is about the related entity only: the verb tests *c*. A value that the verb cannot test stops the job (see `Errors and missing data`_).
 
 Consequences of the join model
 """"""""""""""""""""""""""""""
@@ -637,7 +641,7 @@ A join produces one row per related entity, so the same record can be evaluated 
 -  **Cross-entity tags and several related entities.** PB compares the date with the start of the *earliest* project of the product (a ``MIN`` over its projects, repeated on every row), so that a product with a later, continuation grant is not tagged for it. RL tags a dataset that supplements *at least one* publication; the other rows of the same dataset are redundant.
 -  **Duplicate pairs.** A record matching on several related rows is written once per row. Consumers should treat the output as a set and deduplicate the (record id, tag id) pairs.
 
-When a tag declares ``CAST(NULL AS STRING) AS comparisonValue``, the serialised ``right`` holds no value; reading it fails and is logged as a warning for every row before the engine falls back to ``apply(v)``. The result is correct, but the logs grow with the size of the table.
+When a tag declares ``CAST(NULL AS STRING) AS comparisonValue``, the serialised ``right`` holds no value, and the engine calls ``apply(v)``. The engine logs only on the driver: its arguments, the two configuration files and the tag being evaluated; nothing is logged for each row.
 
 Tag catalogue
 ^^^^^^^^^^^^^
@@ -711,7 +715,7 @@ MPID is defined on publications only.
      - Tagged when
    * - MPID
      - Violation
-     - not ``forall_apply(instance, jsonPath pidScheme, any_in [10 schemes])``
+     - not ``forall_apply(instance, jsonPath pidScheme, any_in [15 schemes], ignoreCase)``
      - At least one instance has no PID from the accepted schemes. Diagnostic: no norm of the Toolbox corresponds to it (see the notes below)
 
 Datasets
@@ -729,16 +733,16 @@ The tags that compare a product with literature use ``IsSupplementedBy`` relatio
      - Tagged when
    * - SM
      - Violation
-     - ``matches(title, pattern)``
+     - ``matches(title, pattern, ignoreCase)``
      - The whole title starts with "supplementary material(s) for", "supplementary file for", "supplementary document for", "supplementary figure", "supplemental figure", "supplementary table", "figure" followed by a number, or "table for", ignoring case. "Data from" and a bare "Figure" ("Figure skating…") are not matched, although the test of the Toolbox lists "Data from" (see the notes)
    * - MT
      - Compliance
-     - Join with the supplemented publication; not ``forall_apply(title, exist)`` against c = the publication's titles
-     - At least one dataset title differs from every title of the publication. Datasets with no title are not tagged
+     - Join with the supplemented publication; not ``forall_apply(title, exist, ignoreCase)`` against c = the publication's titles
+     - At least one dataset title differs from every title of the publication, ignoring case and surrounding spaces. Datasets with no title are not tagged
    * - DMA
      - Compliance
      - As MT, on ``description``
-     - At least one dataset abstract differs from every abstract of the publication. Datasets with no abstract are not tagged
+     - At least one dataset abstract differs from every abstract of the publication, ignoring case and surrounding spaces. Datasets with no abstract are not tagged
    * - RL
      - Compliance
      - Join with the supplemented publication (``c`` = its identifier); ``exist(field null)``
@@ -763,7 +767,7 @@ MT, DMA, RL and DWA use the same rules as for datasets, with the software table 
      - Tagged when
    * - MSID
      - Violation
-     - ``none_in(pidScheme, ["swhid"])``
+     - ``none_in(pidScheme, ["swhid"], ignoreCase)``
      - None of the identifiers is a SWHID: the software has no PID, or only PIDs of other schemes. A SWHID plus a DOI is not tagged
    * - MAU
      - Violation
@@ -771,7 +775,7 @@ MT, DMA, RL and DWA use the same rules as for datasets, with the software table 
      - The software has no author
    * - MT2
      - Violation
-     - ``matches(title, generic-title pattern)``
+     - ``matches(title, generic-title pattern, ignoreCase)``
      - The whole title is a generic label: "software" or "code" on, in, from or at GitHub, GitLab or Bitbucket anywhere in the title; a title starting with "GitHub software", "(source) code release" or "source code" followed by ":", "for" or "of"; a title ending with "release vX.Y"
    * - MT3
      - Violation
@@ -784,11 +788,11 @@ MT, DMA, RL and DWA use the same rules as for datasets, with the software table 
    * - MT
      - Compliance
      - As for datasets, on software
-     - At least one software title differs from every title of the publication. Software with no title is not tagged
+     - At least one software title differs from every title of the publication, ignoring case and surrounding spaces. Software with no title is not tagged
    * - DMA
      - Compliance
      - As for datasets, on software
-     - At least one software abstract differs from every abstract of the publication. Software with no abstract is not tagged
+     - At least one software abstract differs from every abstract of the publication, ignoring case and surrounding spaces. Software with no abstract is not tagged
    * - RL
      - Compliance
      - As for datasets, on software
@@ -801,20 +805,20 @@ MT, DMA, RL and DWA use the same rules as for datasets, with the software table 
 Notes on the implemented conditions
 """""""""""""""""""""""""""""""""""
 
--  **NP and MSID** are violated when *none* of the identifiers of the record is a PID (NP) or a SWHID (MSID), as the norms say ("one of the identifiers should be…"). They use ``none_in``; a publication with a DOI and another identifier, or a software with a SWHID and a DOI, is not tagged. The earlier definition, based on ``not_exist`` with a list, tagged those records, which are the best described ones.
+-  **NP and MSID** are violated when *none* of the identifiers of the record is a PID (NP) or a SWHID (MSID), as the norms say ("one of the identifiers should be…"). They use ``none_in``; a publication with a DOI and another identifier, or a software with a SWHID and a DOI, is not tagged.
 -  **PID schemes.** The accepted schemes are those of SKG-IF (section "External identifiers of entities" of the specification), compared ignoring case because the OpenAIRE Graph writes, for instance, ``arXiv``. For products: arXiv, Bibcode, Crossref, DOI, Handle, ISBN, IVOID, OMID, OpenAlex, PMC (the OpenAIRE name of PMCID), PMCID, PMID, SPASE, URN, W3ID. The other SKG-IF schemes do not identify a product: ``url`` is not persistent, ISSN, eISSN and linking ISSN identify venues, OpenDOAR data sources, ROR organisations, ORCID and VIAF persons. For software, SWHID is accepted as well: it is not an SKG-IF scheme, but the MSID norm requires it. For authors: ORCID and VIAF; unverified ORCID claims (``orcid_pending``), ISNI and the other author identifiers of the OpenAIRE Graph are not accepted.
 -  **AP** checks only records with at least one author, and an author is complete when at least one of their identifiers is in the author list. Authors are required only for software, where their absence is tagged MAU; publications, datasets and other research products without authors receive neither tag.
 -  **MID** differs from the definition of its norm. The norm asks for a *valid* reference to a data source entry from which the files of the product can be downloaded; the tag can only verify that a reference exists. It is violated when the product has no instance with an alternate identifier and no instance with a PID; an identifier that does not resolve, or a landing page from which nothing can be downloaded, is not detected. The condition on a PID of the accepted schemes is a separate diagnostic, MPID.
 -  **MIL** tags a record as soon as *one* instance has no licence, even if others have one.
--  **MT and DMA** compare the product with each publication it supplements, through a negated ``forall_apply`` of ``exist``. On an empty list ``forall_apply`` is false and its negation true, so a product without a title (or an abstract) would be tagged as different from the publication. A constraint next to the comparison cannot exclude it, because when a comparison value is present every constraint of the group compares with it; the select of the two tags therefore keeps only the products with a non-empty title (or abstract). Such products are reported by MTI and MA instead.
+-  **MT and DMA** compare the product with each publication it supplements, through a negated ``forall_apply`` of ``exist``. On an empty list ``forall_apply`` is false and its negation true, so a product without a title (or an abstract) would be tagged as different from the publication. A constraint next to the comparison cannot exclude it, because when a comparison value is present every constraint of the group compares with it; the select of the two tags therefore keeps only the products with a non-empty title (or abstract). Such products are reported by MTI and MA instead. A publication without a title (or an abstract) is compared as an empty list (``COALESCE`` in the select), so the product differs from it and is tagged.
 -  **RL** is satisfied by any link to a publication through ``IsSupplementedBy``. Because the Toolbox norm only asks that the linked product is literature, the type of the instances of the publication (article, preprint, thesis, conference object, book) is not tested.
 -  **PB** differs from the definition of its test. The test of the Toolbox asks that the publication date is later than the start of *each* grant in *funding*, so a product dated between two of its grants violates the norm. The tag compares the date only with the start of the earliest grant: a product dated before it is dated before all its grants and is tagged, while a product dated after the earliest grant and before a later one, for instance a continuation grant, is not tagged. The choice is deliberate: such a product can be legitimately dated before the start of a later grant, and a violation of the norm is a signal to inspect rather than a certain error. The norm stays mandatory. The date is the record-level date of acceptance. No tag tests that a date is not in the future.
 -  **HD** checks every instance: a record is tagged when one of its instances has no hosting data source, or is hosted by "Unknown Repository", the placeholder of the OpenAIRE Graph for an unidentified source, which does not specify the provenance asked by the norm. The production configuration and the test of the tag use the same definition.
 -  **MT2** matches the whole title against a set of generic labels. "iNitro-Tyr software on github" and "Software from GitHub: GridSPN" are tagged, while "samtools", "A repository of protein structures" and "CoastNet (v2.1)" are not. Repository paths such as ``openaire/dnet-hadoop`` are left to MT3, and the length of a title is not checked, so short software names are not penalised.
 -  **MT3** matches the whole title against ``[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+``. A title such as ``openaire/dnet-hadoop`` is tagged, while "A/B testing framework for X" is not; a title such as ``v1.2/release`` is tagged as well.
--  **SM** differs from the definition of its test. The test of the Toolbox lists "Data from: paper K" among the repeating titles to flag, and gives "Figure X for paper Z" as an example without restricting X. The tag does not match "Data from", the title convention of the data packages of Dryad, which are legitimate datasets, and matches "Figure" only when followed by a number, so that titles such as "Figure skating…" are not tagged. The other prefixes are "supplementary material(s) for", "supplementary file for", "supplementary document for", "supplementary figure", "supplemental figure", "supplementary table" and "table for". A title that carries no prefix, such as a figure whose title is the title of its article, is not detected (Example 4).
--  **SWR** marks compliance rather than violation, as in the earlier releases. The library now has ``fornone_apply``, so the tag could be turned into a violation of the norm without changing the engine; the compliance reading is kept so that the output of consecutive releases can be compared.
--  **MPID** tests PIDs at instance level, a check that has no corresponding norm in the Toolbox. It is delivered as a diagnostic: it reports instances without a PID of the accepted schemes, and is not part of the evaluation of any norm. It is not scored in Example 3.
+-  **SM** differs from the definition of its test. The test of the Toolbox lists "Data from: paper K" among the repeating titles to flag, and gives "Figure X for paper Z" as an example without restricting X. The tag does not match "Data from", the title convention of the data packages of Dryad, which are legitimate datasets, and matches "Figure" only when followed by a number, so that titles such as "Figure skating…" are not tagged. The other prefixes are "supplementary material(s) for", "supplementary file for", "supplementary document for", "supplementary figure", "supplemental figure", "supplementary table" and "table for". A title that carries no prefix, such as a figure whose title is the title of its article, is not detected (Example 5).
+-  **SWR** marks compliance rather than violation: software without the tag violates the norm. The same test can be written as a violation tag with ``fornone_apply``, without changing the engine.
+-  **MPID** tests PIDs at instance level, a check that has no corresponding norm in the Toolbox. It is delivered as a diagnostic: it reports instances without a PID of the accepted schemes, and is not part of the evaluation of any norm. It is not scored in Example 4.
 
 Tags shared by several product types are configured once per type, with the same identifier and criteria, and with the input and selects of the corresponding table.
 
@@ -836,7 +840,7 @@ Gson             2.2.2                        Parsing of configuration files
 Jackson Databind 2.18.2, provided             List parsing inside verbs
 ClassGraph       4.8.71                       Discovery of verb classes
 JUnit Jupiter    5.6.1                        Tests
-Maven Shade      3.6.2                        Single runnable JAR; Guava relocated to avoid clashes with Spark
+Maven Shade      3.6.2                        Single runnable JAR; Spark and Jackson are provided by the cluster
 ================ ============================ ================================================================
 
 Build
@@ -915,10 +919,41 @@ The output directory contains gzip-compressed JSON lines with two fields, ``_1``
 
 Writes are in append mode: several tags, or several runs, can share one directory. A new release should start from an empty directory to avoid mixing results.
 
+Statistics
+""""""""""
+
+A second job, ``TaggingStatistics``, computes statistics on the output of a run, after the tagger has finished. It reads the same tagging configuration and path map, the output of the tagger and the graph tables named in the configuration:
+
+.. code:: bash
+
+   spark-submit --master "local[*]" \
+     --class it.cnr.isti.qualitytagger.TaggingStatistics \
+     target/qualitytagger-1.0.0-SNAPSHOT.jar \
+     --pathMapPath /path/to/pathMap \
+     --taggingPath /path/to/taggingConf \
+     --taggedPath /path/to/output/ \
+     --outputPath /path/to/statistics/ \
+     --format csv
+
+``--format`` is ``json`` (JSON lines, the default) or ``csv`` (with a header line). ``--excludeDeleted`` (default ``true``) leaves out the records deleted by inference.
+
+For each tag definition, the *population* is the set of records the norm speaks about: the rows the rule is evaluated on, or every record of the entity when the tag declares ``"population": "all"``. A record of the population violates the norm when it carries a violation tag, or when it lacks a compliance tag; for RL, which declares ``"population": "all"``, the violations are the products not linked to any publication, and for MT the supplements whose titles all copy the publication's. Diagnostic tags (MPID) are counted, but do not correspond to a norm. Three tables are written, one directory each, as a single file:
+
+================================= ===================================================================== =====================================================================================
+Table                             Columns                                                               Content
+================================= ===================================================================== =====================================================================================
+``summary``                       entity, tag, marks, population, tagged, violations, violation_rate    For each entity and tag: the records the norm speaks about, those tagged, those violating it
+``by_datasource``                 entity, tag, marks, datasource_id, datasource, population,            The same for each data source that collected the records (``collectedfrom``); a record
+                                  violations, violation_rate                                            collected by several sources counts once for each
+``violated_norms_per_record``     entity, violated_norms, records, share                                For each entity, how many records violate 0, 1, 2... norms (diagnostic tags excluded)
+================================= ===================================================================== =====================================================================================
+
+The violation rate is the share of the population that violates the norm. For tags such as AP, which do not check every record of their population (records without authors are never tagged AP), the rate is computed on the whole population.
+
 Testing and validation
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Four test classes check the tagger: two run the real Spark job (``ConstraintEvaluator.main``) in a local Spark session and check which records come out tagged, and two test the verbs directly.
+Eight test classes check the tagger: three run the real Spark jobs (``ConstraintEvaluator.main`` and ``TaggingStatistics.main``) in a local Spark session, and five run without Spark, on the configuration, on the verbs and on single rows.
 
 ``ConstraintEvaluatorJobTest`` checks each rule in isolation. Every rule has its own folder under ``src/test/resources`` with its configuration and a hand-checked sample of the OpenAIRE Graph entities it needs: publications only for single-entity tags, publications, relations and projects or datasets for cross-entity tags. All results go to one temporary output directory, and each test filters it by its own tag id.
 
@@ -931,7 +966,7 @@ DA   NotExistPublicationDateTest    2, checked by identifier Yes
 MT2  SoftwareMinTitleTest           2, checked by identifier Yes
 AP   NotExistAuthorPidTest          11                       Yes
 MPID NotExistInstancePidTest        8                        Yes
-NP   NotExistResultPidTest          7                        Yes
+NP   NotExistResultPidTest          10                       Yes
 DWA  AbstractNoRelLiteratureTest    7                        Yes
 SM   SupplementaryMaterialTest      2                        Yes
 MT   MeaningfulTitleTest            2                        Yes
@@ -943,11 +978,13 @@ MIL  NotExistInstancelicenceTest    6, checked by identifier Yes
 SWR  SoftwareRepoUrlTest            3, checked by identifier Yes
 ==== ============================== ======================== =========
 
-These configurations were written before the verbs were reorganised and use the earlier names, which remain supported (see `Verb reference`_); the definitions of the production configuration are tested by ``FakeGraphTaggingTest``. The configuration of the HD test is the same as the production one: a record hosted by "Unknown Repository" is tagged.
+Most of these configurations use the further verbs of the library (see `Verb reference`_), which the suite therefore also tests; the definitions of the production configuration are tested by ``FakeGraphTaggingTest`` and ``TagDefinitionTest``. The configuration of the HD test is the same as the production one: a record hosted by "Unknown Repository" is tagged. The NP test uses ``not_exist`` with a list of schemes, which holds when some scheme is outside the list or the record has no PID: among its 10 records is one with a DOI and an unlisted scheme, which the production definition, based on ``none_in``, does not tag. A further test checks that a record with a date that is not ``yyyy-MM-dd`` stops the job.
 
-``FakeGraphTaggingTest`` runs the complete tagging configuration, with the 51 tag definitions used in production, on a fake graph of 30 publications, 18 datasets, 23 software, 3 other research products, 2 projects and 20 relations. Each fake record starts from a complete record and changes a single property, so that every expected tag has one reason, written next to its assertion. The suite asserts the exact set of records tagged by each of the 20 tags, checks that complete records receive no tag, and checks that the run produces only the configured tag identifiers. A group of tests pins the points where a tag definition and its norm could diverge: a PID or a SWHID together with other identifiers (NP, MSID, AP, MPID), schemes inside and outside SKG-IF, and written in another case (NP, AP), identifiers split among instances (MID), literature that is not an article (RL), a product with two grants (PB), titles of legitimate datasets (SM), supplements without a title or an abstract (MT, DMA), a hosting source of "Unknown Repository" and an instance without one (HD), and a date that is only on an instance or in the future (DA). The fake graph and its configuration are generated by ``src/test/python/make_fakegraph.py``, which holds the tag definitions once and also writes the production configuration.
+``FakeGraphTaggingTest`` runs the complete tagging configuration, with the 51 tag definitions used in production, on a fake graph of 31 publications, 19 datasets, 23 software, 3 other research products, 2 projects and 21 relations. Each fake record starts from a complete record and changes a single property, so that every expected tag has one reason, written next to its assertion. The suite asserts the exact set of records tagged by each of the 20 tags, checks that complete records receive no tag, and checks that the run produces only the configured tag identifiers. A group of tests pins the points where a tag definition and its norm could diverge: a PID or a SWHID together with other identifiers (NP, MSID, AP, MPID), schemes inside and outside SKG-IF, and written in another case (NP, AP), identifiers split among instances (MID), literature that is not an article (RL), a product with two grants (PB), titles of legitimate datasets (SM), supplements without a title or an abstract, and of a publication without them (MT, DMA), a hosting source of "Unknown Repository" and an instance without one (HD), and a date that is only on an instance or in the future (DA). The fake graph and its configuration are generated by ``src/test/python/make_fakegraph.py``, which holds the tag definitions once and also writes the production configuration.
 
-``VerbCatalogueTest`` and ``ListParamVerbSemanticsTest`` test the verbs without Spark: the three list-membership verbs, the three quantifiers over the elements of a list and their behaviour on empty lists, the ``ignoreCase`` and ``negate`` options, the outcome of a verb that cannot be applied, and the resolution of the deprecated names.
+``TaggingStatisticsTest`` runs the statistics, in JSON and in CSV, on the output of the complete configuration on the fake graph, and checks their figures against counts computed directly on the fake graph and on the tags. ``ConfigurationCheckTest`` checks that every configuration of the project is valid and that each kind of mistake stops the job. ``VerbCatalogueTest`` and ``ListParamVerbSemanticsTest`` test the verbs without Spark: the three list-membership verbs, the three quantifiers over the elements of a list and their behaviour on empty lists, the ``ignoreCase`` and ``negate`` options, the outcome of a verb that cannot be applied, and the resolution of the further verbs.
+
+``VerbConditionsTest`` checks every verb of the catalogue under every shape of value it can receive (missing, empty string, string, empty list, list with empty or null elements, list of objects, value of another type), with and without a comparison value, with ``ignoreCase`` and with ``negate``, against the verb reference above, and checks that every verb compares strings in the same way. ``TagDefinitionTest`` evaluates every tag of the production configuration on single rows, as the engine does after the selects, and checks the outcome against the column "Tagged when" of the catalogue: missing and empty fields, several instances or authors, identifier schemes in another case, titles at the edge of the patterns, dates equal to or without a comparison value; it also evaluates the records of Example 3.
 
 No test covers the error paths of the job (a field missing from the path map, a constraint with neither field nor comparison value).
 
@@ -1026,7 +1063,134 @@ D      RL   Compliance D supplements the publication P
 
 P is not tagged MA, DA, HD or MID; D is not tagged DMA, because its abstract copies P's. The table shows the dataset-specific tags of D only: as an excerpt without date, authors, PIDs or instances, D would also receive DA, NP, HD, MID and MIL; it is not tagged AP, because it has no authors. Read alone, MT says that D has a title of its own; read with SM, it shows that the title differs only by a generic prefix.
 
-Example 3: from tags to quality
+Example 3: how a tag is evaluated
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The three tags below are evaluated step by step on one record, as the engine does for each row: the path map gives the values read from the record, the verbs decide each constraint, ``negate`` inverts the outcome of a constraint, and all the constraints of a group must hold. They cover three kinds of rule: a verb applied to the elements of a list (AP), membership of a list (NP), and a comparison with a related entity (MT). Each table is followed by changes to the record that change the outcome. All the outcomes were obtained by running the tagger on these records.
+
+AP: every author has a PID
+""""""""""""""""""""""""""
+
+The rule of AP on publications, and a publication with two authors:
+
+.. code:: json
+
+   {"constraint": [
+     {"verb": "exist", "field": "author"},
+     {"verb": "forall_apply", "field": "authorWhole", "jsonPath": "authorPids",
+      "applyVerb": "any_in", "value": ["orcid", "viaf"], "ignoreCase": true, "negate": true}]}
+
+.. code:: json
+
+   {"id": "50|example_____::p2",
+    "author": [
+      {"fullname": "A. Rossi",
+       "pid": [{"qualifier": {"classid": "orcid"}, "value": "0000-0002-1825-0097"},
+               {"qualifier": {"classid": "scopus"}, "value": "55555555"}]},
+      {"fullname": "B. Bianchi",
+       "pid": [{"qualifier": {"classid": "isni"}, "value": "0000000121032683"}]}]}
+
+========================== ====================================== =================================================
+Step                       Value                                  Outcome
+========================== ====================================== =================================================
+``exist(author)``          ``author``: ["A. Rossi", "B. Bianchi"] true: the record has authors
+A. Rossi, ``authorPids``   ["orcid", "scopus"]                    ``any_in [orcid, viaf]``: true, "orcid" is listed
+B. Bianchi, ``authorPids`` ["isni"]                               ``any_in [orcid, viaf]``: false
+``forall_apply``           true, false                            false: not every author has an accepted PID
+``negate``                 false                                  true
+Group (AND)                true, true                             **tagged AP**
+========================== ====================================== =================================================
+
+=============================================== ========== =======================================================================================
+Change to the record                            Outcome    Why
+=============================================== ========== =======================================================================================
+B. Bianchi has an ``ORCID`` instead of the ISNI not tagged ``any_in`` ignores the case: both authors pass, ``forall_apply`` is true, negated false
+B. Bianchi has no ``pid`` field                 tagged     the path does not exist inside the element: ``any_in`` has no value and is false
+No ``author`` field                             not tagged ``exist(author)`` is false: the group fails at its first constraint
+=============================================== ========== =======================================================================================
+
+NP: one of the identifiers is a PID
+"""""""""""""""""""""""""""""""""""
+
+The rule of NP on publications (on software, the list also holds ``swhid``), and a publication with a DOI and a Microsoft Academic identifier:
+
+.. code:: json
+
+   {"verb": "none_in", "field": "pidScheme", "ignoreCase": true,
+    "value": ["arxiv", "bibcode", "crossref", "doi", "handle", "isbn", "ivoid", "omid",
+              "openalex", "pmc", "pmcid", "pmid", "spase", "urn", "w3id"]}
+
+.. code:: json
+
+   {"id": "50|example_____::n1",
+    "pid": [{"qualifier": {"classid": "doi"}, "value": "10.1234/abc"},
+            {"qualifier": {"classid": "mag"}, "value": "2123456789"}]}
+
+============= ==================== =========================================
+Step          Value                Outcome
+============= ==================== =========================================
+``pidScheme`` ["doi", "mag"]
+``none_in``   "doi" is in the list false: one of the schemes is a PID scheme
+Group         false                **not tagged NP**
+============= ==================== =========================================
+
+============================================================= ========== =========================================
+Change to the record                                          Outcome    Why
+============================================================= ========== =========================================
+Only the ``mag`` identifier                                   tagged     no scheme is in the list
+``pid`` empty, or no ``pid`` field                            tagged     no value: ``none_in`` holds
+Only an ``arXiv`` identifier, as the OpenAIRE Graph writes it not tagged "arXiv" is in the list, ignoring the case
+============================================================= ========== =========================================
+
+With ``not_exist`` and the same list, the record above would be tagged: ``not_exist`` holds as soon as one scheme, here ``mag``, is outside the list (see `Verb reference`_). This is why NP uses ``none_in``.
+
+MT: a dataset title is not a copy of the publication's
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+The rule of MT on datasets joins each dataset with the publications it supplements; the comparison value *c* of a row is the list of the titles of the publication. Publication P has the title "Deep learning for coastal erosion forecasting" and is supplemented by dataset D2:
+
+.. code:: json
+
+   {"selects": [{"tableName": "result", "tableSelect":
+      "SELECT dataset.*, COALESCE(publication.title.value, array()) AS comparisonValue
+       FROM publication JOIN relation JOIN dataset
+       ON publication.id = relation.source AND dataset.id = relation.target
+       WHERE relation.relClass = 'IsSupplementedBy' AND ...
+       AND exists(dataset.title, x -> x.value IS NOT NULL AND trim(x.value) <> '')"}],
+    "resultTable": "result",
+    "criteria": [{"constraint": [
+      {"verb": "forall_apply", "field": "title", "applyVerb": "exist",
+       "ignoreCase": true, "negate": true}]}]}
+
+.. code:: json
+
+   {"id": "50|example_____::d2",
+    "title": [{"value": "Coastal erosion measurements 2010-2020"},
+              {"value": "Deep learning for coastal erosion forecasting "}]}
+
+============================== ============================================================================================ ==============================================
+Step                           Value                                                                                        Outcome
+============================== ============================================================================================ ==============================================
+Select                         one row: D2, *c* = ["Deep learning for coastal erosion forecasting"]                         D2 has a non-empty title: the row is kept
+``title``                      ["Coastal erosion measurements 2010-2020", "Deep learning for coastal erosion forecasting "]
+Title 1, ``exist`` against *c* differs from the title of P                                                                  false
+Title 2, ``exist`` against *c* equal to the title of P, without the trailing space                                          true
+``forall_apply``               false, true                                                                                  false: not every title is a copy
+``negate``                     false                                                                                        true: **tagged MT**, D2 has a title of its own
+============================== ============================================================================================ ==============================================
+
+MT marks compliance: a dataset without the tag violates the norm.
+
+=========================================================================== ========================= =====================================================================================================
+Change to the records                                                       Outcome                   Why
+=========================================================================== ========================= =====================================================================================================
+D2 has the single title "deep learning for coastal erosion forecasting"     not tagged                equal to the title of P, ignoring the case: every title is a copy, and the dataset violates the norm
+As above, and D2 also supplements Q, "Sea level rise observed by altimetry" tagged                    the join gives one row for each publication: on the row of Q the title differs, and one row is enough
+D2 has no title                                                             not tagged MT, tagged MTI the select excludes the row: there is nothing to compare
+P has no title                                                              tagged                    *c* is an empty list (``COALESCE``): no title of D2 equals a title of P
+=========================================================================== ========================= =====================================================================================================
+
+Example 4: from tags to quality
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Two downstream readings of the same tags follow; weights and figures are illustrative and not part of the Toolbox or of the tagger.
@@ -1044,7 +1208,7 @@ MPID is not scored, since no norm corresponds to it. Another use can change the 
 
 **Profile per data source.** Grouping the tags by the source that collected each product gives the share of its products violating each norm, for example NP 70%, MIL 65%, AP 10% for one repository. Such profiles let curators compare repositories and tell a source which norms its depositors most often miss.
 
-Example 4: supplementary material ingested as datasets
+Example 5: supplementary material ingested as datasets
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Figures, tables and images deposited at a publisher's request often enter the graph as datasets linked to the article, although they are not the data used in the study. SM flags them from the title prefixes listed in the Tag catalogue:
@@ -1062,7 +1226,7 @@ Reducing HbA1c in Type 2 Diabetes Using Digital Twin Technology-Enabled Precisio
 
 The "Data from" and "Figure skating" rows are titles that a shorter prefix list would tag wrongly; the "Table 2 for" and last rows show the limit of a title-only rule. Datasets tagged SM can be flagged to curators and excluded from dataset-based scoring.
 
-Example 5: the same tags on another data model
+Example 6: the same tags on another data model
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Running MA and NP on products serialised in SKG-IF changes only the path map:
@@ -1082,22 +1246,22 @@ References
 
 .. footbibliography::
 
-Appendix: violation examples in OpenAIRE Graph
-----------------------------------------------
+.. Appendix: violation examples in OpenAIRE Graph
+.. ----------------------------------------------
 
-Publications
-^^^^^^^^^^^^
+.. Publications
+.. ^^^^^^^^^^^^
 
-Datasets
-^^^^^^^^
+.. Datasets
+.. ^^^^^^^^
 
-*Shamanna, Paramesh; Saboo, Banshi; Damodharan, Suresh; Mohammed, Jahangir; Mohamed, Maluk; Poon, Terrence; et al. (2020): Reducing HbA1c in Type 2 Diabetes Using Digital Twin Technology-Enabled Precision Nutrition: A Retrospective Analysis. Adis Journals. Figure.* https://doi.org/10.6084/m9.figshare.12943226.v1
+.. *Shamanna, Paramesh; Saboo, Banshi; Damodharan, Suresh; Mohammed, Jahangir; Mohamed, Maluk; Poon, Terrence; et al. (2020): Reducing HbA1c in Type 2 Diabetes Using Digital Twin Technology-Enabled Precision Nutrition: A Retrospective Analysis. Adis Journals. Figure.* https://doi.org/10.6084/m9.figshare.12943226.v1
 
-Software
-^^^^^^^^
+.. Software
+.. ^^^^^^^^
 
-*Fu, Shuai; Couplet, Mathieu; Bousquet, Nicolas (2017): Dataset for: An adaptive kriging method for solving nonlinear inverse statistical problems. Wiley. Dataset.* https://doi.org/10.6084/m9.figshare.4628194
+.. *Fu, Shuai; Couplet, Mathieu; Bousquet, Nicolas (2017): Dataset for: An adaptive kriging method for solving nonlinear inverse statistical problems. Wiley. Dataset.* https://doi.org/10.6084/m9.figshare.4628194
 
-Unless the bib file they uploaded is really the dataset they worked on, but I do not think this is the case (at least based on the title of the publication)
+.. Unless the bib file they uploaded is really the dataset they worked on, but I do not think this is the case (at least based on the title of the publication)
 
-We have it in the graph as dataset but in figshare is typed “Figure” and indeed it’s the image of a slide that summarises the article.
+.. We have it in the graph as dataset but in figshare is typed “Figure” and indeed it’s the image of a slide that summarises the article.
