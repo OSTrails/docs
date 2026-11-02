@@ -37,6 +37,7 @@ The documentation is structured as follows:
     :caption: Toolbox of Testing Services
 
     General Documentation <tools/toolbox>
+    Research Product Quality Toolbox <qualitytoolbox/d3-6>
 
 
 .. toctree::
