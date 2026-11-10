@@ -104,7 +104,7 @@ Based on the various consolidated inputs for OSTrails pilots, DMP platform owner
      - A general field to capture any rights information related to the DMP that may not be covered by the license field. This could include specific access restrictions, embargoes, or other conditions that apply to the DMP or its content.
    * - `DMP <https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard?tab=readme-ov-file#dmp_table>`_
      - ``data_access``
-     - ``open``, ``closed``, ``shared``
+     - ``open``, ``closed``, ``restricted``
      - ``0..1``
      - A field to indicate the intended access level for the data described in the DMP. This can help clarify whether the data will be openly available, restricted to certain users, or shared under specific conditions.
    * - `Project <https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard?tab=readme-ov-file#project_table>`_
